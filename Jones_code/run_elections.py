@@ -148,46 +148,70 @@ def createBallotDF(list_profile, diagnostic=False):
 
 def get_election_data(election_location, specific_lxn=-1, diagnostic=False):
     lxns = []
-    # base_name = "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland"
+    base_name = "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland"
 
-    # lxn_count = 0
-    # # for folder_name in os.listdir(base_name):
-    # ## test folder in scotland
-    # for folder_name in ['s-lanarks17-ballots']:
-    # ## test folder in america
-    # # for folder_name in ['Portland, ME']:
-    #     for file_name in os.listdir(base_name+'/'+folder_name):
-    #         lxn_count += 1
-    #         file_path = base_name+'/'+folder_name+'/'+file_name
-            
-    #         # print(file_path)
-            
-    #         if specific_lxn > 0:
-    #             if lxn_count!=specific_lxn:
-    #                 continue
-            
     lxn_count = 0
-    for file_path in top_cycle_elections:
-        if diagnostic:
-            print(lxn_count, file_path)
-    
-        # sys.stdout.write('\r')
-        # sys.stdout.write(f'Election {lxn_count}'+'         ')
-        # sys.stdout.flush()
-        
-        File=open(file_path,'r', encoding='utf-8')
-        lines=File.readlines()
-
-        first_space=lines[0].find(' ')
-        num_cands=int(lines[0][0:first_space])
-        if num_cands>52:
-            print("Cannot handle this many candidates in election " + str(file_path) + ".  Has " + 
-                  str(num_cands) + " candidates.")
-            continue
+    # for folder_name in os.listdir(base_name):
+    ## test folder in scotland
+    for folder_name in ['s-lanarks17-ballots']:
+    ## test folder in america
+    # for folder_name in ['Portland, ME']:
+        for file_name in os.listdir(base_name+'/'+folder_name):
+            lxn_count += 1
+            file_path = base_name+'/'+folder_name+'/'+file_name
             
-        data = createBallotDF(lines)
+            # print(file_path)
+            
+            if specific_lxn > 0:
+                if lxn_count!=specific_lxn:
+                    continue
+            if diagnostic:
+                print(lxn_count, file_path)
         
-        lxns.append([file_path, data, num_cands])
+            # sys.stdout.write('\r')
+            # sys.stdout.write(f'Election {lxn_count}'+'         ')
+            # sys.stdout.flush()
+            
+            File=open(file_path,'r', encoding='utf-8')
+            lines=File.readlines()
+
+            first_space=lines[0].find(' ')
+            num_cands=int(lines[0][0:first_space])
+            if num_cands>52:
+                print("Cannot handle this many candidates in election " + str(file_path) + ".  Has " + 
+                      str(num_cands) + " candidates.")
+                continue
+                
+            data = createBallotDF(lines)
+            
+            lxns.append([file_path, data, num_cands])
+
+
+
+
+    ## Only the elections with top cycles        
+    # lxn_count = 0
+    # for file_path in top_cycle_elections:
+    #     if diagnostic:
+    #         print(lxn_count, file_path)
+    
+    #     # sys.stdout.write('\r')
+    #     # sys.stdout.write(f'Election {lxn_count}'+'         ')
+    #     # sys.stdout.flush()
+        
+    #     File=open(file_path,'r', encoding='utf-8')
+    #     lines=File.readlines()
+
+    #     first_space=lines[0].find(' ')
+    #     num_cands=int(lines[0][0:first_space])
+    #     if num_cands>52:
+    #         print("Cannot handle this many candidates in election " + str(file_path) + ".  Has " + 
+    #               str(num_cands) + " candidates.")
+    #         continue
+            
+    #     data = createBallotDF(lines)
+        
+    #     lxns.append([file_path, data, num_cands])
 
     return lxns
     
@@ -244,24 +268,13 @@ for i in range(len(lxn_list)):
     
     lxn_start = time.time()
     
-    # data = frac_general_search(profile, num_cands, plurality_runoff, strat_compromise, 1)
-    # data = frac_noShowBucklin(profile, num_cands, 1)
-    # data = broken_frac_noShowIRV(profile, num_cands, 1)
-    # data = frac_downMonoIRV(profile, num_cands, 1)
-    # data = find_killer_subsets(profile, num_cands)
-    # data = frac_noShowPR(profile, num_cands, 1)
-    
-    # nums_times.append([num_cands, time.time()-lxn_start])
-
-    # if data:
-    #     anomaly_data.append(data)
-        
-    # print(time.time()-start_time)
-    
     cands = cand_names[:num_cands]
-    # threshold = 0.05
-    for threshold in [0.01 * i for i in range(30)]:
-        print(threshold, diversity_score_threshold(profile, cands, threshold, diagnostic=False))
+    print(TVR(profile, cands, 'OM'))
+    
+    # cands = cand_names[:num_cands]
+    # # threshold = 0.05
+    # for threshold in [0.01 * i for i in range(30)]:
+    #     print(threshold, diversity_score_threshold(profile, cands, threshold, diagnostic=False))
 
         
 print(time.time()-start_time)    
