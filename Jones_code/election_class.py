@@ -616,3 +616,75 @@ def smith_plurality(profile, cands, diagnostic=False):
     if diagnostic:
         print(smith_set)
     return plurality(new_profile, smith_set, diagnostic=diagnostic)
+
+###############################################################################
+###############################################################################
+    
+def diversity_score_threshold(profile, cands, threshold, diagnostic=False):
+    cond_winner = False
+    hopefuls = cands.copy()
+    new_profile = profile.copy(deep=True)
+    while not cond_winner:
+        if diagnostic:
+            print(hopefuls)
+        smith_set = restrict_to_smith(new_profile, cands)[0]
+        if diagnostic:
+            print(smith_set)
+        
+        ## Condorcet winner, we are done
+        if len(smith_set)==1:
+            return smith_set
+        
+        ## if no condorcet winner, remove lowest diversity score
+        diversity_scores = {cand:0 for cand in hopefuls}
+        first_place_votes = {cand:0 for cand in hopefuls}
+        for k in range(len(new_profile)):
+            total_votes = sum(new_profile['Count'])
+            if new_profile.at[k, 'Count'] >= threshold*total_votes:
+                diversity_scores[new_profile.at[k, 'ballot'][0]] += 1
+            first_place_votes[new_profile.at[k, 'ballot'][0]] += new_profile.at[k, 'Count']
+        
+        if diagnostic:
+            print(diversity_scores)
+            print(first_place_votes)
+            
+        ## remove lowest diversity score
+        min_div_score = min(diversity_scores.values())
+        lowest_cands = [cand for cand in hopefuls if diversity_scores[cand]==min_div_score]
+        
+        lowest_cands.sort(key = lambda cand: first_place_votes[cand])
+        remove_cand = lowest_cands[0]
+        hopefuls.remove(remove_cand)
+        
+        if diagnostic:
+            print(remove_cand)
+            
+        new_ballot_list = []
+        new_count_list = []
+        
+        for k in range(len(new_profile)):
+            ballot = new_profile.at[k, 'ballot']
+            if ballot == remove_cand:
+                continue
+            if remove_cand in ballot:
+                new_ballot = ballot.replace(remove_cand, '')
+                if new_ballot in new_ballot_list:
+                    indx = new_ballot_list.index(new_ballot)
+                    new_count_list[indx] += new_profile.at[k, 'Count']
+                else:
+                    new_ballot_list.append(new_ballot)
+                    new_count_list.append(new_profile.at[k, 'Count'])
+            else:
+                new_ballot_list.append(ballot)
+                new_count_list.append(new_profile.at[k, 'Count'])
+         
+        df_dict = {'ballot': new_ballot_list, 'Count': new_count_list}
+        new_profile = pd.DataFrame(df_dict)
+
+        if diagnostic:
+            print(new_profile)
+
+
+
+
+
