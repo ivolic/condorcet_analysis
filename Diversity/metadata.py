@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('./condorcet_results.csv')
+df = pd.read_csv('./condorcet_results2.csv')
 
 print("Sample size: 14 (Scotland) + 2 (America) = 16\n")
 
@@ -16,5 +16,5 @@ for thresholds in range(1, 7):
 
     print(f"How many files have a change in winner for thresholds after {threshold}? {num_filtered_winners}")
 
-print("Note: Oakland School Board District has changes up till 0.09")
+print("Note: Oakland School Board District has changes up till 0.1")
 

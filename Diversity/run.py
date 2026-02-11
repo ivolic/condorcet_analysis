@@ -4,16 +4,17 @@ import main_methods as mm
 import os
 import logging
 from votekit.utils import first_place_votes
+from votekit.cleaning import remove_noncands
 
 logging.basicConfig(
-    filename='condorcet_analysis.log',
+    filename='condercet_analysis2.log',
     level=logging.INFO,
     format='%(asctime)s - %(message)s',
     datefmt='%Y-%m-%d %H:%M:%S'
 )
 logger = logging.getLogger()
 
-RESULTS_FILE = 'condorcet_results.csv'
+RESULTS_FILE = 'condercet_analysis2.csv'
 with open(RESULTS_FILE, 'w') as f:
     f.write('file,threshold,winner,rounds\n')
 
@@ -34,9 +35,11 @@ def get_diversity_score(profile, candidate, threshold=0, showAll=False):
 
 def drop_candidate(vprofile, candidates, threshold):
     lowest_score = {"candidates": [], "score": None}
-    
+
     for c in candidates:
         score = get_diversity_score(vprofile, c, threshold)
+        logger.info(f"Candidate: {c}, Diversity Score: {score}")
+
         if lowest_score["score"] == None or score < lowest_score["score"]:
             lowest_score["candidates"] = [c]
             lowest_score["score"] = score
@@ -72,7 +75,8 @@ def main_helper(vprofile, candidates, threshold, round_num=1):
             cand_to_drop = cand[0]
         else:
             cand_to_drop = first_place_count(vprofile, cand)
-        candidates.remove(cand_to_drop)
+        candidates.remove(cand_to_drop) #technically not needed anymore since we also update vprofile
+        vprofile = remove_noncands(vprofile, [cand_to_drop])
         logger.info(f"Dropping candidate: {cand_to_drop}")
         logger.info("--------------------------------------------------")
         
@@ -86,9 +90,7 @@ def run_diversity(full_path, threshold=0):
     vprofile = mm.v_profile(full_path)
     candidates = list(vprofile.candidates)
     candidates = [cand for cand in candidates if cand != 'skipped']
-    for c in candidates:
-        logger.info(f"Candidate: {c}, Diversity Score: {get_diversity_score(vprofile, c, threshold, showAll=True)}")
-    
+
     winner, rounds = main_helper(vprofile, candidates, threshold)
     
     filename = os.path.basename(full_path)
@@ -102,7 +104,7 @@ def main():
     for filename in os.listdir('../Data'):
         if filename.endswith('.csv'):
             full_path = os.path.join('../Data', filename)
-            logger.log(f"Processing file: {filename}")
+            logger.info(f"Processing file: {filename}")
             for i in range(0, 30): #set at 30 usually
                 logger.info(f"\nRunning with diversity threshold: {i / 10}")
                 threshold = i / 100
