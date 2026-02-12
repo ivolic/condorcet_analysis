@@ -627,7 +627,7 @@ def diversity_score_threshold(profile, cands, threshold, diagnostic=False):
     while not cond_winner:
         if diagnostic:
             print(hopefuls)
-        smith_set = restrict_to_smith(new_profile, cands)[0]
+        smith_set = restrict_to_smith(new_profile, hopefuls)[0]
         if diagnostic:
             print(smith_set)
         
@@ -645,6 +645,109 @@ def diversity_score_threshold(profile, cands, threshold, diagnostic=False):
             first_place_votes[new_profile.at[k, 'ballot'][0]] += new_profile.at[k, 'Count']
         
         if diagnostic:
+            print(diversity_scores)
+            print(first_place_votes)
+            
+        ## remove lowest diversity score
+        min_div_score = min(diversity_scores.values())
+        lowest_cands = [cand for cand in hopefuls if diversity_scores[cand]==min_div_score]
+        
+        lowest_cands.sort(key = lambda cand: first_place_votes[cand])
+        remove_cand = lowest_cands[0]
+        hopefuls.remove(remove_cand)
+        
+        if diagnostic:
+            print(remove_cand)
+            
+        new_ballot_list = []
+        new_count_list = []
+        
+        for k in range(len(new_profile)):
+            ballot = new_profile.at[k, 'ballot']
+            if ballot == remove_cand:
+                continue
+            if remove_cand in ballot:
+                new_ballot = ballot.replace(remove_cand, '')
+                if new_ballot in new_ballot_list:
+                    indx = new_ballot_list.index(new_ballot)
+                    new_count_list[indx] += new_profile.at[k, 'Count']
+                else:
+                    new_ballot_list.append(new_ballot)
+                    new_count_list.append(new_profile.at[k, 'Count'])
+            else:
+                new_ballot_list.append(ballot)
+                new_count_list.append(new_profile.at[k, 'Count'])
+         
+        df_dict = {'ballot': new_ballot_list, 'Count': new_count_list}
+        new_profile = pd.DataFrame(df_dict)
+
+        if diagnostic:
+            print(new_profile)
+            
+            
+###############################################################################
+###############################################################################
+
+def simplex_point(ballot, hopefuls):
+    rankables = [cand for cand in hopefuls if cand != ballot[0]]
+    unranked_num = len(rankables) - len(ballot) + 1
+    
+    indx_low = 0
+    for i in range(1, len(ballot)):
+        # print(i)
+        # print(rankables)
+        next_cand = ballot[i]
+        next_indx = rankables.index(next_cand)
+        indx_low += next_indx*math.factorial(len(rankables)-1)
+        rankables.pop(next_indx)
+        # print(indx_low)
+    
+    indx_high = indx_low + math.factorial(unranked_num) - 1
+    # print(unranked_num)
+    # print(indx_high)
+    
+    simplex_point = np.zeros(math.factorial(len(hopefuls)-1))
+    
+    for indx in range(indx_low, indx_high+1):
+        simplex_point[indx] = 1/math.factorial(unranked_num)
+    # print(ballot, hopefuls)
+    # print(simplex_point)
+        
+    return simplex_point
+    
+        
+    
+    
+    
+def diversity_score_simplex(profile, cands, diagnostic=False):
+    cond_winner = False
+    hopefuls = cands.copy()
+    new_profile = profile.copy(deep=True)
+    while not cond_winner:
+        if diagnostic:
+            print(hopefuls)
+        smith_set = restrict_to_smith(new_profile, hopefuls)[0]
+        if diagnostic:
+            print(smith_set)
+        
+        ## Condorcet winner, we are done
+        if len(smith_set)==1:
+            return smith_set
+        
+        ## if no condorcet winner, remove lowest diversity score
+        simplex_points = {cand: np.zeros(math.factorial(len(hopefuls)-1)) for cand in hopefuls}
+        first_place_votes = {cand:0 for cand in hopefuls}
+        for k in range(len(new_profile)):
+            first_place_votes[new_profile.at[k, 'ballot'][0]] += new_profile.at[k, 'Count']
+            simplex_points[new_profile.at[k, 'ballot'][0]] += new_profile.at[k, 'Count']*simplex_point(new_profile.at[k, 'ballot'], hopefuls)
+            
+        for cand in hopefuls:
+            simplex_points[cand] /= first_place_votes[cand]
+        
+        diversity_scores = {cand: 1/np.linalg.norm(simplex_points[cand] - np.ones(math.factorial(len(hopefuls)-1))/math.factorial(len(hopefuls)-1)) for cand in hopefuls}
+        
+        if diagnostic:
+            print(simplex_points)
             print(diversity_scores)
             print(first_place_votes)
             
