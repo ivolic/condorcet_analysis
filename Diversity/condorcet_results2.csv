@@ -1,481 +1,161 @@
-file,threshold,winner,rounds
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.0,Ian DICKSON (SNP),6
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.01,John Kelly MILLAR (Lab),6
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.02,John Kelly MILLAR (Lab),6
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.03,John Kelly MILLAR (Lab),6
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.04,John Kelly MILLAR (Lab),7
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.05,John Kelly MILLAR (Lab),7
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.06,John Kelly MILLAR (Lab),6
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.07,John Kelly MILLAR (Lab),6
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.08,John Kelly MILLAR (Lab),6
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.09,John Kelly MILLAR (Lab),6
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.1,John Kelly MILLAR (Lab),6
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.11,John Kelly MILLAR (Lab),6
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.12,John Kelly MILLAR (Lab),6
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.13,John Kelly MILLAR (Lab),6
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.14,John Kelly MILLAR (Lab),6
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.15,John Kelly MILLAR (Lab),6
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.16,John Kelly MILLAR (Lab),6
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.17,John Kelly MILLAR (Lab),6
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.18,John Kelly MILLAR (Lab),6
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.19,John Kelly MILLAR (Lab),6
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.2,John Kelly MILLAR (Lab),6
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.21,John Kelly MILLAR (Lab),6
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.22,John Kelly MILLAR (Lab),6
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.23,John Kelly MILLAR (Lab),6
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.24,John Kelly MILLAR (Lab),6
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.25,John Kelly MILLAR (Lab),6
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.26,John Kelly MILLAR (Lab),6
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.27,John Kelly MILLAR (Lab),6
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.28,John Kelly MILLAR (Lab),6
-Ward2-Leven_west dunbartonshire2022ward 2.csv,0.29,John Kelly MILLAR (Lab),6
-govan_govan.csv,0.0,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10
-govan_govan.csv,0.01,# ALTERNATIVE NAME 3: Stephen Dornan (Lab),10
-govan_govan.csv,0.02,# ALTERNATIVE NAME 3: Stephen Dornan (Lab),9
-govan_govan.csv,0.03,# ALTERNATIVE NAME 3: Stephen Dornan (Lab),9
-govan_govan.csv,0.04,# ALTERNATIVE NAME 4: John Flanagan (Lab),10
-govan_govan.csv,0.05,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10
-govan_govan.csv,0.06,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10
-govan_govan.csv,0.07,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10
-govan_govan.csv,0.08,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10
-govan_govan.csv,0.09,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10
-govan_govan.csv,0.1,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10
-govan_govan.csv,0.11,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10
-govan_govan.csv,0.12,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10
-govan_govan.csv,0.13,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10
-govan_govan.csv,0.14,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10
-govan_govan.csv,0.15,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10
-govan_govan.csv,0.16,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10
-govan_govan.csv,0.17,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10
-govan_govan.csv,0.18,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10
-govan_govan.csv,0.19,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10
-govan_govan.csv,0.2,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10
-govan_govan.csv,0.21,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10
-govan_govan.csv,0.22,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10
-govan_govan.csv,0.23,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10
-govan_govan.csv,0.24,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10
-govan_govan.csv,0.25,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10
-govan_govan.csv,0.26,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10
-govan_govan.csv,0.27,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10
-govan_govan.csv,0.28,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10
-govan_govan.csv,0.29,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.0,Ian SLOAN (Lab),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.01,Ross VETTRAINO (SNP),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.02,Ross VETTRAINO (SNP),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.03,Ross VETTRAINO (SNP),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.04,Ross VETTRAINO (SNP),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.05,Ross VETTRAINO (SNP),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.06,Ross VETTRAINO (SNP),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.07,Ross VETTRAINO (SNP),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.08,Ross VETTRAINO (SNP),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.09,Ross VETTRAINO (SNP),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.1,Ross VETTRAINO (SNP),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.11,Ross VETTRAINO (SNP),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.12,Ross VETTRAINO (SNP),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.13,Ross VETTRAINO (SNP),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.14,Ross VETTRAINO (SNP),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.15,Ross VETTRAINO (SNP),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.16,Ross VETTRAINO (SNP),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.17,Ross VETTRAINO (SNP),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.18,Ross VETTRAINO (SNP),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.19,Ross VETTRAINO (SNP),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.2,Ross VETTRAINO (SNP),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.21,Ross VETTRAINO (SNP),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.22,Ross VETTRAINO (SNP),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.23,Ross VETTRAINO (SNP),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.24,Ross VETTRAINO (SNP),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.25,Ross VETTRAINO (SNP),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.26,Ross VETTRAINO (SNP),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.27,Ross VETTRAINO (SNP),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.28,Ross VETTRAINO (SNP),6
-GlenrothesCentralAndThorntonWard_fife12-16.csv,0.29,Ross VETTRAINO (SNP),6
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.0,Iain MCMILLAN (Lab),5
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.01,Iain MCMILLAN (Lab),7
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.02,John HOOD (Lab),6
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.03,John HOOD (Lab),6
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.04,John HOOD (Lab),6
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.05,Iain MCMILLAN (Lab),6
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.06,Iain MCMILLAN (Lab),6
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.07,Iain MCMILLAN (Lab),6
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.08,Iain MCMILLAN (Lab),6
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.09,Iain MCMILLAN (Lab),6
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.1,Iain MCMILLAN (Lab),6
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.11,Iain MCMILLAN (Lab),6
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.12,Iain MCMILLAN (Lab),6
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.13,Iain MCMILLAN (Lab),6
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.14,Iain MCMILLAN (Lab),6
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.15,Iain MCMILLAN (Lab),6
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.16,Iain MCMILLAN (Lab),6
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.17,Iain MCMILLAN (Lab),6
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.18,Iain MCMILLAN (Lab),6
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.19,Iain MCMILLAN (Lab),6
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.2,Iain MCMILLAN (Lab),6
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.21,Iain MCMILLAN (Lab),6
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.22,Iain MCMILLAN (Lab),6
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.23,Iain MCMILLAN (Lab),6
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.24,Iain MCMILLAN (Lab),6
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.25,Iain MCMILLAN (Lab),6
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.26,Iain MCMILLAN (Lab),6
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.27,Iain MCMILLAN (Lab),6
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.28,Iain MCMILLAN (Lab),6
-7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.29,Iain MCMILLAN (Lab),6
-Ward3-DeeandGlenkens_ward3.csv,0.0,Susan MURDOCH (Con),4
-Ward3-DeeandGlenkens_ward3.csv,0.01,John DENERLEY (Con),5
-Ward3-DeeandGlenkens_ward3.csv,0.02,John DENERLEY (Con),5
-Ward3-DeeandGlenkens_ward3.csv,0.03,John DENERLEY (Con),5
-Ward3-DeeandGlenkens_ward3.csv,0.04,John DENERLEY (Con),5
-Ward3-DeeandGlenkens_ward3.csv,0.05,John DENERLEY (Con),5
-Ward3-DeeandGlenkens_ward3.csv,0.06,John DENERLEY (Con),5
-Ward3-DeeandGlenkens_ward3.csv,0.07,Dougie CAMPBELL (Ind),5
-Ward3-DeeandGlenkens_ward3.csv,0.08,Dougie CAMPBELL (Ind),5
-Ward3-DeeandGlenkens_ward3.csv,0.09,Dougie CAMPBELL (Ind),5
-Ward3-DeeandGlenkens_ward3.csv,0.1,Dougie CAMPBELL (Ind),5
-Ward3-DeeandGlenkens_ward3.csv,0.11,Dougie CAMPBELL (Ind),5
-Ward3-DeeandGlenkens_ward3.csv,0.12,Dougie CAMPBELL (Ind),5
-Ward3-DeeandGlenkens_ward3.csv,0.13,Dougie CAMPBELL (Ind),5
-Ward3-DeeandGlenkens_ward3.csv,0.14,Dougie CAMPBELL (Ind),5
-Ward3-DeeandGlenkens_ward3.csv,0.15,Dougie CAMPBELL (Ind),5
-Ward3-DeeandGlenkens_ward3.csv,0.16,Dougie CAMPBELL (Ind),5
-Ward3-DeeandGlenkens_ward3.csv,0.17,Dougie CAMPBELL (Ind),5
-Ward3-DeeandGlenkens_ward3.csv,0.18,Dougie CAMPBELL (Ind),5
-Ward3-DeeandGlenkens_ward3.csv,0.19,Dougie CAMPBELL (Ind),5
-Ward3-DeeandGlenkens_ward3.csv,0.2,Dougie CAMPBELL (Ind),5
-Ward3-DeeandGlenkens_ward3.csv,0.21,Dougie CAMPBELL (Ind),5
-Ward3-DeeandGlenkens_ward3.csv,0.22,Dougie CAMPBELL (Ind),5
-Ward3-DeeandGlenkens_ward3.csv,0.23,Dougie CAMPBELL (Ind),5
-Ward3-DeeandGlenkens_ward3.csv,0.24,Dougie CAMPBELL (Ind),5
-Ward3-DeeandGlenkens_ward3.csv,0.25,Dougie CAMPBELL (Ind),5
-Ward3-DeeandGlenkens_ward3.csv,0.26,Dougie CAMPBELL (Ind),5
-Ward3-DeeandGlenkens_ward3.csv,0.27,Dougie CAMPBELL (Ind),5
-Ward3-DeeandGlenkens_ward3.csv,0.28,Dougie CAMPBELL (Ind),5
-Ward3-DeeandGlenkens_ward3.csv,0.29,Dougie CAMPBELL (Ind),5
-Ward2-KintyreandtheIslands_ward2.csv,0.0,Robin CURRIE (LD),4
-Ward2-KintyreandtheIslands_ward2.csv,0.01,John MCALPINE (Ind),5
-Ward2-KintyreandtheIslands_ward2.csv,0.02,John MCALPINE (Ind),4
-Ward2-KintyreandtheIslands_ward2.csv,0.03,John MCALPINE (Ind),5
-Ward2-KintyreandtheIslands_ward2.csv,0.04,John MCALPINE (Ind),5
-Ward2-KintyreandtheIslands_ward2.csv,0.05,John MCALPINE (Ind),5
-Ward2-KintyreandtheIslands_ward2.csv,0.06,John MCALPINE (Ind),5
-Ward2-KintyreandtheIslands_ward2.csv,0.07,John MCALPINE (Ind),5
-Ward2-KintyreandtheIslands_ward2.csv,0.08,John MCALPINE (Ind),5
-Ward2-KintyreandtheIslands_ward2.csv,0.09,John MCALPINE (Ind),5
-Ward2-KintyreandtheIslands_ward2.csv,0.1,John MCALPINE (Ind),5
-Ward2-KintyreandtheIslands_ward2.csv,0.11,John MCALPINE (Ind),5
-Ward2-KintyreandtheIslands_ward2.csv,0.12,John MCALPINE (Ind),5
-Ward2-KintyreandtheIslands_ward2.csv,0.13,John MCALPINE (Ind),5
-Ward2-KintyreandtheIslands_ward2.csv,0.14,John MCALPINE (Ind),5
-Ward2-KintyreandtheIslands_ward2.csv,0.15,John MCALPINE (Ind),5
-Ward2-KintyreandtheIslands_ward2.csv,0.16,John MCALPINE (Ind),5
-Ward2-KintyreandtheIslands_ward2.csv,0.17,John MCALPINE (Ind),5
-Ward2-KintyreandtheIslands_ward2.csv,0.18,John MCALPINE (Ind),5
-Ward2-KintyreandtheIslands_ward2.csv,0.19,John MCALPINE (Ind),5
-Ward2-KintyreandtheIslands_ward2.csv,0.2,John MCALPINE (Ind),5
-Ward2-KintyreandtheIslands_ward2.csv,0.21,John MCALPINE (Ind),5
-Ward2-KintyreandtheIslands_ward2.csv,0.22,John MCALPINE (Ind),5
-Ward2-KintyreandtheIslands_ward2.csv,0.23,John MCALPINE (Ind),5
-Ward2-KintyreandtheIslands_ward2.csv,0.24,John MCALPINE (Ind),5
-Ward2-KintyreandtheIslands_ward2.csv,0.25,John MCALPINE (Ind),5
-Ward2-KintyreandtheIslands_ward2.csv,0.26,John MCALPINE (Ind),5
-Ward2-KintyreandtheIslands_ward2.csv,0.27,John MCALPINE (Ind),5
-Ward2-KintyreandtheIslands_ward2.csv,0.28,John MCALPINE (Ind),5
-Ward2-KintyreandtheIslands_ward2.csv,0.29,John MCALPINE (Ind),5
-Minneapolis_11022021_CityCouncilWard2.csv,0.0,Cam Gordon,4
-Minneapolis_11022021_CityCouncilWard2.csv,0.01,Yusra Arab,5
-Minneapolis_11022021_CityCouncilWard2.csv,0.02,Robin Wonsley Worlobah,5
-Minneapolis_11022021_CityCouncilWard2.csv,0.03,Cam Gordon,5
-Minneapolis_11022021_CityCouncilWard2.csv,0.04,Cam Gordon,5
-Minneapolis_11022021_CityCouncilWard2.csv,0.05,Yusra Arab,5
-Minneapolis_11022021_CityCouncilWard2.csv,0.06,Robin Wonsley Worlobah,5
-Minneapolis_11022021_CityCouncilWard2.csv,0.07,Robin Wonsley Worlobah,5
-Minneapolis_11022021_CityCouncilWard2.csv,0.08,Robin Wonsley Worlobah,5
-Minneapolis_11022021_CityCouncilWard2.csv,0.09,Robin Wonsley Worlobah,5
-Minneapolis_11022021_CityCouncilWard2.csv,0.1,Robin Wonsley Worlobah,5
-Minneapolis_11022021_CityCouncilWard2.csv,0.11,Robin Wonsley Worlobah,5
-Minneapolis_11022021_CityCouncilWard2.csv,0.12,Robin Wonsley Worlobah,5
-Minneapolis_11022021_CityCouncilWard2.csv,0.13,Robin Wonsley Worlobah,5
-Minneapolis_11022021_CityCouncilWard2.csv,0.14,Robin Wonsley Worlobah,5
-Minneapolis_11022021_CityCouncilWard2.csv,0.15,Robin Wonsley Worlobah,5
-Minneapolis_11022021_CityCouncilWard2.csv,0.16,Robin Wonsley Worlobah,5
-Minneapolis_11022021_CityCouncilWard2.csv,0.17,Robin Wonsley Worlobah,5
-Minneapolis_11022021_CityCouncilWard2.csv,0.18,Robin Wonsley Worlobah,5
-Minneapolis_11022021_CityCouncilWard2.csv,0.19,Robin Wonsley Worlobah,5
-Minneapolis_11022021_CityCouncilWard2.csv,0.2,Robin Wonsley Worlobah,5
-Minneapolis_11022021_CityCouncilWard2.csv,0.21,Robin Wonsley Worlobah,5
-Minneapolis_11022021_CityCouncilWard2.csv,0.22,Robin Wonsley Worlobah,5
-Minneapolis_11022021_CityCouncilWard2.csv,0.23,Robin Wonsley Worlobah,5
-Minneapolis_11022021_CityCouncilWard2.csv,0.24,Robin Wonsley Worlobah,5
-Minneapolis_11022021_CityCouncilWard2.csv,0.25,Robin Wonsley Worlobah,5
-Minneapolis_11022021_CityCouncilWard2.csv,0.26,Robin Wonsley Worlobah,5
-Minneapolis_11022021_CityCouncilWard2.csv,0.27,Robin Wonsley Worlobah,5
-Minneapolis_11022021_CityCouncilWard2.csv,0.28,Robin Wonsley Worlobah,5
-Minneapolis_11022021_CityCouncilWard2.csv,0.29,Robin Wonsley Worlobah,5
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.0,Tom JOHNSTON (SNP),5
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.01,Tom JOHNSTON (SNP),6
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.02,Tom JOHNSTON (SNP),6
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.03,Tom JOHNSTON (SNP),6
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.04,Tom JOHNSTON (SNP),6
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.05,Tom JOHNSTON (SNP),6
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.06,Tom JOHNSTON (SNP),7
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.07,Tom JOHNSTON (SNP),6
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.08,Tom JOHNSTON (SNP),6
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.09,Tom JOHNSTON (SNP),6
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.1,Tom JOHNSTON (SNP),6
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.11,Tom JOHNSTON (SNP),6
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.12,Tom JOHNSTON (SNP),6
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.13,Tom JOHNSTON (SNP),6
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.14,Tom JOHNSTON (SNP),6
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.15,Tom JOHNSTON (SNP),6
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.16,Tom JOHNSTON (SNP),6
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.17,Tom JOHNSTON (SNP),6
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.18,Tom JOHNSTON (SNP),6
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.19,Tom JOHNSTON (SNP),6
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.2,Tom JOHNSTON (SNP),6
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.21,Tom JOHNSTON (SNP),6
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.22,Tom JOHNSTON (SNP),6
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.23,Tom JOHNSTON (SNP),6
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.24,Tom JOHNSTON (SNP),6
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.25,Tom JOHNSTON (SNP),6
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.26,Tom JOHNSTON (SNP),6
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.27,Tom JOHNSTON (SNP),6
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.28,Tom JOHNSTON (SNP),6
-Ward4-CumbernauldEast_n-lanarks17-004.csv,0.29,Tom JOHNSTON (SNP),6
-Ward21NorthEast_glasgow17-021.csv,0.0,Ruairi KELLY (SNP),8
-Ward21NorthEast_glasgow17-021.csv,0.01,Maureen BURKE (Lab),8
-Ward21NorthEast_glasgow17-021.csv,0.02,Maureen BURKE (Lab),8
-Ward21NorthEast_glasgow17-021.csv,0.03,Ruairi KELLY (SNP),8
-Ward21NorthEast_glasgow17-021.csv,0.04,Ruairi KELLY (SNP),8
-Ward21NorthEast_glasgow17-021.csv,0.05,Maureen BURKE (Lab),8
-Ward21NorthEast_glasgow17-021.csv,0.06,Maureen BURKE (Lab),8
-Ward21NorthEast_glasgow17-021.csv,0.07,Maureen BURKE (Lab),8
-Ward21NorthEast_glasgow17-021.csv,0.08,Maureen BURKE (Lab),8
-Ward21NorthEast_glasgow17-021.csv,0.09,Maureen BURKE (Lab),8
-Ward21NorthEast_glasgow17-021.csv,0.1,Maureen BURKE (Lab),8
-Ward21NorthEast_glasgow17-021.csv,0.11,Maureen BURKE (Lab),8
-Ward21NorthEast_glasgow17-021.csv,0.12,Maureen BURKE (Lab),8
-Ward21NorthEast_glasgow17-021.csv,0.13,Maureen BURKE (Lab),8
-Ward21NorthEast_glasgow17-021.csv,0.14,Maureen BURKE (Lab),8
-Ward21NorthEast_glasgow17-021.csv,0.15,Maureen BURKE (Lab),8
-Ward21NorthEast_glasgow17-021.csv,0.16,Maureen BURKE (Lab),8
-Ward21NorthEast_glasgow17-021.csv,0.17,Maureen BURKE (Lab),8
-Ward21NorthEast_glasgow17-021.csv,0.18,Maureen BURKE (Lab),8
-Ward21NorthEast_glasgow17-021.csv,0.19,Maureen BURKE (Lab),8
-Ward21NorthEast_glasgow17-021.csv,0.2,Maureen BURKE (Lab),8
-Ward21NorthEast_glasgow17-021.csv,0.21,Maureen BURKE (Lab),8
-Ward21NorthEast_glasgow17-021.csv,0.22,Maureen BURKE (Lab),8
-Ward21NorthEast_glasgow17-021.csv,0.23,Maureen BURKE (Lab),8
-Ward21NorthEast_glasgow17-021.csv,0.24,Maureen BURKE (Lab),8
-Ward21NorthEast_glasgow17-021.csv,0.25,Maureen BURKE (Lab),8
-Ward21NorthEast_glasgow17-021.csv,0.26,Maureen BURKE (Lab),8
-Ward21NorthEast_glasgow17-021.csv,0.27,Maureen BURKE (Lab),8
-Ward21NorthEast_glasgow17-021.csv,0.28,Maureen BURKE (Lab),8
-Ward21NorthEast_glasgow17-021.csv,0.29,Maureen BURKE (Lab),8
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.0,Moray Charles GRANT (SNP),6
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.01,Sam PAYNE (Con),7
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.02,Sam PAYNE (Con),6
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.03,Sam PAYNE (Con),7
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.04,Sam PAYNE (Con),7
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.05,Sam PAYNE (Con),7
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.06,Sam PAYNE (Con),7
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.07,Sam PAYNE (Con),7
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.08,Sam PAYNE (Con),7
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.09,Sam PAYNE (Con),7
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.1,Sam PAYNE (Con),7
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.11,Sam PAYNE (Con),7
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.12,Sam PAYNE (Con),7
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.13,Sam PAYNE (Con),7
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.14,Sam PAYNE (Con),7
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.15,Sam PAYNE (Con),7
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.16,Sam PAYNE (Con),7
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.17,Sam PAYNE (Con),7
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.18,Sam PAYNE (Con),7
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.19,Sam PAYNE (Con),7
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.2,Sam PAYNE (Con),7
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.21,Sam PAYNE (Con),7
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.22,Sam PAYNE (Con),7
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.23,Sam PAYNE (Con),7
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.24,Sam PAYNE (Con),7
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.25,Sam PAYNE (Con),7
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.26,Sam PAYNE (Con),7
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.27,Sam PAYNE (Con),7
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.28,Sam PAYNE (Con),7
-preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.29,Sam PAYNE (Con),7
-Oakland_11082022_Schoolboarddistrict4.csv,0.0,MIKE HUTCHINSON,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.01,MIKE HUTCHINSON,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.02,NICK RESNICK,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.03,MIKE HUTCHINSON,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.04,PECOLIA MANIGO,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.05,NICK RESNICK,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.06,MIKE HUTCHINSON,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.07,MIKE HUTCHINSON,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.08,MIKE HUTCHINSON,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.09,NICK RESNICK,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.1,MIKE HUTCHINSON,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.11,MIKE HUTCHINSON,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.12,MIKE HUTCHINSON,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.13,MIKE HUTCHINSON,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.14,MIKE HUTCHINSON,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.15,MIKE HUTCHINSON,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.16,MIKE HUTCHINSON,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.17,MIKE HUTCHINSON,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.18,MIKE HUTCHINSON,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.19,MIKE HUTCHINSON,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.2,MIKE HUTCHINSON,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.21,MIKE HUTCHINSON,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.22,MIKE HUTCHINSON,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.23,MIKE HUTCHINSON,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.24,MIKE HUTCHINSON,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.25,MIKE HUTCHINSON,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.26,MIKE HUTCHINSON,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.27,MIKE HUTCHINSON,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.28,MIKE HUTCHINSON,3
-Oakland_11082022_Schoolboarddistrict4.csv,0.29,MIKE HUTCHINSON,3
-AnnandaleNorthWard_dumgal12-12.csv,0.0,(Con) Gail MACGREGOR,3
-AnnandaleNorthWard_dumgal12-12.csv,0.01,(Con) Gail MACGREGOR,3
-AnnandaleNorthWard_dumgal12-12.csv,0.02,(Con) Roger GRANT,4
-AnnandaleNorthWard_dumgal12-12.csv,0.03,(Con) Gail MACGREGOR,3
-AnnandaleNorthWard_dumgal12-12.csv,0.04,(Con) Gail MACGREGOR,3
-AnnandaleNorthWard_dumgal12-12.csv,0.05,(Con) Gail MACGREGOR,3
-AnnandaleNorthWard_dumgal12-12.csv,0.06,(Con) Gail MACGREGOR,3
-AnnandaleNorthWard_dumgal12-12.csv,0.07,(Con) Gail MACGREGOR,3
-AnnandaleNorthWard_dumgal12-12.csv,0.08,(Con) Gail MACGREGOR,3
-AnnandaleNorthWard_dumgal12-12.csv,0.09,(Con) Gail MACGREGOR,3
-AnnandaleNorthWard_dumgal12-12.csv,0.1,(Con) Gail MACGREGOR,3
-AnnandaleNorthWard_dumgal12-12.csv,0.11,(Con) Gail MACGREGOR,3
-AnnandaleNorthWard_dumgal12-12.csv,0.12,(Con) Gail MACGREGOR,3
-AnnandaleNorthWard_dumgal12-12.csv,0.13,(Con) Gail MACGREGOR,3
-AnnandaleNorthWard_dumgal12-12.csv,0.14,(Con) Gail MACGREGOR,3
-AnnandaleNorthWard_dumgal12-12.csv,0.15,(Con) Gail MACGREGOR,3
-AnnandaleNorthWard_dumgal12-12.csv,0.16,(Con) Gail MACGREGOR,3
-AnnandaleNorthWard_dumgal12-12.csv,0.17,(Con) Gail MACGREGOR,3
-AnnandaleNorthWard_dumgal12-12.csv,0.18,(Con) Gail MACGREGOR,3
-AnnandaleNorthWard_dumgal12-12.csv,0.19,(Con) Gail MACGREGOR,3
-AnnandaleNorthWard_dumgal12-12.csv,0.2,(Con) Gail MACGREGOR,3
-AnnandaleNorthWard_dumgal12-12.csv,0.21,(Con) Gail MACGREGOR,3
-AnnandaleNorthWard_dumgal12-12.csv,0.22,(Con) Gail MACGREGOR,3
-AnnandaleNorthWard_dumgal12-12.csv,0.23,(Con) Gail MACGREGOR,3
-AnnandaleNorthWard_dumgal12-12.csv,0.24,(Con) Gail MACGREGOR,3
-AnnandaleNorthWard_dumgal12-12.csv,0.25,(Con) Gail MACGREGOR,3
-AnnandaleNorthWard_dumgal12-12.csv,0.26,(Con) Gail MACGREGOR,3
-AnnandaleNorthWard_dumgal12-12.csv,0.27,(Con) Gail MACGREGOR,3
-AnnandaleNorthWard_dumgal12-12.csv,0.28,(Con) Gail MACGREGOR,3
-AnnandaleNorthWard_dumgal12-12.csv,0.29,(Con) Gail MACGREGOR,3
-Ward3-ForfarandDistrict_ward3.csv,0.0,Ian MCLAREN (Ind),6
-Ward3-ForfarandDistrict_ward3.csv,0.01,Ian MCLAREN (Ind),5
-Ward3-ForfarandDistrict_ward3.csv,0.02,Ian MCLAREN (Ind),6
-Ward3-ForfarandDistrict_ward3.csv,0.03,Linda CLARK (SNP),6
-Ward3-ForfarandDistrict_ward3.csv,0.04,Ian MCLAREN (Ind),6
-Ward3-ForfarandDistrict_ward3.csv,0.05,Ian MCLAREN (Ind),6
-Ward3-ForfarandDistrict_ward3.csv,0.06,Ian MCLAREN (Ind),6
-Ward3-ForfarandDistrict_ward3.csv,0.07,Ian MCLAREN (Ind),6
-Ward3-ForfarandDistrict_ward3.csv,0.08,Ian MCLAREN (Ind),6
-Ward3-ForfarandDistrict_ward3.csv,0.09,Ian MCLAREN (Ind),6
-Ward3-ForfarandDistrict_ward3.csv,0.1,Ian MCLAREN (Ind),6
-Ward3-ForfarandDistrict_ward3.csv,0.11,Ian MCLAREN (Ind),6
-Ward3-ForfarandDistrict_ward3.csv,0.12,Ian MCLAREN (Ind),6
-Ward3-ForfarandDistrict_ward3.csv,0.13,Ian MCLAREN (Ind),6
-Ward3-ForfarandDistrict_ward3.csv,0.14,Ian MCLAREN (Ind),6
-Ward3-ForfarandDistrict_ward3.csv,0.15,Ian MCLAREN (Ind),6
-Ward3-ForfarandDistrict_ward3.csv,0.16,Ian MCLAREN (Ind),6
-Ward3-ForfarandDistrict_ward3.csv,0.17,Ian MCLAREN (Ind),6
-Ward3-ForfarandDistrict_ward3.csv,0.18,Ian MCLAREN (Ind),6
-Ward3-ForfarandDistrict_ward3.csv,0.19,Ian MCLAREN (Ind),6
-Ward3-ForfarandDistrict_ward3.csv,0.2,Ian MCLAREN (Ind),6
-Ward3-ForfarandDistrict_ward3.csv,0.21,Ian MCLAREN (Ind),6
-Ward3-ForfarandDistrict_ward3.csv,0.22,Ian MCLAREN (Ind),6
-Ward3-ForfarandDistrict_ward3.csv,0.23,Ian MCLAREN (Ind),6
-Ward3-ForfarandDistrict_ward3.csv,0.24,Ian MCLAREN (Ind),6
-Ward3-ForfarandDistrict_ward3.csv,0.25,Ian MCLAREN (Ind),6
-Ward3-ForfarandDistrict_ward3.csv,0.26,Ian MCLAREN (Ind),6
-Ward3-ForfarandDistrict_ward3.csv,0.27,Ian MCLAREN (Ind),6
-Ward3-ForfarandDistrict_ward3.csv,0.28,Ian MCLAREN (Ind),6
-Ward3-ForfarandDistrict_ward3.csv,0.29,Ian MCLAREN (Ind),6
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.0,John FERGUSON (SNP),11
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.01,John FERGUSON (SNP),11
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.02,Joe CULLINANE (Lab),10
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.03,Joe CULLINANE (Lab),11
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.04,John FERGUSON (SNP),11
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.05,John FERGUSON (SNP),11
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.06,John FERGUSON (SNP),11
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.07,John FERGUSON (SNP),11
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.08,John FERGUSON (SNP),11
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.09,John FERGUSON (SNP),11
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.1,John FERGUSON (SNP),11
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.11,John FERGUSON (SNP),11
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.12,John FERGUSON (SNP),11
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.13,John FERGUSON (SNP),11
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.14,John FERGUSON (SNP),11
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.15,John FERGUSON (SNP),11
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.16,John FERGUSON (SNP),11
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.17,John FERGUSON (SNP),11
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.18,John FERGUSON (SNP),11
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.19,John FERGUSON (SNP),11
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.2,John FERGUSON (SNP),11
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.21,John FERGUSON (SNP),11
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.22,John FERGUSON (SNP),11
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.23,John FERGUSON (SNP),11
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.24,John FERGUSON (SNP),11
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.25,John FERGUSON (SNP),11
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.26,John FERGUSON (SNP),11
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.27,John FERGUSON (SNP),11
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.28,John FERGUSON (SNP),11
-Ward03-Kilwinning_n-ayrshire12-03.csv,0.29,John FERGUSON (SNP),11
-JedburghandDistrictWard_sc-borders12-09.csv,0.0,Len WYSE (Con),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.01,Jim BROWN (SNP),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.02,Jim BROWN (SNP),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.03,Jim BROWN (SNP),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.04,Jim BROWN (SNP),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.05,Jim BROWN (SNP),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.06,Jim BROWN (SNP),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.07,Jim BROWN (SNP),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.08,Jim BROWN (SNP),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.09,Jim BROWN (SNP),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.1,Jim BROWN (SNP),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.11,Jim BROWN (SNP),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.12,Jim BROWN (SNP),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.13,Jim BROWN (SNP),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.14,Jim BROWN (SNP),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.15,Jim BROWN (SNP),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.16,Jim BROWN (SNP),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.17,Jim BROWN (SNP),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.18,Jim BROWN (SNP),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.19,Jim BROWN (SNP),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.2,Jim BROWN (SNP),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.21,Jim BROWN (SNP),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.22,Jim BROWN (SNP),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.23,Jim BROWN (SNP),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.24,Jim BROWN (SNP),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.25,Jim BROWN (SNP),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.26,Jim BROWN (SNP),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.27,Jim BROWN (SNP),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.28,Jim BROWN (SNP),4
-JedburghandDistrictWard_sc-borders12-09.csv,0.29,Jim BROWN (SNP),4
-ForfarandDistrict_angus12-03.csv,0.0,(Ind) COLIN BROWN,6
-ForfarandDistrict_angus12-03.csv,0.01,(SNP) Lynne DEVINE,6
-ForfarandDistrict_angus12-03.csv,0.02,(SNP) Lynne DEVINE,6
-ForfarandDistrict_angus12-03.csv,0.03,(Ind) Ian MCLAREN,6
-ForfarandDistrict_angus12-03.csv,0.04,(SNP) Lynne DEVINE,5
-ForfarandDistrict_angus12-03.csv,0.05,(SNP) Lynne DEVINE,5
-ForfarandDistrict_angus12-03.csv,0.06,(SNP) Lynne DEVINE,5
-ForfarandDistrict_angus12-03.csv,0.07,(SNP) Lynne DEVINE,5
-ForfarandDistrict_angus12-03.csv,0.08,(SNP) Lynne DEVINE,5
-ForfarandDistrict_angus12-03.csv,0.09,(SNP) Lynne DEVINE,6
-ForfarandDistrict_angus12-03.csv,0.1,(SNP) Lynne DEVINE,6
-ForfarandDistrict_angus12-03.csv,0.11,(SNP) Lynne DEVINE,6
-ForfarandDistrict_angus12-03.csv,0.12,(SNP) Lynne DEVINE,6
-ForfarandDistrict_angus12-03.csv,0.13,(SNP) Lynne DEVINE,6
-ForfarandDistrict_angus12-03.csv,0.14,(SNP) Lynne DEVINE,6
-ForfarandDistrict_angus12-03.csv,0.15,(SNP) Lynne DEVINE,6
-ForfarandDistrict_angus12-03.csv,0.16,(SNP) Lynne DEVINE,6
-ForfarandDistrict_angus12-03.csv,0.17,(SNP) Lynne DEVINE,6
-ForfarandDistrict_angus12-03.csv,0.18,(SNP) Lynne DEVINE,6
-ForfarandDistrict_angus12-03.csv,0.19,(SNP) Lynne DEVINE,6
-ForfarandDistrict_angus12-03.csv,0.2,(SNP) Lynne DEVINE,6
-ForfarandDistrict_angus12-03.csv,0.21,(SNP) Lynne DEVINE,6
-ForfarandDistrict_angus12-03.csv,0.22,(SNP) Lynne DEVINE,6
-ForfarandDistrict_angus12-03.csv,0.23,(SNP) Lynne DEVINE,6
-ForfarandDistrict_angus12-03.csv,0.24,(SNP) Lynne DEVINE,6
-ForfarandDistrict_angus12-03.csv,0.25,(SNP) Lynne DEVINE,6
-ForfarandDistrict_angus12-03.csv,0.26,(SNP) Lynne DEVINE,6
-ForfarandDistrict_angus12-03.csv,0.27,(SNP) Lynne DEVINE,6
-ForfarandDistrict_angus12-03.csv,0.28,(SNP) Lynne DEVINE,6
-ForfarandDistrict_angus12-03.csv,0.29,(SNP) Lynne DEVINE,6
+,Unnamed: 0,file,threshold,winner,rounds,candsLeft,numCands
+0,0,Ward2-Leven_west dunbartonshire2022ward 2.csv,0.0,John Kelly MILLAR (Lab),5,4,8
+1,1,Ward2-Leven_west dunbartonshire2022ward 2.csv,0.01,John Kelly MILLAR (Lab),6,3,8
+2,2,Ward2-Leven_west dunbartonshire2022ward 2.csv,0.02,John Kelly MILLAR (Lab),7,2,8
+3,3,Ward2-Leven_west dunbartonshire2022ward 2.csv,0.03,John Kelly MILLAR (Lab),6,3,8
+4,4,Ward2-Leven_west dunbartonshire2022ward 2.csv,0.04,John Kelly MILLAR (Lab),6,3,8
+5,5,Ward2-Leven_west dunbartonshire2022ward 2.csv,0.05,John Kelly MILLAR (Lab),6,3,8
+6,6,Ward2-Leven_west dunbartonshire2022ward 2.csv,0.06,John Kelly MILLAR (Lab),6,3,8
+7,7,Ward2-Leven_west dunbartonshire2022ward 2.csv,0.07,John Kelly MILLAR (Lab),7,2,8
+8,8,Ward2-Leven_west dunbartonshire2022ward 2.csv,0.08,John Kelly MILLAR (Lab),7,2,8
+9,9,Ward2-Leven_west dunbartonshire2022ward 2.csv,0.09,John Kelly MILLAR (Lab),7,2,8
+10,10,govan_govan.csv,0.0,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10,2,11
+11,11,govan_govan.csv,0.01,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10,2,11
+12,12,govan_govan.csv,0.02,# ALTERNATIVE NAME 6: Allison Hunter (SNP),10,2,11
+13,13,govan_govan.csv,0.03,# ALTERNATIVE NAME 3: Stephen Dornan (Lab),9,3,11
+14,14,govan_govan.csv,0.04,# ALTERNATIVE NAME 3: Stephen Dornan (Lab),9,3,11
+15,15,govan_govan.csv,0.05,# ALTERNATIVE NAME 3: Stephen Dornan (Lab),9,3,11
+16,16,govan_govan.csv,0.06,# ALTERNATIVE NAME 4: John Flanagan (Lab),9,3,11
+17,17,govan_govan.csv,0.07,# ALTERNATIVE NAME 3: Stephen Dornan (Lab),10,2,11
+18,18,govan_govan.csv,0.08,# ALTERNATIVE NAME 3: Stephen Dornan (Lab),10,2,11
+19,19,govan_govan.csv,0.09,# ALTERNATIVE NAME 4: John Flanagan (Lab),10,2,11
+20,20,GlenrothesCentralAndThorntonWard_fife12-16.csv,0.0,Ross VETTRAINO (SNP),6,2,7
+21,21,GlenrothesCentralAndThorntonWard_fife12-16.csv,0.01,Ian SLOAN (Lab),6,2,7
+22,22,GlenrothesCentralAndThorntonWard_fife12-16.csv,0.02,Ross VETTRAINO (SNP),6,2,7
+23,23,GlenrothesCentralAndThorntonWard_fife12-16.csv,0.03,Ross VETTRAINO (SNP),6,2,7
+24,24,GlenrothesCentralAndThorntonWard_fife12-16.csv,0.04,Ross VETTRAINO (SNP),6,2,7
+25,25,GlenrothesCentralAndThorntonWard_fife12-16.csv,0.05,Ross VETTRAINO (SNP),6,2,7
+26,26,GlenrothesCentralAndThorntonWard_fife12-16.csv,0.06,Ross VETTRAINO (SNP),6,2,7
+27,27,GlenrothesCentralAndThorntonWard_fife12-16.csv,0.07,Ross VETTRAINO (SNP),6,2,7
+28,28,GlenrothesCentralAndThorntonWard_fife12-16.csv,0.08,Ross VETTRAINO (SNP),6,2,7
+29,29,GlenrothesCentralAndThorntonWard_fife12-16.csv,0.09,Ross VETTRAINO (SNP),6,2,7
+30,30,7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.0,John HOOD (Lab),6,3,8
+31,31,7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.01,Iain MCMILLAN (Lab),6,3,8
+32,32,7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.02,Iain MCMILLAN (Lab),7,2,8
+33,33,7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.03,Iain MCMILLAN (Lab),7,2,8
+34,34,7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.04,Iain MCMILLAN (Lab),7,2,8
+35,35,7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.05,Iain MCMILLAN (Lab),7,2,8
+36,36,7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.06,Iain MCMILLAN (Lab),5,4,8
+37,37,7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.07,Iain MCMILLAN (Lab),5,4,8
+38,38,7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.08,Iain MCMILLAN (Lab),6,3,8
+39,39,7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.09,Iain MCMILLAN (Lab),6,3,8
+40,40,Ward3-DeeandGlenkens_ward3.csv,0.0,Susan MURDOCH (Con),3,5,7
+41,41,Ward3-DeeandGlenkens_ward3.csv,0.01,Dougie CAMPBELL (Ind),4,4,7
+42,42,Ward3-DeeandGlenkens_ward3.csv,0.02,John DENERLEY (Con),5,3,7
+43,43,Ward3-DeeandGlenkens_ward3.csv,0.03,Dougie CAMPBELL (Ind),5,3,7
+44,44,Ward3-DeeandGlenkens_ward3.csv,0.04,Dougie CAMPBELL (Ind),5,3,7
+45,45,Ward3-DeeandGlenkens_ward3.csv,0.05,Dougie CAMPBELL (Ind),5,3,7
+46,46,Ward3-DeeandGlenkens_ward3.csv,0.06,Dougie CAMPBELL (Ind),5,3,7
+47,47,Ward3-DeeandGlenkens_ward3.csv,0.07,Dougie CAMPBELL (Ind),5,3,7
+48,48,Ward3-DeeandGlenkens_ward3.csv,0.08,Dougie CAMPBELL (Ind),5,3,7
+49,49,Ward3-DeeandGlenkens_ward3.csv,0.09,Dougie CAMPBELL (Ind),5,3,7
+50,50,Ward2-KintyreandtheIslands_ward2.csv,0.0,John MCALPINE (Ind),5,2,6
+51,51,Ward2-KintyreandtheIslands_ward2.csv,0.01,John MCALPINE (Ind),5,2,6
+52,52,Ward2-KintyreandtheIslands_ward2.csv,0.02,Dougie MCFADZEAN (SNP),5,2,6
+53,53,Ward2-KintyreandtheIslands_ward2.csv,0.03,Dougie MCFADZEAN (SNP),5,2,6
+54,54,Ward2-KintyreandtheIslands_ward2.csv,0.04,Dougie MCFADZEAN (SNP),5,2,6
+55,55,Ward2-KintyreandtheIslands_ward2.csv,0.05,John MCALPINE (Ind),5,2,6
+56,56,Ward2-KintyreandtheIslands_ward2.csv,0.06,John MCALPINE (Ind),5,2,6
+57,57,Ward2-KintyreandtheIslands_ward2.csv,0.07,John MCALPINE (Ind),5,2,6
+58,58,Ward2-KintyreandtheIslands_ward2.csv,0.08,John MCALPINE (Ind),5,2,6
+59,59,Ward2-KintyreandtheIslands_ward2.csv,0.09,John MCALPINE (Ind),5,2,6
+60,60,Minneapolis_11022021_CityCouncilWard2.csv,0.0,Cam Gordon,2,4,5
+61,61,Minneapolis_11022021_CityCouncilWard2.csv,0.01,Robin Wonsley Worlobah,4,2,5
+62,62,Minneapolis_11022021_CityCouncilWard2.csv,0.02,Cam Gordon,4,2,5
+63,63,Minneapolis_11022021_CityCouncilWard2.csv,0.03,Cam Gordon,4,2,5
+64,64,Minneapolis_11022021_CityCouncilWard2.csv,0.04,Robin Wonsley Worlobah,4,2,5
+65,65,Minneapolis_11022021_CityCouncilWard2.csv,0.05,Robin Wonsley Worlobah,4,2,5
+66,66,Minneapolis_11022021_CityCouncilWard2.csv,0.06,Yusra Arab,4,2,5
+67,67,Minneapolis_11022021_CityCouncilWard2.csv,0.07,Robin Wonsley Worlobah,4,2,5
+68,68,Minneapolis_11022021_CityCouncilWard2.csv,0.08,Robin Wonsley Worlobah,4,2,5
+69,69,Minneapolis_11022021_CityCouncilWard2.csv,0.09,Yusra Arab,4,2,5
+70,70,Ward4-CumbernauldEast_n-lanarks17-004.csv,0.0,Tom JOHNSTON (SNP),4,5,8
+71,71,Ward4-CumbernauldEast_n-lanarks17-004.csv,0.01,Tom JOHNSTON (SNP),4,5,8
+72,72,Ward4-CumbernauldEast_n-lanarks17-004.csv,0.02,Tom JOHNSTON (SNP),7,2,8
+73,73,Ward4-CumbernauldEast_n-lanarks17-004.csv,0.03,Tom JOHNSTON (SNP),5,4,8
+74,74,Ward4-CumbernauldEast_n-lanarks17-004.csv,0.04,Tom JOHNSTON (SNP),5,4,8
+75,75,Ward4-CumbernauldEast_n-lanarks17-004.csv,0.05,Tom JOHNSTON (SNP),6,3,8
+76,76,Ward4-CumbernauldEast_n-lanarks17-004.csv,0.06,Tom JOHNSTON (SNP),6,3,8
+77,77,Ward4-CumbernauldEast_n-lanarks17-004.csv,0.07,Tom JOHNSTON (SNP),6,3,8
+78,78,Ward4-CumbernauldEast_n-lanarks17-004.csv,0.08,Tom JOHNSTON (SNP),6,3,8
+79,79,Ward4-CumbernauldEast_n-lanarks17-004.csv,0.09,Tom JOHNSTON (SNP),6,3,8
+80,80,Ward21NorthEast_glasgow17-021.csv,0.0,Ruairi KELLY (SNP),8,1,8
+81,81,Ward21NorthEast_glasgow17-021.csv,0.01,Ruairi KELLY (SNP),8,1,8
+82,82,Ward21NorthEast_glasgow17-021.csv,0.02,Ruairi KELLY (SNP),8,1,8
+83,83,Ward21NorthEast_glasgow17-021.csv,0.03,Ruairi KELLY (SNP),8,1,8
+84,84,Ward21NorthEast_glasgow17-021.csv,0.04,Ruairi KELLY (SNP),8,1,8
+85,85,Ward21NorthEast_glasgow17-021.csv,0.05,Ruairi KELLY (SNP),7,2,8
+86,86,Ward21NorthEast_glasgow17-021.csv,0.06,Ruairi KELLY (SNP),7,2,8
+87,87,Ward21NorthEast_glasgow17-021.csv,0.07,Ruairi KELLY (SNP),8,1,8
+88,88,Ward21NorthEast_glasgow17-021.csv,0.08,Ruairi KELLY (SNP),8,1,8
+89,89,Ward21NorthEast_glasgow17-021.csv,0.09,Ruairi KELLY (SNP),8,1,8
+90,90,preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.0,Sam PAYNE (Con),7,2,8
+91,91,preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.01,Moray Charles GRANT (SNP),7,2,8
+92,92,preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.02,Sam PAYNE (Con),7,2,8
+93,93,preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.03,Sam PAYNE (Con),7,2,8
+94,94,preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.04,Sam PAYNE (Con),7,2,8
+95,95,preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.05,Sam PAYNE (Con),7,2,8
+96,96,preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.06,Sam PAYNE (Con),7,2,8
+97,97,preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.07,Sam PAYNE (Con),7,2,8
+98,98,preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.08,Sam PAYNE (Con),7,2,8
+99,99,preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.09,Sam PAYNE (Con),7,2,8
+100,100,Oakland_11082022_Schoolboarddistrict4.csv,0.0,MIKE HUTCHINSON,2,2,3
+101,101,Oakland_11082022_Schoolboarddistrict4.csv,0.01,MIKE HUTCHINSON,2,2,3
+102,102,Oakland_11082022_Schoolboarddistrict4.csv,0.02,MIKE HUTCHINSON,2,2,3
+103,103,Oakland_11082022_Schoolboarddistrict4.csv,0.03,MIKE HUTCHINSON,2,2,3
+104,104,Oakland_11082022_Schoolboarddistrict4.csv,0.04,PECOLIA MANIGO,2,2,3
+105,105,Oakland_11082022_Schoolboarddistrict4.csv,0.05,NICK RESNICK,2,2,3
+106,106,Oakland_11082022_Schoolboarddistrict4.csv,0.06,MIKE HUTCHINSON,2,2,3
+107,107,Oakland_11082022_Schoolboarddistrict4.csv,0.07,MIKE HUTCHINSON,2,2,3
+108,108,Oakland_11082022_Schoolboarddistrict4.csv,0.08,MIKE HUTCHINSON,2,2,3
+109,109,Oakland_11082022_Schoolboarddistrict4.csv,0.09,NICK RESNICK,2,2,3
+110,110,AnnandaleNorthWard_dumgal12-12.csv,0.0,(Con) Gail MACGREGOR,3,5,7
+111,111,AnnandaleNorthWard_dumgal12-12.csv,0.01,(Con) Gail MACGREGOR,3,5,7
+112,112,AnnandaleNorthWard_dumgal12-12.csv,0.02,(Con) Gail MACGREGOR,3,5,7
+113,113,AnnandaleNorthWard_dumgal12-12.csv,0.03,(Con) Gail MACGREGOR,3,5,7
+114,114,AnnandaleNorthWard_dumgal12-12.csv,0.04,(Con) Gail MACGREGOR,3,5,7
+115,115,AnnandaleNorthWard_dumgal12-12.csv,0.05,(Con) Gail MACGREGOR,3,5,7
+116,116,AnnandaleNorthWard_dumgal12-12.csv,0.06,(Con) Gail MACGREGOR,3,5,7
+117,117,AnnandaleNorthWard_dumgal12-12.csv,0.07,(Con) Gail MACGREGOR,3,5,7
+118,118,AnnandaleNorthWard_dumgal12-12.csv,0.08,(Con) Gail MACGREGOR,3,5,7
+119,119,AnnandaleNorthWard_dumgal12-12.csv,0.09,(Con) Gail MACGREGOR,3,5,7
+120,120,Ward3-ForfarandDistrict_ward3.csv,0.0,Ian MCLAREN (Ind),6,3,8
+121,121,Ward3-ForfarandDistrict_ward3.csv,0.01,Ian MCLAREN (Ind),7,2,8
+122,122,Ward3-ForfarandDistrict_ward3.csv,0.02,Ian MCLAREN (Ind),5,4,8
+123,123,Ward3-ForfarandDistrict_ward3.csv,0.03,Ian MCLAREN (Ind),6,3,8
+124,124,Ward3-ForfarandDistrict_ward3.csv,0.04,Ian MCLAREN (Ind),6,3,8
+125,125,Ward3-ForfarandDistrict_ward3.csv,0.05,Ian MCLAREN (Ind),6,3,8
+126,126,Ward3-ForfarandDistrict_ward3.csv,0.06,Ian MCLAREN (Ind),6,3,8
+127,127,Ward3-ForfarandDistrict_ward3.csv,0.07,Ian MCLAREN (Ind),6,3,8
+128,128,Ward3-ForfarandDistrict_ward3.csv,0.08,Ian MCLAREN (Ind),6,3,8
+129,129,Ward3-ForfarandDistrict_ward3.csv,0.09,Ian MCLAREN (Ind),6,3,8
+130,130,Ward03-Kilwinning_n-ayrshire12-03.csv,0.0,Joe CULLINANE (Lab),11,1,11
+131,131,Ward03-Kilwinning_n-ayrshire12-03.csv,0.01,Joe CULLINANE (Lab),11,1,11
+132,132,Ward03-Kilwinning_n-ayrshire12-03.csv,0.02,Joe CULLINANE (Lab),11,1,11
+133,133,Ward03-Kilwinning_n-ayrshire12-03.csv,0.03,Joe CULLINANE (Lab),11,1,11
+134,134,Ward03-Kilwinning_n-ayrshire12-03.csv,0.04,Joe CULLINANE (Lab),11,1,11
+135,135,Ward03-Kilwinning_n-ayrshire12-03.csv,0.05,Joe CULLINANE (Lab),11,1,11
+136,136,Ward03-Kilwinning_n-ayrshire12-03.csv,0.06,Joe CULLINANE (Lab),11,1,11
+137,137,Ward03-Kilwinning_n-ayrshire12-03.csv,0.07,Joe CULLINANE (Lab),11,1,11
+138,138,Ward03-Kilwinning_n-ayrshire12-03.csv,0.08,John FERGUSON (SNP),11,1,11
+139,139,Ward03-Kilwinning_n-ayrshire12-03.csv,0.09,John FERGUSON (SNP),11,1,11
+140,140,JedburghandDistrictWard_sc-borders12-09.csv,0.0,Len WYSE (Con),4,4,7
+141,141,JedburghandDistrictWard_sc-borders12-09.csv,0.01,Jim BROWN (SNP),3,5,7
+142,142,JedburghandDistrictWard_sc-borders12-09.csv,0.02,Jim BROWN (SNP),4,4,7
+143,143,JedburghandDistrictWard_sc-borders12-09.csv,0.03,Jim BROWN (SNP),4,4,7
+144,144,JedburghandDistrictWard_sc-borders12-09.csv,0.04,Jim BROWN (SNP),4,4,7
+145,145,JedburghandDistrictWard_sc-borders12-09.csv,0.05,Jim BROWN (SNP),4,4,7
+146,146,JedburghandDistrictWard_sc-borders12-09.csv,0.06,Jim BROWN (SNP),4,4,7
+147,147,JedburghandDistrictWard_sc-borders12-09.csv,0.07,Jim BROWN (SNP),4,4,7
+148,148,JedburghandDistrictWard_sc-borders12-09.csv,0.08,Jim BROWN (SNP),4,4,7
+149,149,JedburghandDistrictWard_sc-borders12-09.csv,0.09,Jim BROWN (SNP),4,4,7
+150,150,ForfarandDistrict_angus12-03.csv,0.0,(SNP) Lynne DEVINE,6,2,7
+151,151,ForfarandDistrict_angus12-03.csv,0.01,(Ind) Ian MCLAREN,6,2,7
+152,152,ForfarandDistrict_angus12-03.csv,0.02,(SNP) Glennis MIDDLETON,5,3,7
+153,153,ForfarandDistrict_angus12-03.csv,0.03,(SNP) Lynne DEVINE,6,2,7
+154,154,ForfarandDistrict_angus12-03.csv,0.04,(SNP) Lynne DEVINE,6,2,7
+155,155,ForfarandDistrict_angus12-03.csv,0.05,(SNP) Lynne DEVINE,6,2,7
+156,156,ForfarandDistrict_angus12-03.csv,0.06,(Ind) COLIN BROWN,6,2,7
+157,157,ForfarandDistrict_angus12-03.csv,0.07,(Ind) COLIN BROWN,6,2,7
+158,158,ForfarandDistrict_angus12-03.csv,0.08,(Ind) Ian MCLAREN,6,2,7
+159,159,ForfarandDistrict_angus12-03.csv,0.09,(Ind) Ian MCLAREN,6,2,7
