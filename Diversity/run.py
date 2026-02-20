@@ -34,7 +34,7 @@ def condense_ballots(profile):
 
     return PreferenceProfile(ballots=tuple(new_ballots))
 
-
+# (A,B) = (A,B,C)
 def condense_ballots2(profile):
     weights = defaultdict(Fraction)
 
@@ -44,14 +44,20 @@ def condense_ballots2(profile):
         ranking = list(ballot.ranking)
 
         ranked_candidates = set()
-        for rank in ranking:
-            ranked_candidates.update(rank)
+        for r in ranking:
+            ranked_candidates.update(r)
 
         missing = all_candidates - ranked_candidates
+        # logger.info("missing")
+        # logger.info(missing)
 
         if len(missing) == 1:
+            # logger.info("ranking before adding")
+            # logger.info(ranking)
             missing_candidate = next(iter(missing))
             ranking.append(frozenset({missing_candidate}))
+            # logger.info("ranking after adding")
+            # logger.info(ranking)
 
         weights[tuple(ranking)] += ballot.weight
 
@@ -144,7 +150,7 @@ def main_helper(vprofile, candidates, threshold, round_num=1):
             cand_to_drop = first_place_count(vprofile, cand)
         candidates.remove(cand_to_drop) #technically not needed anymore since we also update vprofile
         vprofile = remove_and_condense_rank_profile(profile=vprofile, removed=[cand_to_drop])
-        vprofile = condense_ballots2(vprofile)
+        vprofile = condense_ballots(vprofile)
         logger.info(f"Dropping candidate: {cand_to_drop}")
         logger.info("--------------------------------------------------")
         
@@ -168,7 +174,7 @@ def run_diversity(full_path, threshold=0):
     
     vprofile = mm.v_profile(full_path)
     vprofile = remove_and_condense_rank_profile(profile=vprofile, removed=['skipped', 'writein', 'Write-in'])
-    vprofile = condense_ballots2(vprofile)
+    vprofile = condense_ballots(vprofile)
     candidates = list(vprofile.candidates)
     candidates = [cand for cand in candidates if cand != 'skipped' and cand != 'writein' and cand != 'Write-in']
     
@@ -186,7 +192,7 @@ def main():
         if filename.endswith('.csv'):
             full_path = os.path.join('../Data', filename)
             logger.info(f"Processing file: {filename}")
-    # full_path = "/Users/belle/Desktop/build/condorcet_analysis/Data/Oakland_11082022_Schoolboarddistrict4.csv"
+    # full_path = "/Users/belle/Desktop/build/condorcet_analysis/Data/JedburghandDistrictWard_sc-borders12-09.csv"
             for i in range(10):
                 logger.info(f"\nRunning with diversity threshold: {i / 10}")
                 threshold = i / 100

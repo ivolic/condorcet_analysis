@@ -1,0 +1,161 @@
+file,threshold,winner,rounds,numCands
+Ward2-Leven_west dunbartonshire2022ward 2.csv,0.0,['Ian DICKSON (SNP)'],0,8
+Ward2-Leven_west dunbartonshire2022ward 2.csv,0.01,"['Ian DICKSON (SNP)', 'John Kelly MILLAR (Lab)']",0,8
+Ward2-Leven_west dunbartonshire2022ward 2.csv,0.02,"['Ian DICKSON (SNP)', 'John Kelly MILLAR (Lab)']",0,8
+Ward2-Leven_west dunbartonshire2022ward 2.csv,0.03,['Ian DICKSON (SNP)'],0,8
+Ward2-Leven_west dunbartonshire2022ward 2.csv,0.04,"['Ian DICKSON (SNP)', 'John Kelly MILLAR (Lab)', 'Michelle Marie MCGINTY (Lab)']",0,8
+Ward2-Leven_west dunbartonshire2022ward 2.csv,0.05,"['Ian DICKSON (SNP)', 'John Kelly MILLAR (Lab)', 'Michelle Marie MCGINTY (Lab)']",0,8
+Ward2-Leven_west dunbartonshire2022ward 2.csv,0.06,['Ian DICKSON (SNP)'],0,8
+Ward2-Leven_west dunbartonshire2022ward 2.csv,0.07,"['Ian DICKSON (SNP)', 'Jim BOLLAN (WDuns)', 'John Kelly MILLAR (Lab)', 'Ronnie MCCOLL (SNP)', 'Matthew DILLON (Con)', 'Michelle Marie MCGINTY (Lab)', 'Paula BAKER (Grn)', 'Sian WILKIE (Ind)']",0,8
+Ward2-Leven_west dunbartonshire2022ward 2.csv,0.08,"['Ian DICKSON (SNP)', 'Jim BOLLAN (WDuns)', 'John Kelly MILLAR (Lab)', 'Ronnie MCCOLL (SNP)', 'Matthew DILLON (Con)', 'Michelle Marie MCGINTY (Lab)', 'Paula BAKER (Grn)', 'Sian WILKIE (Ind)']",0,8
+Ward2-Leven_west dunbartonshire2022ward 2.csv,0.09,"['Ian DICKSON (SNP)', 'Jim BOLLAN (WDuns)', 'John Kelly MILLAR (Lab)', 'Ronnie MCCOLL (SNP)', 'Matthew DILLON (Con)', 'Michelle Marie MCGINTY (Lab)', 'Paula BAKER (Grn)', 'Sian WILKIE (Ind)']",0,8
+govan_govan.csv,0.0,['# ALTERNATIVE NAME 6: Allison Hunter (SNP)'],0,11
+govan_govan.csv,0.01,['# ALTERNATIVE NAME 4: John Flanagan (Lab)'],0,11
+govan_govan.csv,0.02,"['# ALTERNATIVE NAME 1: Shaukat Butt (Lab)', '# ALTERNATIVE NAME 4: John Flanagan (Lab)', '# ALTERNATIVE NAME 3: Stephen Dornan (Lab)']",0,11
+govan_govan.csv,0.03,"['# ALTERNATIVE NAME 1: Shaukat Butt (Lab)', '# ALTERNATIVE NAME 4: John Flanagan (Lab)', '# ALTERNATIVE NAME 3: Stephen Dornan (Lab)']",0,11
+govan_govan.csv,0.04,"['# ALTERNATIVE NAME 4: John Flanagan (Lab)', '# ALTERNATIVE NAME 6: Allison Hunter (SNP)']",0,11
+govan_govan.csv,0.05,['# ALTERNATIVE NAME 6: Allison Hunter (SNP)'],0,11
+govan_govan.csv,0.06,['# ALTERNATIVE NAME 6: Allison Hunter (SNP)'],0,11
+govan_govan.csv,0.07,['# ALTERNATIVE NAME 6: Allison Hunter (SNP)'],0,11
+govan_govan.csv,0.08,['# ALTERNATIVE NAME 6: Allison Hunter (SNP)'],0,11
+govan_govan.csv,0.09,['# ALTERNATIVE NAME 6: Allison Hunter (SNP)'],0,11
+GlenrothesCentralAndThorntonWard_fife12-16.csv,0.0,['Ross VETTRAINO (SNP)'],0,7
+GlenrothesCentralAndThorntonWard_fife12-16.csv,0.01,['Ross VETTRAINO (SNP)'],0,7
+GlenrothesCentralAndThorntonWard_fife12-16.csv,0.02,"['Ian CRICHTON (Lab)', 'Ian SLOAN (Lab)', 'Vikki WILTON (SNP)', 'Ross VETTRAINO (SNP)']",0,7
+GlenrothesCentralAndThorntonWard_fife12-16.csv,0.03,"['Ian CRICHTON (Lab)', 'Ian SLOAN (Lab)', 'Ross VETTRAINO (SNP)']",0,7
+GlenrothesCentralAndThorntonWard_fife12-16.csv,0.04,"['Ian CRICHTON (Lab)', 'Ian SLOAN (Lab)', 'Vikki WILTON (SNP)', 'Ross VETTRAINO (SNP)']",0,7
+GlenrothesCentralAndThorntonWard_fife12-16.csv,0.05,"['Ian CRICHTON (Lab)', 'Ian SLOAN (Lab)', 'Vikki WILTON (SNP)', 'Ross VETTRAINO (SNP)']",0,7
+GlenrothesCentralAndThorntonWard_fife12-16.csv,0.06,"['Ian CRICHTON (Lab)', 'Ian SLOAN (Lab)', 'Vikki WILTON (SNP)', 'Ross VETTRAINO (SNP)']",0,7
+GlenrothesCentralAndThorntonWard_fife12-16.csv,0.07,"['Ian CRICHTON (Lab)', 'Ian SLOAN (Lab)', 'Ross VETTRAINO (SNP)']",0,7
+GlenrothesCentralAndThorntonWard_fife12-16.csv,0.08,"['Ian CRICHTON (Lab)', 'Ian SLOAN (Lab)', 'Ross VETTRAINO (SNP)']",0,7
+GlenrothesCentralAndThorntonWard_fife12-16.csv,0.09,"['Ian CRICHTON (Lab)', 'Ian SLOAN (Lab)', 'Ross VETTRAINO (SNP)']",0,7
+7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.0,['John CALDWELL (Lab)'],0,8
+7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.01,['John CALDWELL (Lab)'],0,8
+7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.02,"['Iain MCMILLAN (Lab)', 'John HOOD (Lab)']",0,8
+7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.03,"['Iain MCMILLAN (Lab)', 'John HOOD (Lab)']",0,8
+7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.04,"['Iain MCMILLAN (Lab)', 'John HOOD (Lab)']",0,8
+7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.05,['Iain MCMILLAN (Lab)'],0,8
+7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.06,['Iain MCMILLAN (Lab)'],0,8
+7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.07,"['Iain MCMILLAN (Lab)', 'John CALDWELL (Lab)']",0,8
+7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.08,"['Iain MCMILLAN (Lab)', 'John CALDWELL (Lab)']",0,8
+7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.09,"['Iain MCMILLAN (Lab)', 'John CALDWELL (Lab)']",0,8
+Ward3-DeeandGlenkens_ward3.csv,0.0,['Dougie CAMPBELL (Ind)'],0,7
+Ward3-DeeandGlenkens_ward3.csv,0.01,['Andy MCFARLANE (SNP)'],0,7
+Ward3-DeeandGlenkens_ward3.csv,0.02,['Andy MCFARLANE (SNP)'],0,7
+Ward3-DeeandGlenkens_ward3.csv,0.03,['Andy MCFARLANE (SNP)'],0,7
+Ward3-DeeandGlenkens_ward3.csv,0.04,"['Susan MURDOCH (Con)', 'John DENERLEY (Con)']",0,7
+Ward3-DeeandGlenkens_ward3.csv,0.05,"['Susan MURDOCH (Con)', 'John DENERLEY (Con)']",0,7
+Ward3-DeeandGlenkens_ward3.csv,0.06,['John DENERLEY (Con)'],0,7
+Ward3-DeeandGlenkens_ward3.csv,0.07,['John DENERLEY (Con)'],0,7
+Ward3-DeeandGlenkens_ward3.csv,0.08,"['Andy MCFARLANE (SNP)', 'Anthony BIRD (LD)', 'Dougie CAMPBELL (Ind)', 'Graham TRICKEY (Lab)', 'Laura Elizabeth MOODIE (Grn)', 'Susan MURDOCH (Con)', 'John DENERLEY (Con)']",0,7
+Ward3-DeeandGlenkens_ward3.csv,0.09,"['Andy MCFARLANE (SNP)', 'Anthony BIRD (LD)', 'Dougie CAMPBELL (Ind)', 'Graham TRICKEY (Lab)', 'Laura Elizabeth MOODIE (Grn)', 'Susan MURDOCH (Con)', 'John DENERLEY (Con)']",0,7
+Ward2-KintyreandtheIslands_ward2.csv,0.0,['Dougie MCFADZEAN (SNP)'],0,6
+Ward2-KintyreandtheIslands_ward2.csv,0.01,['Dougie MCFADZEAN (SNP)'],0,6
+Ward2-KintyreandtheIslands_ward2.csv,0.02,['Dougie MCFADZEAN (SNP)'],0,6
+Ward2-KintyreandtheIslands_ward2.csv,0.03,"['Dougie MCFADZEAN (SNP)', 'John MCALPINE (Ind)']",0,6
+Ward2-KintyreandtheIslands_ward2.csv,0.04,"['Dougie MCFADZEAN (SNP)', 'John MCALPINE (Ind)']",0,6
+Ward2-KintyreandtheIslands_ward2.csv,0.05,"['Dougie MCFADZEAN (SNP)', 'John MCALPINE (Ind)']",0,6
+Ward2-KintyreandtheIslands_ward2.csv,0.06,"['Dougie MCFADZEAN (SNP)', 'John MCALPINE (Ind)']",0,6
+Ward2-KintyreandtheIslands_ward2.csv,0.07,"['Dougie MCFADZEAN (SNP)', 'John MCALPINE (Ind)']",0,6
+Ward2-KintyreandtheIslands_ward2.csv,0.08,['John MCALPINE (Ind)'],0,6
+Ward2-KintyreandtheIslands_ward2.csv,0.09,"['Alastair John REDMAN (Ind)', 'Alec MCNEILLY (Con)', 'Dougie MCFADZEAN (SNP)', 'Jane B KELLY (Lab)', 'John MCALPINE (Ind)', 'Robin CURRIE (LD)']",0,6
+Minneapolis_11022021_CityCouncilWard2.csv,0.0,"['Cam Gordon', 'Guy T Gaskin', 'Robin Wonsley Worlobah', 'Tom Anderson']",0,5
+Minneapolis_11022021_CityCouncilWard2.csv,0.01,['Yusra Arab'],0,5
+Minneapolis_11022021_CityCouncilWard2.csv,0.02,"['Robin Wonsley Worlobah', 'Yusra Arab']",0,5
+Minneapolis_11022021_CityCouncilWard2.csv,0.03,['Robin Wonsley Worlobah'],0,5
+Minneapolis_11022021_CityCouncilWard2.csv,0.04,['Robin Wonsley Worlobah'],0,5
+Minneapolis_11022021_CityCouncilWard2.csv,0.05,['Cam Gordon'],0,5
+Minneapolis_11022021_CityCouncilWard2.csv,0.06,"['Cam Gordon', 'Robin Wonsley Worlobah', 'Yusra Arab']",0,5
+Minneapolis_11022021_CityCouncilWard2.csv,0.07,['Yusra Arab'],0,5
+Minneapolis_11022021_CityCouncilWard2.csv,0.08,['Yusra Arab'],0,5
+Minneapolis_11022021_CityCouncilWard2.csv,0.09,"['Cam Gordon', 'Guy T Gaskin', 'Robin Wonsley Worlobah', 'Tom Anderson', 'Yusra Arab']",0,5
+Ward4-CumbernauldEast_n-lanarks17-004.csv,0.0,['Tom JOHNSTON (SNP)'],0,8
+Ward4-CumbernauldEast_n-lanarks17-004.csv,0.01,"['Claire BARCLAY (SNP)', 'Paddy HOGG (SNP)', 'Tom JOHNSTON (SNP)', 'Stevie GRANT (Lab)', 'David STARK (Con)', 'Gillian FANNAN (Lab)']",0,8
+Ward4-CumbernauldEast_n-lanarks17-004.csv,0.02,"['Claire BARCLAY (SNP)', 'Tom JOHNSTON (SNP)']",0,8
+Ward4-CumbernauldEast_n-lanarks17-004.csv,0.03,['Tom JOHNSTON (SNP)'],0,8
+Ward4-CumbernauldEast_n-lanarks17-004.csv,0.04,"['Claire BARCLAY (SNP)', 'Paddy HOGG (SNP)', 'Tom JOHNSTON (SNP)', 'David STARK (Con)', 'Gillian FANNAN (Lab)']",0,8
+Ward4-CumbernauldEast_n-lanarks17-004.csv,0.05,"['Claire BARCLAY (SNP)', 'Paddy HOGG (SNP)', 'Tom JOHNSTON (SNP)', 'David STARK (Con)']",0,8
+Ward4-CumbernauldEast_n-lanarks17-004.csv,0.06,"['Claire BARCLAY (SNP)', 'Paddy HOGG (SNP)', 'Tom JOHNSTON (SNP)']",0,8
+Ward4-CumbernauldEast_n-lanarks17-004.csv,0.07,"['Claire BARCLAY (SNP)', 'Tom JOHNSTON (SNP)']",0,8
+Ward4-CumbernauldEast_n-lanarks17-004.csv,0.08,"['Claire BARCLAY (SNP)', 'Tom JOHNSTON (SNP)']",0,8
+Ward4-CumbernauldEast_n-lanarks17-004.csv,0.09,['Claire BARCLAY (SNP)'],0,8
+Ward21NorthEast_glasgow17-021.csv,0.0,['Maureen BURKE (Lab)'],0,8
+Ward21NorthEast_glasgow17-021.csv,0.01,['Maureen BURKE (Lab)'],0,8
+Ward21NorthEast_glasgow17-021.csv,0.02,['Maureen BURKE (Lab)'],0,8
+Ward21NorthEast_glasgow17-021.csv,0.03,['Ruairi KELLY (SNP)'],0,8
+Ward21NorthEast_glasgow17-021.csv,0.04,"['Frances HOWELL (Con)', 'Maureen BURKE (Lab)', 'Mandy MORGAN (SNP)', 'Ruairi KELLY (SNP)']",0,8
+Ward21NorthEast_glasgow17-021.csv,0.05,"['Maureen BURKE (Lab)', 'Ruairi KELLY (SNP)']",0,8
+Ward21NorthEast_glasgow17-021.csv,0.06,['Maureen BURKE (Lab)'],0,8
+Ward21NorthEast_glasgow17-021.csv,0.07,['Maureen BURKE (Lab)'],0,8
+Ward21NorthEast_glasgow17-021.csv,0.08,['Maureen BURKE (Lab)'],0,8
+Ward21NorthEast_glasgow17-021.csv,0.09,"['Carole URE (Grn)', 'Frances HOWELL (Con)', 'Gerry BOYLE (Ind)', 'Maureen BURKE (Lab)', 'Stephen DOCHERTY (Lab)', 'Jenny KIERNAN (Sol)', 'Mandy MORGAN (SNP)', 'Ruairi KELLY (SNP)']",0,8
+preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.0,['Moray Charles GRANT (SNP)'],0,8
+preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.01,['Sam PAYNE (Con)'],0,8
+preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.02,['Moray Charles GRANT (SNP)'],0,8
+preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.03,"['Moray Charles GRANT (SNP)', 'Sam PAYNE (Con)']",0,8
+preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.04,"['Moray Charles GRANT (SNP)', 'Sam PAYNE (Con)']",0,8
+preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.05,['Sam PAYNE (Con)'],0,8
+preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.06,['Sam PAYNE (Con)'],0,8
+preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.07,"['Anne MANSFIELD (Grn)', 'Elaine Helen Grace MITCHELL (Alba)', 'Hazel Linda SMITH (LD)', 'Moray Charles GRANT (SNP)', 'Sasha BRYDON (Lab)', 'Sebastian LESLIE (Ind)', 'Sheena Margaret LONCHAY (Ind)', 'Sam PAYNE (Con)']",0,8
+preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.08,"['Anne MANSFIELD (Grn)', 'Elaine Helen Grace MITCHELL (Alba)', 'Hazel Linda SMITH (LD)', 'Moray Charles GRANT (SNP)', 'Sasha BRYDON (Lab)', 'Sebastian LESLIE (Ind)', 'Sheena Margaret LONCHAY (Ind)', 'Sam PAYNE (Con)']",0,8
+preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.09,"['Anne MANSFIELD (Grn)', 'Elaine Helen Grace MITCHELL (Alba)', 'Hazel Linda SMITH (LD)', 'Moray Charles GRANT (SNP)', 'Sasha BRYDON (Lab)', 'Sebastian LESLIE (Ind)', 'Sheena Margaret LONCHAY (Ind)', 'Sam PAYNE (Con)']",0,8
+Oakland_11082022_Schoolboarddistrict4.csv,0.0,"['MIKE HUTCHINSON', 'NICK RESNICK', 'PECOLIA MANIGO']",0,3
+Oakland_11082022_Schoolboarddistrict4.csv,0.01,"['MIKE HUTCHINSON', 'NICK RESNICK', 'PECOLIA MANIGO']",0,3
+Oakland_11082022_Schoolboarddistrict4.csv,0.02,"['MIKE HUTCHINSON', 'NICK RESNICK', 'PECOLIA MANIGO']",0,3
+Oakland_11082022_Schoolboarddistrict4.csv,0.03,['NICK RESNICK'],0,3
+Oakland_11082022_Schoolboarddistrict4.csv,0.04,"['MIKE HUTCHINSON', 'PECOLIA MANIGO']",0,3
+Oakland_11082022_Schoolboarddistrict4.csv,0.05,['PECOLIA MANIGO'],0,3
+Oakland_11082022_Schoolboarddistrict4.csv,0.06,"['MIKE HUTCHINSON', 'NICK RESNICK', 'PECOLIA MANIGO']",0,3
+Oakland_11082022_Schoolboarddistrict4.csv,0.07,['NICK RESNICK'],0,3
+Oakland_11082022_Schoolboarddistrict4.csv,0.08,['NICK RESNICK'],0,3
+Oakland_11082022_Schoolboarddistrict4.csv,0.09,"['NICK RESNICK', 'PECOLIA MANIGO']",0,3
+AnnandaleNorthWard_dumgal12-12.csv,0.0,['(Lab) Ted BROWN'],0,7
+AnnandaleNorthWard_dumgal12-12.csv,0.01,['(Lab) Ted BROWN'],0,7
+AnnandaleNorthWard_dumgal12-12.csv,0.02,"['(Con) Gail MACGREGOR', '(Con) Roger GRANT']",0,7
+AnnandaleNorthWard_dumgal12-12.csv,0.03,"['(Con) Peter DIGGLE', '(Lab) Ted BROWN', '(SNP) Stephen THOMPSON']",0,7
+AnnandaleNorthWard_dumgal12-12.csv,0.04,"['(Con) Peter DIGGLE', '(Lab) Ted BROWN', '(SNP) Stephen THOMPSON']",0,7
+AnnandaleNorthWard_dumgal12-12.csv,0.05,"['(Con) Peter DIGGLE', '(Lab) Ted BROWN']",0,7
+AnnandaleNorthWard_dumgal12-12.csv,0.06,['(Lab) Ted BROWN'],0,7
+AnnandaleNorthWard_dumgal12-12.csv,0.07,"['(Con) Gail MACGREGOR', '(Con) Peter DIGGLE', '(Con) Roger GRANT', '(Grn) Alis BALLANCE', '(Lab) Ted BROWN', '(LD) Hugh YOUNG', '(SNP) Stephen THOMPSON']",0,7
+AnnandaleNorthWard_dumgal12-12.csv,0.08,"['(Con) Gail MACGREGOR', '(Con) Peter DIGGLE', '(Con) Roger GRANT', '(Grn) Alis BALLANCE', '(Lab) Ted BROWN', '(LD) Hugh YOUNG', '(SNP) Stephen THOMPSON']",0,7
+AnnandaleNorthWard_dumgal12-12.csv,0.09,"['(Con) Gail MACGREGOR', '(Con) Peter DIGGLE', '(Con) Roger GRANT', '(Grn) Alis BALLANCE', '(Lab) Ted BROWN', '(LD) Hugh YOUNG', '(SNP) Stephen THOMPSON']",0,7
+Ward3-ForfarandDistrict_ward3.csv,0.0,['Linda CLARK (SNP)'],0,8
+Ward3-ForfarandDistrict_ward3.csv,0.01,['Ross GREIG (Con)'],0,8
+Ward3-ForfarandDistrict_ward3.csv,0.02,"['Ross GREIG (Con)', 'Linda CLARK (SNP)']",0,8
+Ward3-ForfarandDistrict_ward3.csv,0.03,['Linda CLARK (SNP)'],0,8
+Ward3-ForfarandDistrict_ward3.csv,0.04,['Linda CLARK (SNP)'],0,8
+Ward3-ForfarandDistrict_ward3.csv,0.05,"['Ross GREIG (Con)', 'Linda CLARK (SNP)']",0,8
+Ward3-ForfarandDistrict_ward3.csv,0.06,['Linda CLARK (SNP)'],0,8
+Ward3-ForfarandDistrict_ward3.csv,0.07,"['Colin BROWN (Ind)', 'Ed MCADAM (Lab)', 'Ian MCLAREN (Ind)', 'Samuel David STRUTH (LD)', 'Lynne DEVINE (SNP)', 'Ross GREIG (Con)', 'Marley HUNTER (Grn)', 'Linda CLARK (SNP)']",0,8
+Ward3-ForfarandDistrict_ward3.csv,0.08,"['Colin BROWN (Ind)', 'Ed MCADAM (Lab)', 'Ian MCLAREN (Ind)', 'Samuel David STRUTH (LD)', 'Lynne DEVINE (SNP)', 'Ross GREIG (Con)', 'Marley HUNTER (Grn)', 'Linda CLARK (SNP)']",0,8
+Ward3-ForfarandDistrict_ward3.csv,0.09,"['Colin BROWN (Ind)', 'Ed MCADAM (Lab)', 'Ian MCLAREN (Ind)', 'Samuel David STRUTH (LD)', 'Lynne DEVINE (SNP)', 'Ross GREIG (Con)', 'Marley HUNTER (Grn)', 'Linda CLARK (SNP)']",0,8
+Ward03-Kilwinning_n-ayrshire12-03.csv,0.0,['John FERGUSON (SNP)'],0,11
+Ward03-Kilwinning_n-ayrshire12-03.csv,0.01,['John FERGUSON (SNP)'],0,11
+Ward03-Kilwinning_n-ayrshire12-03.csv,0.02,"['Joe CULLINANE (Lab)', 'Donald REID (Lab)']",0,11
+Ward03-Kilwinning_n-ayrshire12-03.csv,0.03,"['John FERGUSON (SNP)', 'Joe CULLINANE (Lab)', 'Donald REID (Lab)']",0,11
+Ward03-Kilwinning_n-ayrshire12-03.csv,0.04,"['John FERGUSON (SNP)', 'Joe CULLINANE (Lab)']",0,11
+Ward03-Kilwinning_n-ayrshire12-03.csv,0.05,"['John FERGUSON (SNP)', 'Joe CULLINANE (Lab)']",0,11
+Ward03-Kilwinning_n-ayrshire12-03.csv,0.06,"['John FERGUSON (SNP)', 'Joe CULLINANE (Lab)']",0,11
+Ward03-Kilwinning_n-ayrshire12-03.csv,0.07,"['John FERGUSON (SNP)', 'Joe CULLINANE (Lab)']",0,11
+Ward03-Kilwinning_n-ayrshire12-03.csv,0.08,"['John FERGUSON (SNP)', 'Joe CULLINANE (Lab)']",0,11
+Ward03-Kilwinning_n-ayrshire12-03.csv,0.09,"['Andy JONES (Lab)', 'Colin HEDLEY (Ind)', 'Helen HAINEY (Lab)', 'John FERGUSON (SNP)', 'Iain WALKER (SNP)', 'Joe CULLINANE (Lab)', 'Scott GALLACHER (Con)', 'Philip HOGG (Ind)', 'Donald REID (Lab)', 'Stuart GARDINER (LD)', 'Robert STEEL (Ind)']",0,11
+JedburghandDistrictWard_sc-borders12-09.csv,0.0,['Jim BROWN (SNP)'],0,7
+JedburghandDistrictWard_sc-borders12-09.csv,0.01,['Sandy SCOTT (Con)'],0,7
+JedburghandDistrictWard_sc-borders12-09.csv,0.02,"['Jim BROWN (SNP)', 'Sandy SCOTT (Con)']",0,7
+JedburghandDistrictWard_sc-borders12-09.csv,0.03,"['Jim BROWN (SNP)', 'Sandy SCOTT (Con)', 'Rory STEWART (Ind)']",0,7
+JedburghandDistrictWard_sc-borders12-09.csv,0.04,"['Jim BROWN (SNP)', 'Sandy SCOTT (Con)']",0,7
+JedburghandDistrictWard_sc-borders12-09.csv,0.05,"['Jim BROWN (SNP)', 'Sandy SCOTT (Con)']",0,7
+JedburghandDistrictWard_sc-borders12-09.csv,0.06,['Sandy SCOTT (Con)'],0,7
+JedburghandDistrictWard_sc-borders12-09.csv,0.07,['Sandy SCOTT (Con)'],0,7
+JedburghandDistrictWard_sc-borders12-09.csv,0.08,"['David Robert Scott SHARP (Lab)', 'Jim BROWN (SNP)', 'John BATHGATE (LD)', 'Sandy SCOTT (Con)', 'Trevor JACKSON (Scottish Borders)', 'Rory STEWART (Ind)', 'Len WYSE (Con)']",0,7
+JedburghandDistrictWard_sc-borders12-09.csv,0.09,"['David Robert Scott SHARP (Lab)', 'Jim BROWN (SNP)', 'John BATHGATE (LD)', 'Sandy SCOTT (Con)', 'Trevor JACKSON (Scottish Borders)', 'Rory STEWART (Ind)', 'Len WYSE (Con)']",0,7
+ForfarandDistrict_angus12-03.csv,0.0,['(Ind) COLIN BROWN'],0,7
+ForfarandDistrict_angus12-03.csv,0.01,"['(Ind) COLIN BROWN', '(Ind) Ian MCLAREN', '(SNP) Lynne DEVINE', '(SNP) Glennis MIDDLETON']",0,7
+ForfarandDistrict_angus12-03.csv,0.02,"['(Con) John RYMER', '(Ind) COLIN BROWN', '(Ind) Ian MCLAREN', '(SNP) Lynne DEVINE', '(SNP) Glennis MIDDLETON']",0,7
+ForfarandDistrict_angus12-03.csv,0.03,"['(Ind) Ian MCLAREN', '(SNP) Lynne DEVINE', '(SNP) Glennis MIDDLETON']",0,7
+ForfarandDistrict_angus12-03.csv,0.04,"['(SNP) Lynne DEVINE', '(SNP) Glennis MIDDLETON']",0,7
+ForfarandDistrict_angus12-03.csv,0.05,"['(SNP) Lynne DEVINE', '(SNP) Glennis MIDDLETON']",0,7
+ForfarandDistrict_angus12-03.csv,0.06,"['(SNP) Lynne DEVINE', '(SNP) Glennis MIDDLETON']",0,7
+ForfarandDistrict_angus12-03.csv,0.07,"['(SNP) Lynne DEVINE', '(SNP) Glennis MIDDLETON']",0,7
+ForfarandDistrict_angus12-03.csv,0.08,"['(SNP) Lynne DEVINE', '(SNP) Glennis MIDDLETON']",0,7
+ForfarandDistrict_angus12-03.csv,0.09,['(SNP) Lynne DEVINE'],0,7
