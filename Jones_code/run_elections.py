@@ -41,22 +41,22 @@ from anomaly_search_class import *
 
 
 top_cycle_elections = [
-                       'C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/w-duns22/Ward2-Leven_west dunbartonshire,2022,ward 2.csv',
+                       # 'C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/w-duns22/Ward2-Leven_west dunbartonshire,2022,ward 2.csv',
                        'C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/glasgow2007 preflib/govan_govan.csv',
-                       'C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/fife12-ballots/GlenrothesCentralAndThorntonWard_fife12-16.csv',
-                       "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/renfs12-ballots/7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv",
-                       "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/dumgal22/Ward3-DeeandGlenkens_ward3.csv",
-                       "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/argyll22/Ward2-KintyreandtheIslands_ward2.csv",
-                       "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/n-lanarks17-ballots/Ward4-CumbernauldEast_n-lanarks17-004.csv",
-                       "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/glasgow17-ballots/Ward21NorthEast_glasgow17-021.csv",
-                       "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/aberdeenshire22/preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv",
-                       "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/dumgal12-ballots/AnnandaleNorthWard_dumgal12-12.csv",
-                       "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/angus22/Ward3-ForfarandDistrict_ward3.csv",
-                       "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/n-ayrshire12-ballots/Ward03-Kilwinning_n-ayrshire12-03.csv",
-                       "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/sc-borders12-ballots/JedburghandDistrictWard_sc-borders12-09.csv",
-                       "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/angus12-ballots/ForfarandDistrict_angus12-03.csv",
-                       "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/america/Alameda County/Oakland_11082022_Schoolboarddistrict4.csv",
-                       "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/america/Minneapolis/Minneapolis_11022021_CityCouncilWard2.csv"
+                       # 'C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/fife12-ballots/GlenrothesCentralAndThorntonWard_fife12-16.csv',
+                       # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/renfs12-ballots/7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv",
+                       # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/dumgal22/Ward3-DeeandGlenkens_ward3.csv",
+                       # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/argyll22/Ward2-KintyreandtheIslands_ward2.csv",
+                       # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/n-lanarks17-ballots/Ward4-CumbernauldEast_n-lanarks17-004.csv",
+                       # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/glasgow17-ballots/Ward21NorthEast_glasgow17-021.csv",
+                       # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/aberdeenshire22/preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv",
+                       # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/dumgal12-ballots/AnnandaleNorthWard_dumgal12-12.csv",
+                       # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/angus22/Ward3-ForfarandDistrict_ward3.csv",
+                       # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/n-ayrshire12-ballots/Ward03-Kilwinning_n-ayrshire12-03.csv",
+                       # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/sc-borders12-ballots/JedburghandDistrictWard_sc-borders12-09.csv",
+                       # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/angus12-ballots/ForfarandDistrict_angus12-03.csv",
+                       # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/america/Alameda County/Oakland_11082022_Schoolboarddistrict4.csv",
+                       # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/america/Minneapolis/Minneapolis_11022021_CityCouncilWard2.csv"
                        ]
                        
 
@@ -271,14 +271,19 @@ for i in range(len(lxn_list)):
     lxn_start = time.time()
     
     cands = cand_names[:num_cands]
-    # print(TVR(profile, cands, 'OM'))
+    # tvr_winner = TVR(profile, cands, 'PM')[0]
+    # irv_winner = IRV(profile, cands)[0][0]
     
-    # threshold = 0.05
-    # print(diversity_score_threshold(profile, cands, threshold))
-    # for threshold in [0.01 * i for i in range(30)]:
-    #     print(threshold, diversity_score_threshold(profile, cands, threshold, diagnostic=False))
+    # if tvr_winner != irv_winner:
+    #     print(tvr_winner, irv_winner)
+
     
-    print(diversity_score_simplex(profile, cands, diagnostic=False))
+    # threshold = 0.02
+    # print(diversity_score_threshold(profile, cands, threshold, diagnostic = True))
+    for threshold in [0.01 * i for i in range(10)]:
+        print(threshold, diversity_score_threshold(profile, cands, threshold, diagnostic=False))
+    
+    # print(diversity_score_simplex(profile, cands, diagnostic=False))
 
         
 print(time.time()-start_time)   

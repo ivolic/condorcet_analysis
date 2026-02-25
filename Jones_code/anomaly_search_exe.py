@@ -131,7 +131,7 @@ def createBallotDF(list_profile, diagnostic=False):
 def get_election_data(election_location, specific_lxn=-1, diagnostic=False):
     lxns = []
     ## version for github repo
-    base_name = '../../raw_data/preference_profiles/' + election_location
+    base_name = 'C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/' + election_location
     ## version for HPC
     # base_name = './data/' + election_location
 
@@ -345,6 +345,8 @@ def sort_search(params):
 #                 minimax, smith_minimax, ranked_pairs, 
 #                 Borda_PM, Borda_OM, Borda_AVG, bucklin]
 
+# lxn_methods = [TVR, diversity_score_threshold, diversity_score_simplex]
+
 # ballot_mod_methods = [laterNoHarm, strat_compromise, strat_truncate_L, strat_truncate_W, strat_bury_shallow, strat_bury_deep]
 # full_anomaly_types = ['upMono', 'downMono', 'noShow'] + [ballot_mod.__name__ for ballot_mod in ballot_mod_methods]
 
@@ -479,16 +481,16 @@ print('###################################')
 # vote_methods = [IRV]
 
 # for method in vote_methods:
+ballot_mod_methods = [laterNoHarm, strat_compromise, strat_truncate_L, strat_truncate_W, strat_bury_shallow, strat_bury_deep]
+anomaly_data = [[] for _ in ballot_mod_methods]
     
     
 start_time = time.time()
 # print(method.__name__)
 
-nums_times = []
 
-anomaly_data = []
+# anomaly_data = []
 for i in range(len(lxn_list)):
-# for i in range(2190, len(lxn_list)):
     
     # start_time = time.time()
     sys.stdout.write('\r')
@@ -505,14 +507,18 @@ for i in range(len(lxn_list)):
     # data = broken_frac_noShowIRV(profile, num_cands, 1)
     # data = frac_downMonoIRV(profile, num_cands, 1)
     # data = find_killer_subsets(profile, num_cands)
-    data = frac_noShowPR(profile, num_cands, 1)
-    
-    nums_times.append([num_cands, time.time()-lxn_start])
+    # data = frac_noShowPR(profile, num_cands, 1)
 
-    if data:
-        anomaly_data.append(data)
+    # if data:
+    #     anomaly_data.append(data)
         
     # print(time.time()-start_time)
+    
+    
+    for indx, ballot_mod_method in enumerate(ballot_mod_methods):
+        data = frac_general_search(profile, num_cands, TVR_AVG, ballot_mod_method, 1)
+        if data:
+            anomaly_data[indx].append(data)
 
         
 print(time.time()-start_time)    

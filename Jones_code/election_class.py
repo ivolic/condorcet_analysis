@@ -620,7 +620,7 @@ def smith_plurality(profile, cands, diagnostic=False):
 ###############################################################################
 ###############################################################################
     
-def diversity_score_threshold(profile, cands, threshold, diagnostic=False):
+def diversity_score_threshold(profile, cands, threshold = 0.04, diagnostic=False):
     cond_winner = False
     hopefuls = cands.copy()
     new_profile = profile.copy(deep=True)
@@ -638,8 +638,8 @@ def diversity_score_threshold(profile, cands, threshold, diagnostic=False):
         ## if no condorcet winner, remove lowest diversity score
         diversity_scores = {cand:0 for cand in hopefuls}
         first_place_votes = {cand:0 for cand in hopefuls}
+        total_votes = sum(new_profile['Count'])
         for k in range(len(new_profile)):
-            total_votes = sum(new_profile['Count'])
             if new_profile.at[k, 'Count'] >= threshold*total_votes:
                 diversity_scores[new_profile.at[k, 'ballot'][0]] += 1
             first_place_votes[new_profile.at[k, 'ballot'][0]] += new_profile.at[k, 'Count']
@@ -666,16 +666,21 @@ def diversity_score_threshold(profile, cands, threshold, diagnostic=False):
             ballot = new_profile.at[k, 'ballot']
             if ballot == remove_cand:
                 continue
+                
             if remove_cand in ballot:
                 new_ballot = ballot.replace(remove_cand, '')
-                if new_ballot in new_ballot_list:
-                    indx = new_ballot_list.index(new_ballot)
-                    new_count_list[indx] += new_profile.at[k, 'Count']
-                else:
-                    new_ballot_list.append(new_ballot)
-                    new_count_list.append(new_profile.at[k, 'Count'])
             else:
-                new_ballot_list.append(ballot)
+                new_ballot = ballot
+                
+            if len(new_ballot) == len(hopefuls)-1:
+                missing_cand = [cand for cand in hopefuls if cand not in new_ballot][0]
+                new_ballot += missing_cand
+                
+            if new_ballot in new_ballot_list:
+                indx = new_ballot_list.index(new_ballot)
+                new_count_list[indx] += new_profile.at[k, 'Count']
+            else:
+                new_ballot_list.append(new_ballot)
                 new_count_list.append(new_profile.at[k, 'Count'])
          
         df_dict = {'ballot': new_ballot_list, 'Count': new_count_list}
@@ -789,8 +794,10 @@ def diversity_score_simplex(profile, cands, diagnostic=False):
 
 ###############################################################################
 ###############################################################################
+##### Different TVR models for truncated borda scores
+###############################################################################
     
-def TVR(profile, cands, borda_model, diagnostic=False):
+def TVR_OM(profile, cands, diagnostic=False):
     hopefuls = cands.copy()
     new_profile = profile.copy(deep=True)
     if diagnostic:
@@ -800,61 +807,119 @@ def TVR(profile, cands, borda_model, diagnostic=False):
         max_score = len(hopefuls)-1
         scores = {cand: 0 for cand in hopefuls}
         
-        if borda_model == 'OM':
-            for k in range(len(new_profile)):
-                count = new_profile.at[k, 'Count']
-                curBal= new_profile.at[k, 'ballot']
-                if curBal == '':
-                    continue
-                for i in range(0,len(curBal)):
-                    candidate = curBal[i]
-                    if candidate in hopefuls:
-                        scores[candidate] += (max_score - (i )) * count
-                    # else:
-                    #     print("Candidate in ballot that is not in candidate list")
-                
-                ## add score for all candidates not on ballot
-                for cand in hopefuls:
-                    if cand not in curBal:
-                        scores[cand] += (max_score - len(curBal)) * count
+        for k in range(len(new_profile)):
+            count = new_profile.at[k, 'Count']
+            curBal= new_profile.at[k, 'ballot']
+            if curBal == '':
+                continue
+            for i in range(0,len(curBal)):
+                candidate = curBal[i]
+                if candidate in hopefuls:
+                    scores[candidate] += (max_score - (i )) * count
+                # else:
+                #     print("Candidate in ballot that is not in candidate list")
+            
+            ## add score for all candidates not on ballot
+            for cand in hopefuls:
+                if cand not in curBal:
+                    scores[cand] += (max_score - len(curBal)) * count
+
+        ## remove loser from election
+        remove_cand = [cand for cand in hopefuls if scores[cand]==min(scores.values())]
+        if len(remove_cand)>1:
+            print('#####Tie in Borda score!#####')
+            
+        if diagnostic:
+            print(scores)
+            print(remove_cand)
         
+        remove_cand = remove_cand[0]
+        hopefuls.remove(remove_cand)
         
-        elif borda_model == 'PM':
-            for k in range(len(new_profile)):
-                count = new_profile.at[k, 'Count']
-                curBal= new_profile.at[k, 'ballot']
-                if curBal == '':
-                    continue
-                for i in range(0,len(curBal)):
-                    candidate = curBal[i]
-                    if candidate in hopefuls:
-                        scores[candidate] += (max_score - (i )) * count
+        for k in range(len(new_profile)):
+            if remove_cand in new_profile.iloc[k]['ballot']:
+                new_profile.at[k,'ballot']=new_profile.at[k,'ballot'].replace(remove_cand,'')
         
+        if diagnostic:
+            print(new_profile)
         
-        elif borda_model == 'AVG':
-            for k in range(len(new_profile)):
-                count = new_profile.at[k, 'Count']
-                curBal= new_profile.at[k, 'ballot']
-                if curBal == '':
-                    continue
-                for i in range(0,len(curBal)):
-                    candidate = curBal[i]
-                    if candidate in hopefuls:
-                        scores[candidate] += (max_score - (i )) * count
-                    # else:
-                    #     print("Candidate in ballot that is not in candidate list")
-                
-                ## add score for all candidates not on ballot
-                missing_cand_num = len(hopefuls) - len(curBal) 
-                avg_points = (missing_cand_num - 1)/2
-                for cand in hopefuls:
-                    if cand not in curBal:
-                        scores[cand] += avg_points * count
+    return hopefuls
+
+
+
+
+def TVR_PM(profile, cands, diagnostic=False):
+    hopefuls = cands.copy()
+    new_profile = profile.copy(deep=True)
+    if diagnostic:
+        print(new_profile)
         
+    while len(hopefuls)>1:
+        max_score = len(hopefuls)-1
+        scores = {cand: 0 for cand in hopefuls}
         
-        else:
-            print('Borda Model Error!!')
+        for k in range(len(new_profile)):
+            count = new_profile.at[k, 'Count']
+            curBal= new_profile.at[k, 'ballot']
+            if curBal == '':
+                continue
+            for i in range(0,len(curBal)):
+                candidate = curBal[i]
+                if candidate in hopefuls:
+                    scores[candidate] += (max_score - (i )) * count
         
+        ## remove loser from election
+        remove_cand = [cand for cand in hopefuls if scores[cand]==min(scores.values())]
+        if len(remove_cand)>1:
+            print('#####Tie in Borda score!#####')
+            
+        if diagnostic:
+            print(scores)
+            print(remove_cand)
+        
+        remove_cand = remove_cand[0]
+        hopefuls.remove(remove_cand)
+        
+        for k in range(len(new_profile)):
+            if remove_cand in new_profile.iloc[k]['ballot']:
+                new_profile.at[k,'ballot']=new_profile.at[k,'ballot'].replace(remove_cand,'')
+        
+        if diagnostic:
+            print(new_profile)
+        
+    return hopefuls
+
+
+
+
+def TVR_AVG(profile, cands, diagnostic=False):
+    hopefuls = cands.copy()
+    new_profile = profile.copy(deep=True)
+    if diagnostic:
+        print(new_profile)
+        
+    while len(hopefuls)>1:
+        max_score = len(hopefuls)-1
+        scores = {cand: 0 for cand in hopefuls}
+
+        for k in range(len(new_profile)):
+            count = new_profile.at[k, 'Count']
+            curBal= new_profile.at[k, 'ballot']
+            if curBal == '':
+                continue
+            for i in range(0,len(curBal)):
+                candidate = curBal[i]
+                if candidate in hopefuls:
+                    scores[candidate] += (max_score - (i )) * count
+                # else:
+                #     print("Candidate in ballot that is not in candidate list")
+            
+            ## add score for all candidates not on ballot
+            missing_cand_num = len(hopefuls) - len(curBal) 
+            avg_points = (missing_cand_num - 1)/2
+            for cand in hopefuls:
+                if cand not in curBal:
+                    scores[cand] += avg_points * count
         
         ## remove loser from election
         remove_cand = [cand for cand in hopefuls if scores[cand]==min(scores.values())]
