@@ -75,8 +75,8 @@ def get_condorcet_winner(vprofile, candidates):
 def get_diversity_score(profile, candidate, threshold=0, printMinWeight=False):
     total_weight = sum(ballot.weight for ballot in profile.ballots)
     min_weight = threshold * total_weight
-    if printMinWeight:
-        logger.info(f"min_weight {min_weight}")
+    # if printMinWeight:
+    #     logger.info(f"min_weight {min_weight}")
     diversity_score = 0
 
     for ballot in profile.ballots:
