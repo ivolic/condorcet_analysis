@@ -620,7 +620,7 @@ def smith_plurality(profile, cands, diagnostic=False):
 ###############################################################################
 ###############################################################################
     
-def diversity_score_threshold(profile, cands, threshold = 0.04, diagnostic=False):
+def diversity_score_threshold(profile, cands, threshold = 0.05, diagnostic=False):
     cond_winner = False
     hopefuls = cands.copy()
     new_profile = profile.copy(deep=True)
@@ -774,16 +774,21 @@ def diversity_score_simplex(profile, cands, diagnostic=False):
             ballot = new_profile.at[k, 'ballot']
             if ballot == remove_cand:
                 continue
+                
             if remove_cand in ballot:
                 new_ballot = ballot.replace(remove_cand, '')
-                if new_ballot in new_ballot_list:
-                    indx = new_ballot_list.index(new_ballot)
-                    new_count_list[indx] += new_profile.at[k, 'Count']
-                else:
-                    new_ballot_list.append(new_ballot)
-                    new_count_list.append(new_profile.at[k, 'Count'])
             else:
-                new_ballot_list.append(ballot)
+                new_ballot = ballot
+                
+            if len(new_ballot) == len(hopefuls)-1:
+                missing_cand = [cand for cand in hopefuls if cand not in new_ballot][0]
+                new_ballot += missing_cand
+                
+            if new_ballot in new_ballot_list:
+                indx = new_ballot_list.index(new_ballot)
+                new_count_list[indx] += new_profile.at[k, 'Count']
+            else:
+                new_ballot_list.append(new_ballot)
                 new_count_list.append(new_profile.at[k, 'Count'])
          
         df_dict = {'ballot': new_ballot_list, 'Count': new_count_list}

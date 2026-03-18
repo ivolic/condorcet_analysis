@@ -42,7 +42,7 @@ from anomaly_search_class import *
 
 top_cycle_elections = [
                        # 'C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/w-duns22/Ward2-Leven_west dunbartonshire,2022,ward 2.csv',
-                       'C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/glasgow2007 preflib/govan_govan.csv',
+                       # 'C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/glasgow2007 preflib/govan_govan.csv',
                        # 'C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/fife12-ballots/GlenrothesCentralAndThorntonWard_fife12-16.csv',
                        # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/renfs12-ballots/7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv",
                        # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/dumgal22/Ward3-DeeandGlenkens_ward3.csv",
@@ -55,7 +55,7 @@ top_cycle_elections = [
                        # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/n-ayrshire12-ballots/Ward03-Kilwinning_n-ayrshire12-03.csv",
                        # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/sc-borders12-ballots/JedburghandDistrictWard_sc-borders12-09.csv",
                        # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/angus12-ballots/ForfarandDistrict_angus12-03.csv",
-                       # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/america/Alameda County/Oakland_11082022_Schoolboarddistrict4.csv",
+                       "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/america/Alameda County/Oakland_11082022_Schoolboarddistrict4.csv",
                        # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/america/Minneapolis/Minneapolis_11022021_CityCouncilWard2.csv"
                        ]
                        
@@ -64,9 +64,10 @@ top_cycle_elections = [
 ###############################################################################
 ###############################################################################
 ##### parameters
-election_group = 'scotland'
+election_group = 'america'
 frac = 1
 mp_pool_size = 6
+max_election_size = 16
 ###############################################################################
 ###############################################################################
 
@@ -121,10 +122,12 @@ civs_ban_list = ['1a3300430c.csv',
 ####################################################
 
 def createBallotDF(list_profile, diagnostic=False):
-    cand_names=['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
-                'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
-                'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
-                'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+    cand_names = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
+                  'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
+                  'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
+                  'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
+                  '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 
+                  '!', '@', '#', '$', '%']
     
     ballot_list = []
     count_list = []
@@ -149,76 +152,126 @@ def createBallotDF(list_profile, diagnostic=False):
 
 def get_election_data(election_location, specific_lxn=-1, diagnostic=False):
     lxns = []
-    base_name = "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland"
+    base_name = "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/"+election_location
 
-    ## all elections
-    # lxn_count = 0
-    # # for folder_name in os.listdir(base_name):
-    # ## test folder in scotland
-    # for folder_name in ['s-lanarks17-ballots']:
-    # ## test folder in america
-    # # for folder_name in ['Portland, ME']:
-    #     for file_name in os.listdir(base_name+'/'+folder_name):
-    #         lxn_count += 1
-    #         file_path = base_name+'/'+folder_name+'/'+file_name
-            
-    #         # print(file_path)
-            
-    #         if specific_lxn > 0:
-    #             if lxn_count!=specific_lxn:
-    #                 continue
-    #         if diagnostic:
-    #             print(lxn_count, file_path)
-        
-    #         # sys.stdout.write('\r')
-    #         # sys.stdout.write(f'Election {lxn_count}'+'         ')
-    #         # sys.stdout.flush()
-            
-    #         File=open(file_path,'r', encoding='utf-8')
-    #         lines=File.readlines()
-
-    #         first_space=lines[0].find(' ')
-    #         num_cands=int(lines[0][0:first_space])
-    #         if num_cands>52:
-    #             print("Cannot handle this many candidates in election " + str(file_path) + ".  Has " + 
-    #                   str(num_cands) + " candidates.")
-    #             continue
-                
-    #         data = createBallotDF(lines)
-            
-    #         lxns.append([file_path, data, num_cands])
-
-
-
-
-    ## Only the elections with top cycles        
+    # all elections
     lxn_count = 0
-    for file_path in top_cycle_elections:
-        if diagnostic:
-            print(lxn_count, file_path)
-    
-        # sys.stdout.write('\r')
-        # sys.stdout.write(f'Election {lxn_count}'+'         ')
-        # sys.stdout.flush()
-        
-        File=open(file_path,'r', encoding='utf-8')
-        lines=File.readlines()
-
-        first_space=lines[0].find(' ')
-        num_cands=int(lines[0][0:first_space])
-        if num_cands>52:
-            print("Cannot handle this many candidates in election " + str(file_path) + ".  Has " + 
-                  str(num_cands) + " candidates.")
-            continue
+    for folder_name in os.listdir(base_name):
+    ## test folder in scotland
+    # for folder_name in ['s-lanarks17-ballots']:
+    ## test folder in america
+    # for folder_name in ['Portland, ME']:
+        for file_name in os.listdir(base_name+'/'+folder_name):
+            lxn_count += 1
+            file_path = base_name+'/'+folder_name+'/'+file_name
             
-        data = createBallotDF(lines)
+            # print(file_path)
+            
+            if specific_lxn > 0:
+                if lxn_count!=specific_lxn:
+                    continue
+            if diagnostic:
+                print(lxn_count, file_path)
         
-        lxns.append([file_path, data, num_cands])
+            # sys.stdout.write('\r')
+            # sys.stdout.write(f'Election {lxn_count}'+'         ')
+            # sys.stdout.flush()
+            
+            File=open(file_path,'r', encoding='utf-8')
+            lines=File.readlines()
+
+            first_space=lines[0].find(' ')
+            num_cands=int(lines[0][0:first_space])
+            if num_cands>67:
+                print("Cannot handle this many candidates in election " + str(file_path) + ".  Has " + 
+                      str(num_cands) + " candidates.")
+                continue
+                
+            data = createBallotDF(lines)
+            
+            lxns.append([file_path, data, num_cands])
+
+
+
+
+    # ## Only the elections with top cycles        
+    # lxn_count = 0
+    # for file_path in top_cycle_elections:
+    #     if diagnostic:
+    #         print(lxn_count, file_path)
+    
+    #     # sys.stdout.write('\r')
+    #     # sys.stdout.write(f'Election {lxn_count}'+'         ')
+    #     # sys.stdout.flush()
+        
+    #     File=open(file_path,'r', encoding='utf-8')
+    #     lines=File.readlines()
+
+    #     first_space=lines[0].find(' ')
+    #     num_cands=int(lines[0][0:first_space])
+    #     if num_cands>52:
+    #         print("Cannot handle this many candidates in election " + str(file_path) + ".  Has " + 
+    #               str(num_cands) + " candidates.")
+    #         continue
+            
+    #     data = createBallotDF(lines)
+        
+    #     lxns.append([file_path, data, num_cands])
 
     return lxns
     
 
 
+
+
+
+def filter_weak_cands(profile, old_cand_num, new_cand_num):
+    
+    cand_names = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
+                  'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
+                  'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
+                  'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
+                  '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 
+                  '!', '@', '#', '$', '%']
+    cands = cand_names[:old_cand_num]
+    
+    mention_scores = {}
+    for k in range(len(profile)):
+        count = profile.at[k, 'Count']
+        for cand in profile.at[k, 'ballot']:
+            if cand not in mention_scores.keys():
+                mention_scores[cand] = 0
+            mention_scores[cand] += count
+    
+    cands.sort(key=lambda x: mention_scores[x], reverse=True)
+    keep_cands = cands[:new_cand_num]
+    
+    # print(mention_scores)
+    # print(keep_cands)
+    
+    new_ballot_list = []
+    new_count_list = []
+    
+    for k in range(len(profile)):
+        ballot = profile.at[k, 'ballot']
+        new_ballot = ''
+        for cand in ballot:
+            if cand in keep_cands:
+                new_ballot += cand_names[keep_cands.index(cand)]
+        # print(ballot, new_ballot)
+                
+        if not new_ballot:            
+            if new_ballot in new_ballot_list:
+                indx = new_ballot_list.index(new_ballot)
+                new_count_list[indx] += profile.at[k, 'Count']
+            else:
+                new_ballot_list.append(new_ballot)
+                new_count_list.append(profile.at[k, 'Count'])
+     
+    df_dict = {'ballot': new_ballot_list, 'Count': new_count_list}
+    new_profile = pd.DataFrame(df_dict)
+    
+    return new_profile
 
 
 ###############################################################################
@@ -232,7 +285,9 @@ def get_election_data(election_location, specific_lxn=-1, diagnostic=False):
 cand_names = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
               'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
               'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
-              'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+              'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
+              '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 
+              '!', '@', '#', '$', '%']
 
 start_time = time.time()
 
@@ -268,10 +323,18 @@ for i in range(len(lxn_list)):
     
     lxn, profile, num_cands = lxn_list[i]
     
+    # if 'Portland_D4_2024.csv' not in lxn:
+    #     continue
+    
+    if num_cands>max_election_size:
+        profile = filter_weak_cands(profile, num_cands, max_election_size)
+        num_cands = max_election_size
+    
+    
     lxn_start = time.time()
     
     cands = cand_names[:num_cands]
-    # tvr_winner = TVR(profile, cands, 'PM')[0]
+    # tvr_winner = TVR_PM(profile, cands, diagnostic=True)
     # irv_winner = IRV(profile, cands)[0][0]
     
     # if tvr_winner != irv_winner:
@@ -280,10 +343,10 @@ for i in range(len(lxn_list)):
     
     # threshold = 0.02
     # print(diversity_score_threshold(profile, cands, threshold, diagnostic = True))
-    for threshold in [0.01 * i for i in range(10)]:
-        print(threshold, diversity_score_threshold(profile, cands, threshold, diagnostic=False))
+    # for threshold in [0.01 * i for i in range(10)]:
+    #     print(threshold, diversity_score_threshold(profile, cands, threshold, diagnostic=False))
     
-    # print(diversity_score_simplex(profile, cands, diagnostic=False))
+    # print(diversity_score_simplex(profile, cands, diagnostic=True))
 
         
 print(time.time()-start_time)   

@@ -516,7 +516,7 @@ for i in range(len(lxn_list)):
     
     
     for indx, ballot_mod_method in enumerate(ballot_mod_methods):
-        data = frac_general_search(profile, num_cands, TVR_AVG, ballot_mod_method, 1)
+        data = frac_general_search(profile, num_cands, diversity_score_simplex, ballot_mod_method, 1)
         if data:
             anomaly_data[indx].append(data)
 
