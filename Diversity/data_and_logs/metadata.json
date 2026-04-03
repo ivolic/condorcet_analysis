@@ -227,13 +227,13 @@
     "Comparisons": {
         "winner_baseline, winner_fine": 160,
         "winner_baseline, winner_condensed": 135,
-        "winner_baseline, winner_one_round": 92,
-        "winner_baseline, winner_one_round_condensed": 96,
+        "winner_baseline, winner_highest": 92,
+        "winner_baseline, winner_highest_condensed": 96,
         "winner_fine, winner_condensed": 135,
-        "winner_fine, winner_one_round": 92,
-        "winner_fine, winner_one_round_condensed": 96,
-        "winner_condensed, winner_one_round": 99,
-        "winner_condensed, winner_one_round_condensed": 103,
-        "winner_one_round, winner_one_round_condensed": 159
+        "winner_fine, winner_highest": 92,
+        "winner_fine, winner_highest_condensed": 96,
+        "winner_condensed, winner_highest": 99,
+        "winner_condensed, winner_highest_condensed": 103,
+        "winner_highest, winner_highest_condensed": 159
     }
 }
