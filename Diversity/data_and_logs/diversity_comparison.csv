@@ -1,0 +1,17 @@
+file,threshold,winner,rounds,numCands,plurality_match,IRV_match,top-two_match,borda-pm_match,borda-om_match,borda-avg_match,top-3-truncation_match,condorcet_match,minimax_match,smith_plurality_match,smith_irv_match,smith-minimax_match,ranked-pairs_match,bucklin_match,approval_match,smith_match
+Ward2-Leven_west dunbartonshire2022ward 2.csv,0.05,John Kelly MILLAR (Lab),6,8,no_match,match,match,match,no_match,no_match,no_match,no_winner,match,no_match,match,match,match,match,match,match
+govan_govan.csv,0.05,# ALTERNATIVE NAME 3: Stephen Dornan (Lab),9,11,no_match,no_match,no_match,no_match,match,no_match,no_match,no_winner,match,no_match,no_match,match,match,no_match,no_match,match
+GlenrothesCentralAndThorntonWard_fife12-16.csv,0.05,Ross VETTRAINO (SNP),6,7,match,match,match,no_match,match,match,match,no_winner,no_match,match,match,no_match,no_match,no_match,no_match,match
+7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.05,Iain MCMILLAN (Lab),7,8,match,match,match,no_match,no_match,no_match,no_match,no_winner,no_match,match,match,no_match,no_match,no_match,no_match,match
+Ward3-DeeandGlenkens_ward3.csv,0.05,Dougie CAMPBELL (Ind),5,7,no_match,no_match,no_match,match,match,match,no_match,no_winner,no_match,match,match,no_match,no_match,match,match,match
+Ward2-KintyreandtheIslands_ward2.csv,0.05,Dougie MCFADZEAN (SNP),5,6,match,no_match,no_match,no_match,no_match,no_match,match,no_winner,match,match,no_match,match,match,no_match,no_match,match
+Minneapolis_11022021_CityCouncilWard2.csv,0.05,Robin Wonsley Worlobah,4,5,match,match,match,no_match,no_match,no_match,no_match,no_winner,no_match,no_match,match,no_match,no_match,no_match,no_match,match
+Ward4-CumbernauldEast_n-lanarks17-004.csv,0.05,Tom JOHNSTON (SNP),6,8,match,match,match,no_match,no_match,no_match,no_match,no_winner,match,no_match,match,match,match,no_match,no_match,match
+Ward21NorthEast_glasgow17-021.csv,0.05,Ruairi KELLY (SNP),6,8,no_match,no_match,no_match,no_match,match,no_match,no_match,no_winner,match,no_match,no_match,match,match,no_match,match,match
+preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,0.05,Sam PAYNE (Con),7,8,no_match,match,match,no_match,no_match,no_match,no_match,no_winner,no_match,no_match,match,no_match,no_match,no_match,no_match,match
+Oakland_11082022_Schoolboarddistrict4.csv,0.05,MIKE HUTCHINSON,2,3,no_match,match,no_match,no_match,match,match,match,no_winner,match,no_match,match,match,match,match,match,match
+AnnandaleNorthWard_dumgal12-12.csv,0.05,(Con) Gail MACGREGOR,3,7,no_match,match,no_match,match,no_match,match,no_match,no_winner,no_match,no_match,match,no_match,no_match,match,match,match
+Ward3-ForfarandDistrict_ward3.csv,0.05,Ian MCLAREN (Ind),6,8,no_match,match,no_match,match,no_match,match,no_match,no_winner,no_match,match,match,no_match,no_match,match,match,match
+Ward03-Kilwinning_n-ayrshire12-03.csv,0.05,Joe CULLINANE (Lab),11,11,no_match,no_match,match,no_match,no_match,no_match,no_match,no_winner,match,no_match,match,match,match,match,match,match
+JedburghandDistrictWard_sc-borders12-09.csv,0.05,Jim BROWN (SNP),4,7,match,match,match,no_match,match,match,match,no_winner,no_match,match,match,no_match,match,no_match,no_match,match
+ForfarandDistrict_angus12-03.csv,0.05,(SNP) Lynne DEVINE,6,7,match,match,match,no_match,no_match,no_match,no_match,no_winner,match,no_match,match,match,match,no_match,no_match,match

@@ -1,0 +1,988 @@
+file,threshold,winner
+BallotPaperDetails-Brighton with candidates.csv,OM,James Newbury
+BallotPaperDetails-Brighton with candidates.csv,PM,James Newbury
+BallotPaperDetails-Brighton with candidates.csv,AVG,James Newbury
+BallotPaperDetails-Northcote with candidates.csv,OM,Kat Theophanous
+BallotPaperDetails-Northcote with candidates.csv,PM,Kat Theophanous
+BallotPaperDetails-Northcote with candidates.csv,AVG,Kat Theophanous
+BallotPaperDetails-Werribee with candidates.csv,OM,Tim Pallas
+BallotPaperDetails-Werribee with candidates.csv,PM,Tim Pallas
+BallotPaperDetails-Point Cook with candidates.csv,OM,Mathew Hilakari
+BallotPaperDetails-Point Cook with candidates.csv,PM,Mathew Hilakari
+BallotPaperDetails-Hawthorn with candidates.csv,OM,John Pesutto
+BallotPaperDetails-Hawthorn with candidates.csv,PM,John Pesutto
+BallotPaperDetails-Hawthorn with candidates.csv,AVG,John Pesutto
+BallotPaperDetails-Preston with Candidates.csv,OM,Nathan Lambert
+BallotPaperDetails-Preston with Candidates.csv,PM,Nathan Lambert
+BallotPaperDetails-Preston with Candidates.csv,AVG,Nathan Lambert
+BallotPaperDetails-Melton with candidates.csv,OM,Steve McGhie
+BallotPaperDetails-Melton with candidates.csv,PM,Steve McGhie
+Ballina-mayoral-finalpreferencedatafile (1).csv,OM,CADWALLADER Sharon
+Ballina-mayoral-finalpreferencedatafile (1).csv,PM,CADWALLADER Sharon
+Ballina-mayoral-finalpreferencedatafile (1).csv,AVG,CADWALLADER Sharon
+The_Hills_Shire-mayoral-finalpreferencedatafile.csv,OM,GANGEMI Peter
+The_Hills_Shire-mayoral-finalpreferencedatafile.csv,PM,GANGEMI Peter
+The_Hills_Shire-mayoral-finalpreferencedatafile.csv,AVG,GANGEMI Peter
+Nambucca_Valley-mayoral-finalpreferencedatafile.csv,OM,HOBAN Rhonda
+Nambucca_Valley-mayoral-finalpreferencedatafile.csv,PM,HOBAN Rhonda
+Nambucca_Valley-mayoral-finalpreferencedatafile.csv,AVG,HOBAN Rhonda
+City_of_Sydney-mayoral-finalpreferencedatafile.csv,OM,MOORE Clover
+City_of_Sydney-mayoral-finalpreferencedatafile.csv,PM,MOORE Clover
+City_of_Sydney-mayoral-finalpreferencedatafile.csv,AVG,MOORE Clover
+City_of_Coffs_Harbour-mayoral-finalpreferencedatafile.csv,OM,AMOS Paul
+City_of_Coffs_Harbour-mayoral-finalpreferencedatafile.csv,PM,AMOS Paul
+City_of_Coffs_Harbour-mayoral-finalpreferencedatafile.csv,AVG,AMOS Paul
+City_of_Lismore-mayoral-finalpreferencedatafile.csv,OM,KRIEG Steve
+City_of_Lismore-mayoral-finalpreferencedatafile.csv,PM,KRIEG Steve
+City_of_Lismore-mayoral-finalpreferencedatafile.csv,AVG,KRIEG Steve
+Eurobodalla-mayoral-finalpreferencedatafile.csv,OM,HATCHER Mat
+Eurobodalla-mayoral-finalpreferencedatafile.csv,PM,HATCHER Mat
+Eurobodalla-mayoral-finalpreferencedatafile.csv,AVG,HATCHER Mat
+City_of_Shellharbour-mayoral-finalpreferencedatafile.csv,OM,HOMER Chris
+City_of_Shellharbour-mayoral-finalpreferencedatafile.csv,PM,HOMER Chris
+City_of_Shellharbour-mayoral-finalpreferencedatafile.csv,AVG,HOMER Chris
+Singleton-mayoral-finalpreferencedatafile.csv,OM,MOORE Sue
+Singleton-mayoral-finalpreferencedatafile.csv,PM,MOORE Sue
+Singleton-mayoral-finalpreferencedatafile.csv,AVG,MOORE Sue
+Uralla-mayoral-finalpreferencedatafile.csv,OM,BELL Robert
+Uralla-mayoral-finalpreferencedatafile.csv,PM,BELL Robert
+Uralla-mayoral-finalpreferencedatafile.csv,AVG,BELL Robert
+City_of_Shoalhaven-mayoral-finalpreferencedatafile.csv,OM,FINDLEY Amanda
+City_of_Shoalhaven-mayoral-finalpreferencedatafile.csv,PM,FINDLEY Amanda
+City_of_Shoalhaven-mayoral-finalpreferencedatafile.csv,AVG,FINDLEY Amanda
+Port_Macquarie-Hastings-mayoral-finalpreferencedatafile.csv,OM,PINSON Peta
+Port_Macquarie-Hastings-mayoral-finalpreferencedatafile.csv,PM,PINSON Peta
+Port_Macquarie-Hastings-mayoral-finalpreferencedatafile.csv,AVG,PINSON Peta
+Richmond_Valley-mayoral-finalpreferencedatafile.csv,OM,MUSTOW Robert
+Richmond_Valley-mayoral-finalpreferencedatafile.csv,PM,MUSTOW Robert
+Richmond_Valley-mayoral-finalpreferencedatafile.csv,AVG,MUSTOW Robert
+City_of_Lake_Macquarie-mayoral-finalpreferencedatafile.csv,OM,FRASER Kay
+City_of_Lake_Macquarie-mayoral-finalpreferencedatafile.csv,PM,FRASER Kay
+City_of_Lake_Macquarie-mayoral-finalpreferencedatafile.csv,AVG,FRASER Kay
+Port_Stephens-mayoral-finalpreferencedatafile.csv,OM,PALMER Ryan
+Port_Stephens-mayoral-finalpreferencedatafile.csv,PM,PALMER Ryan
+Port_Stephens-mayoral-finalpreferencedatafile.csv,AVG,PALMER Ryan
+Wollondilly-mayoral-finalpreferencedatafile.csv,OM,GOULD Matt
+Wollondilly-mayoral-finalpreferencedatafile.csv,PM,GOULD Matt
+Wollondilly-mayoral-finalpreferencedatafile.csv,AVG,GOULD Matt
+City_of_Griffith-mayoral-finalpreferencedatafile.csv,OM,CURRAN Doug
+City_of_Griffith-mayoral-finalpreferencedatafile.csv,PM,CURRAN Doug
+City_of_Griffith-mayoral-finalpreferencedatafile.csv,AVG,CURRAN Doug
+Hunters_Hill-mayoral-finalpreferencedatafile.csv,OM,QUINN Richard
+Hunters_Hill-mayoral-finalpreferencedatafile.csv,PM,QUINN Richard
+Hunters_Hill-mayoral-finalpreferencedatafile.csv,AVG,QUINN Richard
+City_of_Cessnock-mayoral-finalpreferencedatafile.csv,OM,SUVAAL Jay
+City_of_Cessnock-mayoral-finalpreferencedatafile.csv,PM,SUVAAL Jay
+City_of_Cessnock-mayoral-finalpreferencedatafile.csv,AVG,SUVAAL Jay
+City_of_Newcastle-mayoral-finalpreferencedatafile.csv,OM,NELMES Nuatali
+City_of_Newcastle-mayoral-finalpreferencedatafile.csv,PM,NELMES Nuatali
+City_of_Newcastle-mayoral-finalpreferencedatafile.csv,AVG,NELMES Nuatali
+City_of_Willoughby-mayoral-finalpreferencedatafile.csv,OM,TAYLOR Tanya
+City_of_Willoughby-mayoral-finalpreferencedatafile.csv,PM,TAYLOR Tanya
+City_of_Willoughby-mayoral-finalpreferencedatafile.csv,AVG,TAYLOR Tanya
+City_of_Maitland-mayoral-finalpreferencedatafile.csv,OM,PENFOLD Philip
+City_of_Maitland-mayoral-finalpreferencedatafile.csv,PM,PENFOLD Philip
+City_of_Maitland-mayoral-finalpreferencedatafile.csv,AVG,PENFOLD Philip
+City_of_Broken_Hill-mayoral-finalpreferencedatafile.csv,OM,KENNEDY Tom
+City_of_Broken_Hill-mayoral-finalpreferencedatafile.csv,PM,KENNEDY Tom
+City_of_Broken_Hill-mayoral-finalpreferencedatafile.csv,AVG,KENNEDY Tom
+Bellingen-mayoral-finalpreferencedatafile (1).csv,OM,ALLAN Steve
+Bellingen-mayoral-finalpreferencedatafile (1).csv,PM,ALLAN Steve
+Bellingen-mayoral-finalpreferencedatafile (1).csv,AVG,ALLAN Steve
+Byron-mayoral-finalpreferencedatafile.csv,OM,LYON Michael
+Byron-mayoral-finalpreferencedatafile.csv,PM,LYON Michael
+Byron-mayoral-finalpreferencedatafile.csv,AVG,LYON Michael
+City_of_Orange-mayoral-finalpreferencedatafile.csv,OM,HAMLING Jason
+City_of_Orange-mayoral-finalpreferencedatafile.csv,PM,HAMLING Jason
+City_of_Orange-mayoral-finalpreferencedatafile.csv,AVG,HAMLING Jason
+Hornsby-mayoral-finalpreferencedatafile.csv,OM,RUDDOCK Philip
+Hornsby-mayoral-finalpreferencedatafile.csv,PM,RUDDOCK Philip
+Hornsby-mayoral-finalpreferencedatafile.csv,AVG,RUDDOCK Philip
+Kempsey-mayoral-finalpreferencedatafile.csv,OM,HAUVILLE Leo
+Kempsey-mayoral-finalpreferencedatafile.csv,PM,HAUVILLE Leo
+Kempsey-mayoral-finalpreferencedatafile.csv,AVG,HAUVILLE Leo
+Burwood-mayoral-finalpreferencedatafile.csv,OM,FAKER John
+Burwood-mayoral-finalpreferencedatafile.csv,PM,FAKER John
+Burwood-mayoral-finalpreferencedatafile.csv,AVG,FAKER John
+City_of_Wollongong-mayoral-finalpreferencedatafile.csv,OM,BRADBERY Gordon
+City_of_Wollongong-mayoral-finalpreferencedatafile.csv,PM,BRADBERY Gordon
+City_of_Wollongong-mayoral-finalpreferencedatafile.csv,AVG,BRADBERY Gordon
+City_of_Liverpool-mayoral-finalpreferencedatafile.csv,OM,MANNOUN Ned
+City_of_Liverpool-mayoral-finalpreferencedatafile.csv,PM,MANNOUN Ned
+City_of_Liverpool-mayoral-finalpreferencedatafile.csv,AVG,MANNOUN Ned
+SB1702 LA Pref Data_NA_Cootamundra.csv,OM,COOKE Steph
+SB1702 LA Pref Data_NA_Cootamundra.csv,PM,COOKE Steph
+SB1702 LA Pref Data_NA_Cootamundra.csv,AVG,COOKE Steph
+SB1702 LA Pref Data_NA_Murray.csv,OM,EVANS Austin
+SB1702 LA Pref Data_NA_Murray.csv,PM,EVANS Austin
+SB1702 LA Pref Data_NA_Murray.csv,AVG,EVANS Austin
+SB1701 LA Pref Data_NA_Gosford.csv,OM,TESCH Liesl
+SB1701 LA Pref Data_NA_Gosford.csv,PM,TESCH Liesl
+SB1701 LA Pref Data_NA_Gosford.csv,AVG,TESCH Liesl
+SB1701 LA Pref Data_NA_North Shore.csv,OM,WILSON Felicity
+SB1701 LA Pref Data_NA_North Shore.csv,PM,WILSON Felicity
+SB1701 LA Pref Data_NA_North Shore.csv,AVG,WILSON Felicity
+SB1701 LA Pref Data_NA_Manly.csv,OM,GRIFFIN James
+SB1701 LA Pref Data_NA_Manly.csv,PM,GRIFFIN James
+SB1701 LA Pref Data_NA_Manly.csv,AVG,GRIFFIN James
+SB1702 LA Pref Data_NA_Blacktown.csv,OM,BALI Stephen
+SB1702 LA Pref Data_NA_Blacktown.csv,PM,BALI Stephen
+SB1702 LA Pref Data_NA_Blacktown.csv,AVG,BALI Stephen
+SGE2019 LA Pref Data Murray.csv,OM,DALTON Helen
+SGE2019 LA Pref Data Murray.csv,PM,DALTON Helen
+SGE2019 LA Pref Data Murray.csv,AVG,DALTON Helen
+SGE2019 LA Pref Data Sydney.csv,OM,GREENWICH Alex
+SGE2019 LA Pref Data Sydney.csv,PM,GREENWICH Alex
+SGE2019 LA Pref Data Sydney.csv,AVG,GREENWICH Alex
+SGE2019 LA Pref Data Newtown.csv,OM,LEONG Jenny
+SGE2019 LA Pref Data Newtown.csv,PM,LEONG Jenny
+SGE2019 LA Pref Data Newtown.csv,AVG,LEONG Jenny
+SGE2019 LA Pref Data Balmain.csv,OM,PARKER Jamie
+SGE2019 LA Pref Data Balmain.csv,PM,PARKER Jamie
+SGE2019 LA Pref Data Balmain.csv,AVG,PARKER Jamie
+SGE2019 LA Pref Data Camden.csv,OM,SIDGREAVES Peter
+SGE2019 LA Pref Data Camden.csv,PM,SIDGREAVES Peter
+SGE2019 LA Pref Data Camden.csv,AVG,SIDGREAVES Peter
+SGE2019 LA Pref Data Maitland.csv,OM,AITCHISON Jenny
+SGE2019 LA Pref Data Maitland.csv,PM,AITCHISON Jenny
+SGE2019 LA Pref Data Maitland.csv,AVG,AITCHISON Jenny
+SGE2019 LA Pref Data Ku-ring-gai.csv,OM,HENSKENS Alister
+SGE2019 LA Pref Data Ku-ring-gai.csv,PM,HENSKENS Alister
+SGE2019 LA Pref Data Ku-ring-gai.csv,AVG,HENSKENS Alister
+SGE2019 LA Pref Data Bega.csv,OM,CONSTANCE Andrew
+SGE2019 LA Pref Data Bega.csv,PM,CONSTANCE Andrew
+SGE2019 LA Pref Data Bega.csv,AVG,CONSTANCE Andrew
+SGE2019 LA Pref Data Orange.csv,OM,DONATO Philip
+SGE2019 LA Pref Data Orange.csv,PM,DONATO Philip
+SGE2019 LA Pref Data Orange.csv,AVG,DONATO Philip
+SGE2019 LA Pref Data Goulburn.csv,OM,TUCKERMAN Wendy
+SGE2019 LA Pref Data Goulburn.csv,PM,TUCKERMAN Wendy
+SGE2019 LA Pref Data Goulburn.csv,AVG,TUCKERMAN Wendy
+SGE2019 LA Pref Data Kiama.csv,OM,WARD Gareth
+SGE2019 LA Pref Data Kiama.csv,PM,WARD Gareth
+SGE2019 LA Pref Data Kiama.csv,AVG,WARD Gareth
+SGE2019 LA Pref Data Wollondilly.csv,OM,SMITH Nathaniel
+SGE2019 LA Pref Data Wollondilly.csv,PM,SMITH Nathaniel
+SGE2019 LA Pref Data Wollondilly.csv,AVG,SMITH Nathaniel
+SGE2019 LA Pref Data Fairfield.csv,OM,ZANGARI Guy
+SGE2019 LA Pref Data Fairfield.csv,PM,ZANGARI Guy
+SGE2019 LA Pref Data Fairfield.csv,AVG,ZANGARI Guy
+SGE2019 LA Pref Data Coogee.csv,OM,O'NEILL Marjorie
+SGE2019 LA Pref Data Coogee.csv,PM,O'NEILL Marjorie
+SGE2019 LA Pref Data Coogee.csv,AVG,O'NEILL Marjorie
+SGE2019 LA Pref Data Cessnock.csv,OM,BARR Clayton
+SGE2019 LA Pref Data Cessnock.csv,PM,BARR Clayton
+SGE2019 LA Pref Data Cessnock.csv,AVG,BARR Clayton
+SGE2019 LA Pref Data Maroubra.csv,OM,DALEY Michael
+SGE2019 LA Pref Data Maroubra.csv,PM,DALEY Michael
+SGE2019 LA Pref Data Maroubra.csv,AVG,DALEY Michael
+SGE2019 LA Pref Data The Entrance.csv,OM,MEHAN David
+SGE2019 LA Pref Data The Entrance.csv,PM,MEHAN David
+SGE2019 LA Pref Data The Entrance.csv,AVG,MEHAN David
+SGE2019 LA Pref Data Bathurst.csv,OM,TOOLE Paul
+SGE2019 LA Pref Data Bathurst.csv,PM,TOOLE Paul
+SGE2019 LA Pref Data Bathurst.csv,AVG,TOOLE Paul
+SGE2019 LA Pref Data Oatley.csv,OM,COURE Mark
+SGE2019 LA Pref Data Oatley.csv,PM,COURE Mark
+SGE2019 LA Pref Data Oatley.csv,AVG,COURE Mark
+SGE2019 LA Pref Data Swansea.csv,OM,CATLEY Yasmin
+SGE2019 LA Pref Data Swansea.csv,PM,CATLEY Yasmin
+SGE2019 LA Pref Data Swansea.csv,AVG,CATLEY Yasmin
+SGE2019 LA Pref Data Blue Mountains.csv,OM,DOYLE Trish
+SGE2019 LA Pref Data Blue Mountains.csv,PM,DOYLE Trish
+SGE2019 LA Pref Data Blue Mountains.csv,AVG,DOYLE Trish
+SGE2019 LA Pref Data Miranda.csv,OM,PETINOS Eleni
+SGE2019 LA Pref Data Miranda.csv,PM,PETINOS Eleni
+SGE2019 LA Pref Data Miranda.csv,AVG,PETINOS Eleni
+SGE2019 LA Pref Data Auburn.csv,OM,VOLTZ Lynda
+SGE2019 LA Pref Data Auburn.csv,PM,VOLTZ Lynda
+SGE2019 LA Pref Data Auburn.csv,AVG,VOLTZ Lynda
+SGE2019 LA Pref Data Barwon.csv,OM,BUTLER Roy
+SGE2019 LA Pref Data Barwon.csv,PM,BUTLER Roy
+SGE2019 LA Pref Data Barwon.csv,AVG,BUTLER Roy
+SGE2019 LA Pref Data Lakemba.csv,OM,DIB Jihad
+SGE2019 LA Pref Data Lakemba.csv,PM,DIB Jihad
+SGE2019 LA Pref Data Lakemba.csv,AVG,DIB Jihad
+SGE2019 LA Pref Data Mount Druitt.csv,OM,ATALLA Edmond
+SGE2019 LA Pref Data Mount Druitt.csv,PM,ATALLA Edmond
+SGE2019 LA Pref Data Mount Druitt.csv,AVG,ATALLA Edmond
+SGE2019 LA Pref Data Pittwater.csv,OM,STOKES Robert
+SGE2019 LA Pref Data Pittwater.csv,PM,STOKES Robert
+SGE2019 LA Pref Data Pittwater.csv,AVG,STOKES Robert
+SGE2019 LA Pref Data East Hills.csv,OM,LINDSAY Wendy
+SGE2019 LA Pref Data East Hills.csv,PM,LINDSAY Wendy
+SGE2019 LA Pref Data East Hills.csv,AVG,LINDSAY Wendy
+SGE2019 LA Pref Data Gosford.csv,OM,TESCH Liesl
+SGE2019 LA Pref Data Gosford.csv,PM,TESCH Liesl
+SGE2019 LA Pref Data Gosford.csv,AVG,TESCH Liesl
+SGE2019 LA Pref Data Monaro.csv,OM,BARILARO John
+SGE2019 LA Pref Data Monaro.csv,PM,BARILARO John
+SGE2019 LA Pref Data Monaro.csv,AVG,BARILARO John
+SGE2019 LA Pref Data Cootamundra.csv,OM,COOKE Steph
+SGE2019 LA Pref Data Cootamundra.csv,PM,COOKE Steph
+SGE2019 LA Pref Data Cootamundra.csv,AVG,COOKE Steph
+SGE2019 LA Pref Data Parramatta.csv,OM,LEE Geoffrey
+SGE2019 LA Pref Data Parramatta.csv,PM,LEE Geoffrey
+SGE2019 LA Pref Data Parramatta.csv,AVG,LEE Geoffrey
+SGE2019 LA Pref Data Epping.csv,OM,PERROTTET Dominic
+SGE2019 LA Pref Data Epping.csv,PM,PERROTTET Dominic
+SGE2019 LA Pref Data Epping.csv,AVG,PERROTTET Dominic
+SGE2019 LA Pref Data Blacktown.csv,OM,BALI Stephen
+SGE2019 LA Pref Data Blacktown.csv,PM,BALI Stephen
+SGE2019 LA Pref Data Blacktown.csv,AVG,BALI Stephen
+SGE2019 LA Pref Data Wyong.csv,OM,HARRIS David
+SGE2019 LA Pref Data Wyong.csv,PM,HARRIS David
+SGE2019 LA Pref Data Wyong.csv,AVG,HARRIS David
+SGE2019 LA Pref Data Lake Macquarie.csv,OM,PIPER Greg
+SGE2019 LA Pref Data Lake Macquarie.csv,PM,PIPER Greg
+SGE2019 LA Pref Data Lake Macquarie.csv,AVG,PIPER Greg
+SGE2019 LA Pref Data North Shore.csv,OM,WILSON Felicity
+SGE2019 LA Pref Data North Shore.csv,PM,WILSON Felicity
+SGE2019 LA Pref Data North Shore.csv,AVG,WILSON Felicity
+SGE2019 LA Pref Data Kogarah.csv,OM,MINNS Chris
+SGE2019 LA Pref Data Kogarah.csv,PM,MINNS Chris
+SGE2019 LA Pref Data Kogarah.csv,AVG,MINNS Chris
+SGE2019 LA Pref Data Wagga Wagga.csv,OM,McGIRR Joe
+SGE2019 LA Pref Data Wagga Wagga.csv,PM,McGIRR Joe
+SGE2019 LA Pref Data Wagga Wagga.csv,AVG,McGIRR Joe
+SGE2019 LA Pref Data Shellharbour.csv,OM,WATSON Anna
+SGE2019 LA Pref Data Shellharbour.csv,PM,WATSON Anna
+SGE2019 LA Pref Data Shellharbour.csv,AVG,WATSON Anna
+SGE2019 LA Pref Data Port Macquarie.csv,OM,WILLIAMS Leslie
+SGE2019 LA Pref Data Port Macquarie.csv,PM,WILLIAMS Leslie
+SGE2019 LA Pref Data Port Macquarie.csv,AVG,WILLIAMS Leslie
+SGE2019 LA Pref Data Riverstone.csv,OM,CONOLLY Kevin
+SGE2019 LA Pref Data Riverstone.csv,PM,CONOLLY Kevin
+SGE2019 LA Pref Data Riverstone.csv,AVG,CONOLLY Kevin
+SGE2019 LA Pref Data Wallsend.csv,OM,HORNERY Sonia
+SGE2019 LA Pref Data Wallsend.csv,PM,HORNERY Sonia
+SGE2019 LA Pref Data Wallsend.csv,AVG,HORNERY Sonia
+SGE2019 LA Pref Data Penrith.csv,OM,AYRES Stuart
+SGE2019 LA Pref Data Penrith.csv,PM,AYRES Stuart
+SGE2019 LA Pref Data Penrith.csv,AVG,AYRES Stuart
+SGE2019 LA Pref Data Seven Hills.csv,OM,TAYLOR Mark
+SGE2019 LA Pref Data Seven Hills.csv,PM,TAYLOR Mark
+SGE2019 LA Pref Data Seven Hills.csv,AVG,TAYLOR Mark
+SGE2019 LA Pref Data Prospect.csv,OM,McDERMOTT Hugh
+SGE2019 LA Pref Data Prospect.csv,PM,McDERMOTT Hugh
+SGE2019 LA Pref Data Prospect.csv,AVG,McDERMOTT Hugh
+SGE2019 LA Pref Data Terrigal.csv,OM,CROUCH Adam
+SGE2019 LA Pref Data Terrigal.csv,PM,CROUCH Adam
+SGE2019 LA Pref Data Terrigal.csv,AVG,CROUCH Adam
+SGE2019 LA Pref Data Macquarie Fields.csv,OM,CHANTHIVONG Anoulack
+SGE2019 LA Pref Data Macquarie Fields.csv,PM,CHANTHIVONG Anoulack
+SGE2019 LA Pref Data Macquarie Fields.csv,AVG,CHANTHIVONG Anoulack
+SGE2019 LA Pref Data Dubbo.csv,OM,SAUNDERS Dugald
+SGE2019 LA Pref Data Dubbo.csv,PM,SAUNDERS Dugald
+SGE2019 LA Pref Data Dubbo.csv,AVG,SAUNDERS Dugald
+SGE2019 LA Pref Data Hornsby.csv,OM,KEAN Matthew
+SGE2019 LA Pref Data Hornsby.csv,PM,KEAN Matthew
+SGE2019 LA Pref Data Hornsby.csv,AVG,KEAN Matthew
+SGE2019 LA Pref Data Lane Cove.csv,OM,ROBERTS Anthony
+SGE2019 LA Pref Data Lane Cove.csv,PM,ROBERTS Anthony
+SGE2019 LA Pref Data Lane Cove.csv,AVG,ROBERTS Anthony
+SGE2019 LA Pref Data Tweed.csv,OM,PROVEST Geoff
+SGE2019 LA Pref Data Tweed.csv,PM,PROVEST Geoff
+SGE2019 LA Pref Data Tweed.csv,AVG,PROVEST Geoff
+SGE2019 LA Pref Data Mulgoa.csv,OM,DAVIES Tanya
+SGE2019 LA Pref Data Mulgoa.csv,PM,DAVIES Tanya
+SGE2019 LA Pref Data Mulgoa.csv,AVG,DAVIES Tanya
+SGE2019 LA Pref Data Wollongong.csv,OM,SCULLY Paul
+SGE2019 LA Pref Data Wollongong.csv,PM,SCULLY Paul
+SGE2019 LA Pref Data Wollongong.csv,AVG,SCULLY Paul
+SGE2019 LA Pref Data Keira.csv,OM,PARK Ryan
+SGE2019 LA Pref Data Keira.csv,PM,PARK Ryan
+SGE2019 LA Pref Data Keira.csv,AVG,PARK Ryan
+SGE2019 LA Pref Data Tamworth.csv,OM,ANDERSON Kevin
+SGE2019 LA Pref Data Tamworth.csv,PM,ANDERSON Kevin
+SGE2019 LA Pref Data Tamworth.csv,AVG,ANDERSON Kevin
+SGE2019 LA Pref Data Clarence.csv,OM,GULAPTIS Chris
+SGE2019 LA Pref Data Clarence.csv,PM,GULAPTIS Chris
+SGE2019 LA Pref Data Clarence.csv,AVG,GULAPTIS Chris
+SGE2019 LA Pref Data Port Stephens.csv,OM,WASHINGTON Kate
+SGE2019 LA Pref Data Port Stephens.csv,PM,WASHINGTON Kate
+SGE2019 LA Pref Data Port Stephens.csv,AVG,WASHINGTON Kate
+SGE2019 LA Pref Data Holsworthy.csv,OM,GIBBONS Melanie
+SGE2019 LA Pref Data Holsworthy.csv,PM,GIBBONS Melanie
+SGE2019 LA Pref Data Holsworthy.csv,AVG,GIBBONS Melanie
+SGE2019 LA Pref Data Davidson.csv,OM,O'DEA Jonathan
+SGE2019 LA Pref Data Davidson.csv,PM,O'DEA Jonathan
+SGE2019 LA Pref Data Davidson.csv,AVG,O'DEA Jonathan
+SGE2019 LA Pref Data Granville.csv,OM,FINN Julia
+SGE2019 LA Pref Data Granville.csv,PM,FINN Julia
+SGE2019 LA Pref Data Granville.csv,AVG,FINN Julia
+SGE2019 LA Pref Data Rockdale.csv,OM,KAMPER Steve
+SGE2019 LA Pref Data Rockdale.csv,PM,KAMPER Steve
+SGE2019 LA Pref Data Rockdale.csv,AVG,KAMPER Steve
+SGE2019 LA Pref Data Charlestown.csv,OM,HARRISON Jodie
+SGE2019 LA Pref Data Charlestown.csv,PM,HARRISON Jodie
+SGE2019 LA Pref Data Charlestown.csv,AVG,HARRISON Jodie
+SGE2019 LA Pref Data Newcastle.csv,OM,CRAKANTHORP Tim
+SGE2019 LA Pref Data Newcastle.csv,PM,CRAKANTHORP Tim
+SGE2019 LA Pref Data Newcastle.csv,AVG,CRAKANTHORP Tim
+SGE2019 LA Pref Data Wakehurst.csv,OM,HAZZARD Brad
+SGE2019 LA Pref Data Wakehurst.csv,PM,HAZZARD Brad
+SGE2019 LA Pref Data Wakehurst.csv,AVG,HAZZARD Brad
+SGE2019 LA Pref Data Campbelltown.csv,OM,WARREN Greg
+SGE2019 LA Pref Data Campbelltown.csv,PM,WARREN Greg
+SGE2019 LA Pref Data Campbelltown.csv,AVG,WARREN Greg
+SGE2019 LA Pref Data Manly.csv,OM,GRIFFIN James
+SGE2019 LA Pref Data Manly.csv,PM,GRIFFIN James
+SGE2019 LA Pref Data Manly.csv,AVG,GRIFFIN James
+SGE2019 LA Pref Data Castle Hill.csv,OM,WILLIAMS Raymond
+SGE2019 LA Pref Data Castle Hill.csv,PM,WILLIAMS Raymond
+SGE2019 LA Pref Data Castle Hill.csv,AVG,WILLIAMS Raymond
+SGE2019 LA Pref Data Heffron.csv,OM,HOENIG Ron
+SGE2019 LA Pref Data Heffron.csv,PM,HOENIG Ron
+SGE2019 LA Pref Data Heffron.csv,AVG,HOENIG Ron
+SGE2019 LA Pref Data Londonderry.csv,OM,CAR Prue
+SGE2019 LA Pref Data Londonderry.csv,PM,CAR Prue
+SGE2019 LA Pref Data Londonderry.csv,AVG,CAR Prue
+SGE2019 LA Pref Data Upper Hunter.csv,OM,JOHNSEN Michael
+SGE2019 LA Pref Data Upper Hunter.csv,PM,JOHNSEN Michael
+SGE2019 LA Pref Data Upper Hunter.csv,AVG,JOHNSEN Michael
+SGE2019 LA Pref Data Bankstown.csv,OM,MIHAILUK Tania
+SGE2019 LA Pref Data Bankstown.csv,PM,MIHAILUK Tania
+SGE2019 LA Pref Data Bankstown.csv,AVG,MIHAILUK Tania
+SGE2019 LA Pref Data Canterbury.csv,OM,COTSIS Sophie
+SGE2019 LA Pref Data Canterbury.csv,PM,COTSIS Sophie
+SGE2019 LA Pref Data Canterbury.csv,AVG,COTSIS Sophie
+SGE2019 LA Pref Data Coffs Harbour.csv,OM,SINGH Gurmesh
+SGE2019 LA Pref Data Coffs Harbour.csv,PM,SINGH Gurmesh
+SGE2019 LA Pref Data Coffs Harbour.csv,AVG,SINGH Gurmesh
+SGE2019 LA Pref Data Liverpool.csv,OM,LYNCH Paul
+SGE2019 LA Pref Data Liverpool.csv,PM,LYNCH Paul
+SGE2019 LA Pref Data Liverpool.csv,AVG,LYNCH Paul
+SGE2019 LA Pref Data Strathfield.csv,OM,MCKAY Jodi
+SGE2019 LA Pref Data Strathfield.csv,PM,MCKAY Jodi
+SGE2019 LA Pref Data Strathfield.csv,AVG,MCKAY Jodi
+SGE2019 LA Pref Data Ryde.csv,OM,DOMINELLO Victor
+SGE2019 LA Pref Data Ryde.csv,PM,DOMINELLO Victor
+SGE2019 LA Pref Data Ryde.csv,AVG,DOMINELLO Victor
+SGE2019 LA Pref Data Albury.csv,OM,CLANCY Justin
+SGE2019 LA Pref Data Albury.csv,PM,CLANCY Justin
+SGE2019 LA Pref Data Albury.csv,AVG,CLANCY Justin
+SGE2019 LA Pref Data Cronulla.csv,OM,SPEAKMAN Mark
+SGE2019 LA Pref Data Cronulla.csv,PM,SPEAKMAN Mark
+SGE2019 LA Pref Data Cronulla.csv,AVG,SPEAKMAN Mark
+SGE2019 LA Pref Data Lismore.csv,OM,SAFFIN Janelle
+SGE2019 LA Pref Data Lismore.csv,PM,SAFFIN Janelle
+SGE2019 LA Pref Data Lismore.csv,AVG,SAFFIN Janelle
+SGE2019 LA Pref Data Hawkesbury.csv,OM,PRESTON Robyn
+SGE2019 LA Pref Data Hawkesbury.csv,PM,PRESTON Robyn
+SGE2019 LA Pref Data Hawkesbury.csv,AVG,PRESTON Robyn
+SGE2019 LA Pref Data Ballina.csv,OM,SMITH Tamara
+SGE2019 LA Pref Data Ballina.csv,PM,SMITH Tamara
+SGE2019 LA Pref Data Ballina.csv,AVG,SMITH Tamara
+SGE2019 LA Pref Data Summer Hill.csv,OM,HAYLEN Jo
+SGE2019 LA Pref Data Summer Hill.csv,PM,HAYLEN Jo
+SGE2019 LA Pref Data Summer Hill.csv,AVG,HAYLEN Jo
+SGE2019 LA Pref Data Baulkham Hills.csv,OM,ELLIOTT David
+SGE2019 LA Pref Data Baulkham Hills.csv,PM,ELLIOTT David
+SGE2019 LA Pref Data Baulkham Hills.csv,AVG,ELLIOTT David
+SGE2019 LA Pref Data Heathcote.csv,OM,EVANS Lee
+SGE2019 LA Pref Data Heathcote.csv,PM,EVANS Lee
+SGE2019 LA Pref Data Heathcote.csv,AVG,EVANS Lee
+SGE2019 LA Pref Data Drummoyne.csv,OM,SIDOTI John
+SGE2019 LA Pref Data Drummoyne.csv,PM,SIDOTI John
+SGE2019 LA Pref Data Drummoyne.csv,AVG,SIDOTI John
+SGE2019 LA Pref Data Northern Tablelands.csv,OM,MARSHALL Adam
+SGE2019 LA Pref Data Northern Tablelands.csv,PM,MARSHALL Adam
+SGE2019 LA Pref Data Northern Tablelands.csv,AVG,MARSHALL Adam
+SGE2019 LA Pref Data Myall Lakes.csv,OM,BROMHEAD Stephen
+SGE2019 LA Pref Data Myall Lakes.csv,PM,BROMHEAD Stephen
+SGE2019 LA Pref Data Myall Lakes.csv,AVG,BROMHEAD Stephen
+SGE2019 LA Pref Data Oxley.csv,OM,PAVEY Melinda
+SGE2019 LA Pref Data Oxley.csv,PM,PAVEY Melinda
+SGE2019 LA Pref Data Oxley.csv,AVG,PAVEY Melinda
+SGE2019 LA Pref Data South Coast.csv,OM,HANCOCK Shelley
+SGE2019 LA Pref Data South Coast.csv,PM,HANCOCK Shelley
+SGE2019 LA Pref Data South Coast.csv,AVG,HANCOCK Shelley
+SGE2019 LA Pref Data Willoughby.csv,OM,BEREJIKLIAN Gladys
+SGE2019 LA Pref Data Willoughby.csv,PM,BEREJIKLIAN Gladys
+SGE2019 LA Pref Data Willoughby.csv,AVG,BEREJIKLIAN Gladys
+SGE2019 LA Pref Data Cabramatta.csv,OM,LALICH Nick
+SGE2019 LA Pref Data Cabramatta.csv,PM,LALICH Nick
+SGE2019 LA Pref Data Cabramatta.csv,AVG,LALICH Nick
+SGE2019 LA Pref Data Vaucluse.csv,OM,UPTON Gabrielle
+SGE2019 LA Pref Data Vaucluse.csv,PM,UPTON Gabrielle
+SGE2019 LA Pref Data Vaucluse.csv,AVG,UPTON Gabrielle
+BallotPaperDetails-Melbourne District SE2018.csv,OM,Ellen Sandell
+BallotPaperDetails-Melbourne District SE2018.csv,PM,Ellen Sandell
+BallotPaperDetails-Melbourne District SE2018.csv,AVG,Ellen Sandell
+SB2201 LA Pref Data_NA_Strathfield.csv,OM,LI Jason Yat-Sen
+SB2201 LA Pref Data_NA_Strathfield.csv,PM,LI Jason Yat-Sen
+SB2201 LA Pref Data_NA_Strathfield.csv,AVG,LI Jason Yat-Sen
+SB2201 LA Pref Data_NA_Willoughby.csv,OM,JAMES Tim
+SB2201 LA Pref Data_NA_Willoughby.csv,PM,JAMES Tim
+SB2201 LA Pref Data_NA_Willoughby.csv,AVG,JAMES Tim
+SB2101 LA Pref Data_NA_Upper Hunter.csv,OM,LAYZELL Dave
+SB2101 LA Pref Data_NA_Upper Hunter.csv,PM,LAYZELL Dave
+SB2101 LA Pref Data_NA_Upper Hunter.csv,AVG,LAYZELL Dave
+SB2201 LA Pref Data_NA_Bega.csv,OM,HOLLAND Michael
+SB2201 LA Pref Data_NA_Bega.csv,PM,HOLLAND Michael
+SB2201 LA Pref Data_NA_Bega.csv,AVG,HOLLAND Michael
+SB2201 LA Pref Data_NA_Monaro.csv,OM,OVERALL Nichole
+SB2201 LA Pref Data_NA_Monaro.csv,PM,OVERALL Nichole
+SB2201 LA Pref Data_NA_Monaro.csv,AVG,OVERALL Nichole
+SB1801 LA Pref Data_NA_Wagga Wagga.csv,OM,McGIRR Joe
+SB1801 LA Pref Data_NA_Wagga Wagga.csv,PM,McGIRR Joe
+SB1801 LA Pref Data_NA_Wagga Wagga.csv,AVG,McGIRR Joe
+SGE2015 LA Pref Data_NA_Cessnock.csv,OM,BARR Clayton
+SGE2015 LA Pref Data_NA_Cessnock.csv,PM,BARR Clayton
+SGE2015 LA Pref Data_NA_Cessnock.csv,AVG,BARR Clayton
+SGE2015 LA Pref Data_NA_Keira.csv,OM,PARK Ryan
+SGE2015 LA Pref Data_NA_Keira.csv,PM,PARK Ryan
+SGE2015 LA Pref Data_NA_Keira.csv,AVG,PARK Ryan
+SGE2015 LA Pref Data_NA_Maroubra.csv,OM,DALEY Michael
+SGE2015 LA Pref Data_NA_Maroubra.csv,PM,DALEY Michael
+SGE2015 LA Pref Data_NA_Maroubra.csv,AVG,DALEY Michael
+SGE2015 LA Pref Data_NA_Holsworthy.csv,OM,GIBBONS Melanie
+SGE2015 LA Pref Data_NA_Holsworthy.csv,PM,GIBBONS Melanie
+SGE2015 LA Pref Data_NA_Holsworthy.csv,AVG,GIBBONS Melanie
+SGE2015 LA Pref Data_NA_Wollondilly.csv,OM,ROWELL Jai
+SGE2015 LA Pref Data_NA_Wollondilly.csv,PM,ROWELL Jai
+SGE2015 LA Pref Data_NA_Wollondilly.csv,AVG,ROWELL Jai
+SGE2015 LA Pref Data_NA_Wollongong.csv,OM,HAY Noreen
+SGE2015 LA Pref Data_NA_Wollongong.csv,PM,HAY Noreen
+SGE2015 LA Pref Data_NA_Wollongong.csv,AVG,HAY Noreen
+SGE2015 LA Pref Data_NA_Penrith.csv,OM,AYRES Stuart
+SGE2015 LA Pref Data_NA_Penrith.csv,PM,AYRES Stuart
+SGE2015 LA Pref Data_NA_Penrith.csv,AVG,AYRES Stuart
+SGE2015 LA Pref Data_NA_Upper Hunter.csv,OM,JOHNSEN Michael
+SGE2015 LA Pref Data_NA_Upper Hunter.csv,PM,JOHNSEN Michael
+SGE2015 LA Pref Data_NA_Upper Hunter.csv,AVG,JOHNSEN Michael
+SGE2015 LA Pref Data_NA_Bathurst.csv,OM,TOOLE Paul
+SGE2015 LA Pref Data_NA_Bathurst.csv,PM,TOOLE Paul
+SGE2015 LA Pref Data_NA_Bathurst.csv,AVG,TOOLE Paul
+SGE2015 LA Pref Data_NA_Bankstown.csv,OM,MIHAILUK Tania
+SGE2015 LA Pref Data_NA_Bankstown.csv,PM,MIHAILUK Tania
+SGE2015 LA Pref Data_NA_Bankstown.csv,AVG,MIHAILUK Tania
+SGE2015 LA Pref Data_NA_Dubbo.csv,OM,GRANT Troy
+SGE2015 LA Pref Data_NA_Dubbo.csv,PM,GRANT Troy
+SGE2015 LA Pref Data_NA_Dubbo.csv,AVG,GRANT Troy
+SGE2015 LA Pref Data_NA_Newcastle.csv,OM,CRAKANTHORP Tim
+SGE2015 LA Pref Data_NA_Newcastle.csv,PM,CRAKANTHORP Tim
+SGE2015 LA Pref Data_NA_Newcastle.csv,AVG,CRAKANTHORP Tim
+SGE2015 LA Pref Data_NA_Campbelltown.csv,OM,WARREN Greg
+SGE2015 LA Pref Data_NA_Campbelltown.csv,PM,WARREN Greg
+SGE2015 LA Pref Data_NA_Campbelltown.csv,AVG,WARREN Greg
+SGE2015 LA Pref Data_NA_Tweed.csv,OM,PROVEST Geoff
+SGE2015 LA Pref Data_NA_Tweed.csv,PM,PROVEST Geoff
+SGE2015 LA Pref Data_NA_Tweed.csv,AVG,PROVEST Geoff
+SGE2015 LA Pref Data_NA_Wakehurst.csv,OM,HAZZARD Brad
+SGE2015 LA Pref Data_NA_Wakehurst.csv,PM,HAZZARD Brad
+SGE2015 LA Pref Data_NA_Wakehurst.csv,AVG,HAZZARD Brad
+SGE2015 LA Pref Data_NA_Kogarah.csv,OM,MINNS Chris
+SGE2015 LA Pref Data_NA_Kogarah.csv,PM,MINNS Chris
+SGE2015 LA Pref Data_NA_Kogarah.csv,AVG,MINNS Chris
+SGE2015 LA Pref Data_NA_Lake Macquarie.csv,OM,PIPER Greg
+SGE2015 LA Pref Data_NA_Lake Macquarie.csv,PM,PIPER Greg
+SGE2015 LA Pref Data_NA_Lake Macquarie.csv,AVG,PIPER Greg
+SGE2015 LA Pref Data_NA_Manly.csv,OM,BAIRD Mike
+SGE2015 LA Pref Data_NA_Manly.csv,PM,BAIRD Mike
+SGE2015 LA Pref Data_NA_Manly.csv,AVG,BAIRD Mike
+SGE2015 LA Pref Data_NA_Canterbury.csv,OM,BURNEY Linda
+SGE2015 LA Pref Data_NA_Canterbury.csv,PM,BURNEY Linda
+SGE2015 LA Pref Data_NA_Canterbury.csv,AVG,BURNEY Linda
+SGE2015 LA Pref Data_NA_Coffs Harbour.csv,OM,FRASER Andrew
+SGE2015 LA Pref Data_NA_Coffs Harbour.csv,PM,FRASER Andrew
+SGE2015 LA Pref Data_NA_Coffs Harbour.csv,AVG,FRASER Andrew
+SGE2015 LA Pref Data_NA_Port Macquarie.csv,OM,WILLIAMS Leslie
+SGE2015 LA Pref Data_NA_Port Macquarie.csv,PM,WILLIAMS Leslie
+SGE2015 LA Pref Data_NA_Port Macquarie.csv,AVG,WILLIAMS Leslie
+SGE2015 LA Pref Data_NA_Granville.csv,OM,FINN Julia
+SGE2015 LA Pref Data_NA_Granville.csv,PM,FINN Julia
+SGE2015 LA Pref Data_NA_Granville.csv,AVG,FINN Julia
+SGE2015 LA Pref Data_NA_Maitland.csv,OM,AITCHISON Jenny
+SGE2015 LA Pref Data_NA_Maitland.csv,PM,AITCHISON Jenny
+SGE2015 LA Pref Data_NA_Maitland.csv,AVG,AITCHISON Jenny
+SGE2015 LA Pref Data_NA_Gosford.csv,OM,SMITH Kathy
+SGE2015 LA Pref Data_NA_Gosford.csv,PM,SMITH Kathy
+SGE2015 LA Pref Data_NA_Gosford.csv,AVG,SMITH Kathy
+SGE2015 LA Pref Data_NA_Albury.csv,OM,APLIN Greg
+SGE2015 LA Pref Data_NA_Albury.csv,PM,APLIN Greg
+SGE2015 LA Pref Data_NA_Albury.csv,AVG,APLIN Greg
+SGE2015 LA Pref Data_NA_Lane Cove.csv,OM,ROBERTS Anthony
+SGE2015 LA Pref Data_NA_Lane Cove.csv,PM,ROBERTS Anthony
+SGE2015 LA Pref Data_NA_Lane Cove.csv,AVG,ROBERTS Anthony
+SGE2015 LA Pref Data_NA_Ku-ring-gai.csv,OM,HENSKENS Alister
+SGE2015 LA Pref Data_NA_Ku-ring-gai.csv,PM,HENSKENS Alister
+SGE2015 LA Pref Data_NA_Ku-ring-gai.csv,AVG,HENSKENS Alister
+SGE2015 LA Pref Data_NA_Goulburn.csv,OM,GOWARD Pru
+SGE2015 LA Pref Data_NA_Goulburn.csv,PM,GOWARD Pru
+SGE2015 LA Pref Data_NA_Goulburn.csv,AVG,GOWARD Pru
+SGE2015 LA Pref Data_NA_Lakemba.csv,OM,DIB Jihad
+SGE2015 LA Pref Data_NA_Lakemba.csv,PM,DIB Jihad
+SGE2015 LA Pref Data_NA_Lakemba.csv,AVG,DIB Jihad
+SGE2015 LA Pref Data_NA_Hawkesbury.csv,OM,PERROTTET Dominic
+SGE2015 LA Pref Data_NA_Hawkesbury.csv,PM,PERROTTET Dominic
+SGE2015 LA Pref Data_NA_Hawkesbury.csv,AVG,PERROTTET Dominic
+SGE2015 LA Pref Data_NA_Miranda.csv,OM,PETINOS Eleni
+SGE2015 LA Pref Data_NA_Miranda.csv,PM,PETINOS Eleni
+SGE2015 LA Pref Data_NA_Miranda.csv,AVG,PETINOS Eleni
+SGE2015 LA Pref Data_NA_Bega.csv,OM,CONSTANCE Andrew
+SGE2015 LA Pref Data_NA_Bega.csv,PM,CONSTANCE Andrew
+SGE2015 LA Pref Data_NA_Bega.csv,AVG,CONSTANCE Andrew
+SGE2015 LA Pref Data_NA_North Shore.csv,OM,SKINNER Jillian
+SGE2015 LA Pref Data_NA_North Shore.csv,PM,SKINNER Jillian
+SGE2015 LA Pref Data_NA_North Shore.csv,AVG,SKINNER Jillian
+SGE2015 LA Pref Data_NA_Wagga Wagga.csv,OM,MAGUIRE Daryl
+SGE2015 LA Pref Data_NA_Wagga Wagga.csv,PM,MAGUIRE Daryl
+SGE2015 LA Pref Data_NA_Wagga Wagga.csv,AVG,MAGUIRE Daryl
+SGE2015 LA Pref Data_NA_Swansea.csv,OM,CATLEY Yasmin
+SGE2015 LA Pref Data_NA_Swansea.csv,PM,CATLEY Yasmin
+SGE2015 LA Pref Data_NA_Swansea.csv,AVG,CATLEY Yasmin
+SGE2015 LA Pref Data_NA_Prospect.csv,OM,McDERMOTT Hugh
+SGE2015 LA Pref Data_NA_Prospect.csv,PM,McDERMOTT Hugh
+SGE2015 LA Pref Data_NA_Prospect.csv,AVG,McDERMOTT Hugh
+SGE2015 LA Pref Data_NA_Wallsend.csv,OM,HORNERY Sonia
+SGE2015 LA Pref Data_NA_Wallsend.csv,PM,HORNERY Sonia
+SGE2015 LA Pref Data_NA_Wallsend.csv,AVG,HORNERY Sonia
+SGE2015 LA Pref Data_NA_Heathcote.csv,OM,EVANS Lee
+SGE2015 LA Pref Data_NA_Heathcote.csv,PM,EVANS Lee
+SGE2015 LA Pref Data_NA_Heathcote.csv,AVG,EVANS Lee
+SGE2015 LA Pref Data_NA_Drummoyne.csv,OM,SIDOTI John
+SGE2015 LA Pref Data_NA_Drummoyne.csv,PM,SIDOTI John
+SGE2015 LA Pref Data_NA_Drummoyne.csv,AVG,SIDOTI John
+SGE2015 LA Pref Data_NA_Seven Hills.csv,OM,TAYLOR Mark
+SGE2015 LA Pref Data_NA_Seven Hills.csv,PM,TAYLOR Mark
+SGE2015 LA Pref Data_NA_Seven Hills.csv,AVG,TAYLOR Mark
+SGE2015 LA Pref Data_NA_Terrigal.csv,OM,CROUCH Adam
+SGE2015 LA Pref Data_NA_Terrigal.csv,PM,CROUCH Adam
+SGE2015 LA Pref Data_NA_Terrigal.csv,AVG,CROUCH Adam
+SGE2015 LA Pref Data_NA_Cabramatta.csv,OM,LALICH Nick
+SGE2015 LA Pref Data_NA_Cabramatta.csv,PM,LALICH Nick
+SGE2015 LA Pref Data_NA_Cabramatta.csv,AVG,LALICH Nick
+SGE2015 LA Pref Data_NA_Cootamundra.csv,OM,HODGKINSON Katrina
+SGE2015 LA Pref Data_NA_Cootamundra.csv,PM,HODGKINSON Katrina
+SGE2015 LA Pref Data_NA_Cootamundra.csv,AVG,HODGKINSON Katrina
+SGE2015 LA Pref Data_NA_Mulgoa.csv,OM,DAVIES Tanya
+SGE2015 LA Pref Data_NA_Mulgoa.csv,PM,DAVIES Tanya
+SGE2015 LA Pref Data_NA_Mulgoa.csv,AVG,DAVIES Tanya
+SGE2015 LA Pref Data_NA_Willoughby.csv,OM,BEREJIKLIAN Gladys
+SGE2015 LA Pref Data_NA_Willoughby.csv,PM,BEREJIKLIAN Gladys
+SGE2015 LA Pref Data_NA_Willoughby.csv,AVG,BEREJIKLIAN Gladys
+SGE2015 LA Pref Data_NA_Blue Mountains.csv,OM,DOYLE Trish
+SGE2015 LA Pref Data_NA_Blue Mountains.csv,PM,DOYLE Trish
+SGE2015 LA Pref Data_NA_Blue Mountains.csv,AVG,DOYLE Trish
+SGE2015 LA Pref Data_NA_Liverpool.csv,OM,LYNCH Paul
+SGE2015 LA Pref Data_NA_Liverpool.csv,PM,LYNCH Paul
+SGE2015 LA Pref Data_NA_Liverpool.csv,AVG,LYNCH Paul
+SGE2015 LA Pref Data_NA_Balmain.csv,OM,PARKER Jamie
+SGE2015 LA Pref Data_NA_Balmain.csv,PM,PARKER Jamie
+SGE2015 LA Pref Data_NA_Balmain.csv,AVG,PARKER Jamie
+SGE2015 LA Pref Data_NA_Newtown.csv,OM,LEONG Jenny
+SGE2015 LA Pref Data_NA_Newtown.csv,PM,LEONG Jenny
+SGE2015 LA Pref Data_NA_Newtown.csv,AVG,LEONG Jenny
+SGE2015 LA Pref Data_NA_Port Stephens.csv,OM,WASHINGTON Kate
+SGE2015 LA Pref Data_NA_Port Stephens.csv,PM,WASHINGTON Kate
+SGE2015 LA Pref Data_NA_Port Stephens.csv,AVG,WASHINGTON Kate
+SGE2015 LA Pref Data_NA_Oxley.csv,OM,PAVEY Melinda
+SGE2015 LA Pref Data_NA_Oxley.csv,PM,PAVEY Melinda
+SGE2015 LA Pref Data_NA_Oxley.csv,AVG,PAVEY Melinda
+SGE2015 LA Pref Data_NA_Kiama.csv,OM,WARD Gareth
+SGE2015 LA Pref Data_NA_Kiama.csv,PM,WARD Gareth
+SGE2015 LA Pref Data_NA_Kiama.csv,AVG,WARD Gareth
+SGE2015 LA Pref Data_NA_Fairfield.csv,OM,ZANGARI Guy
+SGE2015 LA Pref Data_NA_Fairfield.csv,PM,ZANGARI Guy
+SGE2015 LA Pref Data_NA_Fairfield.csv,AVG,ZANGARI Guy
+SGE2015 LA Pref Data_NA_Northern Tablelands.csv,OM,MARSHALL Adam
+SGE2015 LA Pref Data_NA_Northern Tablelands.csv,PM,MARSHALL Adam
+SGE2015 LA Pref Data_NA_Northern Tablelands.csv,AVG,MARSHALL Adam
+SGE2015 LA Pref Data_NA_The Entrance.csv,OM,MEHAN David
+SGE2015 LA Pref Data_NA_The Entrance.csv,PM,MEHAN David
+SGE2015 LA Pref Data_NA_The Entrance.csv,AVG,MEHAN David
+SGE2015 LA Pref Data_NA_Londonderry.csv,OM,CAR Prue
+SGE2015 LA Pref Data_NA_Londonderry.csv,PM,CAR Prue
+SGE2015 LA Pref Data_NA_Londonderry.csv,AVG,CAR Prue
+SGE2015 LA Pref Data_NA_Ryde.csv,OM,DOMINELLO Victor
+SGE2015 LA Pref Data_NA_Ryde.csv,PM,DOMINELLO Victor
+SGE2015 LA Pref Data_NA_Ryde.csv,AVG,DOMINELLO Victor
+SGE2015 LA Pref Data_NA_Castle Hill.csv,OM,WILLIAMS Ray
+SGE2015 LA Pref Data_NA_Castle Hill.csv,PM,WILLIAMS Ray
+SGE2015 LA Pref Data_NA_Castle Hill.csv,AVG,WILLIAMS Ray
+SGE2015 LA Pref Data_NA_Barwon.csv,OM,HUMPHRIES Kevin
+SGE2015 LA Pref Data_NA_Barwon.csv,PM,HUMPHRIES Kevin
+SGE2015 LA Pref Data_NA_Barwon.csv,AVG,HUMPHRIES Kevin
+SGE2015 LA Pref Data_NA_Baulkham Hills.csv,OM,ELLIOTT David
+SGE2015 LA Pref Data_NA_Baulkham Hills.csv,PM,ELLIOTT David
+SGE2015 LA Pref Data_NA_Baulkham Hills.csv,AVG,ELLIOTT David
+SGE2015 LA Pref Data_NA_Ballina.csv,OM,SMITH Tamara
+SGE2015 LA Pref Data_NA_Ballina.csv,PM,SMITH Tamara
+SGE2015 LA Pref Data_NA_Ballina.csv,AVG,SMITH Tamara
+SGE2015 LA Pref Data_NA_Lismore.csv,OM,SMITH Isaac
+SGE2015 LA Pref Data_NA_Lismore.csv,PM,GEORGE Thomas
+SGE2015 LA Pref Data_NA_Lismore.csv,AVG,GEORGE Thomas
+SGE2015 LA Pref Data_NA_Monaro.csv,OM,BARILARO John
+SGE2015 LA Pref Data_NA_Monaro.csv,PM,BARILARO John
+SGE2015 LA Pref Data_NA_Monaro.csv,AVG,BARILARO John
+SGE2015 LA Pref Data_NA_Epping.csv,OM,TUDEHOPE Damien
+SGE2015 LA Pref Data_NA_Epping.csv,PM,TUDEHOPE Damien
+SGE2015 LA Pref Data_NA_Epping.csv,AVG,TUDEHOPE Damien
+SGE2015 LA Pref Data_NA_Macquarie Fields.csv,OM,CHANTHIVONG Anoulack
+SGE2015 LA Pref Data_NA_Macquarie Fields.csv,PM,CHANTHIVONG Anoulack
+SGE2015 LA Pref Data_NA_Macquarie Fields.csv,AVG,CHANTHIVONG Anoulack
+SGE2015 LA Pref Data_NA_Clarence.csv,OM,GULAPTIS Chris
+SGE2015 LA Pref Data_NA_Clarence.csv,PM,GULAPTIS Chris
+SGE2015 LA Pref Data_NA_Clarence.csv,AVG,GULAPTIS Chris
+SGE2015 LA Pref Data_NA_Charlestown.csv,OM,HARRISON Jodie
+SGE2015 LA Pref Data_NA_Charlestown.csv,PM,HARRISON Jodie
+SGE2015 LA Pref Data_NA_Charlestown.csv,AVG,HARRISON Jodie
+SGE2015 LA Pref Data_NA_Tamworth.csv,OM,ANDERSON Kevin
+SGE2015 LA Pref Data_NA_Tamworth.csv,PM,ANDERSON Kevin
+SGE2015 LA Pref Data_NA_Tamworth.csv,AVG,ANDERSON Kevin
+SGE2015 LA Pref Data_NA_Rockdale.csv,OM,KAMPER Steve
+SGE2015 LA Pref Data_NA_Rockdale.csv,PM,KAMPER Steve
+SGE2015 LA Pref Data_NA_Rockdale.csv,AVG,KAMPER Steve
+SGE2015 LA Pref Data_NA_Davidson.csv,OM,O'DEA Jonathan
+SGE2015 LA Pref Data_NA_Davidson.csv,PM,O'DEA Jonathan
+SGE2015 LA Pref Data_NA_Davidson.csv,AVG,O'DEA Jonathan
+SGE2015 LA Pref Data_NA_Myall Lakes.csv,OM,BROMHEAD Stephen
+SGE2015 LA Pref Data_NA_Myall Lakes.csv,PM,BROMHEAD Stephen
+SGE2015 LA Pref Data_NA_Myall Lakes.csv,AVG,BROMHEAD Stephen
+SGE2015 LA Pref Data_NA_Coogee.csv,OM,NOTLEY-SMITH Bruce
+SGE2015 LA Pref Data_NA_Coogee.csv,PM,NOTLEY-SMITH Bruce
+SGE2015 LA Pref Data_NA_Coogee.csv,AVG,NOTLEY-SMITH Bruce
+SGE2015 LA Pref Data_NA_South Coast.csv,OM,HANCOCK Shelley
+SGE2015 LA Pref Data_NA_South Coast.csv,PM,HANCOCK Shelley
+SGE2015 LA Pref Data_NA_South Coast.csv,AVG,HANCOCK Shelley
+SGE2015 LA Pref Data_NA_Summer Hill.csv,OM,HAYLEN Jo
+SGE2015 LA Pref Data_NA_Summer Hill.csv,PM,HAYLEN Jo
+SGE2015 LA Pref Data_NA_Summer Hill.csv,AVG,HAYLEN Jo
+SGE2015 LA Pref Data_NA_Wyong.csv,OM,HARRIS David
+SGE2015 LA Pref Data_NA_Wyong.csv,PM,HARRIS David
+SGE2015 LA Pref Data_NA_Wyong.csv,AVG,HARRIS David
+SGE2015 LA Pref Data_NA_Heffron.csv,OM,HOENIG Ron
+SGE2015 LA Pref Data_NA_Heffron.csv,PM,HOENIG Ron
+SGE2015 LA Pref Data_NA_Heffron.csv,AVG,HOENIG Ron
+SGE2015 LA Pref Data_NA_Oatley.csv,OM,COURE Mark
+SGE2015 LA Pref Data_NA_Oatley.csv,PM,COURE Mark
+SGE2015 LA Pref Data_NA_Oatley.csv,AVG,COURE Mark
+SGE2015 LA Pref Data_NA_Parramatta.csv,OM,LEE Geoff
+SGE2015 LA Pref Data_NA_Parramatta.csv,PM,LEE Geoff
+SGE2015 LA Pref Data_NA_Parramatta.csv,AVG,LEE Geoff
+SGE2015 LA Pref Data_NA_East Hills.csv,OM,BROOKES Glenn
+SGE2015 LA Pref Data_NA_East Hills.csv,PM,BROOKES Glenn
+SGE2015 LA Pref Data_NA_East Hills.csv,AVG,BROOKES Glenn
+SGE2015 LA Pref Data_NA_Vaucluse.csv,OM,UPTON Gabrielle
+SGE2015 LA Pref Data_NA_Vaucluse.csv,PM,UPTON Gabrielle
+SGE2015 LA Pref Data_NA_Vaucluse.csv,AVG,UPTON Gabrielle
+SGE2015 LA Pref Data_NA_Auburn.csv,OM,FOLEY Luke
+SGE2015 LA Pref Data_NA_Auburn.csv,PM,FOLEY Luke
+SGE2015 LA Pref Data_NA_Auburn.csv,AVG,FOLEY Luke
+SGE2015 LA Pref Data_NA_Shellharbour.csv,OM,WATSON Anna
+SGE2015 LA Pref Data_NA_Shellharbour.csv,PM,WATSON Anna
+SGE2015 LA Pref Data_NA_Shellharbour.csv,AVG,WATSON Anna
+SGE2015 LA Pref Data_NA_Murray.csv,OM,PICCOLI Adrian
+SGE2015 LA Pref Data_NA_Murray.csv,PM,PICCOLI Adrian
+SGE2015 LA Pref Data_NA_Murray.csv,AVG,PICCOLI Adrian
+SGE2015 LA Pref Data_NA_Sydney.csv,OM,GREENWICH Alex
+SGE2015 LA Pref Data_NA_Sydney.csv,PM,GREENWICH Alex
+SGE2015 LA Pref Data_NA_Sydney.csv,AVG,GREENWICH Alex
+SGE2015 LA Pref Data_NA_Camden.csv,OM,PATTERSON Chris
+SGE2015 LA Pref Data_NA_Camden.csv,PM,PATTERSON Chris
+SGE2015 LA Pref Data_NA_Camden.csv,AVG,PATTERSON Chris
+SGE2015 LA Pref Data_NA_Strathfield.csv,OM,McKAY Jodi
+SGE2015 LA Pref Data_NA_Strathfield.csv,PM,McKAY Jodi
+SGE2015 LA Pref Data_NA_Strathfield.csv,AVG,McKAY Jodi
+SGE2015 LA Pref Data_NA_Cronulla.csv,OM,SPEAKMAN Mark
+SGE2015 LA Pref Data_NA_Cronulla.csv,PM,SPEAKMAN Mark
+SGE2015 LA Pref Data_NA_Cronulla.csv,AVG,SPEAKMAN Mark
+SGE2015 LA Pref Data_NA_Pittwater.csv,OM,STOKES Rob
+SGE2015 LA Pref Data_NA_Pittwater.csv,PM,STOKES Rob
+SGE2015 LA Pref Data_NA_Pittwater.csv,AVG,STOKES Rob
+SGE2015 LA Pref Data_NA_Riverstone.csv,OM,CONOLLY Kevin
+SGE2015 LA Pref Data_NA_Riverstone.csv,PM,CONOLLY Kevin
+SGE2015 LA Pref Data_NA_Riverstone.csv,AVG,CONOLLY Kevin
+SGE2015 LA Pref Data_NA_Mount Druitt.csv,OM,ATALLA Edmond
+SGE2015 LA Pref Data_NA_Mount Druitt.csv,PM,ATALLA Edmond
+SGE2015 LA Pref Data_NA_Mount Druitt.csv,AVG,ATALLA Edmond
+SGE2015 LA Pref Data_NA_Hornsby.csv,OM,KEAN Matt
+SGE2015 LA Pref Data_NA_Hornsby.csv,PM,KEAN Matt
+SGE2015 LA Pref Data_NA_Hornsby.csv,AVG,KEAN Matt
+SGE2015 LA Pref Data_NA_Orange.csv,OM,GEE Andrew
+SGE2015 LA Pref Data_NA_Orange.csv,PM,GEE Andrew
+SGE2015 LA Pref Data_NA_Orange.csv,AVG,GEE Andrew
+SGE2015 LA Pref Data_NA_Blacktown.csv,OM,ROBERTSON John
+SGE2015 LA Pref Data_NA_Blacktown.csv,PM,ROBERTSON John
+SGE2015 LA Pref Data_NA_Blacktown.csv,AVG,ROBERTSON John
+SG2301 LA Pref Data Clarence.csv,OM,WILLIAMSON Richie
+SG2301 LA Pref Data Clarence.csv,PM,WILLIAMSON Richie
+SG2301 LA Pref Data Clarence.csv,AVG,WILLIAMSON Richie
+SG2301 LA Pref Data Oatley.csv,OM,COURE Mark
+SG2301 LA Pref Data Oatley.csv,PM,COURE Mark
+SG2301 LA Pref Data Oatley.csv,AVG,COURE Mark
+SG2301 LA Pref Data Pittwater.csv,OM,AMON Roderick (Rory)
+SG2301 LA Pref Data Pittwater.csv,PM,AMON Roderick (Rory)
+SG2301 LA Pref Data Pittwater.csv,AVG,AMON Roderick (Rory)
+SG2301 LA Pref Data Riverstone.csv,OM,KIRBY Warren
+SG2301 LA Pref Data Riverstone.csv,PM,KIRBY Warren
+SG2301 LA Pref Data Riverstone.csv,AVG,KIRBY Warren
+SG2301 LA Pref Data Tamworth.csv,OM,ANDERSON Kevin
+SG2301 LA Pref Data Tamworth.csv,PM,ANDERSON Kevin
+SG2301 LA Pref Data Tamworth.csv,AVG,ANDERSON Kevin
+SG2301 LA Pref Data Rockdale.csv,OM,KAMPER Steve
+SG2301 LA Pref Data Rockdale.csv,PM,KAMPER Steve
+SG2301 LA Pref Data Rockdale.csv,AVG,KAMPER Steve
+SG2301 LA Pref Data Northern Tablelands.csv,OM,MARSHALL Adam
+SG2301 LA Pref Data Northern Tablelands.csv,PM,MARSHALL Adam
+SG2301 LA Pref Data Northern Tablelands.csv,AVG,MARSHALL Adam
+SG2301 LA Pref Data Bega.csv,OM,HOLLAND Michael
+SG2301 LA Pref Data Bega.csv,PM,HOLLAND Michael
+SG2301 LA Pref Data Bega.csv,AVG,HOLLAND Michael
+SG2301 LA Pref Data Coogee.csv,OM,O'NEILL Marjorie
+SG2301 LA Pref Data Coogee.csv,PM,O'NEILL Marjorie
+SG2301 LA Pref Data Coogee.csv,AVG,O'NEILL Marjorie
+SG2301 LA Pref Data Davidson.csv,OM,CROSS Matt
+SG2301 LA Pref Data Davidson.csv,PM,CROSS Matt
+SG2301 LA Pref Data Davidson.csv,AVG,CROSS Matt
+SG2301 LA Pref Data Blacktown.csv,OM,BALI Stephen
+SG2301 LA Pref Data Blacktown.csv,PM,BALI Stephen
+SG2301 LA Pref Data Blacktown.csv,AVG,BALI Stephen
+SG2301 LA Pref Data Auburn.csv,OM,VOLTZ Lynda
+SG2301 LA Pref Data Auburn.csv,PM,VOLTZ Lynda
+SG2301 LA Pref Data Auburn.csv,AVG,VOLTZ Lynda
+SG2301 LA Pref Data Newtown.csv,OM,LEONG Jenny
+SG2301 LA Pref Data Newtown.csv,PM,LEONG Jenny
+SG2301 LA Pref Data Newtown.csv,AVG,LEONG Jenny
+SG2301 LA Pref Data Londonderry.csv,OM,CAR Prue
+SG2301 LA Pref Data Londonderry.csv,PM,CAR Prue
+SG2301 LA Pref Data Londonderry.csv,AVG,CAR Prue
+SG2301 LA Pref Data Castle Hill.csv,OM,HODGES Mark
+SG2301 LA Pref Data Castle Hill.csv,PM,HODGES Mark
+SG2301 LA Pref Data Castle Hill.csv,AVG,HODGES Mark
+SG2301 LA Pref Data Balmain.csv,OM,SHETTY Kobi
+SG2301 LA Pref Data Balmain.csv,PM,SHETTY Kobi
+SG2301 LA Pref Data Balmain.csv,AVG,SHETTY Kobi
+SG2301 LA Pref Data The Entrance.csv,OM,MEHAN David
+SG2301 LA Pref Data The Entrance.csv,PM,MEHAN David
+SG2301 LA Pref Data The Entrance.csv,AVG,MEHAN David
+SG2301 LA Pref Data Wyong.csv,OM,HARRIS David
+SG2301 LA Pref Data Wyong.csv,PM,HARRIS David
+SG2301 LA Pref Data Wyong.csv,AVG,HARRIS David
+SG2301 LA Pref Data Parramatta.csv,OM,DAVIS Donna
+SG2301 LA Pref Data Parramatta.csv,PM,DAVIS Donna
+SG2301 LA Pref Data Parramatta.csv,AVG,DAVIS Donna
+SG2301 LA Pref Data Camden.csv,OM,QUINNELL Sally
+SG2301 LA Pref Data Camden.csv,PM,QUINNELL Sally
+SG2301 LA Pref Data Camden.csv,AVG,QUINNELL Sally
+SG2301 LA Pref Data Miranda.csv,OM,PETINOS Eleni
+SG2301 LA Pref Data Miranda.csv,PM,PETINOS Eleni
+SG2301 LA Pref Data Miranda.csv,AVG,PETINOS Eleni
+SG2301 LA Pref Data Sydney.csv,OM,GREENWICH Alex
+SG2301 LA Pref Data Sydney.csv,PM,GREENWICH Alex
+SG2301 LA Pref Data Sydney.csv,AVG,GREENWICH Alex
+SG2301 LA Pref Data Leppington.csv,OM,HAGARTY Nathan
+SG2301 LA Pref Data Leppington.csv,PM,HAGARTY Nathan
+SG2301 LA Pref Data Leppington.csv,AVG,HAGARTY Nathan
+SG2301 LA Pref Data Murray.csv,OM,DALTON Helen
+SG2301 LA Pref Data Murray.csv,PM,DALTON Helen
+SG2301 LA Pref Data Murray.csv,AVG,DALTON Helen
+SG2301 LA Pref Data East Hills.csv,OM,WILKINSON Kylie
+SG2301 LA Pref Data East Hills.csv,PM,WILKINSON Kylie
+SG2301 LA Pref Data East Hills.csv,AVG,WILKINSON Kylie
+SG2301 LA Pref Data Orange.csv,OM,DONATO Philip
+SG2301 LA Pref Data Orange.csv,PM,DONATO Philip
+SG2301 LA Pref Data Orange.csv,AVG,DONATO Philip
+SG2301 LA Pref Data Blue Mountains.csv,OM,DOYLE Trish
+SG2301 LA Pref Data Blue Mountains.csv,PM,DOYLE Trish
+SG2301 LA Pref Data Blue Mountains.csv,AVG,DOYLE Trish
+SG2301 LA Pref Data Swansea.csv,OM,CATLEY Yasmin
+SG2301 LA Pref Data Swansea.csv,PM,CATLEY Yasmin
+SG2301 LA Pref Data Swansea.csv,AVG,CATLEY Yasmin
+SG2301 LA Pref Data Charlestown.csv,OM,HARRISON Jodie
+SG2301 LA Pref Data Charlestown.csv,PM,HARRISON Jodie
+SG2301 LA Pref Data Charlestown.csv,AVG,HARRISON Jodie
+SG2301 LA Pref Data Wahroonga.csv,OM,HENSKENS Alister
+SG2301 LA Pref Data Wahroonga.csv,PM,HENSKENS Alister
+SG2301 LA Pref Data Wahroonga.csv,AVG,HENSKENS Alister
+SG2301 LA Pref Data Summer Hill.csv,OM,HAYLEN Jo
+SG2301 LA Pref Data Summer Hill.csv,PM,HAYLEN Jo
+SG2301 LA Pref Data Summer Hill.csv,AVG,HAYLEN Jo
+SG2301 LA Pref Data Cronulla.csv,OM,SPEAKMAN Mark
+SG2301 LA Pref Data Cronulla.csv,PM,SPEAKMAN Mark
+SG2301 LA Pref Data Cronulla.csv,AVG,SPEAKMAN Mark
+SG2301 LA Pref Data Myall Lakes.csv,OM,THOMPSON Tanya
+SG2301 LA Pref Data Myall Lakes.csv,PM,THOMPSON Tanya
+SG2301 LA Pref Data Myall Lakes.csv,AVG,THOMPSON Tanya
+SG2301 LA Pref Data South Coast.csv,OM,BUTLER Liza
+SG2301 LA Pref Data South Coast.csv,PM,BUTLER Liza
+SG2301 LA Pref Data South Coast.csv,AVG,BUTLER Liza
+SG2301 LA Pref Data Lake Macquarie.csv,OM,PIPER Greg
+SG2301 LA Pref Data Lake Macquarie.csv,PM,PIPER Greg
+SG2301 LA Pref Data Lake Macquarie.csv,AVG,PIPER Greg
+SG2301 LA Pref Data Kiama.csv,OM,WARD Gareth
+SG2301 LA Pref Data Kiama.csv,PM,WARD Gareth
+SG2301 LA Pref Data Kiama.csv,AVG,WARD Gareth
+SG2301 LA Pref Data Gosford.csv,OM,TESCH Liesl
+SG2301 LA Pref Data Gosford.csv,PM,TESCH Liesl
+SG2301 LA Pref Data Gosford.csv,AVG,TESCH Liesl
+SG2301 LA Pref Data Shellharbour.csv,OM,WATSON Anna
+SG2301 LA Pref Data Shellharbour.csv,PM,WATSON Anna
+SG2301 LA Pref Data Shellharbour.csv,AVG,WATSON Anna
+SG2301 LA Pref Data Fairfield.csv,OM,SALIBA David
+SG2301 LA Pref Data Fairfield.csv,PM,SALIBA David
+SG2301 LA Pref Data Fairfield.csv,AVG,SALIBA David
+SG2301 LA Pref Data Port Macquarie.csv,OM,WILLIAMS Leslie
+SG2301 LA Pref Data Port Macquarie.csv,PM,WILLIAMS Leslie
+SG2301 LA Pref Data Port Macquarie.csv,AVG,WILLIAMS Leslie
+SG2301 LA Pref Data Strathfield.csv,OM,LI Jason Yat-Sen
+SG2301 LA Pref Data Strathfield.csv,PM,LI Jason Yat-Sen
+SG2301 LA Pref Data Strathfield.csv,AVG,LI Jason Yat-Sen
+SG2301 LA Pref Data Epping.csv,OM,PERROTTET Dominic
+SG2301 LA Pref Data Epping.csv,PM,PERROTTET Dominic
+SG2301 LA Pref Data Epping.csv,AVG,PERROTTET Dominic
+SG2301 LA Pref Data Monaro.csv,OM,WHAN Steven
+SG2301 LA Pref Data Monaro.csv,PM,WHAN Steven
+SG2301 LA Pref Data Monaro.csv,AVG,WHAN Steven
+SG2301 LA Pref Data Penrith.csv,OM,McKEOWN Karen
+SG2301 LA Pref Data Penrith.csv,PM,McKEOWN Karen
+SG2301 LA Pref Data Penrith.csv,AVG,McKEOWN Karen
+SG2301 LA Pref Data Barwon.csv,OM,BUTLER Roy
+SG2301 LA Pref Data Barwon.csv,PM,BUTLER Roy
+SG2301 LA Pref Data Barwon.csv,AVG,BUTLER Roy
+SG2301 LA Pref Data Vaucluse.csv,OM,SLOANE Kellie
+SG2301 LA Pref Data Vaucluse.csv,PM,SLOANE Kellie
+SG2301 LA Pref Data Vaucluse.csv,AVG,SLOANE Kellie
+SG2301 LA Pref Data Kogarah.csv,OM,MINNS Chris
+SG2301 LA Pref Data Kogarah.csv,PM,MINNS Chris
+SG2301 LA Pref Data Kogarah.csv,AVG,MINNS Chris
+SG2301 LA Pref Data Mount Druitt.csv,OM,ATALLA Edmond
+SG2301 LA Pref Data Mount Druitt.csv,PM,ATALLA Edmond
+SG2301 LA Pref Data Mount Druitt.csv,AVG,ATALLA Edmond
+SG2301 LA Pref Data Wollondilly.csv,OM,HANNAN Judy
+SG2301 LA Pref Data Wollondilly.csv,PM,HANNAN Judy
+SG2301 LA Pref Data Wollondilly.csv,AVG,HANNAN Judy
+SG2301 LA Pref Data Liverpool.csv,OM,KALIYANDA Charishma
+SG2301 LA Pref Data Liverpool.csv,PM,KALIYANDA Charishma
+SG2301 LA Pref Data Liverpool.csv,AVG,KALIYANDA Charishma
+SG2301 LA Pref Data Maitland.csv,OM,AITCHISON Jenny
+SG2301 LA Pref Data Maitland.csv,PM,AITCHISON Jenny
+SG2301 LA Pref Data Maitland.csv,AVG,AITCHISON Jenny
+SG2301 LA Pref Data Goulburn.csv,OM,TUCKERMAN Wendy
+SG2301 LA Pref Data Goulburn.csv,PM,TUCKERMAN Wendy
+SG2301 LA Pref Data Goulburn.csv,AVG,TUCKERMAN Wendy
+SG2301 LA Pref Data Upper Hunter.csv,OM,LAYZELL Dave
+SG2301 LA Pref Data Upper Hunter.csv,PM,LAYZELL Dave
+SG2301 LA Pref Data Upper Hunter.csv,AVG,LAYZELL Dave
+SG2301 LA Pref Data Cabramatta.csv,OM,VO Tri
+SG2301 LA Pref Data Cabramatta.csv,PM,VO Tri
+SG2301 LA Pref Data Cabramatta.csv,AVG,VO Tri
+SG2301 LA Pref Data Hornsby.csv,OM,KEAN Matt
+SG2301 LA Pref Data Hornsby.csv,PM,KEAN Matt
+SG2301 LA Pref Data Hornsby.csv,AVG,KEAN Matt
+SG2301 LA Pref Data Badgerys Creek.csv,OM,DAVIES Tanya
+SG2301 LA Pref Data Badgerys Creek.csv,PM,DAVIES Tanya
+SG2301 LA Pref Data Badgerys Creek.csv,AVG,DAVIES Tanya
+SG2301 LA Pref Data Campbelltown.csv,OM,WARREN Greg
+SG2301 LA Pref Data Campbelltown.csv,PM,WARREN Greg
+SG2301 LA Pref Data Campbelltown.csv,AVG,WARREN Greg
+SG2301 LA Pref Data Willoughby.csv,OM,JAMES Tim
+SG2301 LA Pref Data Willoughby.csv,PM,JAMES Tim
+SG2301 LA Pref Data Willoughby.csv,AVG,JAMES Tim
+SG2301 LA Pref Data Heffron.csv,OM,HOENIG Ron
+SG2301 LA Pref Data Heffron.csv,PM,HOENIG Ron
+SG2301 LA Pref Data Heffron.csv,AVG,HOENIG Ron
+SG2301 LA Pref Data Kellyville.csv,OM,WILLIAMS Ray
+SG2301 LA Pref Data Kellyville.csv,PM,WILLIAMS Ray
+SG2301 LA Pref Data Kellyville.csv,AVG,WILLIAMS Ray
+SG2301 LA Pref Data Drummoyne.csv,OM,DI PASQUA Stephanie
+SG2301 LA Pref Data Drummoyne.csv,PM,DI PASQUA Stephanie
+SG2301 LA Pref Data Drummoyne.csv,AVG,DI PASQUA Stephanie
+SG2301 LA Pref Data Heathcote.csv,OM,STUART Maryanne
+SG2301 LA Pref Data Heathcote.csv,PM,STUART Maryanne
+SG2301 LA Pref Data Heathcote.csv,AVG,STUART Maryanne
+SG2301 LA Pref Data Oxley.csv,OM,KEMP Michael
+SG2301 LA Pref Data Oxley.csv,PM,KEMP Michael
+SG2301 LA Pref Data Oxley.csv,AVG,KEMP Michael
+SG2301 LA Pref Data Hawkesbury.csv,OM,PRESTON Robyn
+SG2301 LA Pref Data Hawkesbury.csv,PM,PRESTON Robyn
+SG2301 LA Pref Data Hawkesbury.csv,AVG,PRESTON Robyn
+SG2301 LA Pref Data Coffs Harbour.csv,OM,SINGH Gurmesh
+SG2301 LA Pref Data Coffs Harbour.csv,PM,SINGH Gurmesh
+SG2301 LA Pref Data Coffs Harbour.csv,AVG,SINGH Gurmesh
+SG2301 LA Pref Data Maroubra.csv,OM,DALEY Michael
+SG2301 LA Pref Data Maroubra.csv,PM,DALEY Michael
+SG2301 LA Pref Data Maroubra.csv,AVG,DALEY Michael
+SG2301 LA Pref Data Cessnock.csv,OM,BARR Clayton
+SG2301 LA Pref Data Cessnock.csv,PM,BARR Clayton
+SG2301 LA Pref Data Cessnock.csv,AVG,BARR Clayton
+SG2301 LA Pref Data Winston Hills.csv,OM,TAYLOR Mark
+SG2301 LA Pref Data Winston Hills.csv,PM,TAYLOR Mark
+SG2301 LA Pref Data Winston Hills.csv,AVG,TAYLOR Mark
+SG2301 LA Pref Data Bathurst.csv,OM,TOOLE Paul
+SG2301 LA Pref Data Bathurst.csv,PM,TOOLE Paul
+SG2301 LA Pref Data Bathurst.csv,AVG,TOOLE Paul
+SG2301 LA Pref Data North Shore.csv,OM,WILSON Felicity
+SG2301 LA Pref Data North Shore.csv,PM,WILSON Felicity
+SG2301 LA Pref Data North Shore.csv,AVG,WILSON Felicity
+SG2301 LA Pref Data Wagga Wagga.csv,OM,McGIRR Joe
+SG2301 LA Pref Data Wagga Wagga.csv,PM,McGIRR Joe
+SG2301 LA Pref Data Wagga Wagga.csv,AVG,McGIRR Joe
+SG2301 LA Pref Data Lane Cove.csv,OM,ROBERTS Anthony
+SG2301 LA Pref Data Lane Cove.csv,PM,ROBERTS Anthony
+SG2301 LA Pref Data Lane Cove.csv,AVG,ROBERTS Anthony
+SG2301 LA Pref Data Dubbo.csv,OM,SAUNDERS Dugald
+SG2301 LA Pref Data Dubbo.csv,PM,SAUNDERS Dugald
+SG2301 LA Pref Data Dubbo.csv,AVG,SAUNDERS Dugald
+SG2301 LA Pref Data Lismore.csv,OM,SAFFIN Janelle
+SG2301 LA Pref Data Lismore.csv,PM,SAFFIN Janelle
+SG2301 LA Pref Data Lismore.csv,AVG,SAFFIN Janelle
+SG2301 LA Pref Data Tweed.csv,OM,PROVEST Geoff
+SG2301 LA Pref Data Tweed.csv,PM,PROVEST Geoff
+SG2301 LA Pref Data Tweed.csv,AVG,PROVEST Geoff
+SG2301 LA Pref Data Ballina.csv,OM,SMITH Tamara
+SG2301 LA Pref Data Ballina.csv,PM,SMITH Tamara
+SG2301 LA Pref Data Ballina.csv,AVG,SMITH Tamara
+SG2301 LA Pref Data Ryde.csv,OM,LANE Jordan
+SG2301 LA Pref Data Ryde.csv,PM,LANE Jordan
+SG2301 LA Pref Data Ryde.csv,AVG,LANE Jordan
+SG2301 LA Pref Data Keira.csv,OM,PARK Ryan
+SG2301 LA Pref Data Keira.csv,PM,PARK Ryan
+SG2301 LA Pref Data Keira.csv,AVG,PARK Ryan
+SG2301 LA Pref Data Canterbury.csv,OM,COTSIS Sophie
+SG2301 LA Pref Data Canterbury.csv,PM,COTSIS Sophie
+SG2301 LA Pref Data Canterbury.csv,AVG,COTSIS Sophie
+SG2301 LA Pref Data Granville.csv,OM,FINN Julia
+SG2301 LA Pref Data Granville.csv,PM,FINN Julia
+SG2301 LA Pref Data Granville.csv,AVG,FINN Julia
+SG2301 LA Pref Data Macquarie Fields.csv,OM,CHANTHIVONG Anoulack
+SG2301 LA Pref Data Macquarie Fields.csv,PM,CHANTHIVONG Anoulack
+SG2301 LA Pref Data Macquarie Fields.csv,AVG,CHANTHIVONG Anoulack
+SG2301 LA Pref Data Prospect.csv,OM,McDERMOTT Hugh
+SG2301 LA Pref Data Prospect.csv,PM,McDERMOTT Hugh
+SG2301 LA Pref Data Prospect.csv,AVG,McDERMOTT Hugh
+SG2301 LA Pref Data Newcastle.csv,OM,CRAKANTHORP Tim
+SG2301 LA Pref Data Newcastle.csv,PM,CRAKANTHORP Tim
+SG2301 LA Pref Data Newcastle.csv,AVG,CRAKANTHORP Tim
+SG2301 LA Pref Data Wallsend.csv,OM,HORNERY Sonia
+SG2301 LA Pref Data Wallsend.csv,PM,HORNERY Sonia
+SG2301 LA Pref Data Wallsend.csv,AVG,HORNERY Sonia
+SG2301 LA Pref Data Port Stephens.csv,OM,WASHINGTON Kate
+SG2301 LA Pref Data Port Stephens.csv,PM,WASHINGTON Kate
+SG2301 LA Pref Data Port Stephens.csv,AVG,WASHINGTON Kate
+SG2301 LA Pref Data Wakehurst.csv,OM,REGAN Michael
+SG2301 LA Pref Data Wakehurst.csv,PM,REGAN Michael
+SG2301 LA Pref Data Wakehurst.csv,AVG,REGAN Michael
+SG2301 LA Pref Data Cootamundra.csv,OM,COOKE Steph
+SG2301 LA Pref Data Cootamundra.csv,PM,COOKE Steph
+SG2301 LA Pref Data Cootamundra.csv,AVG,COOKE Steph
+SG2301 LA Pref Data Terrigal.csv,OM,CROUCH Adam
+SG2301 LA Pref Data Terrigal.csv,PM,CROUCH Adam
+SG2301 LA Pref Data Terrigal.csv,AVG,CROUCH Adam
+SG2301 LA Pref Data Holsworthy.csv,OM,AYYAD Tina
+SG2301 LA Pref Data Holsworthy.csv,PM,AYYAD Tina
+SG2301 LA Pref Data Holsworthy.csv,AVG,AYYAD Tina
+SG2301 LA Pref Data Manly.csv,OM,GRIFFIN James
+SG2301 LA Pref Data Manly.csv,PM,GRIFFIN James
+SG2301 LA Pref Data Manly.csv,AVG,GRIFFIN James
+SG2301 LA Pref Data Wollongong.csv,OM,SCULLY Paul
+SG2301 LA Pref Data Wollongong.csv,PM,SCULLY Paul
+SG2301 LA Pref Data Wollongong.csv,AVG,SCULLY Paul
+SG2301 LA Pref Data Albury.csv,OM,CLANCY Justin
+SG2301 LA Pref Data Albury.csv,PM,CLANCY Justin
+SG2301 LA Pref Data Albury.csv,AVG,CLANCY Justin
+SG2301 LA Pref Data Bankstown.csv,OM,DIB Jihad
+SG2301 LA Pref Data Bankstown.csv,PM,DIB Jihad
+SG2301 LA Pref Data Bankstown.csv,AVG,DIB Jihad

@@ -1,0 +1,988 @@
+file,threshold,winner,plurality_match,IRV_match,top-two_match,borda-pm_match,borda-om_match,borda-avg_match,top-3-truncation_match,condorcet_match,minimax_match,smith_plurality_match,smith_irv_match,smith-minimax_match,ranked-pairs_match,bucklin_match,approval_match,smith_match
+BallotPaperDetails-Brighton with candidates.csv,OM,James Newbury,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+BallotPaperDetails-Brighton with candidates.csv,PM,James Newbury,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+BallotPaperDetails-Brighton with candidates.csv,AVG,James Newbury,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+BallotPaperDetails-Northcote with candidates.csv,OM,Kat Theophanous,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,no_match,match
+BallotPaperDetails-Northcote with candidates.csv,PM,Kat Theophanous,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,no_match,match
+BallotPaperDetails-Northcote with candidates.csv,AVG,Kat Theophanous,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,no_match,match
+BallotPaperDetails-Werribee with candidates.csv,OM,Tim Pallas,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner
+BallotPaperDetails-Werribee with candidates.csv,PM,Tim Pallas,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner
+BallotPaperDetails-Point Cook with candidates.csv,OM,Mathew Hilakari,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner
+BallotPaperDetails-Point Cook with candidates.csv,PM,Mathew Hilakari,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner
+BallotPaperDetails-Hawthorn with candidates.csv,OM,John Pesutto,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+BallotPaperDetails-Hawthorn with candidates.csv,PM,John Pesutto,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+BallotPaperDetails-Hawthorn with candidates.csv,AVG,John Pesutto,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+BallotPaperDetails-Preston with Candidates.csv,OM,Nathan Lambert,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+BallotPaperDetails-Preston with Candidates.csv,PM,Nathan Lambert,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+BallotPaperDetails-Preston with Candidates.csv,AVG,Nathan Lambert,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+BallotPaperDetails-Melton with candidates.csv,OM,Steve McGhie,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner
+BallotPaperDetails-Melton with candidates.csv,PM,Steve McGhie,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner,no_winner
+Ballina-mayoral-finalpreferencedatafile (1).csv,OM,CADWALLADER Sharon,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Ballina-mayoral-finalpreferencedatafile (1).csv,PM,CADWALLADER Sharon,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Ballina-mayoral-finalpreferencedatafile (1).csv,AVG,CADWALLADER Sharon,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+The_Hills_Shire-mayoral-finalpreferencedatafile.csv,OM,GANGEMI Peter,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+The_Hills_Shire-mayoral-finalpreferencedatafile.csv,PM,GANGEMI Peter,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+The_Hills_Shire-mayoral-finalpreferencedatafile.csv,AVG,GANGEMI Peter,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Nambucca_Valley-mayoral-finalpreferencedatafile.csv,OM,HOBAN Rhonda,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Nambucca_Valley-mayoral-finalpreferencedatafile.csv,PM,HOBAN Rhonda,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Nambucca_Valley-mayoral-finalpreferencedatafile.csv,AVG,HOBAN Rhonda,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Sydney-mayoral-finalpreferencedatafile.csv,OM,MOORE Clover,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Sydney-mayoral-finalpreferencedatafile.csv,PM,MOORE Clover,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Sydney-mayoral-finalpreferencedatafile.csv,AVG,MOORE Clover,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Coffs_Harbour-mayoral-finalpreferencedatafile.csv,OM,AMOS Paul,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Coffs_Harbour-mayoral-finalpreferencedatafile.csv,PM,AMOS Paul,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Coffs_Harbour-mayoral-finalpreferencedatafile.csv,AVG,AMOS Paul,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Lismore-mayoral-finalpreferencedatafile.csv,OM,KRIEG Steve,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Lismore-mayoral-finalpreferencedatafile.csv,PM,KRIEG Steve,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Lismore-mayoral-finalpreferencedatafile.csv,AVG,KRIEG Steve,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Eurobodalla-mayoral-finalpreferencedatafile.csv,OM,HATCHER Mat,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Eurobodalla-mayoral-finalpreferencedatafile.csv,PM,HATCHER Mat,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Eurobodalla-mayoral-finalpreferencedatafile.csv,AVG,HATCHER Mat,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Shellharbour-mayoral-finalpreferencedatafile.csv,OM,HOMER Chris,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Shellharbour-mayoral-finalpreferencedatafile.csv,PM,HOMER Chris,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Shellharbour-mayoral-finalpreferencedatafile.csv,AVG,HOMER Chris,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Singleton-mayoral-finalpreferencedatafile.csv,OM,MOORE Sue,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Singleton-mayoral-finalpreferencedatafile.csv,PM,MOORE Sue,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Singleton-mayoral-finalpreferencedatafile.csv,AVG,MOORE Sue,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Uralla-mayoral-finalpreferencedatafile.csv,OM,BELL Robert,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Uralla-mayoral-finalpreferencedatafile.csv,PM,BELL Robert,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Uralla-mayoral-finalpreferencedatafile.csv,AVG,BELL Robert,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Shoalhaven-mayoral-finalpreferencedatafile.csv,OM,FINDLEY Amanda,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Shoalhaven-mayoral-finalpreferencedatafile.csv,PM,FINDLEY Amanda,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Shoalhaven-mayoral-finalpreferencedatafile.csv,AVG,FINDLEY Amanda,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+Port_Macquarie-Hastings-mayoral-finalpreferencedatafile.csv,OM,PINSON Peta,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Port_Macquarie-Hastings-mayoral-finalpreferencedatafile.csv,PM,PINSON Peta,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Port_Macquarie-Hastings-mayoral-finalpreferencedatafile.csv,AVG,PINSON Peta,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Richmond_Valley-mayoral-finalpreferencedatafile.csv,OM,MUSTOW Robert,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Richmond_Valley-mayoral-finalpreferencedatafile.csv,PM,MUSTOW Robert,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Richmond_Valley-mayoral-finalpreferencedatafile.csv,AVG,MUSTOW Robert,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Lake_Macquarie-mayoral-finalpreferencedatafile.csv,OM,FRASER Kay,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Lake_Macquarie-mayoral-finalpreferencedatafile.csv,PM,FRASER Kay,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Lake_Macquarie-mayoral-finalpreferencedatafile.csv,AVG,FRASER Kay,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Port_Stephens-mayoral-finalpreferencedatafile.csv,OM,PALMER Ryan,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Port_Stephens-mayoral-finalpreferencedatafile.csv,PM,PALMER Ryan,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Port_Stephens-mayoral-finalpreferencedatafile.csv,AVG,PALMER Ryan,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Wollondilly-mayoral-finalpreferencedatafile.csv,OM,GOULD Matt,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Wollondilly-mayoral-finalpreferencedatafile.csv,PM,GOULD Matt,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Wollondilly-mayoral-finalpreferencedatafile.csv,AVG,GOULD Matt,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Griffith-mayoral-finalpreferencedatafile.csv,OM,CURRAN Doug,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Griffith-mayoral-finalpreferencedatafile.csv,PM,CURRAN Doug,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Griffith-mayoral-finalpreferencedatafile.csv,AVG,CURRAN Doug,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Hunters_Hill-mayoral-finalpreferencedatafile.csv,OM,QUINN Richard,no_match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match,match,no_match,match
+Hunters_Hill-mayoral-finalpreferencedatafile.csv,PM,QUINN Richard,no_match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match,match,no_match,match
+Hunters_Hill-mayoral-finalpreferencedatafile.csv,AVG,QUINN Richard,no_match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match,match,no_match,match
+City_of_Cessnock-mayoral-finalpreferencedatafile.csv,OM,SUVAAL Jay,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Cessnock-mayoral-finalpreferencedatafile.csv,PM,SUVAAL Jay,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Cessnock-mayoral-finalpreferencedatafile.csv,AVG,SUVAAL Jay,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Newcastle-mayoral-finalpreferencedatafile.csv,OM,NELMES Nuatali,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Newcastle-mayoral-finalpreferencedatafile.csv,PM,NELMES Nuatali,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Newcastle-mayoral-finalpreferencedatafile.csv,AVG,NELMES Nuatali,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Willoughby-mayoral-finalpreferencedatafile.csv,OM,TAYLOR Tanya,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Willoughby-mayoral-finalpreferencedatafile.csv,PM,TAYLOR Tanya,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Willoughby-mayoral-finalpreferencedatafile.csv,AVG,TAYLOR Tanya,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Maitland-mayoral-finalpreferencedatafile.csv,OM,PENFOLD Philip,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,no_match,match
+City_of_Maitland-mayoral-finalpreferencedatafile.csv,PM,PENFOLD Philip,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,no_match,match
+City_of_Maitland-mayoral-finalpreferencedatafile.csv,AVG,PENFOLD Philip,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,no_match,match
+City_of_Broken_Hill-mayoral-finalpreferencedatafile.csv,OM,KENNEDY Tom,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Broken_Hill-mayoral-finalpreferencedatafile.csv,PM,KENNEDY Tom,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Broken_Hill-mayoral-finalpreferencedatafile.csv,AVG,KENNEDY Tom,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Bellingen-mayoral-finalpreferencedatafile (1).csv,OM,ALLAN Steve,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Bellingen-mayoral-finalpreferencedatafile (1).csv,PM,ALLAN Steve,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Bellingen-mayoral-finalpreferencedatafile (1).csv,AVG,ALLAN Steve,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Byron-mayoral-finalpreferencedatafile.csv,OM,LYON Michael,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Byron-mayoral-finalpreferencedatafile.csv,PM,LYON Michael,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Byron-mayoral-finalpreferencedatafile.csv,AVG,LYON Michael,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Orange-mayoral-finalpreferencedatafile.csv,OM,HAMLING Jason,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Orange-mayoral-finalpreferencedatafile.csv,PM,HAMLING Jason,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Orange-mayoral-finalpreferencedatafile.csv,AVG,HAMLING Jason,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Hornsby-mayoral-finalpreferencedatafile.csv,OM,RUDDOCK Philip,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Hornsby-mayoral-finalpreferencedatafile.csv,PM,RUDDOCK Philip,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Hornsby-mayoral-finalpreferencedatafile.csv,AVG,RUDDOCK Philip,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Kempsey-mayoral-finalpreferencedatafile.csv,OM,HAUVILLE Leo,no_match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,no_match,match
+Kempsey-mayoral-finalpreferencedatafile.csv,PM,HAUVILLE Leo,no_match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,no_match,match
+Kempsey-mayoral-finalpreferencedatafile.csv,AVG,HAUVILLE Leo,no_match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,no_match,match
+Burwood-mayoral-finalpreferencedatafile.csv,OM,FAKER John,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Burwood-mayoral-finalpreferencedatafile.csv,PM,FAKER John,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+Burwood-mayoral-finalpreferencedatafile.csv,AVG,FAKER John,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Wollongong-mayoral-finalpreferencedatafile.csv,OM,BRADBERY Gordon,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Wollongong-mayoral-finalpreferencedatafile.csv,PM,BRADBERY Gordon,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Wollongong-mayoral-finalpreferencedatafile.csv,AVG,BRADBERY Gordon,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+City_of_Liverpool-mayoral-finalpreferencedatafile.csv,OM,MANNOUN Ned,match,match,match,match,no_match,no_match,match,match,match,match,match,match,match,match,match,match
+City_of_Liverpool-mayoral-finalpreferencedatafile.csv,PM,MANNOUN Ned,match,match,match,match,no_match,no_match,match,match,match,match,match,match,match,match,match,match
+City_of_Liverpool-mayoral-finalpreferencedatafile.csv,AVG,MANNOUN Ned,match,match,match,match,no_match,no_match,match,match,match,match,match,match,match,match,match,match
+SB1702 LA Pref Data_NA_Cootamundra.csv,OM,COOKE Steph,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SB1702 LA Pref Data_NA_Cootamundra.csv,PM,COOKE Steph,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SB1702 LA Pref Data_NA_Cootamundra.csv,AVG,COOKE Steph,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SB1702 LA Pref Data_NA_Murray.csv,OM,EVANS Austin,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SB1702 LA Pref Data_NA_Murray.csv,PM,EVANS Austin,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SB1702 LA Pref Data_NA_Murray.csv,AVG,EVANS Austin,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SB1701 LA Pref Data_NA_Gosford.csv,OM,TESCH Liesl,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SB1701 LA Pref Data_NA_Gosford.csv,PM,TESCH Liesl,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SB1701 LA Pref Data_NA_Gosford.csv,AVG,TESCH Liesl,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SB1701 LA Pref Data_NA_North Shore.csv,OM,WILSON Felicity,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SB1701 LA Pref Data_NA_North Shore.csv,PM,WILSON Felicity,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SB1701 LA Pref Data_NA_North Shore.csv,AVG,WILSON Felicity,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SB1701 LA Pref Data_NA_Manly.csv,OM,GRIFFIN James,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SB1701 LA Pref Data_NA_Manly.csv,PM,GRIFFIN James,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SB1701 LA Pref Data_NA_Manly.csv,AVG,GRIFFIN James,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SB1702 LA Pref Data_NA_Blacktown.csv,OM,BALI Stephen,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SB1702 LA Pref Data_NA_Blacktown.csv,PM,BALI Stephen,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SB1702 LA Pref Data_NA_Blacktown.csv,AVG,BALI Stephen,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Murray.csv,OM,DALTON Helen,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Murray.csv,PM,DALTON Helen,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Murray.csv,AVG,DALTON Helen,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Sydney.csv,OM,GREENWICH Alex,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Sydney.csv,PM,GREENWICH Alex,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Sydney.csv,AVG,GREENWICH Alex,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Newtown.csv,OM,LEONG Jenny,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Newtown.csv,PM,LEONG Jenny,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Newtown.csv,AVG,LEONG Jenny,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Balmain.csv,OM,PARKER Jamie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Balmain.csv,PM,PARKER Jamie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Balmain.csv,AVG,PARKER Jamie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Camden.csv,OM,SIDGREAVES Peter,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Camden.csv,PM,SIDGREAVES Peter,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Camden.csv,AVG,SIDGREAVES Peter,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Maitland.csv,OM,AITCHISON Jenny,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Maitland.csv,PM,AITCHISON Jenny,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Maitland.csv,AVG,AITCHISON Jenny,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Ku-ring-gai.csv,OM,HENSKENS Alister,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Ku-ring-gai.csv,PM,HENSKENS Alister,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Ku-ring-gai.csv,AVG,HENSKENS Alister,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Bega.csv,OM,CONSTANCE Andrew,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Bega.csv,PM,CONSTANCE Andrew,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Bega.csv,AVG,CONSTANCE Andrew,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Orange.csv,OM,DONATO Philip,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Orange.csv,PM,DONATO Philip,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Orange.csv,AVG,DONATO Philip,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Goulburn.csv,OM,TUCKERMAN Wendy,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Goulburn.csv,PM,TUCKERMAN Wendy,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Goulburn.csv,AVG,TUCKERMAN Wendy,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Kiama.csv,OM,WARD Gareth,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Kiama.csv,PM,WARD Gareth,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Kiama.csv,AVG,WARD Gareth,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Wollondilly.csv,OM,SMITH Nathaniel,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Wollondilly.csv,PM,SMITH Nathaniel,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Wollondilly.csv,AVG,SMITH Nathaniel,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Fairfield.csv,OM,ZANGARI Guy,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Fairfield.csv,PM,ZANGARI Guy,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Fairfield.csv,AVG,ZANGARI Guy,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Coogee.csv,OM,O'NEILL Marjorie,no_match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2019 LA Pref Data Coogee.csv,PM,O'NEILL Marjorie,no_match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2019 LA Pref Data Coogee.csv,AVG,O'NEILL Marjorie,no_match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2019 LA Pref Data Cessnock.csv,OM,BARR Clayton,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Cessnock.csv,PM,BARR Clayton,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Cessnock.csv,AVG,BARR Clayton,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Maroubra.csv,OM,DALEY Michael,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Maroubra.csv,PM,DALEY Michael,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Maroubra.csv,AVG,DALEY Michael,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data The Entrance.csv,OM,MEHAN David,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2019 LA Pref Data The Entrance.csv,PM,MEHAN David,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2019 LA Pref Data The Entrance.csv,AVG,MEHAN David,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2019 LA Pref Data Bathurst.csv,OM,TOOLE Paul,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Bathurst.csv,PM,TOOLE Paul,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Bathurst.csv,AVG,TOOLE Paul,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Oatley.csv,OM,COURE Mark,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Oatley.csv,PM,COURE Mark,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Oatley.csv,AVG,COURE Mark,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Swansea.csv,OM,CATLEY Yasmin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Swansea.csv,PM,CATLEY Yasmin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Swansea.csv,AVG,CATLEY Yasmin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Blue Mountains.csv,OM,DOYLE Trish,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Blue Mountains.csv,PM,DOYLE Trish,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Blue Mountains.csv,AVG,DOYLE Trish,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Miranda.csv,OM,PETINOS Eleni,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Miranda.csv,PM,PETINOS Eleni,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Miranda.csv,AVG,PETINOS Eleni,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Auburn.csv,OM,VOLTZ Lynda,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Auburn.csv,PM,VOLTZ Lynda,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Auburn.csv,AVG,VOLTZ Lynda,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Barwon.csv,OM,BUTLER Roy,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,no_match,match
+SGE2019 LA Pref Data Barwon.csv,PM,BUTLER Roy,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,no_match,match
+SGE2019 LA Pref Data Barwon.csv,AVG,BUTLER Roy,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,no_match,match
+SGE2019 LA Pref Data Lakemba.csv,OM,DIB Jihad,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Lakemba.csv,PM,DIB Jihad,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Lakemba.csv,AVG,DIB Jihad,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Mount Druitt.csv,OM,ATALLA Edmond,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Mount Druitt.csv,PM,ATALLA Edmond,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Mount Druitt.csv,AVG,ATALLA Edmond,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Pittwater.csv,OM,STOKES Robert,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Pittwater.csv,PM,STOKES Robert,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Pittwater.csv,AVG,STOKES Robert,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data East Hills.csv,OM,LINDSAY Wendy,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data East Hills.csv,PM,LINDSAY Wendy,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data East Hills.csv,AVG,LINDSAY Wendy,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Gosford.csv,OM,TESCH Liesl,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Gosford.csv,PM,TESCH Liesl,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Gosford.csv,AVG,TESCH Liesl,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Monaro.csv,OM,BARILARO John,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Monaro.csv,PM,BARILARO John,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Monaro.csv,AVG,BARILARO John,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Cootamundra.csv,OM,COOKE Steph,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Cootamundra.csv,PM,COOKE Steph,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Cootamundra.csv,AVG,COOKE Steph,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Parramatta.csv,OM,LEE Geoffrey,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Parramatta.csv,PM,LEE Geoffrey,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Parramatta.csv,AVG,LEE Geoffrey,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Epping.csv,OM,PERROTTET Dominic,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Epping.csv,PM,PERROTTET Dominic,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Epping.csv,AVG,PERROTTET Dominic,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Blacktown.csv,OM,BALI Stephen,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Blacktown.csv,PM,BALI Stephen,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Blacktown.csv,AVG,BALI Stephen,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Wyong.csv,OM,HARRIS David,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Wyong.csv,PM,HARRIS David,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Wyong.csv,AVG,HARRIS David,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Lake Macquarie.csv,OM,PIPER Greg,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Lake Macquarie.csv,PM,PIPER Greg,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Lake Macquarie.csv,AVG,PIPER Greg,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data North Shore.csv,OM,WILSON Felicity,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data North Shore.csv,PM,WILSON Felicity,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data North Shore.csv,AVG,WILSON Felicity,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Kogarah.csv,OM,MINNS Chris,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2019 LA Pref Data Kogarah.csv,PM,MINNS Chris,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2019 LA Pref Data Kogarah.csv,AVG,MINNS Chris,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2019 LA Pref Data Wagga Wagga.csv,OM,McGIRR Joe,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Wagga Wagga.csv,PM,McGIRR Joe,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Wagga Wagga.csv,AVG,McGIRR Joe,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Shellharbour.csv,OM,WATSON Anna,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Shellharbour.csv,PM,WATSON Anna,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Shellharbour.csv,AVG,WATSON Anna,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Port Macquarie.csv,OM,WILLIAMS Leslie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Port Macquarie.csv,PM,WILLIAMS Leslie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Port Macquarie.csv,AVG,WILLIAMS Leslie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Riverstone.csv,OM,CONOLLY Kevin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Riverstone.csv,PM,CONOLLY Kevin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Riverstone.csv,AVG,CONOLLY Kevin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Wallsend.csv,OM,HORNERY Sonia,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Wallsend.csv,PM,HORNERY Sonia,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Wallsend.csv,AVG,HORNERY Sonia,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Penrith.csv,OM,AYRES Stuart,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Penrith.csv,PM,AYRES Stuart,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Penrith.csv,AVG,AYRES Stuart,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Seven Hills.csv,OM,TAYLOR Mark,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Seven Hills.csv,PM,TAYLOR Mark,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Seven Hills.csv,AVG,TAYLOR Mark,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Prospect.csv,OM,McDERMOTT Hugh,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Prospect.csv,PM,McDERMOTT Hugh,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Prospect.csv,AVG,McDERMOTT Hugh,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Terrigal.csv,OM,CROUCH Adam,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Terrigal.csv,PM,CROUCH Adam,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Terrigal.csv,AVG,CROUCH Adam,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Macquarie Fields.csv,OM,CHANTHIVONG Anoulack,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Macquarie Fields.csv,PM,CHANTHIVONG Anoulack,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Macquarie Fields.csv,AVG,CHANTHIVONG Anoulack,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Dubbo.csv,OM,SAUNDERS Dugald,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Dubbo.csv,PM,SAUNDERS Dugald,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Dubbo.csv,AVG,SAUNDERS Dugald,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Hornsby.csv,OM,KEAN Matthew,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Hornsby.csv,PM,KEAN Matthew,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Hornsby.csv,AVG,KEAN Matthew,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Lane Cove.csv,OM,ROBERTS Anthony,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Lane Cove.csv,PM,ROBERTS Anthony,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Lane Cove.csv,AVG,ROBERTS Anthony,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Tweed.csv,OM,PROVEST Geoff,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Tweed.csv,PM,PROVEST Geoff,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Tweed.csv,AVG,PROVEST Geoff,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Mulgoa.csv,OM,DAVIES Tanya,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Mulgoa.csv,PM,DAVIES Tanya,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Mulgoa.csv,AVG,DAVIES Tanya,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Wollongong.csv,OM,SCULLY Paul,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Wollongong.csv,PM,SCULLY Paul,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Wollongong.csv,AVG,SCULLY Paul,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Keira.csv,OM,PARK Ryan,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Keira.csv,PM,PARK Ryan,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Keira.csv,AVG,PARK Ryan,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Tamworth.csv,OM,ANDERSON Kevin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Tamworth.csv,PM,ANDERSON Kevin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Tamworth.csv,AVG,ANDERSON Kevin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Clarence.csv,OM,GULAPTIS Chris,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Clarence.csv,PM,GULAPTIS Chris,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Clarence.csv,AVG,GULAPTIS Chris,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Port Stephens.csv,OM,WASHINGTON Kate,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Port Stephens.csv,PM,WASHINGTON Kate,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Port Stephens.csv,AVG,WASHINGTON Kate,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Holsworthy.csv,OM,GIBBONS Melanie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Holsworthy.csv,PM,GIBBONS Melanie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Holsworthy.csv,AVG,GIBBONS Melanie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Davidson.csv,OM,O'DEA Jonathan,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Davidson.csv,PM,O'DEA Jonathan,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Davidson.csv,AVG,O'DEA Jonathan,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Granville.csv,OM,FINN Julia,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Granville.csv,PM,FINN Julia,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Granville.csv,AVG,FINN Julia,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Rockdale.csv,OM,KAMPER Steve,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Rockdale.csv,PM,KAMPER Steve,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Rockdale.csv,AVG,KAMPER Steve,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Charlestown.csv,OM,HARRISON Jodie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Charlestown.csv,PM,HARRISON Jodie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Charlestown.csv,AVG,HARRISON Jodie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Newcastle.csv,OM,CRAKANTHORP Tim,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Newcastle.csv,PM,CRAKANTHORP Tim,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Newcastle.csv,AVG,CRAKANTHORP Tim,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Wakehurst.csv,OM,HAZZARD Brad,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Wakehurst.csv,PM,HAZZARD Brad,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Wakehurst.csv,AVG,HAZZARD Brad,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Campbelltown.csv,OM,WARREN Greg,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Campbelltown.csv,PM,WARREN Greg,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Campbelltown.csv,AVG,WARREN Greg,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Manly.csv,OM,GRIFFIN James,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Manly.csv,PM,GRIFFIN James,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Manly.csv,AVG,GRIFFIN James,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Castle Hill.csv,OM,WILLIAMS Raymond,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Castle Hill.csv,PM,WILLIAMS Raymond,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Castle Hill.csv,AVG,WILLIAMS Raymond,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Heffron.csv,OM,HOENIG Ron,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Heffron.csv,PM,HOENIG Ron,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Heffron.csv,AVG,HOENIG Ron,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Londonderry.csv,OM,CAR Prue,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Londonderry.csv,PM,CAR Prue,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Londonderry.csv,AVG,CAR Prue,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Upper Hunter.csv,OM,JOHNSEN Michael,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Upper Hunter.csv,PM,JOHNSEN Michael,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Upper Hunter.csv,AVG,JOHNSEN Michael,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Bankstown.csv,OM,MIHAILUK Tania,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Bankstown.csv,PM,MIHAILUK Tania,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Bankstown.csv,AVG,MIHAILUK Tania,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Canterbury.csv,OM,COTSIS Sophie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Canterbury.csv,PM,COTSIS Sophie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Canterbury.csv,AVG,COTSIS Sophie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Coffs Harbour.csv,OM,SINGH Gurmesh,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Coffs Harbour.csv,PM,SINGH Gurmesh,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Coffs Harbour.csv,AVG,SINGH Gurmesh,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Liverpool.csv,OM,LYNCH Paul,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Liverpool.csv,PM,LYNCH Paul,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Liverpool.csv,AVG,LYNCH Paul,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Strathfield.csv,OM,MCKAY Jodi,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2019 LA Pref Data Strathfield.csv,PM,MCKAY Jodi,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2019 LA Pref Data Strathfield.csv,AVG,MCKAY Jodi,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2019 LA Pref Data Ryde.csv,OM,DOMINELLO Victor,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Ryde.csv,PM,DOMINELLO Victor,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Ryde.csv,AVG,DOMINELLO Victor,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Albury.csv,OM,CLANCY Justin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Albury.csv,PM,CLANCY Justin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Albury.csv,AVG,CLANCY Justin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Cronulla.csv,OM,SPEAKMAN Mark,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Cronulla.csv,PM,SPEAKMAN Mark,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Cronulla.csv,AVG,SPEAKMAN Mark,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Lismore.csv,OM,SAFFIN Janelle,no_match,match,match,no_match,match,match,no_match,match,match,match,match,match,match,no_match,no_match,match
+SGE2019 LA Pref Data Lismore.csv,PM,SAFFIN Janelle,no_match,match,match,no_match,match,match,no_match,match,match,match,match,match,match,no_match,no_match,match
+SGE2019 LA Pref Data Lismore.csv,AVG,SAFFIN Janelle,no_match,match,match,no_match,match,match,no_match,match,match,match,match,match,match,no_match,no_match,match
+SGE2019 LA Pref Data Hawkesbury.csv,OM,PRESTON Robyn,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Hawkesbury.csv,PM,PRESTON Robyn,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Hawkesbury.csv,AVG,PRESTON Robyn,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Ballina.csv,OM,SMITH Tamara,no_match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2019 LA Pref Data Ballina.csv,PM,SMITH Tamara,no_match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2019 LA Pref Data Ballina.csv,AVG,SMITH Tamara,no_match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2019 LA Pref Data Summer Hill.csv,OM,HAYLEN Jo,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Summer Hill.csv,PM,HAYLEN Jo,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Summer Hill.csv,AVG,HAYLEN Jo,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Baulkham Hills.csv,OM,ELLIOTT David,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Baulkham Hills.csv,PM,ELLIOTT David,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Baulkham Hills.csv,AVG,ELLIOTT David,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Heathcote.csv,OM,EVANS Lee,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Heathcote.csv,PM,EVANS Lee,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Heathcote.csv,AVG,EVANS Lee,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Drummoyne.csv,OM,SIDOTI John,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Drummoyne.csv,PM,SIDOTI John,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Drummoyne.csv,AVG,SIDOTI John,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Northern Tablelands.csv,OM,MARSHALL Adam,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Northern Tablelands.csv,PM,MARSHALL Adam,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Northern Tablelands.csv,AVG,MARSHALL Adam,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Myall Lakes.csv,OM,BROMHEAD Stephen,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Myall Lakes.csv,PM,BROMHEAD Stephen,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Myall Lakes.csv,AVG,BROMHEAD Stephen,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Oxley.csv,OM,PAVEY Melinda,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Oxley.csv,PM,PAVEY Melinda,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Oxley.csv,AVG,PAVEY Melinda,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data South Coast.csv,OM,HANCOCK Shelley,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data South Coast.csv,PM,HANCOCK Shelley,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data South Coast.csv,AVG,HANCOCK Shelley,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Willoughby.csv,OM,BEREJIKLIAN Gladys,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Willoughby.csv,PM,BEREJIKLIAN Gladys,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Willoughby.csv,AVG,BEREJIKLIAN Gladys,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Cabramatta.csv,OM,LALICH Nick,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Cabramatta.csv,PM,LALICH Nick,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Cabramatta.csv,AVG,LALICH Nick,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Vaucluse.csv,OM,UPTON Gabrielle,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Vaucluse.csv,PM,UPTON Gabrielle,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2019 LA Pref Data Vaucluse.csv,AVG,UPTON Gabrielle,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+BallotPaperDetails-Melbourne District SE2018.csv,OM,Ellen Sandell,match,match,match,no_match,no_match,no_match,no_match,match,match,match,match,match,match,no_match,match,match
+BallotPaperDetails-Melbourne District SE2018.csv,PM,Ellen Sandell,match,match,match,no_match,no_match,no_match,no_match,match,match,match,match,match,match,no_match,match,match
+BallotPaperDetails-Melbourne District SE2018.csv,AVG,Ellen Sandell,match,match,match,no_match,no_match,no_match,no_match,match,match,match,match,match,match,no_match,match,match
+SB2201 LA Pref Data_NA_Strathfield.csv,OM,LI Jason Yat-Sen,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SB2201 LA Pref Data_NA_Strathfield.csv,PM,LI Jason Yat-Sen,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SB2201 LA Pref Data_NA_Strathfield.csv,AVG,LI Jason Yat-Sen,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SB2201 LA Pref Data_NA_Willoughby.csv,OM,JAMES Tim,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SB2201 LA Pref Data_NA_Willoughby.csv,PM,JAMES Tim,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SB2201 LA Pref Data_NA_Willoughby.csv,AVG,JAMES Tim,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SB2101 LA Pref Data_NA_Upper Hunter.csv,OM,LAYZELL Dave,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SB2101 LA Pref Data_NA_Upper Hunter.csv,PM,LAYZELL Dave,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SB2101 LA Pref Data_NA_Upper Hunter.csv,AVG,LAYZELL Dave,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SB2201 LA Pref Data_NA_Bega.csv,OM,HOLLAND Michael,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SB2201 LA Pref Data_NA_Bega.csv,PM,HOLLAND Michael,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SB2201 LA Pref Data_NA_Bega.csv,AVG,HOLLAND Michael,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SB2201 LA Pref Data_NA_Monaro.csv,OM,OVERALL Nichole,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SB2201 LA Pref Data_NA_Monaro.csv,PM,OVERALL Nichole,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SB2201 LA Pref Data_NA_Monaro.csv,AVG,OVERALL Nichole,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SB1801 LA Pref Data_NA_Wagga Wagga.csv,OM,McGIRR Joe,no_match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SB1801 LA Pref Data_NA_Wagga Wagga.csv,PM,McGIRR Joe,no_match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SB1801 LA Pref Data_NA_Wagga Wagga.csv,AVG,McGIRR Joe,no_match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2015 LA Pref Data_NA_Cessnock.csv,OM,BARR Clayton,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Cessnock.csv,PM,BARR Clayton,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Cessnock.csv,AVG,BARR Clayton,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Keira.csv,OM,PARK Ryan,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Keira.csv,PM,PARK Ryan,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Keira.csv,AVG,PARK Ryan,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Maroubra.csv,OM,DALEY Michael,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Maroubra.csv,PM,DALEY Michael,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Maroubra.csv,AVG,DALEY Michael,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Holsworthy.csv,OM,GIBBONS Melanie,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Holsworthy.csv,PM,GIBBONS Melanie,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Holsworthy.csv,AVG,GIBBONS Melanie,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Wollondilly.csv,OM,ROWELL Jai,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Wollondilly.csv,PM,ROWELL Jai,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Wollondilly.csv,AVG,ROWELL Jai,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Wollongong.csv,OM,HAY Noreen,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Wollongong.csv,PM,HAY Noreen,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Wollongong.csv,AVG,HAY Noreen,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Penrith.csv,OM,AYRES Stuart,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Penrith.csv,PM,AYRES Stuart,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Penrith.csv,AVG,AYRES Stuart,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Upper Hunter.csv,OM,JOHNSEN Michael,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Upper Hunter.csv,PM,JOHNSEN Michael,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Upper Hunter.csv,AVG,JOHNSEN Michael,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Bathurst.csv,OM,TOOLE Paul,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Bathurst.csv,PM,TOOLE Paul,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Bathurst.csv,AVG,TOOLE Paul,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Bankstown.csv,OM,MIHAILUK Tania,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Bankstown.csv,PM,MIHAILUK Tania,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Bankstown.csv,AVG,MIHAILUK Tania,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Dubbo.csv,OM,GRANT Troy,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Dubbo.csv,PM,GRANT Troy,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Dubbo.csv,AVG,GRANT Troy,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Newcastle.csv,OM,CRAKANTHORP Tim,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Newcastle.csv,PM,CRAKANTHORP Tim,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Newcastle.csv,AVG,CRAKANTHORP Tim,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Campbelltown.csv,OM,WARREN Greg,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2015 LA Pref Data_NA_Campbelltown.csv,PM,WARREN Greg,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2015 LA Pref Data_NA_Campbelltown.csv,AVG,WARREN Greg,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2015 LA Pref Data_NA_Tweed.csv,OM,PROVEST Geoff,match,match,match,match,no_match,no_match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Tweed.csv,PM,PROVEST Geoff,match,match,match,match,no_match,no_match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Tweed.csv,AVG,PROVEST Geoff,match,match,match,match,no_match,no_match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Wakehurst.csv,OM,HAZZARD Brad,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Wakehurst.csv,PM,HAZZARD Brad,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Wakehurst.csv,AVG,HAZZARD Brad,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Kogarah.csv,OM,MINNS Chris,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Kogarah.csv,PM,MINNS Chris,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Kogarah.csv,AVG,MINNS Chris,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Lake Macquarie.csv,OM,PIPER Greg,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Lake Macquarie.csv,PM,PIPER Greg,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Lake Macquarie.csv,AVG,PIPER Greg,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Manly.csv,OM,BAIRD Mike,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Manly.csv,PM,BAIRD Mike,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Manly.csv,AVG,BAIRD Mike,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Canterbury.csv,OM,BURNEY Linda,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Canterbury.csv,PM,BURNEY Linda,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Canterbury.csv,AVG,BURNEY Linda,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Coffs Harbour.csv,OM,FRASER Andrew,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Coffs Harbour.csv,PM,FRASER Andrew,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Coffs Harbour.csv,AVG,FRASER Andrew,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Port Macquarie.csv,OM,WILLIAMS Leslie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Port Macquarie.csv,PM,WILLIAMS Leslie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Port Macquarie.csv,AVG,WILLIAMS Leslie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Granville.csv,OM,FINN Julia,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2015 LA Pref Data_NA_Granville.csv,PM,FINN Julia,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2015 LA Pref Data_NA_Granville.csv,AVG,FINN Julia,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2015 LA Pref Data_NA_Maitland.csv,OM,AITCHISON Jenny,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Maitland.csv,PM,AITCHISON Jenny,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Maitland.csv,AVG,AITCHISON Jenny,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Gosford.csv,OM,SMITH Kathy,no_match,match,match,no_match,match,match,match,match,match,match,match,match,match,no_match,no_match,match
+SGE2015 LA Pref Data_NA_Gosford.csv,PM,SMITH Kathy,no_match,match,match,no_match,match,match,match,match,match,match,match,match,match,no_match,no_match,match
+SGE2015 LA Pref Data_NA_Gosford.csv,AVG,SMITH Kathy,no_match,match,match,no_match,match,match,match,match,match,match,match,match,match,no_match,no_match,match
+SGE2015 LA Pref Data_NA_Albury.csv,OM,APLIN Greg,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Albury.csv,PM,APLIN Greg,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Albury.csv,AVG,APLIN Greg,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Lane Cove.csv,OM,ROBERTS Anthony,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Lane Cove.csv,PM,ROBERTS Anthony,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Lane Cove.csv,AVG,ROBERTS Anthony,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Ku-ring-gai.csv,OM,HENSKENS Alister,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Ku-ring-gai.csv,PM,HENSKENS Alister,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Ku-ring-gai.csv,AVG,HENSKENS Alister,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Goulburn.csv,OM,GOWARD Pru,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Goulburn.csv,PM,GOWARD Pru,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Goulburn.csv,AVG,GOWARD Pru,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Lakemba.csv,OM,DIB Jihad,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Lakemba.csv,PM,DIB Jihad,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Lakemba.csv,AVG,DIB Jihad,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Hawkesbury.csv,OM,PERROTTET Dominic,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Hawkesbury.csv,PM,PERROTTET Dominic,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Hawkesbury.csv,AVG,PERROTTET Dominic,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Miranda.csv,OM,PETINOS Eleni,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Miranda.csv,PM,PETINOS Eleni,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Miranda.csv,AVG,PETINOS Eleni,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Bega.csv,OM,CONSTANCE Andrew,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Bega.csv,PM,CONSTANCE Andrew,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Bega.csv,AVG,CONSTANCE Andrew,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_North Shore.csv,OM,SKINNER Jillian,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_North Shore.csv,PM,SKINNER Jillian,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_North Shore.csv,AVG,SKINNER Jillian,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Wagga Wagga.csv,OM,MAGUIRE Daryl,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Wagga Wagga.csv,PM,MAGUIRE Daryl,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Wagga Wagga.csv,AVG,MAGUIRE Daryl,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Swansea.csv,OM,CATLEY Yasmin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Swansea.csv,PM,CATLEY Yasmin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Swansea.csv,AVG,CATLEY Yasmin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Prospect.csv,OM,McDERMOTT Hugh,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2015 LA Pref Data_NA_Prospect.csv,PM,McDERMOTT Hugh,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2015 LA Pref Data_NA_Prospect.csv,AVG,McDERMOTT Hugh,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2015 LA Pref Data_NA_Wallsend.csv,OM,HORNERY Sonia,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Wallsend.csv,PM,HORNERY Sonia,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Wallsend.csv,AVG,HORNERY Sonia,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Heathcote.csv,OM,EVANS Lee,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Heathcote.csv,PM,EVANS Lee,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Heathcote.csv,AVG,EVANS Lee,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Drummoyne.csv,OM,SIDOTI John,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Drummoyne.csv,PM,SIDOTI John,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Drummoyne.csv,AVG,SIDOTI John,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Seven Hills.csv,OM,TAYLOR Mark,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Seven Hills.csv,PM,TAYLOR Mark,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Seven Hills.csv,AVG,TAYLOR Mark,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Terrigal.csv,OM,CROUCH Adam,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Terrigal.csv,PM,CROUCH Adam,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Terrigal.csv,AVG,CROUCH Adam,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Cabramatta.csv,OM,LALICH Nick,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Cabramatta.csv,PM,LALICH Nick,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Cabramatta.csv,AVG,LALICH Nick,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Cootamundra.csv,OM,HODGKINSON Katrina,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Cootamundra.csv,PM,HODGKINSON Katrina,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Cootamundra.csv,AVG,HODGKINSON Katrina,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Mulgoa.csv,OM,DAVIES Tanya,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Mulgoa.csv,PM,DAVIES Tanya,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Mulgoa.csv,AVG,DAVIES Tanya,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Willoughby.csv,OM,BEREJIKLIAN Gladys,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Willoughby.csv,PM,BEREJIKLIAN Gladys,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Willoughby.csv,AVG,BEREJIKLIAN Gladys,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Blue Mountains.csv,OM,DOYLE Trish,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2015 LA Pref Data_NA_Blue Mountains.csv,PM,DOYLE Trish,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2015 LA Pref Data_NA_Blue Mountains.csv,AVG,DOYLE Trish,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2015 LA Pref Data_NA_Liverpool.csv,OM,LYNCH Paul,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Liverpool.csv,PM,LYNCH Paul,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Liverpool.csv,AVG,LYNCH Paul,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Balmain.csv,OM,PARKER Jamie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Balmain.csv,PM,PARKER Jamie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Balmain.csv,AVG,PARKER Jamie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Newtown.csv,OM,LEONG Jenny,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Newtown.csv,PM,LEONG Jenny,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Newtown.csv,AVG,LEONG Jenny,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Port Stephens.csv,OM,WASHINGTON Kate,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2015 LA Pref Data_NA_Port Stephens.csv,PM,WASHINGTON Kate,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2015 LA Pref Data_NA_Port Stephens.csv,AVG,WASHINGTON Kate,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2015 LA Pref Data_NA_Oxley.csv,OM,PAVEY Melinda,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Oxley.csv,PM,PAVEY Melinda,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Oxley.csv,AVG,PAVEY Melinda,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Kiama.csv,OM,WARD Gareth,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Kiama.csv,PM,WARD Gareth,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Kiama.csv,AVG,WARD Gareth,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Fairfield.csv,OM,ZANGARI Guy,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Fairfield.csv,PM,ZANGARI Guy,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Fairfield.csv,AVG,ZANGARI Guy,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Northern Tablelands.csv,OM,MARSHALL Adam,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Northern Tablelands.csv,PM,MARSHALL Adam,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Northern Tablelands.csv,AVG,MARSHALL Adam,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_The Entrance.csv,OM,MEHAN David,no_match,match,match,no_match,match,match,match,match,match,match,match,match,match,no_match,no_match,match
+SGE2015 LA Pref Data_NA_The Entrance.csv,PM,MEHAN David,no_match,match,match,no_match,match,match,match,match,match,match,match,match,match,no_match,no_match,match
+SGE2015 LA Pref Data_NA_The Entrance.csv,AVG,MEHAN David,no_match,match,match,no_match,match,match,match,match,match,match,match,match,match,no_match,no_match,match
+SGE2015 LA Pref Data_NA_Londonderry.csv,OM,CAR Prue,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Londonderry.csv,PM,CAR Prue,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Londonderry.csv,AVG,CAR Prue,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Ryde.csv,OM,DOMINELLO Victor,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Ryde.csv,PM,DOMINELLO Victor,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Ryde.csv,AVG,DOMINELLO Victor,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Castle Hill.csv,OM,WILLIAMS Ray,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Castle Hill.csv,PM,WILLIAMS Ray,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Castle Hill.csv,AVG,WILLIAMS Ray,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Barwon.csv,OM,HUMPHRIES Kevin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Barwon.csv,PM,HUMPHRIES Kevin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Barwon.csv,AVG,HUMPHRIES Kevin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Baulkham Hills.csv,OM,ELLIOTT David,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Baulkham Hills.csv,PM,ELLIOTT David,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Baulkham Hills.csv,AVG,ELLIOTT David,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Ballina.csv,OM,SMITH Tamara,no_match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2015 LA Pref Data_NA_Ballina.csv,PM,SMITH Tamara,no_match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2015 LA Pref Data_NA_Ballina.csv,AVG,SMITH Tamara,no_match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2015 LA Pref Data_NA_Lismore.csv,OM,SMITH Isaac,no_match,no_match,no_match,no_match,match,match,no_match,no_match,no_match,no_match,no_match,no_match,no_match,no_match,no_match,no_match
+SGE2015 LA Pref Data_NA_Lismore.csv,PM,GEORGE Thomas,match,match,match,match,no_match,no_match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Lismore.csv,AVG,GEORGE Thomas,match,match,match,match,no_match,no_match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Monaro.csv,OM,BARILARO John,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Monaro.csv,PM,BARILARO John,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Monaro.csv,AVG,BARILARO John,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Epping.csv,OM,TUDEHOPE Damien,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Epping.csv,PM,TUDEHOPE Damien,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Epping.csv,AVG,TUDEHOPE Damien,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Macquarie Fields.csv,OM,CHANTHIVONG Anoulack,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Macquarie Fields.csv,PM,CHANTHIVONG Anoulack,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Macquarie Fields.csv,AVG,CHANTHIVONG Anoulack,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Clarence.csv,OM,GULAPTIS Chris,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Clarence.csv,PM,GULAPTIS Chris,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Clarence.csv,AVG,GULAPTIS Chris,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Charlestown.csv,OM,HARRISON Jodie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Charlestown.csv,PM,HARRISON Jodie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Charlestown.csv,AVG,HARRISON Jodie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Tamworth.csv,OM,ANDERSON Kevin,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Tamworth.csv,PM,ANDERSON Kevin,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Tamworth.csv,AVG,ANDERSON Kevin,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Rockdale.csv,OM,KAMPER Steve,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Rockdale.csv,PM,KAMPER Steve,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Rockdale.csv,AVG,KAMPER Steve,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Davidson.csv,OM,O'DEA Jonathan,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Davidson.csv,PM,O'DEA Jonathan,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Davidson.csv,AVG,O'DEA Jonathan,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Myall Lakes.csv,OM,BROMHEAD Stephen,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Myall Lakes.csv,PM,BROMHEAD Stephen,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Myall Lakes.csv,AVG,BROMHEAD Stephen,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Coogee.csv,OM,NOTLEY-SMITH Bruce,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Coogee.csv,PM,NOTLEY-SMITH Bruce,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Coogee.csv,AVG,NOTLEY-SMITH Bruce,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_South Coast.csv,OM,HANCOCK Shelley,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_South Coast.csv,PM,HANCOCK Shelley,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_South Coast.csv,AVG,HANCOCK Shelley,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Summer Hill.csv,OM,HAYLEN Jo,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Summer Hill.csv,PM,HAYLEN Jo,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Summer Hill.csv,AVG,HAYLEN Jo,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Wyong.csv,OM,HARRIS David,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Wyong.csv,PM,HARRIS David,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Wyong.csv,AVG,HARRIS David,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Heffron.csv,OM,HOENIG Ron,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Heffron.csv,PM,HOENIG Ron,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Heffron.csv,AVG,HOENIG Ron,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Oatley.csv,OM,COURE Mark,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Oatley.csv,PM,COURE Mark,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Oatley.csv,AVG,COURE Mark,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Parramatta.csv,OM,LEE Geoff,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Parramatta.csv,PM,LEE Geoff,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Parramatta.csv,AVG,LEE Geoff,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_East Hills.csv,OM,BROOKES Glenn,match,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_East Hills.csv,PM,BROOKES Glenn,match,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_East Hills.csv,AVG,BROOKES Glenn,match,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Vaucluse.csv,OM,UPTON Gabrielle,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Vaucluse.csv,PM,UPTON Gabrielle,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Vaucluse.csv,AVG,UPTON Gabrielle,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Auburn.csv,OM,FOLEY Luke,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Auburn.csv,PM,FOLEY Luke,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Auburn.csv,AVG,FOLEY Luke,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Shellharbour.csv,OM,WATSON Anna,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Shellharbour.csv,PM,WATSON Anna,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Shellharbour.csv,AVG,WATSON Anna,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Murray.csv,OM,PICCOLI Adrian,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Murray.csv,PM,PICCOLI Adrian,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Murray.csv,AVG,PICCOLI Adrian,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Sydney.csv,OM,GREENWICH Alex,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Sydney.csv,PM,GREENWICH Alex,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Sydney.csv,AVG,GREENWICH Alex,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Camden.csv,OM,PATTERSON Chris,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Camden.csv,PM,PATTERSON Chris,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Camden.csv,AVG,PATTERSON Chris,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Strathfield.csv,OM,McKAY Jodi,no_match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2015 LA Pref Data_NA_Strathfield.csv,PM,McKAY Jodi,no_match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2015 LA Pref Data_NA_Strathfield.csv,AVG,McKAY Jodi,no_match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SGE2015 LA Pref Data_NA_Cronulla.csv,OM,SPEAKMAN Mark,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Cronulla.csv,PM,SPEAKMAN Mark,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Cronulla.csv,AVG,SPEAKMAN Mark,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Pittwater.csv,OM,STOKES Rob,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Pittwater.csv,PM,STOKES Rob,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Pittwater.csv,AVG,STOKES Rob,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Riverstone.csv,OM,CONOLLY Kevin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Riverstone.csv,PM,CONOLLY Kevin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Riverstone.csv,AVG,CONOLLY Kevin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Mount Druitt.csv,OM,ATALLA Edmond,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Mount Druitt.csv,PM,ATALLA Edmond,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Mount Druitt.csv,AVG,ATALLA Edmond,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Hornsby.csv,OM,KEAN Matt,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Hornsby.csv,PM,KEAN Matt,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Hornsby.csv,AVG,KEAN Matt,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Orange.csv,OM,GEE Andrew,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Orange.csv,PM,GEE Andrew,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Orange.csv,AVG,GEE Andrew,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Blacktown.csv,OM,ROBERTSON John,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Blacktown.csv,PM,ROBERTSON John,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SGE2015 LA Pref Data_NA_Blacktown.csv,AVG,ROBERTSON John,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Clarence.csv,OM,WILLIAMSON Richie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Clarence.csv,PM,WILLIAMSON Richie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Clarence.csv,AVG,WILLIAMSON Richie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Oatley.csv,OM,COURE Mark,match,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Oatley.csv,PM,COURE Mark,match,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Oatley.csv,AVG,COURE Mark,match,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Pittwater.csv,OM,AMON Roderick (Rory),match,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Pittwater.csv,PM,AMON Roderick (Rory),match,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Pittwater.csv,AVG,AMON Roderick (Rory),match,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Riverstone.csv,OM,KIRBY Warren,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SG2301 LA Pref Data Riverstone.csv,PM,KIRBY Warren,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SG2301 LA Pref Data Riverstone.csv,AVG,KIRBY Warren,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SG2301 LA Pref Data Tamworth.csv,OM,ANDERSON Kevin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Tamworth.csv,PM,ANDERSON Kevin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Tamworth.csv,AVG,ANDERSON Kevin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Rockdale.csv,OM,KAMPER Steve,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Rockdale.csv,PM,KAMPER Steve,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Rockdale.csv,AVG,KAMPER Steve,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Northern Tablelands.csv,OM,MARSHALL Adam,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Northern Tablelands.csv,PM,MARSHALL Adam,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Northern Tablelands.csv,AVG,MARSHALL Adam,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Bega.csv,OM,HOLLAND Michael,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Bega.csv,PM,HOLLAND Michael,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Bega.csv,AVG,HOLLAND Michael,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Coogee.csv,OM,O'NEILL Marjorie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Coogee.csv,PM,O'NEILL Marjorie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Coogee.csv,AVG,O'NEILL Marjorie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Davidson.csv,OM,CROSS Matt,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Davidson.csv,PM,CROSS Matt,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Davidson.csv,AVG,CROSS Matt,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Blacktown.csv,OM,BALI Stephen,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Blacktown.csv,PM,BALI Stephen,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Blacktown.csv,AVG,BALI Stephen,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Auburn.csv,OM,VOLTZ Lynda,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Auburn.csv,PM,VOLTZ Lynda,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Auburn.csv,AVG,VOLTZ Lynda,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Newtown.csv,OM,LEONG Jenny,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Newtown.csv,PM,LEONG Jenny,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Newtown.csv,AVG,LEONG Jenny,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Londonderry.csv,OM,CAR Prue,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Londonderry.csv,PM,CAR Prue,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Londonderry.csv,AVG,CAR Prue,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Castle Hill.csv,OM,HODGES Mark,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Castle Hill.csv,PM,HODGES Mark,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Castle Hill.csv,AVG,HODGES Mark,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Balmain.csv,OM,SHETTY Kobi,match,match,match,no_match,match,match,match,match,match,match,match,match,match,no_match,no_match,match
+SG2301 LA Pref Data Balmain.csv,PM,SHETTY Kobi,match,match,match,no_match,match,match,match,match,match,match,match,match,match,no_match,no_match,match
+SG2301 LA Pref Data Balmain.csv,AVG,SHETTY Kobi,match,match,match,no_match,match,match,match,match,match,match,match,match,match,no_match,no_match,match
+SG2301 LA Pref Data The Entrance.csv,OM,MEHAN David,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data The Entrance.csv,PM,MEHAN David,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data The Entrance.csv,AVG,MEHAN David,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Wyong.csv,OM,HARRIS David,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Wyong.csv,PM,HARRIS David,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Wyong.csv,AVG,HARRIS David,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Parramatta.csv,OM,DAVIS Donna,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Parramatta.csv,PM,DAVIS Donna,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Parramatta.csv,AVG,DAVIS Donna,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Camden.csv,OM,QUINNELL Sally,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Camden.csv,PM,QUINNELL Sally,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Camden.csv,AVG,QUINNELL Sally,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Miranda.csv,OM,PETINOS Eleni,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Miranda.csv,PM,PETINOS Eleni,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Miranda.csv,AVG,PETINOS Eleni,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Sydney.csv,OM,GREENWICH Alex,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Sydney.csv,PM,GREENWICH Alex,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Sydney.csv,AVG,GREENWICH Alex,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Leppington.csv,OM,HAGARTY Nathan,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Leppington.csv,PM,HAGARTY Nathan,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Leppington.csv,AVG,HAGARTY Nathan,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Murray.csv,OM,DALTON Helen,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Murray.csv,PM,DALTON Helen,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Murray.csv,AVG,DALTON Helen,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data East Hills.csv,OM,WILKINSON Kylie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SG2301 LA Pref Data East Hills.csv,PM,WILKINSON Kylie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SG2301 LA Pref Data East Hills.csv,AVG,WILKINSON Kylie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SG2301 LA Pref Data Orange.csv,OM,DONATO Philip,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Orange.csv,PM,DONATO Philip,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Orange.csv,AVG,DONATO Philip,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Blue Mountains.csv,OM,DOYLE Trish,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Blue Mountains.csv,PM,DOYLE Trish,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Blue Mountains.csv,AVG,DOYLE Trish,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Swansea.csv,OM,CATLEY Yasmin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Swansea.csv,PM,CATLEY Yasmin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Swansea.csv,AVG,CATLEY Yasmin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Charlestown.csv,OM,HARRISON Jodie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Charlestown.csv,PM,HARRISON Jodie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Charlestown.csv,AVG,HARRISON Jodie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Wahroonga.csv,OM,HENSKENS Alister,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Wahroonga.csv,PM,HENSKENS Alister,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Wahroonga.csv,AVG,HENSKENS Alister,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Summer Hill.csv,OM,HAYLEN Jo,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Summer Hill.csv,PM,HAYLEN Jo,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Summer Hill.csv,AVG,HAYLEN Jo,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Cronulla.csv,OM,SPEAKMAN Mark,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Cronulla.csv,PM,SPEAKMAN Mark,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Cronulla.csv,AVG,SPEAKMAN Mark,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Myall Lakes.csv,OM,THOMPSON Tanya,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Myall Lakes.csv,PM,THOMPSON Tanya,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Myall Lakes.csv,AVG,THOMPSON Tanya,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data South Coast.csv,OM,BUTLER Liza,no_match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SG2301 LA Pref Data South Coast.csv,PM,BUTLER Liza,no_match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SG2301 LA Pref Data South Coast.csv,AVG,BUTLER Liza,no_match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SG2301 LA Pref Data Lake Macquarie.csv,OM,PIPER Greg,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Lake Macquarie.csv,PM,PIPER Greg,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Lake Macquarie.csv,AVG,PIPER Greg,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Kiama.csv,OM,WARD Gareth,match,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Kiama.csv,PM,WARD Gareth,match,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Kiama.csv,AVG,WARD Gareth,match,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Gosford.csv,OM,TESCH Liesl,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Gosford.csv,PM,TESCH Liesl,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Gosford.csv,AVG,TESCH Liesl,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Shellharbour.csv,OM,WATSON Anna,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Shellharbour.csv,PM,WATSON Anna,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Shellharbour.csv,AVG,WATSON Anna,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Fairfield.csv,OM,SALIBA David,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Fairfield.csv,PM,SALIBA David,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Fairfield.csv,AVG,SALIBA David,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Port Macquarie.csv,OM,WILLIAMS Leslie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Port Macquarie.csv,PM,WILLIAMS Leslie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Port Macquarie.csv,AVG,WILLIAMS Leslie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Strathfield.csv,OM,LI Jason Yat-Sen,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Strathfield.csv,PM,LI Jason Yat-Sen,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Strathfield.csv,AVG,LI Jason Yat-Sen,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Epping.csv,OM,PERROTTET Dominic,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Epping.csv,PM,PERROTTET Dominic,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Epping.csv,AVG,PERROTTET Dominic,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Monaro.csv,OM,WHAN Steven,no_match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SG2301 LA Pref Data Monaro.csv,PM,WHAN Steven,no_match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SG2301 LA Pref Data Monaro.csv,AVG,WHAN Steven,no_match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SG2301 LA Pref Data Penrith.csv,OM,McKEOWN Karen,no_match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SG2301 LA Pref Data Penrith.csv,PM,McKEOWN Karen,no_match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SG2301 LA Pref Data Penrith.csv,AVG,McKEOWN Karen,no_match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SG2301 LA Pref Data Barwon.csv,OM,BUTLER Roy,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Barwon.csv,PM,BUTLER Roy,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Barwon.csv,AVG,BUTLER Roy,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Vaucluse.csv,OM,SLOANE Kellie,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Vaucluse.csv,PM,SLOANE Kellie,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Vaucluse.csv,AVG,SLOANE Kellie,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Kogarah.csv,OM,MINNS Chris,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Kogarah.csv,PM,MINNS Chris,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Kogarah.csv,AVG,MINNS Chris,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Mount Druitt.csv,OM,ATALLA Edmond,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Mount Druitt.csv,PM,ATALLA Edmond,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Mount Druitt.csv,AVG,ATALLA Edmond,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Wollondilly.csv,OM,HANNAN Judy,no_match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SG2301 LA Pref Data Wollondilly.csv,PM,HANNAN Judy,no_match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SG2301 LA Pref Data Wollondilly.csv,AVG,HANNAN Judy,no_match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SG2301 LA Pref Data Liverpool.csv,OM,KALIYANDA Charishma,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Liverpool.csv,PM,KALIYANDA Charishma,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Liverpool.csv,AVG,KALIYANDA Charishma,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Maitland.csv,OM,AITCHISON Jenny,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Maitland.csv,PM,AITCHISON Jenny,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Maitland.csv,AVG,AITCHISON Jenny,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Goulburn.csv,OM,TUCKERMAN Wendy,match,match,match,match,no_match,no_match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Goulburn.csv,PM,TUCKERMAN Wendy,match,match,match,match,no_match,no_match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Goulburn.csv,AVG,TUCKERMAN Wendy,match,match,match,match,no_match,no_match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Upper Hunter.csv,OM,LAYZELL Dave,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Upper Hunter.csv,PM,LAYZELL Dave,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Upper Hunter.csv,AVG,LAYZELL Dave,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Cabramatta.csv,OM,VO Tri,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Cabramatta.csv,PM,VO Tri,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Cabramatta.csv,AVG,VO Tri,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Hornsby.csv,OM,KEAN Matt,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Hornsby.csv,PM,KEAN Matt,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Hornsby.csv,AVG,KEAN Matt,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Badgerys Creek.csv,OM,DAVIES Tanya,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Badgerys Creek.csv,PM,DAVIES Tanya,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Badgerys Creek.csv,AVG,DAVIES Tanya,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Campbelltown.csv,OM,WARREN Greg,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Campbelltown.csv,PM,WARREN Greg,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Campbelltown.csv,AVG,WARREN Greg,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Willoughby.csv,OM,JAMES Tim,match,match,match,match,no_match,no_match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Willoughby.csv,PM,JAMES Tim,match,match,match,match,no_match,no_match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Willoughby.csv,AVG,JAMES Tim,match,match,match,match,no_match,no_match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Heffron.csv,OM,HOENIG Ron,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Heffron.csv,PM,HOENIG Ron,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Heffron.csv,AVG,HOENIG Ron,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Kellyville.csv,OM,WILLIAMS Ray,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Kellyville.csv,PM,WILLIAMS Ray,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Kellyville.csv,AVG,WILLIAMS Ray,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Drummoyne.csv,OM,DI PASQUA Stephanie,match,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Drummoyne.csv,PM,DI PASQUA Stephanie,match,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Drummoyne.csv,AVG,DI PASQUA Stephanie,match,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Heathcote.csv,OM,STUART Maryanne,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Heathcote.csv,PM,STUART Maryanne,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Heathcote.csv,AVG,STUART Maryanne,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Oxley.csv,OM,KEMP Michael,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Oxley.csv,PM,KEMP Michael,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Oxley.csv,AVG,KEMP Michael,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Hawkesbury.csv,OM,PRESTON Robyn,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Hawkesbury.csv,PM,PRESTON Robyn,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Hawkesbury.csv,AVG,PRESTON Robyn,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Coffs Harbour.csv,OM,SINGH Gurmesh,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Coffs Harbour.csv,PM,SINGH Gurmesh,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Coffs Harbour.csv,AVG,SINGH Gurmesh,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Maroubra.csv,OM,DALEY Michael,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Maroubra.csv,PM,DALEY Michael,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Maroubra.csv,AVG,DALEY Michael,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Cessnock.csv,OM,BARR Clayton,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Cessnock.csv,PM,BARR Clayton,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Cessnock.csv,AVG,BARR Clayton,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Winston Hills.csv,OM,TAYLOR Mark,match,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Winston Hills.csv,PM,TAYLOR Mark,match,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Winston Hills.csv,AVG,TAYLOR Mark,match,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Bathurst.csv,OM,TOOLE Paul,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Bathurst.csv,PM,TOOLE Paul,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Bathurst.csv,AVG,TOOLE Paul,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data North Shore.csv,OM,WILSON Felicity,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data North Shore.csv,PM,WILSON Felicity,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data North Shore.csv,AVG,WILSON Felicity,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Wagga Wagga.csv,OM,McGIRR Joe,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Wagga Wagga.csv,PM,McGIRR Joe,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Wagga Wagga.csv,AVG,McGIRR Joe,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Lane Cove.csv,OM,ROBERTS Anthony,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Lane Cove.csv,PM,ROBERTS Anthony,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Lane Cove.csv,AVG,ROBERTS Anthony,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Dubbo.csv,OM,SAUNDERS Dugald,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Dubbo.csv,PM,SAUNDERS Dugald,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Dubbo.csv,AVG,SAUNDERS Dugald,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Lismore.csv,OM,SAFFIN Janelle,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Lismore.csv,PM,SAFFIN Janelle,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Lismore.csv,AVG,SAFFIN Janelle,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Tweed.csv,OM,PROVEST Geoff,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Tweed.csv,PM,PROVEST Geoff,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Tweed.csv,AVG,PROVEST Geoff,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Ballina.csv,OM,SMITH Tamara,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SG2301 LA Pref Data Ballina.csv,PM,SMITH Tamara,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SG2301 LA Pref Data Ballina.csv,AVG,SMITH Tamara,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SG2301 LA Pref Data Ryde.csv,OM,LANE Jordan,match,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Ryde.csv,PM,LANE Jordan,match,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Ryde.csv,AVG,LANE Jordan,match,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Keira.csv,OM,PARK Ryan,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Keira.csv,PM,PARK Ryan,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Keira.csv,AVG,PARK Ryan,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Canterbury.csv,OM,COTSIS Sophie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Canterbury.csv,PM,COTSIS Sophie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Canterbury.csv,AVG,COTSIS Sophie,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Granville.csv,OM,FINN Julia,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Granville.csv,PM,FINN Julia,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Granville.csv,AVG,FINN Julia,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Macquarie Fields.csv,OM,CHANTHIVONG Anoulack,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Macquarie Fields.csv,PM,CHANTHIVONG Anoulack,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Macquarie Fields.csv,AVG,CHANTHIVONG Anoulack,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Prospect.csv,OM,McDERMOTT Hugh,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SG2301 LA Pref Data Prospect.csv,PM,McDERMOTT Hugh,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SG2301 LA Pref Data Prospect.csv,AVG,McDERMOTT Hugh,match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SG2301 LA Pref Data Newcastle.csv,OM,CRAKANTHORP Tim,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Newcastle.csv,PM,CRAKANTHORP Tim,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Newcastle.csv,AVG,CRAKANTHORP Tim,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Wallsend.csv,OM,HORNERY Sonia,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Wallsend.csv,PM,HORNERY Sonia,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Wallsend.csv,AVG,HORNERY Sonia,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Port Stephens.csv,OM,WASHINGTON Kate,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Port Stephens.csv,PM,WASHINGTON Kate,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Port Stephens.csv,AVG,WASHINGTON Kate,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Wakehurst.csv,OM,REGAN Michael,no_match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SG2301 LA Pref Data Wakehurst.csv,PM,REGAN Michael,no_match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SG2301 LA Pref Data Wakehurst.csv,AVG,REGAN Michael,no_match,match,match,match,match,match,match,match,match,match,match,match,match,match,no_match,match
+SG2301 LA Pref Data Cootamundra.csv,OM,COOKE Steph,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Cootamundra.csv,PM,COOKE Steph,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Cootamundra.csv,AVG,COOKE Steph,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Terrigal.csv,OM,CROUCH Adam,match,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Terrigal.csv,PM,CROUCH Adam,match,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Terrigal.csv,AVG,CROUCH Adam,match,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Holsworthy.csv,OM,AYYAD Tina,match,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Holsworthy.csv,PM,AYYAD Tina,match,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Holsworthy.csv,AVG,AYYAD Tina,match,match,match,match,no_match,no_match,no_match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Manly.csv,OM,GRIFFIN James,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Manly.csv,PM,GRIFFIN James,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Manly.csv,AVG,GRIFFIN James,match,match,match,match,no_match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Wollongong.csv,OM,SCULLY Paul,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Wollongong.csv,PM,SCULLY Paul,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Wollongong.csv,AVG,SCULLY Paul,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Albury.csv,OM,CLANCY Justin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Albury.csv,PM,CLANCY Justin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Albury.csv,AVG,CLANCY Justin,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Bankstown.csv,OM,DIB Jihad,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Bankstown.csv,PM,DIB Jihad,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
+SG2301 LA Pref Data Bankstown.csv,AVG,DIB Jihad,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match,match
