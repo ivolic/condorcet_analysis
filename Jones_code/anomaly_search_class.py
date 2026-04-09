@@ -101,7 +101,7 @@ def find_killer_subsets(profile, num_cands, diagnostic=False):
 ##### all methods take in parameter that adjusts certain percent of votes
 ###############################################################################
 
-def frac_general_search(profile, num_cands, voteMethod, mod_ballot_method, vote_frac, diagnostic=False):
+def frac_general_search(profile, num_cands, voteMethod, mod_ballot_method, vote_frac, first_only=False, diagnostic=False):
     
     cand_names = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
                   'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
@@ -146,14 +146,15 @@ def frac_general_search(profile, num_cands, voteMethod, mod_ballot_method, vote_
             # if new_profile.at[k,'ballot']!='':
             ## change the ballot in some way
             curBal = new_profile.at[k,'ballot']
-            count = int(new_profile.at[k, 'Count']*vote_frac)
-            modBal, modified = mod_ballot_method(curBal, W, L, cands_ranked)
-            # new_profile.at[k,'ballot'] = modBal
-            # if modified:
-            if curBal!=modBal:
-                modified_ballot_list.append([curBal, modBal, count])
-                new_profile.at[k, 'Count'] -= count
-                new_profile = pd.concat([new_profile, pd.DataFrame({'ballot': [modBal], 'Count': [count]})], ignore_index=True)
+            if (not first_only) or (curBal[0] == L): 
+                count = int(new_profile.at[k, 'Count']*vote_frac)
+                modBal, modified = mod_ballot_method(curBal, W, L, cands_ranked)
+                # new_profile.at[k,'ballot'] = modBal
+                # if modified:
+                if curBal!=modBal:
+                    modified_ballot_list.append([curBal, modBal, count])
+                    new_profile.at[k, 'Count'] -= count
+                    new_profile = pd.concat([new_profile, pd.DataFrame({'ballot': [modBal], 'Count': [count]})], ignore_index=True)
             
         newWinners = voteMethod(new_profile, cands, diagnostic = diagnostic)[0]
         if len(newWinners)!=1:
@@ -165,6 +166,11 @@ def frac_general_search(profile, num_cands, voteMethod, mod_ballot_method, vote_
             return [W, L, modified_ballot_list]
     
     return []
+
+
+
+
+
 
 ###############################################################################
 ###############################################################################
