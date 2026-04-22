@@ -135,6 +135,64 @@ def get_election_data(election_location, specific_lxn=-1, diagnostic=False):
 
     return lxns
 
+
+
+def filter_weak_cands(profile, old_cand_num, new_cand_num):
+    
+    cand_names = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
+                  'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
+                  'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
+                  'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
+                  '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 
+                  '!', '@', '#', '$', '%']
+    cands = cand_names[:old_cand_num]
+    
+    plurality_scores = {cand:0 for cand in cands}
+    for k in range(len(profile)):
+        plurality_scores[profile.at[k,'ballot'][0]] += profile.at[k,'Count']
+    
+    cands.sort(key=lambda x: plurality_scores[x], reverse=True)
+        
+    # mention_scores = {}
+    # for k in range(len(profile)):
+    #     count = profile.at[k, 'Count']
+    #     for cand in profile.at[k, 'ballot']:
+    #         if cand not in mention_scores.keys():
+    #             mention_scores[cand] = 0
+    #         mention_scores[cand] += count
+    # cands.sort(key=lambda x: mention_scores[x], reverse=True)
+    
+    keep_cands = cands[:new_cand_num]
+    
+    # print(plurality_scores)
+    # print(keep_cands)
+    
+    new_ballot_list = []
+    new_count_list = []
+    
+    for k in range(len(profile)):
+        ballot = profile.at[k, 'ballot']
+        new_ballot = ''
+        for cand in ballot:
+            if cand in keep_cands:
+                new_ballot += cand_names[keep_cands.index(cand)]
+        # print(ballot, new_ballot)
+                
+        if new_ballot:            
+            if new_ballot in new_ballot_list:
+                indx = new_ballot_list.index(new_ballot)
+                new_count_list[indx] += profile.at[k, 'Count']
+            else:
+                new_ballot_list.append(new_ballot)
+                new_count_list.append(profile.at[k, 'Count'])
+     
+    df_dict = {'ballot': new_ballot_list, 'Count': new_count_list}
+    new_profile = pd.DataFrame(df_dict)
+    
+    return new_profile
+
+
+
 ###############################################################################
 ###############################################################################
 
@@ -184,17 +242,17 @@ if __name__ == '__main__':
     if not os.path.exists(election_group+'_frac_search'):
         os.makedirs(election_group+'_frac_search')
     
-    lxn_methods = [plurality, plurality_runoff, IRV, smith_irv, smith_plurality, 
-                    minimax, smith_minimax, ranked_pairs, 
-                    Borda_PM, Borda_OM, Borda_AVG, bucklin]
-    lxn_methods += [TVR_OM, TVR_PM, TVR_AVG, diversity_score_threshold]
-    # lxn_methods += [diversity_score_simplex]
+    # lxn_methods = [plurality, plurality_runoff, IRV, smith_irv, smith_plurality, 
+    #                 minimax, smith_minimax, ranked_pairs, 
+    #                 Borda_PM, Borda_OM, Borda_AVG, bucklin]
+    # lxn_methods += [TVR_OM, TVR_PM, TVR_AVG, diversity_score_threshold]
+    lxn_methods = [diversity_score_simplex]
     
     # lxn_methods = [plurality]
     lxn_names = [lxn_method.__name__ for lxn_method in lxn_methods]
     
     ballot_mod_methods = [laterNoHarm, strat_compromise, strat_truncate_L, strat_truncate_W, strat_bury_shallow, strat_bury_deep]
-    # ballot_mod_methods = [strat_compromise]
+    # ballot_mod_methods = [strat_truncate_L]
     strategy_names = [ballot_mod.__name__ for ballot_mod in ballot_mod_methods]
     
     
@@ -211,9 +269,18 @@ if __name__ == '__main__':
     gen_lxn_list = []
     for lxn in lxn_list:
         for lxn_method in lxn_methods:
+            
+            if lxn_method == diversity_score_simplex and lxn[2]>5:
+                lxn = [lxn[0], filter_weak_cands(lxn[1], lxn[2], 5), 5]
+            
             for ballot_mod in ballot_mod_methods:
                 gen_lxn_list.append([lxn_method, ballot_mod]+lxn)
+                
     
+    # for x in gen_lxn_list:
+    #     # print(gen_lxn_list.index(x))
+    #     frac_search(x)
+
     
     ## search for general anomalies
     pool = multiprocessing.Pool(processes=mp_pool_size)

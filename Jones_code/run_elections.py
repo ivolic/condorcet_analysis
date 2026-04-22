@@ -64,59 +64,59 @@ top_cycle_elections = [
 ###############################################################################
 ###############################################################################
 ##### parameters
-election_group = 'america'
+election_group = 'scotland'
 frac = 1
 mp_pool_size = 6
-max_election_size = 16
+max_election_size = 15
 ###############################################################################
 ###############################################################################
 
 
-american_ban_list = ['Easthampton_11022021_Mayor.csv',
-                     'Oakland_11042014_Mayor.csv',
-                     'Cambridge_11032009_CityCouncil.csv',
-                     'Cambridge_11032015_CityCouncil.csv',
-                     'Cambridge_11042003_CityCouncil.csv',
-                     'Cambridge_11052013_CityCouncil.csv',
-                     'Cambridge_11062001_CityCouncil.csv',
-                     'Cambridge_11062007_CityCouncil.csv',
-                     'Cambridge_11072017_CityCouncil.csv',
-                     'Cambridge_11072017_SchoolCommittee.csv',
-                     'Cambridge_11072023_CityCouncil.csv',
-                     'Cambridge_11082005_CityCouncil.csv',
-                     'Cambridge_11082011_CityCouncil.csv',
-                     'Cambridge_11152019_CityCouncil.csv',
-                     'Minneapolis_11022021_Mayor.csv',
-                     'Minneapolis_11052013_Mayor.csv',
-                     'Minneapolis_11072017_Mayor.csv',
-                     'NewYorkCity_06222021_DEMCouncilMember26thCouncilDistrict.csv',
-                     'PortlandOR_110524_Mayor.csv',
-                     'Portland_D1_2024.csv',
-                     'Portland_D2_2024.csv',
-                     'Portland_D3_2024.csv',
-                     'Portland_D4_2024.csv',
-                     'SanFrancisco_11022004_BoardofSupervisorsDistrict5.csv',
-                     'SanFrancisco_11022010_BoardofSupervisorsDistrict10.csv',
-                     'SanFrancisco_11062007_Mayor.csv',
-                     'SanFrancisco_11082011_Mayor.csv',
-                     'Berkeley_11042014_CityAuditor.csv',
-                     'Oakland_11062018_SchoolDirectorDistrict2.csv',
-                     'Oakland_11082016_CityAttorney.csv',
-                     'SanLeandro_11082016_CountyCouncilDistrict4.csv',
-                     'SanLeandro_11082016_CountyCouncilDistrict6.csv',
-                     'SanFrancisco_11052024_Treasurer.csv',
-                     'SanFrancisco_11062018_PublicDefender.csv',
-                     'SanFrancisco_11082022_AssessorRecorder.csv',
-                     'SanFrancisco_11082022_BoardofSupervisorsD2.csv']
+# american_ban_list = ['Easthampton_11022021_Mayor.csv',
+#                      'Oakland_11042014_Mayor.csv',
+#                      'Cambridge_11032009_CityCouncil.csv',
+#                      'Cambridge_11032015_CityCouncil.csv',
+#                      'Cambridge_11042003_CityCouncil.csv',
+#                      'Cambridge_11052013_CityCouncil.csv',
+#                      'Cambridge_11062001_CityCouncil.csv',
+#                      'Cambridge_11062007_CityCouncil.csv',
+#                      'Cambridge_11072017_CityCouncil.csv',
+#                      'Cambridge_11072017_SchoolCommittee.csv',
+#                      'Cambridge_11072023_CityCouncil.csv',
+#                      'Cambridge_11082005_CityCouncil.csv',
+#                      'Cambridge_11082011_CityCouncil.csv',
+#                      'Cambridge_11152019_CityCouncil.csv',
+#                      'Minneapolis_11022021_Mayor.csv',
+#                      'Minneapolis_11052013_Mayor.csv',
+#                      'Minneapolis_11072017_Mayor.csv',
+#                      'NewYorkCity_06222021_DEMCouncilMember26thCouncilDistrict.csv',
+#                      'PortlandOR_110524_Mayor.csv',
+#                      'Portland_D1_2024.csv',
+#                      'Portland_D2_2024.csv',
+#                      'Portland_D3_2024.csv',
+#                      'Portland_D4_2024.csv',
+#                      'SanFrancisco_11022004_BoardofSupervisorsDistrict5.csv',
+#                      'SanFrancisco_11022010_BoardofSupervisorsDistrict10.csv',
+#                      'SanFrancisco_11062007_Mayor.csv',
+#                      'SanFrancisco_11082011_Mayor.csv',
+#                      'Berkeley_11042014_CityAuditor.csv',
+#                      'Oakland_11062018_SchoolDirectorDistrict2.csv',
+#                      'Oakland_11082016_CityAttorney.csv',
+#                      'SanLeandro_11082016_CountyCouncilDistrict4.csv',
+#                      'SanLeandro_11082016_CountyCouncilDistrict6.csv',
+#                      'SanFrancisco_11052024_Treasurer.csv',
+#                      'SanFrancisco_11062018_PublicDefender.csv',
+#                      'SanFrancisco_11082022_AssessorRecorder.csv',
+#                      'SanFrancisco_11082022_BoardofSupervisorsD2.csv']
 
 
-civs_ban_list = ['1a3300430c.csv',
-                 '6072b2cf65.csv',
-                 '7abc80f697.csv',
-                 'e1cae49c22.csv',
-                 'e20d8aeccc.csv',
-                 'e3794bad55.csv',
-                 'feb82581e0.csv']
+# civs_ban_list = ['1a3300430c.csv',
+#                  '6072b2cf65.csv',
+#                  '7abc80f697.csv',
+#                  'e1cae49c22.csv',
+#                  'e20d8aeccc.csv',
+#                  'e3794bad55.csv',
+#                  'feb82581e0.csv']
 ####################################################
 ##### Functions to run searches
 ####################################################
@@ -235,18 +235,24 @@ def filter_weak_cands(profile, old_cand_num, new_cand_num):
                   '!', '@', '#', '$', '%']
     cands = cand_names[:old_cand_num]
     
-    mention_scores = {}
+    plurality_scores = {cand:0 for cand in cands}
     for k in range(len(profile)):
-        count = profile.at[k, 'Count']
-        for cand in profile.at[k, 'ballot']:
-            if cand not in mention_scores.keys():
-                mention_scores[cand] = 0
-            mention_scores[cand] += count
+        plurality_scores[profile.at[k,'ballot'][0]] += profile.at[k,'Count']
     
-    cands.sort(key=lambda x: mention_scores[x], reverse=True)
+    cands.sort(key=lambda x: plurality_scores[x], reverse=True)
+        
+    # mention_scores = {}
+    # for k in range(len(profile)):
+    #     count = profile.at[k, 'Count']
+    #     for cand in profile.at[k, 'ballot']:
+    #         if cand not in mention_scores.keys():
+    #             mention_scores[cand] = 0
+    #         mention_scores[cand] += count
+    # cands.sort(key=lambda x: mention_scores[x], reverse=True)
+    
     keep_cands = cands[:new_cand_num]
     
-    # print(mention_scores)
+    # print(plurality_scores)
     # print(keep_cands)
     
     new_ballot_list = []
@@ -260,7 +266,7 @@ def filter_weak_cands(profile, old_cand_num, new_cand_num):
                 new_ballot += cand_names[keep_cands.index(cand)]
         # print(ballot, new_ballot)
                 
-        if not new_ballot:            
+        if new_ballot:            
             if new_ballot in new_ballot_list:
                 indx = new_ballot_list.index(new_ballot)
                 new_count_list[indx] += profile.at[k, 'Count']
@@ -346,7 +352,8 @@ for i in range(len(lxn_list)):
     # for threshold in [0.01 * i for i in range(10)]:
     #     print(threshold, diversity_score_threshold(profile, cands, threshold, diagnostic=False))
     
-    # print(diversity_score_simplex(profile, cands, diagnostic=True))
+    # anomaly_data.append(diversity_score_simplex(profile, cands, diagnostic=False))
+    anomaly_data.append(friendly_fire_inst(profile, cands, diagnostic=False))
 
         
 print(time.time()-start_time)   
