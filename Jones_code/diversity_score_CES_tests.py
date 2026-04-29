@@ -10,6 +10,7 @@ from election_class import simplex_point, restrict_to_smith
 
 no_cond_winner_count = 0
 strat_possible_list = []
+strat_possible_models = []
 
 cand_names = ['A', 'B', 'C', 'D', 'E']
 samples = pd.read_csv('C:/Users/mijones/Documents/Datasets/CES_results/Trimodal voter distributions.csv')
@@ -147,6 +148,8 @@ for file_name in os.listdir(base_name):
                 
                 if stooge_votes>CW_votes:
                     strat_possible_list.append(profile)
+                    dot_indx = file_name.index('.')
+                    strat_possible_models.append(df.at[lxn_indx, 'model'] + file_name[dot_indx-6:dot_indx])
                     
         
 
