@@ -41,22 +41,22 @@ from anomaly_search_class import *
 
 
 top_cycle_elections = [
-                       # 'C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/w-duns22/Ward2-Leven_west dunbartonshire,2022,ward 2.csv',
-                       # 'C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/glasgow2007 preflib/govan_govan.csv',
-                       # 'C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/fife12-ballots/GlenrothesCentralAndThorntonWard_fife12-16.csv',
-                       # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/renfs12-ballots/7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv",
-                       # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/dumgal22/Ward3-DeeandGlenkens_ward3.csv",
-                       # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/argyll22/Ward2-KintyreandtheIslands_ward2.csv",
-                       # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/n-lanarks17-ballots/Ward4-CumbernauldEast_n-lanarks17-004.csv",
-                       # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/glasgow17-ballots/Ward21NorthEast_glasgow17-021.csv",
-                       # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/aberdeenshire22/preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv",
-                       # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/dumgal12-ballots/AnnandaleNorthWard_dumgal12-12.csv",
-                       # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/angus22/Ward3-ForfarandDistrict_ward3.csv",
-                       # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/n-ayrshire12-ballots/Ward03-Kilwinning_n-ayrshire12-03.csv",
-                       # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/sc-borders12-ballots/JedburghandDistrictWard_sc-borders12-09.csv",
-                       # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/scotland/angus12-ballots/ForfarandDistrict_angus12-03.csv",
-                       "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/america/Alameda County/Oakland_11082022_Schoolboarddistrict4.csv",
-                       # "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/america/Minneapolis/Minneapolis_11022021_CityCouncilWard2.csv"
+                       'C:/Users/mijones/Documents/Datasets/ranked_ballot_data/Preference Profiles/Scotland/w-duns22/Ward2-Leven_west dunbartonshire,2022,ward 2.csv',
+                       'C:/Users/mijones/Documents/Datasets/ranked_ballot_data/Preference Profiles/Scotland/glasgow2007 preflib/govan_govan.csv',
+                       'C:/Users/mijones/Documents/Datasets/ranked_ballot_data/Preference Profiles/Scotland/fife12-ballots/GlenrothesCentralAndThorntonWard_fife12-16.csv',
+                       "C:/Users/mijones/Documents/Datasets/ranked_ballot_data/Preference Profiles/Scotland/renfs12-ballots/7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv",
+                       "C:/Users/mijones/Documents/Datasets/ranked_ballot_data/Preference Profiles/Scotland/dumgal22/Ward3-DeeandGlenkens_ward3.csv",
+                       "C:/Users/mijones/Documents/Datasets/ranked_ballot_data/Preference Profiles/Scotland/argyll22/Ward2-KintyreandtheIslands_ward2.csv",
+                       "C:/Users/mijones/Documents/Datasets/ranked_ballot_data/Preference Profiles/Scotland/n-lanarks17-ballots/Ward4-CumbernauldEast_n-lanarks17-004.csv",
+                       "C:/Users/mijones/Documents/Datasets/ranked_ballot_data/Preference Profiles/Scotland/glasgow17-ballots/Ward21NorthEast_glasgow17-021.csv",
+                       "C:/Users/mijones/Documents/Datasets/ranked_ballot_data/Preference Profiles/Scotland/aberdeenshire22/Ward10-WestGarioch_preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv",
+                       "C:/Users/mijones/Documents/Datasets/ranked_ballot_data/Preference Profiles/Scotland/dumgal12-ballots/AnnandaleNorthWard_dumgal12-12.csv",
+                       "C:/Users/mijones/Documents/Datasets/ranked_ballot_data/Preference Profiles/Scotland/angus22/Ward3-ForfarandDistrict_ward3.csv",
+                       "C:/Users/mijones/Documents/Datasets/ranked_ballot_data/Preference Profiles/Scotland/n-ayrshire12-ballots/Ward03-Kilwinning_n-ayrshire12-03.csv",
+                       "C:/Users/mijones/Documents/Datasets/ranked_ballot_data/Preference Profiles/Scotland/sc-borders12-ballots/JedburghandDistrictWard_sc-borders12-09.csv",
+                       "C:/Users/mijones/Documents/Datasets/ranked_ballot_data/Preference Profiles/Scotland/angus12-ballots/ForfarandDistrict_angus12-03.csv",
+                       "C:/Users/mijones/Documents/Datasets/ranked_ballot_data/Preference Profiles/America/Alameda County/Oakland_11082022_Schoolboarddistrict4.csv",
+                       "C:/Users/mijones/Documents/Datasets/ranked_ballot_data/Preference Profiles/America/Minneapolis/Minneapolis_11022021_CityCouncilWard2.csv"
                        ]
                        
 
@@ -64,7 +64,7 @@ top_cycle_elections = [
 ###############################################################################
 ###############################################################################
 ##### parameters
-election_group = 'scotland'
+election_group = 'Scotland'
 frac = 1
 mp_pool_size = 6
 max_election_size = 15
@@ -152,71 +152,71 @@ def createBallotDF(list_profile, diagnostic=False):
 
 def get_election_data(election_location, specific_lxn=-1, diagnostic=False):
     lxns = []
-    base_name = "C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/"+election_location
+    base_name = "C:/Users/mijones/Documents/Datasets/ranked_ballot_data/Preference Profiles/"+election_location
 
-    # all elections
-    lxn_count = 0
-    for folder_name in os.listdir(base_name):
-    ## test folder in scotland
-    # for folder_name in ['s-lanarks17-ballots']:
-    ## test folder in america
-    # for folder_name in ['Portland, ME']:
-        for file_name in os.listdir(base_name+'/'+folder_name):
-            lxn_count += 1
-            file_path = base_name+'/'+folder_name+'/'+file_name
-            
-            # print(file_path)
-            
-            if specific_lxn > 0:
-                if lxn_count!=specific_lxn:
-                    continue
-            if diagnostic:
-                print(lxn_count, file_path)
-        
-            # sys.stdout.write('\r')
-            # sys.stdout.write(f'Election {lxn_count}'+'         ')
-            # sys.stdout.flush()
-            
-            File=open(file_path,'r', encoding='utf-8')
-            lines=File.readlines()
-
-            first_space=lines[0].find(' ')
-            num_cands=int(lines[0][0:first_space])
-            if num_cands>67:
-                print("Cannot handle this many candidates in election " + str(file_path) + ".  Has " + 
-                      str(num_cands) + " candidates.")
-                continue
-                
-            data = createBallotDF(lines)
-            
-            lxns.append([file_path, data, num_cands])
-
-
-
-
-    # ## Only the elections with top cycles        
+    # # all elections
     # lxn_count = 0
-    # for file_path in top_cycle_elections:
-    #     if diagnostic:
-    #         print(lxn_count, file_path)
-    
-    #     # sys.stdout.write('\r')
-    #     # sys.stdout.write(f'Election {lxn_count}'+'         ')
-    #     # sys.stdout.flush()
-        
-    #     File=open(file_path,'r', encoding='utf-8')
-    #     lines=File.readlines()
-
-    #     first_space=lines[0].find(' ')
-    #     num_cands=int(lines[0][0:first_space])
-    #     if num_cands>52:
-    #         print("Cannot handle this many candidates in election " + str(file_path) + ".  Has " + 
-    #               str(num_cands) + " candidates.")
-    #         continue
+    # for folder_name in os.listdir(base_name):
+    # ## test folder in scotland
+    # # for folder_name in ['s-lanarks17-ballots']:
+    # ## test folder in america
+    # # for folder_name in ['Portland, ME']:
+    #     for file_name in os.listdir(base_name+'/'+folder_name):
+    #         lxn_count += 1
+    #         file_path = base_name+'/'+folder_name+'/'+file_name
             
-    #     data = createBallotDF(lines)
+    #         # print(file_path)
+            
+    #         if specific_lxn > 0:
+    #             if lxn_count!=specific_lxn:
+    #                 continue
+    #         if diagnostic:
+    #             print(lxn_count, file_path)
         
-    #     lxns.append([file_path, data, num_cands])
+    #         # sys.stdout.write('\r')
+    #         # sys.stdout.write(f'Election {lxn_count}'+'         ')
+    #         # sys.stdout.flush()
+            
+    #         File=open(file_path,'r', encoding='utf-8')
+    #         lines=File.readlines()
+
+    #         first_space=lines[0].find(' ')
+    #         num_cands=int(lines[0][0:first_space])
+    #         if num_cands>67:
+    #             print("Cannot handle this many candidates in election " + str(file_path) + ".  Has " + 
+    #                   str(num_cands) + " candidates.")
+    #             continue
+                
+    #         data = createBallotDF(lines)
+            
+    #         lxns.append([file_path, data, num_cands])
+
+
+
+
+    ## Only the elections with top cycles        
+    lxn_count = 0
+    for file_path in top_cycle_elections:
+        if diagnostic:
+            print(lxn_count, file_path)
+    
+        # sys.stdout.write('\r')
+        # sys.stdout.write(f'Election {lxn_count}'+'         ')
+        # sys.stdout.flush()
+        
+        File=open(file_path,'r', encoding='utf-8')
+        lines=File.readlines()
+
+        first_space=lines[0].find(' ')
+        num_cands=int(lines[0][0:first_space])
+        if num_cands>52:
+            print("Cannot handle this many candidates in election " + str(file_path) + ".  Has " + 
+                  str(num_cands) + " candidates.")
+            continue
+            
+        data = createBallotDF(lines)
+        
+        lxns.append([file_path, data, num_cands])
 
     return lxns
     
@@ -353,7 +353,7 @@ for i in range(len(lxn_list)):
     #     print(threshold, diversity_score_threshold(profile, cands, threshold, diagnostic=False))
     
     # anomaly_data.append(diversity_score_simplex(profile, cands, diagnostic=False))
-    anomaly_data.append(friendly_fire_inst(profile, cands, diagnostic=False))
+    anomaly_data.append([friendly_fire_inst(profile, cands, diagnostic=False), friendly_fire_inst_smith(profile, cands, diagnostic=False), friendly_fire_seq_smith(profile, cands, diagnostic=False)])
 
         
 print(time.time()-start_time)   

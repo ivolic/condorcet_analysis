@@ -45,7 +45,7 @@ from anomaly_search_class import *
 ###############################################################################
 ###############################################################################
 ##### parameters
-election_group = 'scotland'
+election_group = 'Scotland'
 frac = 1
 only_use_first_place_voters = False
 mp_pool_size = 12
@@ -87,7 +87,7 @@ def createBallotDF(list_profile, diagnostic=False):
 def get_election_data(election_location, specific_lxn=-1, diagnostic=False):
     lxns = []
     ## version for github repo
-    base_name = 'C:/Users/mijones/Documents/Datasets/Ranked_Ballots/preference_profiles/' + election_location
+    base_name = 'C:/Users/mijones/Documents/Datasets/ranked_ballot_data/Preference Profiles/' + election_location
     ## version for HPC
     # base_name = './data/' + election_location
 
@@ -411,93 +411,93 @@ def sort_search(params):
 ###############################################################################
 
 
-# vote_fracs = [1 - i/frac for i in range(frac)]
-# if not os.path.exists(election_group+'_anomalies'):
-#     os.makedirs(election_group+'_anomalies')
+vote_fracs = [1 - i/frac for i in range(frac)]
+if not os.path.exists(election_group+'_anomalies'):
+    os.makedirs(election_group+'_anomalies')
 
-# # lxn_methods = [plurality, plurality_runoff, IRV, smith_irv, smith_plurality, 
-# #                 minimax, smith_minimax, ranked_pairs, 
-# #                 Borda_PM, Borda_OM, Borda_AVG, bucklin]
+# lxn_methods = [plurality, plurality_runoff, IRV, smith_irv, smith_plurality, 
+#                 minimax, smith_minimax, ranked_pairs, 
+#                 Borda_PM, Borda_OM, Borda_AVG, bucklin]
 
-# # lxn_methods += [TVR_PM, TVR_OM, TVR_AVG, diversity_score_threshold]
-# lxn_methods = [friendly_fire_inst]
+# lxn_methods += [TVR_PM, TVR_OM, TVR_AVG, diversity_score_threshold]
+lxn_methods = [friendly_fire_inst_smith]
 
-# ballot_mod_methods = [laterNoHarm, strat_compromise, strat_truncate_L, strat_truncate_W, strat_bury_shallow, strat_bury_deep]
-# full_anomaly_types = [ballot_mod.__name__ for ballot_mod in ballot_mod_methods]
+ballot_mod_methods = [laterNoHarm, strat_compromise, strat_truncate_L, strat_truncate_W, strat_bury_shallow, strat_bury_deep]
+full_anomaly_types = [ballot_mod.__name__ for ballot_mod in ballot_mod_methods]
 
-# search_combos = {}
-# for lxn_method in lxn_methods:
-#     for ballot_mod in ballot_mod_methods:
-#         combo_name = lxn_method.__name__ + '_' + ballot_mod.__name__
-#         ## list is file_names, num_cands, old_winner, new_winner, modified_ballots
-#         search_combos[combo_name] = [[], [], [], [], []]
+search_combos = {}
+for lxn_method in lxn_methods:
+    for ballot_mod in ballot_mod_methods:
+        combo_name = lxn_method.__name__ + '_' + ballot_mod.__name__
+        ## list is file_names, num_cands, old_winner, new_winner, modified_ballots
+        search_combos[combo_name] = [[], [], [], [], []]
 
 
-# if __name__ == '__main__':  
-#     ## get data
-#     lxn_list = get_election_data(election_group)
+if __name__ == '__main__':  
+    ## get data
+    lxn_list = get_election_data(election_group)
     
-#     gen_lxn_list = []
-#     for lxn in lxn_list:
-#         for lxn_method in lxn_methods:
-#             for ballot_mod in ballot_mod_methods:
-#                 gen_lxn_list.append([lxn_method, ballot_mod]+lxn)
+    gen_lxn_list = []
+    for lxn in lxn_list:
+        for lxn_method in lxn_methods:
+            for ballot_mod in ballot_mod_methods:
+                gen_lxn_list.append([lxn_method, ballot_mod]+lxn)
     
     
-#     ## search for general anomalies
-#     pool = multiprocessing.Pool(processes=mp_pool_size)
-#     massive_results = pool.map(sort_search, gen_lxn_list)
+    ## search for general anomalies
+    pool = multiprocessing.Pool(processes=mp_pool_size)
+    massive_results = pool.map(sort_search, gen_lxn_list)
     
-#     if not only_use_first_place_voters:
-#         with open(election_group+"_anomalies/massive_results_data.json", "w") as f:
-#             json.dump(massive_results, f, cls=NpEncoder)
-#     else:
-#         with open(election_group+"_anomalies/massive_results_data_first_only.json", "w") as f:
-#             json.dump(massive_results, f, cls=NpEncoder)
+    if not only_use_first_place_voters:
+        with open(election_group+"_anomalies/massive_results_data.json", "w") as f:
+            json.dump(massive_results, f, cls=NpEncoder)
+    else:
+        with open(election_group+"_anomalies/massive_results_data_first_only.json", "w") as f:
+            json.dump(massive_results, f, cls=NpEncoder)
     
-#     ## data frame for top line results 
-#     summary_results = pd.DataFrame(-1, index = full_anomaly_types, 
-#             columns = [lxn_method.__name__ for lxn_method in lxn_methods])
-#     for lxn_method in lxn_methods:
-#         for ballot_mod in ballot_mod_methods:
-#             summary_results[lxn_method.__name__][ballot_mod.__name__] = 0
+    ## data frame for top line results 
+    summary_results = pd.DataFrame(-1, index = full_anomaly_types, 
+            columns = [lxn_method.__name__ for lxn_method in lxn_methods])
+    for lxn_method in lxn_methods:
+        for ballot_mod in ballot_mod_methods:
+            summary_results[lxn_method.__name__][ballot_mod.__name__] = 0
 
-#     for lxn in massive_results:
-#         if len(lxn)>4:
-#             lxn_method = lxn[0]
-#             ballot_mod = lxn[1]
-#             summary_results[lxn_method][ballot_mod] += 1
-#             combo_name = lxn_method + '_' + ballot_mod
-#             search_combos[combo_name][0].append(lxn[2])
-#             search_combos[combo_name][1].append(lxn[3])
-#             search_combos[combo_name][2].append(lxn[4])
-#             search_combos[combo_name][3].append(lxn[5])
-#             search_combos[combo_name][4].append(lxn[6])
+    for lxn in massive_results:
+        if len(lxn)>4:
+            lxn_method = lxn[0]
+            ballot_mod = lxn[1]
+            summary_results[lxn_method][ballot_mod] += 1
+            combo_name = lxn_method + '_' + ballot_mod
+            search_combos[combo_name][0].append(lxn[2])
+            search_combos[combo_name][1].append(lxn[3])
+            search_combos[combo_name][2].append(lxn[4])
+            search_combos[combo_name][3].append(lxn[5])
+            search_combos[combo_name][4].append(lxn[6])
     
-#     if not only_use_first_place_voters:
-#         summary_results.to_csv(election_group+'_anomalies/top_line_results.csv')    
-#     else:
-#         summary_results.to_csv(election_group+'_anomalies/top_line_results_first_only.csv')   
+    # if not only_use_first_place_voters:
+    #     summary_results.to_csv(election_group+'_anomalies/top_line_results.csv')    
+    # else:
+    #     summary_results.to_csv(election_group+'_anomalies/top_line_results_first_only.csv')   
 
-#     for combo_name in search_combos.keys():
-#         full_list = search_combos[combo_name]
-#         ballot_counts = []
-#         for y in full_list[4]:
-#             count = 0
-#             for x in y:
-#                 if x:
-#                     if type(x[-1])!=str:
-#                         count += x[-1]
-#             ballot_counts.append(count)
-#         change_list = ballot_counts
-#         df_dict = {'file_name': full_list[0], 'num_cands': full_list[1], 
-#                     'old_winner': full_list[2], 'new_winner': full_list[3],
-#                     'ballot_change_num':change_list, 'modified_ballots': full_list[4]}
-#         csv_data = pd.DataFrame(df_dict)
-#         if not only_use_first_place_voters:
-#             csv_data.to_csv(election_group+'_anomalies/'+combo_name+'.csv')
-#         else:
-#             csv_data.to_csv(election_group+'_anomalies/'+combo_name+'_first_only.csv')
+    # for combo_name in search_combos.keys():
+    #     full_list = search_combos[combo_name]
+    #     ballot_counts = []
+    #     for y in full_list[4]:
+    #         count = 0
+    #         for x in y:
+    #             if x:
+    #                 if type(x[-1])!=str:
+    #                     count += x[-1]
+    #         ballot_counts.append(count)
+    #     change_list = ballot_counts
+    #     df_dict = {'file_name': full_list[0], 'num_cands': full_list[1], 
+    #                 'old_winner': full_list[2], 'new_winner': full_list[3],
+    #                 'ballot_change_num':change_list, 'modified_ballots': full_list[4]}
+    #     csv_data = pd.DataFrame(df_dict)
+    #     if not only_use_first_place_voters:
+    #         csv_data.to_csv(election_group+'_anomalies/'+combo_name+'.csv')
+    #     else:
+    #         csv_data.to_csv(election_group+'_anomalies/'+combo_name+'_first_only.csv')
 
 
 
@@ -507,73 +507,73 @@ def sort_search(params):
 ##############################################################
 
 
-cand_names = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
-              'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
-              'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
-              'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+# cand_names = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
+#               'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
+#               'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
+#               'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
-start_time = time.time()
+# start_time = time.time()
 
-print('##### Collecting election data #####')
-lxn_list = get_election_data(election_group)
+# print('##### Collecting election data #####')
+# lxn_list = get_election_data(election_group)
 
-print(time.time()-start_time)
+# print(time.time()-start_time)
 
 
-print('##### Searching for anomalies #####')
-print('###################################')
-# vote_methods = [IRV, smith_irv, Borda_PM, Borda_OM, Borda_AVG, minimax, smith_minimax, ranked_pairs, plurality, condorcet_plurality, plurality_runoff, bucklin]
-# vote_methods = [minimax, minimax_fast]
-# vote_methods = [IRV]
+# print('##### Searching for anomalies #####')
+# print('###################################')
+# # vote_methods = [IRV, smith_irv, Borda_PM, Borda_OM, Borda_AVG, minimax, smith_minimax, ranked_pairs, plurality, condorcet_plurality, plurality_runoff, bucklin]
+# # vote_methods = [minimax, minimax_fast]
+# # vote_methods = [IRV]
 
-# for method in vote_methods:
-ballot_mod_methods = [laterNoHarm, strat_compromise, strat_truncate_L, strat_truncate_W, strat_bury_shallow, strat_bury_deep]
-anomaly_data = [[] for _ in ballot_mod_methods]
+# # for method in vote_methods:
+# ballot_mod_methods = [laterNoHarm, strat_compromise, strat_truncate_L, strat_truncate_W, strat_bury_shallow, strat_bury_deep]
+# anomaly_data = [[] for _ in ballot_mod_methods]
     
     
-start_time = time.time()
-# print(method.__name__)
+# start_time = time.time()
+# # print(method.__name__)
 
 
-anomaly_data = []
-for i in range(len(lxn_list)):
+# anomaly_data = []
+# for i in range(len(lxn_list)):
     
-    # start_time = time.time()
-    sys.stdout.write('\r')
-    sys.stdout.write('\r')
-    sys.stdout.write(f'Election {i+1}'+':' + lxn_list[i][0] + '                      ')
-    sys.stdout.flush()
+#     # start_time = time.time()
+#     sys.stdout.write('\r')
+#     sys.stdout.write('\r')
+#     sys.stdout.write(f'Election {i+1}'+':' + lxn_list[i][0] + '                      ')
+#     sys.stdout.flush()
     
-    lxn, profile, num_cands = lxn_list[i]
+#     lxn, profile, num_cands = lxn_list[i]
     
-    lxn_start = time.time()
+#     lxn_start = time.time()
     
-    data = frac_general_search(profile, num_cands, friendly_fire_inst, strat_compromise, 1)
-    if data:
-        anomaly_data.append(data)
-        frac_general_search(profile, num_cands, friendly_fire_inst, strat_compromise, 1, diagnostic=True)
+#     data = frac_general_search(profile, num_cands, friendly_fire_inst, strat_compromise, 1)
+#     if data:
+#         anomaly_data.append(data)
+#         frac_general_search(profile, num_cands, friendly_fire_inst, strat_compromise, 1, diagnostic=True)
         
-    # data = frac_noShowBucklin(profile, num_cands, 1)
-    # data = broken_frac_noShowIRV(profile, num_cands, 1)
-    # data = frac_downMonoIRV(profile, num_cands, 1)
-    # data = find_killer_subsets(profile, num_cands)
-    # data = frac_noShowPR(profile, num_cands, 1)
+#     # data = frac_noShowBucklin(profile, num_cands, 1)
+#     # data = broken_frac_noShowIRV(profile, num_cands, 1)
+#     # data = frac_downMonoIRV(profile, num_cands, 1)
+#     # data = find_killer_subsets(profile, num_cands)
+#     # data = frac_noShowPR(profile, num_cands, 1)
 
-    # if data:
-    #     anomaly_data.append(data)
+#     # if data:
+#     #     anomaly_data.append(data)
         
-    # print(time.time()-start_time)
+#     # print(time.time()-start_time)
     
     
-    # for indx, ballot_mod_method in enumerate(ballot_mod_methods):
-    #     data = frac_general_search(profile, num_cands, diversity_score_simplex, ballot_mod_method, 1)
-    #     if data:
-    #         anomaly_data[indx].append(data)
+#     # for indx, ballot_mod_method in enumerate(ballot_mod_methods):
+#     #     data = frac_general_search(profile, num_cands, diversity_score_simplex, ballot_mod_method, 1)
+#     #     if data:
+#     #         anomaly_data[indx].append(data)
 
         
-print(time.time()-start_time)    
-print(len(anomaly_data))
-print('###################################')
+# print(time.time()-start_time)    
+# print(len(anomaly_data))
+# print('###################################')
 
 
 
