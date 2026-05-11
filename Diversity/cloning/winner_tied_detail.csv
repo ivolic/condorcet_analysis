@@ -1,0 +1,146 @@
+file,percent,borda_type,cloned_candidate,original_winner,new_winner,num_cands
+SanFrancisco_11032020_BOARDOFSUPERVISORSDISTRICT11.csv,0.1,avg,JASON CHUYUAN ZENG,AHSHA SAFAI,TIED,5
+SanFrancisco_11062018_BoardofSupervisorsDistrict10.csv,0.1,avg,WRITE-IN NEO VEAVEA,SHAMANN WALTON,TIED,8
+SanFrancisco_11082005_AssessorRecorder.csv,0.1,avg,Anthony Faber,Phil Ting,TIED,5
+Eastpointe_11022021_CityCouncil.csv,0.1,om,Rob Baker,Cardi DeMonaco Jr.,TIED,7
+SanFrancisco_11032015_Mayor.csv,0.1,om,WRITE-IN - JOHN E. FITCH,ED LEE,TIED,13
+SanFrancisco_11032020_BOARDOFSUPERVISORSDISTRICT11.csv,0.1,om,JASON CHUYUAN ZENG,AHSHA SAFAI,TIED,5
+SanFrancisco_11062018_BoardofSupervisorsDistrict10.csv,0.1,om,WRITE-IN NEO VEAVEA,SHAMANN WALTON,TIED,8
+SanFrancisco_11082005_AssessorRecorder.csv,0.1,om,Anthony Faber,Phil Ting,TIED,5
+SanFrancisco_11032015_Mayor.csv,0.1,pm,ED LEE,ED LEE,TIED,13
+SanFrancisco_11032020_BOARDOFSUPERVISORSDISTRICT11.csv,0.1,pm,JASON CHUYUAN ZENG,AHSHA SAFAI,TIED,5
+SanFrancisco_11062018_BoardofSupervisorsDistrict10.csv,0.1,pm,WRITE-IN NEO VEAVEA,SHAMANN WALTON,TIED,8
+SanFrancisco_11082005_AssessorRecorder.csv,0.1,pm,Anthony Faber,Phil Ting,TIED,5
+SanFrancisco_11032020_BOARDOFSUPERVISORSDISTRICT11.csv,0.2,avg,JASON CHUYUAN ZENG,AHSHA SAFAI,TIED,5
+SanFrancisco_11082005_AssessorRecorder.csv,0.2,avg,Anthony Faber,Phil Ting,TIED,5
+TakomaPark_11082022_CityCouncilWard5.csv,0.2,avg,Cara Honzak,Cara Honzak,TIED,4
+Eastpointe_11022021_CityCouncil.csv,0.2,om,Rob Baker,Cardi DeMonaco Jr.,TIED,7
+SanFrancisco_11032015_Mayor.csv,0.2,om,WRITE-IN - JOHN E. FITCH,ED LEE,TIED,13
+SanFrancisco_11032020_BOARDOFSUPERVISORSDISTRICT11.csv,0.2,om,JASON CHUYUAN ZENG,AHSHA SAFAI,TIED,5
+SanFrancisco_11082005_AssessorRecorder.csv,0.2,om,Anthony Faber,Phil Ting,TIED,5
+SanFrancisco_11032015_Mayor.csv,0.2,pm,ED LEE,ED LEE,TIED,13
+SanFrancisco_11032020_BOARDOFSUPERVISORSDISTRICT11.csv,0.2,pm,JASON CHUYUAN ZENG,AHSHA SAFAI,TIED,5
+SanFrancisco_11082005_AssessorRecorder.csv,0.2,pm,Anthony Faber,Phil Ting,TIED,5
+Eastpointe_11022021_CityCouncil.csv,0.3,om,Rob Baker,Cardi DeMonaco Jr.,TIED,7
+SanFrancisco_11032015_Mayor.csv,0.3,om,WRITE-IN - JOHN E. FITCH,ED LEE,TIED,13
+SanFrancisco_11032015_Mayor.csv,0.3,pm,ED LEE,ED LEE,TIED,13
+Eastpointe_11022021_CityCouncil.csv,0.4,avg,Tonia Gladney,Cardi DeMonaco Jr.,TIED,7
+Eastpointe_11022021_CityCouncil.csv,0.4,om,Rob Baker,Cardi DeMonaco Jr.,TIED,7
+Eastpointe_11022021_CityCouncil.csv,0.4,om,Tonia Gladney,Cardi DeMonaco Jr.,TIED,7
+Oakland_11062012_CityCouncilDistrict1.csv,0.4,om,DONALD MACLEAY,DAN KALB,TIED,8
+Eastpointe_11022021_CityCouncil.csv,0.4,pm,Tonia Gladney,Cardi DeMonaco Jr.,TIED,7
+Minnetonka_11072023_CityCouncilWard1.csv,0.4,pm,Patsy Foster-Bolton,Patsy Foster-Bolton,TIED,5
+SanFrancisco_11032015_Mayor.csv,0.4,pm,ED LEE,ED LEE,TIED,13
+Alaska_11052024_StateHouseD12.csv,0.5,avg,"Schrage, Calvin R.","Schrage, Calvin R.",TIED,3
+Alaska_11052024_StateHouseD13.csv,0.5,avg,"Josephson, Andrew L. ""Andy","Josephson, Andrew L. ""Andy",TIED,3
+Alaska_11052024_StateHouseD13.csv,0.5,avg,"Gottshall, Heather","Josephson, Andrew L. ""Andy",TIED,3
+Alaska_11052024_StateHouseD16.csv,0.5,avg,"Hall, Carolyn","Hall, Carolyn",TIED,3
+Alaska_11052024_StateSenateJ.csv,0.5,avg,"Smith, Cheronda L.","Dunbar, Forrest",TIED,3
+Alaska_11082022_HouseDistrict1.csv,0.5,avg,"Bynum, Jeremy T.","Ortiz, Daniel H. ""Dan",TIED,3
+Alaska_11082022_HouseDistrict14.csv,0.5,avg,"Galvin, Alyse S.","Galvin, Alyse S.",TIED,3
+Alaska_11082022_HouseDistrict22.csv,0.5,avg,"Wright, Stanley A.","Wright, Stanley A.",TIED,3
+Alaska_11082022_HouseDistrict23.csv,0.5,avg,"Branson, Roger L.","Allard, Jamie",TIED,3
+Alaska_11082022_HouseDistrict23.csv,0.5,avg,"Allard, Jamie","Allard, Jamie",TIED,3
+Alaska_11082022_HouseDistrict25.csv,0.5,avg,"Johnson, DeLena M.","Johnson, DeLena M.",TIED,3
+Alaska_11082022_SenateDistrictH.csv,0.5,avg,"Claman, Matt","Claman, Matt",TIED,3
+Alaska_11082022_SenateDistrictI.csv,0.5,avg,"Herndon, Heather","Tobin, Löki G.",TIED,3
+Alaska_11082022_SenateDistrictI.csv,0.5,avg,"Tobin, Löki G.","Tobin, Löki G.",TIED,3
+Berkeley_11032020_MemberCityCouncilDist6BerkeleyRCV.csv,0.5,avg,RICHARD ILLGEN,SUSAN WENGRAF,TIED,3
+Minneapolis_11022021_CityCouncilWard6.csv,0.5,avg,Jamal Osman,Jamal Osman,TIED,3
+Oakland_11022010_CityCouncilDistrict2.csv,0.5,avg,PATRICIA KERNIGHAN,PATRICIA KERNIGHAN,TIED,3
+Oakland_11062012_CityAttorney.csv,0.5,avg,BARBARA PARKER,BARBARA PARKER,TIED,3
+Oakland_11062018_SchoolDirectorDistrict4.csv,0.5,avg,GARY D. YEE,GARY D. YEE,TIED,3
+Oakland_11062018_SchoolDirectorDistrict4.csv,0.5,avg,CLARISSA DOUTHERD,GARY D. YEE,TIED,3
+Oakland_11082016_CityCouncilDistrict1.csv,0.5,avg,DAN KALB,DAN KALB,TIED,3
+Oakland_11082016_CityCouncilDistrict5.csv,0.5,avg,NOEL GALLO,NOEL GALLO,TIED,3
+Oakland_11082016_SchoolDirectorDistrict1.csv,0.5,avg,DON MACLEAY,JODY LONDON,TIED,3
+Oakland_11082016_SchoolDirectorDistrict1.csv,0.5,avg,JODY LONDON,JODY LONDON,TIED,3
+SanFrancisco_11032020_BOARDOFSUPERVISORSDISTRICT9.csv,0.5,avg,HILLARY RONEN,HILLARY RONEN,TIED,3
+SanFrancisco_11062018_BoardofSupervisorsDistrict8.csv,0.5,avg,RAFAEL MANDELMAN,RAFAEL MANDELMAN,TIED,3
+SanFrancisco_11062018_BoardofSupervisorsDistrict8.csv,0.5,avg,LAWRENCE ''STARK'' DAGESSE,RAFAEL MANDELMAN,TIED,3
+SanFrancisco_11082016_BoardofSupervisorsDistrict5.csv,0.5,avg,DEAN PRESTON,LONDON BREED,TIED,3
+SanFrancisco_11082022_BoardofSupervisorsD10.csv,0.5,avg,SHAMANN WALTON,SHAMANN WALTON,TIED,3
+SanLeandro_11062018_CountyCouncilDistrict3.csv,0.5,avg,"VICTOR AGUILAR, JR.","VICTOR AGUILAR, JR.",TIED,3
+SanLeandro_11062018_CountyCouncilDistrict3.csv,0.5,avg,LEE THOMAS,"VICTOR AGUILAR, JR.",TIED,3
+SanLeandro_11082016_CountyCouncilDistrict2.csv,0.5,avg,BRYAN AZEVEDO,ED HERNANDEZ,TIED,3
+SanLeandro_11082016_CountyCouncilDistrict2.csv,0.5,avg,ED HERNANDEZ,ED HERNANDEZ,TIED,3
+Alaska_11052024_StateHouseD12.csv,0.5,om,"Schrage, Calvin R.","Schrage, Calvin R.",TIED,3
+Alaska_11052024_StateHouseD13.csv,0.5,om,"Josephson, Andrew L. ""Andy","Josephson, Andrew L. ""Andy",TIED,3
+Alaska_11052024_StateHouseD13.csv,0.5,om,"Gottshall, Heather","Josephson, Andrew L. ""Andy",TIED,3
+Alaska_11052024_StateHouseD16.csv,0.5,om,"Hall, Carolyn","Hall, Carolyn",TIED,3
+Alaska_11052024_StateSenateJ.csv,0.5,om,"Smith, Cheronda L.","Dunbar, Forrest",TIED,3
+Alaska_11082022_HouseDistrict1.csv,0.5,om,"Bynum, Jeremy T.","Ortiz, Daniel H. ""Dan",TIED,3
+Alaska_11082022_HouseDistrict14.csv,0.5,om,"Galvin, Alyse S.","Galvin, Alyse S.",TIED,3
+Alaska_11082022_HouseDistrict22.csv,0.5,om,"Wright, Stanley A.","Wright, Stanley A.",TIED,3
+Alaska_11082022_HouseDistrict23.csv,0.5,om,"Branson, Roger L.","Allard, Jamie",TIED,3
+Alaska_11082022_HouseDistrict23.csv,0.5,om,"Allard, Jamie","Allard, Jamie",TIED,3
+Alaska_11082022_HouseDistrict25.csv,0.5,om,"Johnson, DeLena M.","Johnson, DeLena M.",TIED,3
+Alaska_11082022_SenateDistrictH.csv,0.5,om,"Claman, Matt","Claman, Matt",TIED,3
+Alaska_11082022_SenateDistrictI.csv,0.5,om,"Herndon, Heather","Tobin, Löki G.",TIED,3
+Alaska_11082022_SenateDistrictI.csv,0.5,om,"Tobin, Löki G.","Tobin, Löki G.",TIED,3
+Berkeley_11032020_MemberCityCouncilDist6BerkeleyRCV.csv,0.5,om,RICHARD ILLGEN,SUSAN WENGRAF,TIED,3
+Eastpointe_11022021_CityCouncil.csv,0.5,om,Rob Baker,Cardi DeMonaco Jr.,TIED,7
+Minneapolis_11022021_CityCouncilWard6.csv,0.5,om,Jamal Osman,Jamal Osman,TIED,3
+Oakland_11022010_CityCouncilDistrict2.csv,0.5,om,PATRICIA KERNIGHAN,PATRICIA KERNIGHAN,TIED,3
+Oakland_11062012_CityAttorney.csv,0.5,om,BARBARA PARKER,BARBARA PARKER,TIED,3
+Oakland_11062018_CityCouncilDistrict4.csv,0.5,om,PAM HARRIS,SHENG THAO,TIED,8
+Oakland_11062018_SchoolDirectorDistrict4.csv,0.5,om,GARY D. YEE,GARY D. YEE,TIED,3
+Oakland_11062018_SchoolDirectorDistrict4.csv,0.5,om,CLARISSA DOUTHERD,GARY D. YEE,TIED,3
+Oakland_11082016_CityCouncilDistrict1.csv,0.5,om,DAN KALB,DAN KALB,TIED,3
+Oakland_11082016_CityCouncilDistrict5.csv,0.5,om,NOEL GALLO,NOEL GALLO,TIED,3
+Oakland_11082016_SchoolDirectorDistrict1.csv,0.5,om,DON MACLEAY,JODY LONDON,TIED,3
+Oakland_11082016_SchoolDirectorDistrict1.csv,0.5,om,JODY LONDON,JODY LONDON,TIED,3
+SanFrancisco_11032020_BOARDOFSUPERVISORSDISTRICT9.csv,0.5,om,HILLARY RONEN,HILLARY RONEN,TIED,3
+SanFrancisco_11062018_BoardofSupervisorsDistrict8.csv,0.5,om,RAFAEL MANDELMAN,RAFAEL MANDELMAN,TIED,3
+SanFrancisco_11062018_BoardofSupervisorsDistrict8.csv,0.5,om,LAWRENCE ''STARK'' DAGESSE,RAFAEL MANDELMAN,TIED,3
+SanFrancisco_11082016_BoardofSupervisorsDistrict5.csv,0.5,om,DEAN PRESTON,LONDON BREED,TIED,3
+SanFrancisco_11082022_BoardofSupervisorsD10.csv,0.5,om,SHAMANN WALTON,SHAMANN WALTON,TIED,3
+SanLeandro_11062018_CountyCouncilDistrict3.csv,0.5,om,"VICTOR AGUILAR, JR.","VICTOR AGUILAR, JR.",TIED,3
+SanLeandro_11062018_CountyCouncilDistrict3.csv,0.5,om,LEE THOMAS,"VICTOR AGUILAR, JR.",TIED,3
+SanLeandro_11082016_CountyCouncilDistrict2.csv,0.5,om,BRYAN AZEVEDO,ED HERNANDEZ,TIED,3
+SanLeandro_11082016_CountyCouncilDistrict2.csv,0.5,om,ED HERNANDEZ,ED HERNANDEZ,TIED,3
+Alaska_11052024_StateHouseD12.csv,0.5,pm,"Schrage, Calvin R.","Schrage, Calvin R.",TIED,3
+Alaska_11052024_StateHouseD13.csv,0.5,pm,"Josephson, Andrew L. ""Andy","Josephson, Andrew L. ""Andy",TIED,3
+Alaska_11052024_StateHouseD13.csv,0.5,pm,"Gottshall, Heather","Josephson, Andrew L. ""Andy",TIED,3
+Alaska_11052024_StateHouseD16.csv,0.5,pm,"Hall, Carolyn","Hall, Carolyn",TIED,3
+Alaska_11052024_StateSenateJ.csv,0.5,pm,"Smith, Cheronda L.","Dunbar, Forrest",TIED,3
+Alaska_11082022_HouseDistrict1.csv,0.5,pm,"Bynum, Jeremy T.","Ortiz, Daniel H. ""Dan",TIED,3
+Alaska_11082022_HouseDistrict14.csv,0.5,pm,"Galvin, Alyse S.","Galvin, Alyse S.",TIED,3
+Alaska_11082022_HouseDistrict22.csv,0.5,pm,"Wright, Stanley A.","Wright, Stanley A.",TIED,3
+Alaska_11082022_HouseDistrict23.csv,0.5,pm,"Branson, Roger L.","Allard, Jamie",TIED,3
+Alaska_11082022_HouseDistrict23.csv,0.5,pm,"Allard, Jamie","Allard, Jamie",TIED,3
+Alaska_11082022_HouseDistrict25.csv,0.5,pm,"Johnson, DeLena M.","Johnson, DeLena M.",TIED,3
+Alaska_11082022_SenateDistrictH.csv,0.5,pm,"Claman, Matt","Claman, Matt",TIED,3
+Alaska_11082022_SenateDistrictI.csv,0.5,pm,"Herndon, Heather","Tobin, Löki G.",TIED,3
+Alaska_11082022_SenateDistrictI.csv,0.5,pm,"Tobin, Löki G.","Tobin, Löki G.",TIED,3
+Berkeley_11032020_MemberCityCouncilDist6BerkeleyRCV.csv,0.5,pm,RICHARD ILLGEN,SUSAN WENGRAF,TIED,3
+Minneapolis_11022021_CityCouncilWard6.csv,0.5,pm,Jamal Osman,Jamal Osman,TIED,3
+Oakland_11022010_CityCouncilDistrict2.csv,0.5,pm,PATRICIA KERNIGHAN,PATRICIA KERNIGHAN,TIED,3
+Oakland_11062012_CityAttorney.csv,0.5,pm,BARBARA PARKER,BARBARA PARKER,TIED,3
+Oakland_11062018_SchoolDirectorDistrict4.csv,0.5,pm,GARY D. YEE,GARY D. YEE,TIED,3
+Oakland_11062018_SchoolDirectorDistrict4.csv,0.5,pm,CLARISSA DOUTHERD,GARY D. YEE,TIED,3
+Oakland_11082016_CityCouncilDistrict1.csv,0.5,pm,DAN KALB,DAN KALB,TIED,3
+Oakland_11082016_CityCouncilDistrict5.csv,0.5,pm,NOEL GALLO,NOEL GALLO,TIED,3
+Oakland_11082016_SchoolDirectorDistrict1.csv,0.5,pm,DON MACLEAY,JODY LONDON,TIED,3
+Oakland_11082016_SchoolDirectorDistrict1.csv,0.5,pm,JODY LONDON,JODY LONDON,TIED,3
+SanFrancisco_11032015_Mayor.csv,0.5,pm,ED LEE,ED LEE,TIED,13
+SanFrancisco_11032020_BOARDOFSUPERVISORSDISTRICT9.csv,0.5,pm,HILLARY RONEN,HILLARY RONEN,TIED,3
+SanFrancisco_11062018_BoardofSupervisorsDistrict8.csv,0.5,pm,RAFAEL MANDELMAN,RAFAEL MANDELMAN,TIED,3
+SanFrancisco_11062018_BoardofSupervisorsDistrict8.csv,0.5,pm,LAWRENCE ''STARK'' DAGESSE,RAFAEL MANDELMAN,TIED,3
+SanFrancisco_11082016_BoardofSupervisorsDistrict5.csv,0.5,pm,DEAN PRESTON,LONDON BREED,TIED,3
+SanFrancisco_11082022_BoardofSupervisorsD10.csv,0.5,pm,SHAMANN WALTON,SHAMANN WALTON,TIED,3
+SanLeandro_11062018_CountyCouncilDistrict3.csv,0.5,pm,"VICTOR AGUILAR, JR.","VICTOR AGUILAR, JR.",TIED,3
+SanLeandro_11062018_CountyCouncilDistrict3.csv,0.5,pm,LEE THOMAS,"VICTOR AGUILAR, JR.",TIED,3
+SanLeandro_11082016_CountyCouncilDistrict2.csv,0.5,pm,BRYAN AZEVEDO,ED HERNANDEZ,TIED,3
+SanLeandro_11082016_CountyCouncilDistrict2.csv,0.5,pm,ED HERNANDEZ,ED HERNANDEZ,TIED,3
+Eastpointe_11022021_CityCouncil.csv,0.6,om,Rob Baker,Cardi DeMonaco Jr.,TIED,7
+SanFrancisco_11032015_Mayor.csv,0.6,pm,ED LEE,ED LEE,TIED,13
+Eastpointe_11022021_CityCouncil.csv,0.7,om,Rob Baker,Cardi DeMonaco Jr.,TIED,7
+SanFrancisco_11032015_Mayor.csv,0.7,pm,ED LEE,ED LEE,TIED,13
+Eastpointe_11022021_CityCouncil.csv,0.8,om,Rob Baker,Cardi DeMonaco Jr.,TIED,7
+SanFrancisco_11032015_Mayor.csv,0.8,pm,ED LEE,ED LEE,TIED,13
+Eastpointe_11022021_CityCouncil.csv,0.9,om,Rob Baker,Cardi DeMonaco Jr.,TIED,7
+APA 2019 President.csv,0.9,pm,Jennifer F. Kelly PhD ABPP,Jennifer F. Kelly PhD ABPP,TIED,6
+Minneapolis_08112020_Ward6CityCouncilSpecialElection.csv,0.9,pm,Saciido Shaie,Jamal Osman,TIED,13
+Minnetonka_11072023_CityCouncilWard1.csv,0.9,pm,Bonnie Burton,Patsy Foster-Bolton,TIED,5
+SanFrancisco_11032015_Mayor.csv,0.9,pm,ED LEE,ED LEE,TIED,13

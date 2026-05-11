@@ -10,16 +10,14 @@ from fractions import Fraction
 from votekit import Ballot, PreferenceProfile
 
 logging.basicConfig(
-    filename='condorcet_highest.log',
+    filename='condorcet.log',
     level=logging.INFO,
     format='%(asctime)s - %(message)s',
     datefmt='%Y-%m-%d %H:%M:%S'
 )
 logger = logging.getLogger()
+# logger.disabled = True # TURNED OFF LOGGING
 
-RESULTS_FILE = 'condorcet_highest.csv'
-with open(RESULTS_FILE, 'w') as f:
-    f.write('file,threshold,winner,rounds\n')
 
 def condense_ballots(profile):
     weights = defaultdict(Fraction)
@@ -76,7 +74,7 @@ def get_diversity_score(profile, candidate, threshold=0, printMinWeight=False):
     total_weight = sum(ballot.weight for ballot in profile.ballots)
     min_weight = threshold * total_weight
     # if printMinWeight:
-    #     logger.info(f"min_weight {min_weight}")
+    # logger.info(f"min_weight {min_weight}")
     diversity_score = 0
 
     for ballot in profile.ballots:
@@ -135,7 +133,7 @@ def first_place_count(vprofile, candidates_to_compare):
     return result["cand"]
 
 def main_helper(vprofile, candidates, threshold, round_num=1):
-    logger.info(f"Round {round_num}: Remaining candidates: {candidates}")
+    logger.info(f"Round {round_num}: Remaining candidates: {candidates} Threshold: {threshold}")
     winner = get_condorcet_winner(vprofile, candidates)
     if winner:
         logger.info(f"Condorcet winner found: {winner}")
@@ -167,35 +165,38 @@ def main_helper2(vprofile, candidates, threshold, round_num=1):
         cand = get_highest_diversity_score(vprofile, candidates, threshold)
         return cand,0
         
-def run_diversity(full_path, threshold=0):
-    logger.info(f"\n{'='*60}")
-    logger.info(f"Processing file: {full_path}, threshold: {threshold}")
-    logger.info(f"{'='*60}")
+def run_diversity(vprofile, threshold=0):
+    # logger.info(f"\n{'='*60}")
+    # logger.info(f"Processing file: {full_path}, threshold: {threshold}")
+    # logger.info(f"{'='*60}")
     
-    vprofile = mm.v_profile(full_path)
-    vprofile = remove_and_condense_rank_profile(profile=vprofile, removed=['skipped', 'writein', 'Write-in'])
-    vprofile = condense_ballots(vprofile)
+    # vprofile = mm.v_profile(full_path)
+    # vprofile = remove_and_condense_rank_profile(profile=vprofile, removed=['skipped', 'writein', 'Write-in'])
+    # vprofile = condense_ballots(vprofile)
     candidates = list(vprofile.candidates)
     candidates = [cand for cand in candidates if cand != 'skipped' and cand != 'writein' and cand != 'Write-in']
     
-    winner, rounds = main_helper2(vprofile, candidates, threshold)
+    winner, rounds = main_helper(vprofile, candidates, threshold)
+    # print(winner)
+    # filename = os.path.basename(full_path)
+    # with open(RESULTS_FILE, 'a') as f:
+    #     f.write(f'{filename},{threshold},{winner},{rounds}\n')
     
-    filename = os.path.basename(full_path)
-    with open(RESULTS_FILE, 'a') as f:
-        f.write(f'{filename},{threshold},{winner},{rounds}\n')
-    
-    logger.info(f"RESULT: Winner: {winner}, Rounds: {rounds}")
+    # logger.info(f"RESULT: Winner: {winner}, Rounds: {rounds}")
     return winner, rounds
     
 def main():
-    for filename in os.listdir('../Data'):
-        if filename.endswith('.csv'):
-            full_path = os.path.join('../Data', filename)
-            logger.info(f"Processing file: {filename}")
-    # full_path = "/Users/belle/Desktop/build/condorcet_analysis/Data/JedburghandDistrictWard_sc-borders12-09.csv"
-            for i in range(10):
-                logger.info(f"\nRunning with diversity threshold: {i / 10}")
-                threshold = i / 100
-                run_diversity(full_path, threshold)
+    # for filename in os.listdir('../Data'):
+    #     if filename.endswith('.csv'):
+    #         full_path = os.path.join('../Data', filename)
+    #         logger.info(f"Processing file: {filename}")
+    RESULTS_FILE = 'condorcet.csv'
+    with open(RESULTS_FILE, 'w') as f:
+        f.write('file,threshold,winner,rounds\n')
+    full_path = "/Users/belle/Desktop/build/condorcet_analysis/Data/govan_govan.csv"
+    for i in range(10):
+        logger.info(f"\nRunning with diversity threshold: {i / 10}")
+        threshold = i / 100
+        run_diversity(full_path, threshold)
 
-main()
+# main()

@@ -1,0 +1,118 @@
+file,percent,borda_type,cloned_candidate,original_winner,new_winner,num_cands
+Alaska_11052024_StateHouseD18.csv,0.2,om,"Groh, Cliff","Nelson, David","Groh, Cliff",3
+Alaska_11052024_StateHouseD6.csv,0.2,om,"Johnson, Brent","Vance, Sarah L.","Johnson, Brent",4
+Alaska_11052024_US_House.csv,0.2,om,"Peltola, Mary S.","Begich, Nick","Peltola, Mary S.",5
+Alaska_11082022_HouseDistrict15.csv,0.2,om,"Wells, Denny","McKay, Thomas W. ""Tom","Wells, Denny",4
+SanFrancisco_11052024_BoS_D11.csv,0.2,om,MICHAEL LAI,CHYANNE CHEN,MICHAEL LAI,8
+Alaska_11052024_StateHouseD11.csv,0.3,om,"Featherly, Walter T.","Coulombe, Julie","Featherly, Walter T.",3
+Alaska_11052024_StateHouseD15.csv,0.3,om,"Wells, Denny","Costello, Mia","Wells, Denny",4
+Alaska_11052024_StateHouseD18.csv,0.3,om,"Groh, Cliff","Nelson, David","Groh, Cliff",3
+Alaska_11052024_StateHouseD27.csv,0.3,om,"Eastman, David","Underwood, Jubilee L.","Eastman, David",3
+Alaska_11052024_StateHouseD28.csv,0.3,om,"Menard, Steve","Moore, Elexie","Menard, Steve",4
+Alaska_11052024_StateHouseD6.csv,0.3,om,"Johnson, Brent","Vance, Sarah L.","Johnson, Brent",4
+Alaska_11052024_StateSenateF.csv,0.3,om,"Park, Janice L.","Kaufman, James D.","Park, Janice L.",4
+Alaska_11052024_StateSenateP.csv,0.3,om,"Hajdukovich, Leslie W.","Kawasaki, Scott","Hajdukovich, Leslie W.",3
+Alaska_11052024_US_House.csv,0.3,om,"Peltola, Mary S.","Begich, Nick","Peltola, Mary S.",5
+Alaska_11082022_HouseDistrict11.csv,0.3,om,"Featherly, Walter T.","Coulombe, Julie","Featherly, Walter T.",4
+Alaska_11082022_HouseDistrict15.csv,0.3,om,"Wells, Denny","McKay, Thomas W. ""Tom","Wells, Denny",4
+Alaska_11082022_HouseDistrict21.csv,0.3,om,"Wolfe, Forrest M.","Mears, Donna C.","Wolfe, Forrest M.",3
+Alaska_11082022_HouseDistrict22.csv,0.3,om,"Eischeid, Ted J.","Wright, Stanley A.","Eischeid, Ted J.",3
+Alaska_11082022_HouseDistrict6.csv,0.3,om,"Flora, Louis A. ""Louie","Vance, Sarah L.","Flora, Louis A. ""Louie",4
+Alaska_11082022_SenateDistrictH.csv,0.3,om,"Costello, Mia","Claman, Matt","Costello, Mia",3
+Maine_11062018_CongressionalDistrict2.csv,0.3,om,"REP Poliquin, Bruce","DEM Golden, Jared F.","REP Poliquin, Bruce",5
+Minneapolis_08112020_Ward6CityCouncilSpecialElection.csv,0.3,om,AJ Awed,Jamal Osman,AJ Awed,13
+Minneapolis_11072017_ParkBoardAtLarge.csv,0.3,om,Meg Forney,Latrisha Vetaw,Meg Forney,11
+Minneapolis_11072017_Ward6CityCouncil.csv,0.3,om,Mohamud Noor,Abdi Warsame,Mohamud Noor,5
+Oakland_11022010_Mayor.csv,0.3,om,DON PERATA,JEAN QUAN,DON PERATA,11
+PierceCounty_11042008_CountyAssessorTreasurer.csv,0.3,om,Jan Shabro,Dale Washam,Jan Shabro,7
+SanFrancisco_11022010_BoardofSupervisorsDistrict2.csv,0.3,om,JANET REILLY,MARK FARRELL,JANET REILLY,7
+SanFrancisco_11052024_BoS_D11.csv,0.3,om,MICHAEL LAI,CHYANNE CHEN,MICHAEL LAI,8
+SanFrancisco_11062012_BoardofSupervisorsDistrict7.csv,0.3,om,F. X. FRANCIS XAVIER CROWLEY,NORMAN YEE,F. X. FRANCIS XAVIER CROWLEY,10
+SanLeandro_11022010_Mayor.csv,0.3,om,ANTHONY B. ''TONY'' SANTOS,STEPHEN H. CASSIDY,ANTHONY B. ''TONY'' SANTOS,7
+Alaska_08162022_HouseofRepresentativesSpecial.csv,0.4,om,"Peltola, Mary S.","Begich, Nick","Peltola, Mary S.",4
+Alaska_11052024_StateHouseD11.csv,0.4,om,"Featherly, Walter T.","Coulombe, Julie","Featherly, Walter T.",3
+Alaska_11052024_StateHouseD13.csv,0.4,om,"Gottshall, Heather","Josephson, Andrew L. ""Andy","Gottshall, Heather",3
+Alaska_11052024_StateHouseD15.csv,0.4,om,"Wells, Denny","Costello, Mia","Wells, Denny",4
+Alaska_11052024_StateHouseD18.csv,0.4,om,"Groh, Cliff","Nelson, David","Groh, Cliff",3
+Alaska_11052024_StateHouseD21.csv,0.4,om,"Sims, Aimée","Mears, Donna C.","Sims, Aimée",3
+Alaska_11052024_StateHouseD22.csv,0.4,om,"Wright, Stanley A.","Eischeid, Ted J.","Wright, Stanley A.",3
+Alaska_11052024_StateHouseD27.csv,0.4,om,"Eastman, David","Underwood, Jubilee L.","Eastman, David",3
+Alaska_11052024_StateHouseD28.csv,0.4,om,"Menard, Steve","Moore, Elexie","Menard, Steve",4
+Alaska_11052024_StateHouseD31.csv,0.4,om,"LeBon, Bart","Dibert, Maxine L.","LeBon, Bart",3
+Alaska_11052024_StateHouseD35.csv,0.4,om,"McNeill, Ruben A. Jr.","Carrick, Ashley E.","McNeill, Ruben A. Jr.",3
+Alaska_11052024_StateHouseD36.csv,0.4,om,"Kowalski, Brandon P. ""Putuuqti","Schwanke, Rebecca A.","Kowalski, Brandon P. ""Putuuqti",5
+Alaska_11052024_StateHouseD6.csv,0.4,om,"Johnson, Brent","Vance, Sarah L.","Johnson, Brent",4
+Alaska_11052024_StateHouseD8.csv,0.4,om,"Hillyer, John","Elam, Bill","Hillyer, John",3
+Alaska_11052024_StateHouseD9.csv,0.4,om,"Bauer, Lucy","Holland, Ky","Bauer, Lucy",3
+Alaska_11052024_StateSenateF.csv,0.4,om,"Park, Janice L.","Kaufman, James D.","Park, Janice L.",4
+Alaska_11052024_StateSenateH.csv,0.4,om,"Vazquez, Liz","Claman, Matt","Vazquez, Liz",3
+Alaska_11052024_StateSenateP.csv,0.4,om,"Hajdukovich, Leslie W.","Kawasaki, Scott","Hajdukovich, Leslie W.",3
+Alaska_11052024_StateSenateR.csv,0.4,om,"Fletcher, Savannah","Cronk, Mike","Fletcher, Savannah",4
+Alaska_11052024_US_House.csv,0.4,om,"Peltola, Mary S.","Begich, Nick","Peltola, Mary S.",5
+Alaska_11082022_HouseDistrict1.csv,0.4,om,"Bynum, Jeremy T.","Ortiz, Daniel H. ""Dan","Bynum, Jeremy T.",3
+Alaska_11082022_HouseDistrict10.csv,0.4,om,"Storm, Caroline","Johnson, Craig W.","Storm, Caroline",4
+Alaska_11082022_HouseDistrict11.csv,0.4,om,"Featherly, Walter T.","Coulombe, Julie","Featherly, Walter T.",4
+Alaska_11082022_HouseDistrict13.csv,0.4,om,"Henslee, Katherine J. ""Kathy","Josephson, Andy","Henslee, Katherine J. ""Kathy",3
+Alaska_11082022_HouseDistrict15.csv,0.4,om,"Wells, Denny","McKay, Thomas W. ""Tom","Wells, Denny",4
+Alaska_11082022_HouseDistrict16.csv,0.4,om,"Vazquez, Liz","Armstrong, Jennifer ""Jennie","Vazquez, Liz",3
+Alaska_11082022_HouseDistrict18.csv,0.4,om,"Nelson, David","Groh, Cliff","Nelson, David",4
+Alaska_11082022_HouseDistrict21.csv,0.4,om,"Wolfe, Forrest M.","Mears, Donna C.","Wolfe, Forrest M.",3
+Alaska_11082022_HouseDistrict22.csv,0.4,om,"Eischeid, Ted J.","Wright, Stanley A.","Eischeid, Ted J.",3
+Alaska_11082022_HouseDistrict34.csv,0.4,om,"Hopkins, Grier H.","Tomaszewski, Frank J.","Hopkins, Grier H.",4
+Alaska_11082022_HouseDistrict39.csv,0.4,om,"Ivanoff, Tyler L.","Foster, Neal W.","Ivanoff, Tyler L.",3
+Alaska_11082022_HouseDistrict6.csv,0.4,om,"Flora, Louis A. ""Louie","Vance, Sarah L.","Flora, Louis A. ""Louie",4
+Alaska_11082022_HouseDistrict7.csv,0.4,om,"Gillham, Ronald D. ""Ron","Ruffridge, Justin","Gillham, Ronald D. ""Ron",3
+Alaska_11082022_HouseDistrict9.csv,0.4,om,"Schaff, David L.","Shaw, Laddie H.","Schaff, David L.",3
+Alaska_11082022_SenateDistrictF.csv,0.4,om,"Park, Janice L.","Kaufman, James D.","Park, Janice L.",3
+Alaska_11082022_SenateDistrictH.csv,0.4,om,"Costello, Mia","Claman, Matt","Costello, Mia",3
+Alaska_11082022_SenateDistrictO.csv,0.4,om,"Massie, Doug A.","Shower, Michael K.","Massie, Doug A.",3
+Alaska_11082022_USSenator.csv,0.4,om,"Tshibaka, Kelly C.","Murkowski, Lisa","Tshibaka, Kelly C.",5
+Berkeley_11042014_CityCouncilDistrict8.csv,0.4,om,GEORGE BEIER,LORI DROSTE,GEORGE BEIER,5
+Bloomington_11072023_SpecialCityCouncilAtLarge.csv,0.4,om,Jonathan A. Minks,Chao Moua,Jonathan A. Minks,4
+Maine_11062018_CongressionalDistrict2.csv,0.4,om,"REP Poliquin, Bruce","DEM Golden, Jared F.","REP Poliquin, Bruce",5
+Maine_11082022_CongressionalDistrict2.csv,0.4,om,"Poliquin, Bruce","Golden, Jared Forrest","Poliquin, Bruce",4
+Minneapolis_08112020_Ward6CityCouncilSpecialElection.csv,0.4,om,AJ Awed,Jamal Osman,AJ Awed,13
+Minneapolis_11022021_CityCouncilWard2.csv,0.4,om,Yusra Arab,Cam Gordon,Yusra Arab,6
+Minneapolis_11022021_CityCouncilWard2.csv,0.4,om,Robin Wonsley Worlobah,Cam Gordon,Robin Wonsley Worlobah,6
+Minneapolis_11062009_MinneapolisParkRecBoard.csv,0.4,om,John Erwin,Annie Young,John Erwin,9
+Minneapolis_11062009_MinneapolisParkRecBoard.csv,0.4,om,Bob Fine,Annie Young,Bob Fine,9
+Minneapolis_11062009_PRBoardDistrict5.csv,0.4,om,Jason Stone,Carol Kummer,Jason Stone,6
+Minneapolis_11072017_PRBoardDistrict4.csv,0.4,om,Tom Nordyke,Jono Cowgill,Tom Nordyke,3
+Minneapolis_11072017_PRBoardDistrict6.csv,0.4,om,Bob Fine,Brad Bourn,Bob Fine,5
+Minneapolis_11072017_ParkBoardAtLarge.csv,0.4,om,Meg Forney,Latrisha Vetaw,Meg Forney,11
+Minneapolis_11072017_Ward4CityCouncil.csv,0.4,om,"Barbara A. ""Barb"" Johnson",Phillipe M. Cunningham,"Barbara A. ""Barb"" Johnson",5
+Minneapolis_11072017_Ward6CityCouncil.csv,0.4,om,Mohamud Noor,Abdi Warsame,Mohamud Noor,5
+Minneapolis_11072023_CityCouncilWard7.csv,0.4,om,Scott Graham,Katie Cashman,Scott Graham,4
+Minneapolis_11072023_CityCouncilWard8.csv,0.4,om,Soren Stevenson,Andrea Jenkins,Soren Stevenson,5
+NewYorkCity_06222021_DEMCouncilMember32ndCouncilDistrict.csv,0.4,om,Michael G. Scala,Felicia Singh,Michael G. Scala,7
+NewYorkCity_06222021_REPBoroughPresidentRichmond.csv,0.4,om,Steven Matteo,Vito Fossella,Steven Matteo,5
+Oakland_11022010_Mayor.csv,0.4,om,DON PERATA,JEAN QUAN,DON PERATA,11
+Oakland_11042014_CityCouncilDistrict2.csv,0.4,om,DANA KING,ABEL GUILLEN,DANA KING,6
+Oakland_11042014_CityCouncilDistrict6.csv,0.4,om,SHEREDA F. NOSAKHARE,DESLEY BROOKS,SHEREDA F. NOSAKHARE,6
+Oakland_11062012_CityCouncilDistrict1.csv,0.4,om,AMY LEMLEY,DAN KALB,AMY LEMLEY,8
+Oakland_11062012_CityCouncilDistrict3.csv,0.4,om,SEAN SULLIVAN,LYNETTE GIBSON-MCELHANEY,SEAN SULLIVAN,7
+Oakland_11082016_SchoolDirectorDistrict5.csv,0.4,om,HUBER TRENADO,ROSIE TORRES,HUBER TRENADO,5
+Oakland_11082022_Schoolboarddistrict4.csv,0.4,om,NICK RESNICK,PECOLIA MANIGO,NICK RESNICK,4
+PierceCounty_11042008_CountyAssessorTreasurer.csv,0.4,om,Terry Lee,Dale Washam,Terry Lee,7
+PierceCounty_11042008_CountyAssessorTreasurer.csv,0.4,om,Barbara Gelman,Dale Washam,Barbara Gelman,7
+PierceCounty_11042008_CountyAssessorTreasurer.csv,0.4,om,Jan Shabro,Dale Washam,Jan Shabro,7
+PierceCounty_11042008_CountyExecutiveMember.csv,0.4,om,Shawn Bunney,Pat McCarthy,Shawn Bunney,5
+SanFrancisco_06052018_Mayor.csv,0.4,om,MARK LENO,LONDON BREED,MARK LENO,10
+SanFrancisco_11022010_BoardofSupervisorsDistrict2.csv,0.4,om,JANET REILLY,MARK FARRELL,JANET REILLY,7
+SanFrancisco_11042008_BoardofSupervisorsDistrict1.csv,0.4,om,SUE LEE,ERIC MAR,SUE LEE,10
+SanFrancisco_11042008_BoardofSupervisorsDistrict11.csv,0.4,om,AHSHA SAFAI,JOHN AVALOS,AHSHA SAFAI,10
+SanFrancisco_11052004_BoardofSupervisorsDistrict1.csv,0.4,om,Lillian Sing,Jake McGoldrick,Lillian Sing,8
+SanFrancisco_11052019_DistrictAttorney.csv,0.4,om,SUZY LOFTUS,CHESA BOUDIN,SUZY LOFTUS,5
+SanFrancisco_11052024_BoS_D1.csv,0.4,om,MARJAN PHILHOUR,CONNIE CHAN,MARJAN PHILHOUR,6
+SanFrancisco_11052024_BoS_D11.csv,0.4,om,MICHAEL LAI,CHYANNE CHEN,MICHAEL LAI,8
+SanFrancisco_11052024_BoS_D5.csv,0.4,om,DEAN PRESTON,BILAL MAHMOOD,DEAN PRESTON,6
+SanFrancisco_11052024_BoS_D7.csv,0.4,om,MATT BOSCHETTO,MYRNA MELGAR,MATT BOSCHETTO,5
+SanFrancisco_11062012_BoardofSupervisorsDistrict7.csv,0.4,om,F. X. FRANCIS XAVIER CROWLEY,NORMAN YEE,F. X. FRANCIS XAVIER CROWLEY,10
+SanFrancisco_11062018_BoardofSupervisorsDistrict2.csv,0.4,om,NICK JOSEFOWITZ,CATHERINE STEFANI,NICK JOSEFOWITZ,5
+SanFrancisco_11072006_BoardofSupervisorsDistrict4.csv,0.4,om,Ron Dudum,Ed Jew,Ron Dudum,8
+SanFrancisco_11072006_BoardofSupervisorsDistrict6.csv,0.4,om,Rob Black,Chris Daly,Rob Black,9
+SanFrancisco_11082016_BoardofSupervisorsDistrict1.csv,0.4,om,MARJAN PHILHOUR,SANDRA LEE FEWER,MARJAN PHILHOUR,11
+SanFrancisco_11082016_BoardofSupervisorsDistrict11.csv,0.4,om,KIM ALVARENGA,AHSHA SAFAI,KIM ALVARENGA,6
+SanFrancisco_11082016_BoardofSupervisorsDistrict5.csv,0.4,om,DEAN PRESTON,LONDON BREED,DEAN PRESTON,3
+SanFrancisco_11082022_BoardofSupervisorsD4.csv,0.4,om,GORDON MAR,JOEL ENGARDIO,GORDON MAR,3
+SanLeandro_11022010_Mayor.csv,0.4,om,ANTHONY B. ''TONY'' SANTOS,STEPHEN H. CASSIDY,ANTHONY B. ''TONY'' SANTOS,7
