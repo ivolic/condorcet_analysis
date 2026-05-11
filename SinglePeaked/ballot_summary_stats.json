@@ -1,0 +1,32 @@
+{
+  "Australia": {
+    "num_districts": 330,
+    "incomplete_rate": {
+      "min": 1.0,
+      "max": 94.1,
+      "mean": 73.35,
+      "median": 75.65,
+      "std": 13.6
+    }
+  },
+  "Scotland": {
+    "num_districts": 1127,
+    "incomplete_rate": {
+      "min": 51.6,
+      "max": 98.0,
+      "mean": 88.08,
+      "median": 88.6,
+      "std": 4.76
+    }
+  },
+  "America": {
+    "num_districts": 583,
+    "incomplete_rate": {
+      "min": 0.0,
+      "max": 100.0,
+      "mean": 69.65,
+      "median": 75.1,
+      "std": 29.75
+    }
+  }
+}

@@ -1,0 +1,331 @@
+election,candidates,complete,incomplete
+BallotPaperDetails-Brighton with candidates.csv,9,98.3,1.7
+BallotPaperDetails-Northcote with candidates.csv,11,98.3,1.7
+BallotPaperDetails-Werribee with candidates.csv,15,98.7,1.3
+BallotPaperDetails-Point Cook with candidates.csv,15,98.6,1.4
+BallotPaperDetails-Hawthorn with candidates.csv,8,99.0,1.0
+BallotPaperDetails-Preston with Candidates.csv,10,98.0,2.0
+BallotPaperDetails-Melton with candidates.csv,14,98.7,1.3
+Ballina-mayoral-finalpreferencedatafile (1).csv,5,15.3,84.7
+The_Hills_Shire-mayoral-finalpreferencedatafile.csv,5,18.7,81.3
+Nambucca_Valley-mayoral-finalpreferencedatafile.csv,2,8.0,92.0
+City_of_Sydney-mayoral-finalpreferencedatafile.csv,6,26.9,73.1
+City_of_Coffs_Harbour-mayoral-finalpreferencedatafile.csv,10,10.1,89.9
+City_of_Lismore-mayoral-finalpreferencedatafile.csv,6,23.8,76.2
+Eurobodalla-mayoral-finalpreferencedatafile.csv,7,15.7,84.3
+City_of_Shellharbour-mayoral-finalpreferencedatafile.csv,2,10.9,89.1
+Singleton-mayoral-finalpreferencedatafile.csv,4,25.5,74.5
+Uralla-mayoral-finalpreferencedatafile.csv,3,31.2,68.8
+City_of_Shoalhaven-mayoral-finalpreferencedatafile.csv,6,19.1,80.9
+Port_Macquarie-Hastings-mayoral-finalpreferencedatafile.csv,5,19.1,80.9
+Richmond_Valley-mayoral-finalpreferencedatafile.csv,2,6.6,93.4
+City_of_Lake_Macquarie-mayoral-finalpreferencedatafile.csv,4,25.8,74.2
+Port_Stephens-mayoral-finalpreferencedatafile.csv,2,6.1,93.9
+Wollondilly-mayoral-finalpreferencedatafile.csv,6,17.7,82.3
+City_of_Griffith-mayoral-finalpreferencedatafile.csv,5,19.4,80.6
+Hunters_Hill-mayoral-finalpreferencedatafile.csv,4,43.0,57.0
+City_of_Cessnock-mayoral-finalpreferencedatafile.csv,4,27.3,72.7
+City_of_Newcastle-mayoral-finalpreferencedatafile.csv,6,29.3,70.7
+City_of_Willoughby-mayoral-finalpreferencedatafile.csv,3,26.4,73.6
+City_of_Maitland-mayoral-finalpreferencedatafile.csv,7,22.9,77.1
+City_of_Broken_Hill-mayoral-finalpreferencedatafile.csv,3,34.0,66.0
+Bellingen-mayoral-finalpreferencedatafile (1).csv,3,28.5,71.5
+Byron-mayoral-finalpreferencedatafile.csv,9,19.2,80.8
+City_of_Orange-mayoral-finalpreferencedatafile.csv,7,18.6,81.4
+Hornsby-mayoral-finalpreferencedatafile.csv,2,5.9,94.1
+Kempsey-mayoral-finalpreferencedatafile.csv,7,10.9,89.1
+Burwood-mayoral-finalpreferencedatafile.csv,4,22.3,77.7
+City_of_Wollongong-mayoral-finalpreferencedatafile.csv,6,23.4,76.6
+City_of_Liverpool-mayoral-finalpreferencedatafile.csv,5,20.9,79.1
+SB1702 LA Pref Data_NA_Cootamundra.csv,6,26.3,73.7
+SB1702 LA Pref Data_NA_Murray.csv,6,27.1,72.9
+SB1701 LA Pref Data_NA_Gosford.csv,6,25.1,74.9
+SB1701 LA Pref Data_NA_North Shore.csv,8,30.7,69.3
+SB1701 LA Pref Data_NA_Manly.csv,12,7.7,92.3
+SB1702 LA Pref Data_NA_Blacktown.csv,4,24.6,75.4
+SGE2019 LA Pref Data Murray.csv,10,11.4,88.6
+SGE2019 LA Pref Data Sydney.csv,6,30.1,69.9
+SGE2019 LA Pref Data Newtown.csv,7,29.8,70.2
+SGE2019 LA Pref Data Balmain.csv,6,29.5,70.5
+SGE2019 LA Pref Data Camden.csv,7,18.9,81.1
+SGE2019 LA Pref Data Maitland.csv,8,14.6,85.4
+SGE2019 LA Pref Data Ku-ring-gai.csv,6,21.4,78.6
+SGE2019 LA Pref Data Bega.csv,6,32.2,67.8
+SGE2019 LA Pref Data Orange.csv,9,15.1,84.9
+SGE2019 LA Pref Data Goulburn.csv,7,19.7,80.3
+SGE2019 LA Pref Data Kiama.csv,5,27.1,72.9
+SGE2019 LA Pref Data Wollondilly.csv,8,20.2,79.8
+SGE2019 LA Pref Data Fairfield.csv,4,32.6,67.4
+SGE2019 LA Pref Data Coogee.csv,8,20.2,79.8
+SGE2019 LA Pref Data Cessnock.csv,5,22.8,77.2
+SGE2019 LA Pref Data Maroubra.csv,7,15.2,84.8
+SGE2019 LA Pref Data The Entrance.csv,7,24.5,75.5
+SGE2019 LA Pref Data Bathurst.csv,6,22.3,77.7
+SGE2019 LA Pref Data Oatley.csv,5,24.6,75.4
+SGE2019 LA Pref Data Swansea.csv,5,20.4,79.6
+SGE2019 LA Pref Data Blue Mountains.csv,7,24.1,75.9
+SGE2019 LA Pref Data Miranda.csv,6,17.1,82.9
+SGE2019 LA Pref Data Auburn.csv,5,25.2,74.8
+SGE2019 LA Pref Data Barwon.csv,9,17.4,82.6
+SGE2019 LA Pref Data Lakemba.csv,6,22.2,77.8
+SGE2019 LA Pref Data Mount Druitt.csv,5,19.5,80.5
+SGE2019 LA Pref Data Pittwater.csv,8,18.2,81.8
+SGE2019 LA Pref Data East Hills.csv,7,13.7,86.3
+SGE2019 LA Pref Data Gosford.csv,6,20.7,79.3
+SGE2019 LA Pref Data Monaro.csv,6,30.5,69.5
+SGE2019 LA Pref Data Cootamundra.csv,6,21.0,79.0
+SGE2019 LA Pref Data Parramatta.csv,7,16.0,84.0
+SGE2019 LA Pref Data Epping.csv,5,26.7,73.3
+SGE2019 LA Pref Data Blacktown.csv,5,20.9,79.1
+SGE2019 LA Pref Data Wyong.csv,4,24.7,75.3
+SGE2019 LA Pref Data Lake Macquarie.csv,6,21.9,78.1
+SGE2019 LA Pref Data North Shore.csv,9,16.2,83.8
+SGE2019 LA Pref Data Kogarah.csv,5,17.9,82.1
+SGE2019 LA Pref Data Wagga Wagga.csv,7,28.6,71.4
+SGE2019 LA Pref Data Shellharbour.csv,4,26.8,73.2
+SGE2019 LA Pref Data Port Macquarie.csv,4,28.9,71.1
+SGE2019 LA Pref Data Riverstone.csv,3,31.0,69.0
+SGE2019 LA Pref Data Wallsend.csv,5,27.2,72.8
+SGE2019 LA Pref Data Penrith.csv,10,11.3,88.7
+SGE2019 LA Pref Data Seven Hills.csv,6,16.9,83.1
+SGE2019 LA Pref Data Prospect.csv,5,30.1,69.9
+SGE2019 LA Pref Data Terrigal.csv,7,21.4,78.6
+SGE2019 LA Pref Data Macquarie Fields.csv,6,15.3,84.7
+SGE2019 LA Pref Data Dubbo.csv,7,22.5,77.5
+SGE2019 LA Pref Data Hornsby.csv,9,16.9,83.1
+SGE2019 LA Pref Data Lane Cove.csv,6,28.1,71.9
+SGE2019 LA Pref Data Tweed.csv,5,27.7,72.3
+SGE2019 LA Pref Data Mulgoa.csv,4,19.5,80.5
+SGE2019 LA Pref Data Wollongong.csv,7,21.6,78.4
+SGE2019 LA Pref Data Keira.csv,4,33.4,66.6
+SGE2019 LA Pref Data Tamworth.csv,6,32.9,67.1
+SGE2019 LA Pref Data Clarence.csv,6,28.5,71.5
+SGE2019 LA Pref Data Port Stephens.csv,6,16.1,83.9
+SGE2019 LA Pref Data Holsworthy.csv,6,16.9,83.1
+SGE2019 LA Pref Data Davidson.csv,5,22.8,77.2
+SGE2019 LA Pref Data Granville.csv,8,19.9,80.1
+SGE2019 LA Pref Data Rockdale.csv,6,16.1,83.9
+SGE2019 LA Pref Data Charlestown.csv,4,40.6,59.4
+SGE2019 LA Pref Data Newcastle.csv,8,20.4,79.6
+SGE2019 LA Pref Data Wakehurst.csv,7,19.6,80.4
+SGE2019 LA Pref Data Campbelltown.csv,7,24.8,75.2
+SGE2019 LA Pref Data Manly.csv,6,26.9,73.1
+SGE2019 LA Pref Data Castle Hill.csv,4,20.0,80.0
+SGE2019 LA Pref Data Heffron.csv,5,33.5,66.5
+SGE2019 LA Pref Data Londonderry.csv,5,18.8,81.2
+SGE2019 LA Pref Data Upper Hunter.csv,8,24.0,76.0
+SGE2019 LA Pref Data Bankstown.csv,4,24.0,76.0
+SGE2019 LA Pref Data Canterbury.csv,4,36.1,63.9
+SGE2019 LA Pref Data Coffs Harbour.csv,8,22.3,77.7
+SGE2019 LA Pref Data Liverpool.csv,6,17.8,82.2
+SGE2019 LA Pref Data Strathfield.csv,6,29.2,70.8
+SGE2019 LA Pref Data Ryde.csv,8,15.9,84.1
+SGE2019 LA Pref Data Albury.csv,5,24.9,75.1
+SGE2019 LA Pref Data Cronulla.csv,5,17.8,82.2
+SGE2019 LA Pref Data Lismore.csv,7,36.4,63.6
+SGE2019 LA Pref Data Hawkesbury.csv,9,16.3,83.7
+SGE2019 LA Pref Data Ballina.csv,6,40.3,59.7
+SGE2019 LA Pref Data Summer Hill.csv,6,43.7,56.3
+SGE2019 LA Pref Data Baulkham Hills.csv,6,19.7,80.3
+SGE2019 LA Pref Data Heathcote.csv,5,32.3,67.7
+SGE2019 LA Pref Data Drummoyne.csv,5,23.0,77.0
+SGE2019 LA Pref Data Northern Tablelands.csv,4,34.3,65.7
+SGE2019 LA Pref Data Myall Lakes.csv,6,27.7,72.3
+SGE2019 LA Pref Data Oxley.csv,5,30.9,69.1
+SGE2019 LA Pref Data South Coast.csv,3,33.7,66.3
+SGE2019 LA Pref Data Willoughby.csv,8,16.8,83.2
+SGE2019 LA Pref Data Cabramatta.csv,5,23.0,77.0
+SGE2019 LA Pref Data Vaucluse.csv,7,27.1,72.9
+BallotPaperDetails-Melbourne District SE2018.csv,8,99.0,1.0
+SB2201 LA Pref Data_NA_Strathfield.csv,6,24.7,75.3
+SB2201 LA Pref Data_NA_Willoughby.csv,6,18.9,81.1
+SB2101 LA Pref Data_NA_Upper Hunter.csv,13,11.1,88.9
+SB2201 LA Pref Data_NA_Bega.csv,7,17.9,82.1
+SB2201 LA Pref Data_NA_Monaro.csv,6,31.0,69.0
+SB1801 LA Pref Data_NA_Wagga Wagga.csv,7,45.1,54.9
+SGE2015 LA Pref Data_NA_Cessnock.csv,5,23.1,76.9
+SGE2015 LA Pref Data_NA_Keira.csv,5,29.2,70.8
+SGE2015 LA Pref Data_NA_Maroubra.csv,5,20.6,79.4
+SGE2015 LA Pref Data_NA_Holsworthy.csv,6,23.9,76.1
+SGE2015 LA Pref Data_NA_Wollondilly.csv,6,24.9,75.1
+SGE2015 LA Pref Data_NA_Wollongong.csv,7,23.2,76.8
+SGE2015 LA Pref Data_NA_Penrith.csv,8,13.0,87.0
+SGE2015 LA Pref Data_NA_Upper Hunter.csv,6,24.1,75.9
+SGE2015 LA Pref Data_NA_Bathurst.csv,5,27.2,72.8
+SGE2015 LA Pref Data_NA_Bankstown.csv,6,17.6,82.4
+SGE2015 LA Pref Data_NA_Dubbo.csv,7,23.6,76.4
+SGE2015 LA Pref Data_NA_Newcastle.csv,7,18.4,81.6
+SGE2015 LA Pref Data_NA_Campbelltown.csv,5,32.5,67.5
+SGE2015 LA Pref Data_NA_Tweed.csv,5,31.9,68.1
+SGE2015 LA Pref Data_NA_Wakehurst.csv,6,17.0,83.0
+SGE2015 LA Pref Data_NA_Kogarah.csv,6,15.4,84.6
+SGE2015 LA Pref Data_NA_Lake Macquarie.csv,7,26.6,73.4
+SGE2015 LA Pref Data_NA_Manly.csv,5,22.2,77.8
+SGE2015 LA Pref Data_NA_Canterbury.csv,5,33.5,66.5
+SGE2015 LA Pref Data_NA_Coffs Harbour.csv,5,26.0,74.0
+SGE2015 LA Pref Data_NA_Port Macquarie.csv,5,26.5,73.5
+SGE2015 LA Pref Data_NA_Granville.csv,6,25.7,74.3
+SGE2015 LA Pref Data_NA_Maitland.csv,6,27.5,72.5
+SGE2015 LA Pref Data_NA_Gosford.csv,6,31.8,68.2
+SGE2015 LA Pref Data_NA_Albury.csv,5,31.8,68.2
+SGE2015 LA Pref Data_NA_Lane Cove.csv,6,19.9,80.1
+SGE2015 LA Pref Data_NA_Ku-ring-gai.csv,5,22.7,77.3
+SGE2015 LA Pref Data_NA_Goulburn.csv,6,29.3,70.7
+SGE2015 LA Pref Data_NA_Lakemba.csv,5,28.4,71.6
+SGE2015 LA Pref Data_NA_Hawkesbury.csv,8,14.0,86.0
+SGE2015 LA Pref Data_NA_Miranda.csv,6,24.1,75.9
+SGE2015 LA Pref Data_NA_Bega.csv,5,30.9,69.1
+SGE2015 LA Pref Data_NA_North Shore.csv,7,20.4,79.6
+SGE2015 LA Pref Data_NA_Wagga Wagga.csv,6,29.7,70.3
+SGE2015 LA Pref Data_NA_Swansea.csv,8,13.5,86.5
+SGE2015 LA Pref Data_NA_Prospect.csv,5,29.4,70.6
+SGE2015 LA Pref Data_NA_Wallsend.csv,5,21.9,78.1
+SGE2015 LA Pref Data_NA_Heathcote.csv,6,28.9,71.1
+SGE2015 LA Pref Data_NA_Drummoyne.csv,6,18.5,81.5
+SGE2015 LA Pref Data_NA_Seven Hills.csv,7,21.1,78.9
+SGE2015 LA Pref Data_NA_Terrigal.csv,5,28.3,71.7
+SGE2015 LA Pref Data_NA_Cabramatta.csv,5,22.5,77.5
+SGE2015 LA Pref Data_NA_Cootamundra.csv,5,26.2,73.8
+SGE2015 LA Pref Data_NA_Mulgoa.csv,5,23.7,76.3
+SGE2015 LA Pref Data_NA_Willoughby.csv,6,17.4,82.6
+SGE2015 LA Pref Data_NA_Blue Mountains.csv,6,38.6,61.4
+SGE2015 LA Pref Data_NA_Liverpool.csv,5,22.0,78.0
+SGE2015 LA Pref Data_NA_Balmain.csv,7,26.7,73.3
+SGE2015 LA Pref Data_NA_Newtown.csv,7,29.9,70.1
+SGE2015 LA Pref Data_NA_Port Stephens.csv,5,33.5,66.5
+SGE2015 LA Pref Data_NA_Oxley.csv,5,30.5,69.5
+SGE2015 LA Pref Data_NA_Kiama.csv,5,33.6,66.4
+SGE2015 LA Pref Data_NA_Fairfield.csv,5,21.1,78.9
+SGE2015 LA Pref Data_NA_Northern Tablelands.csv,6,24.8,75.2
+SGE2015 LA Pref Data_NA_The Entrance.csv,5,31.4,68.6
+SGE2015 LA Pref Data_NA_Londonderry.csv,5,28.6,71.4
+SGE2015 LA Pref Data_NA_Ryde.csv,5,29.3,70.7
+SGE2015 LA Pref Data_NA_Castle Hill.csv,5,19.7,80.3
+SGE2015 LA Pref Data_NA_Barwon.csv,6,26.2,73.8
+SGE2015 LA Pref Data_NA_Baulkham Hills.csv,5,23.6,76.4
+SGE2015 LA Pref Data_NA_Ballina.csv,7,38.5,61.5
+SGE2015 LA Pref Data_NA_Lismore.csv,6,39.8,60.2
+SGE2015 LA Pref Data_NA_Monaro.csv,5,34.2,65.8
+SGE2015 LA Pref Data_NA_Epping.csv,6,28.9,71.1
+SGE2015 LA Pref Data_NA_Macquarie Fields.csv,7,24.2,75.8
+SGE2015 LA Pref Data_NA_Clarence.csv,8,26.2,73.8
+SGE2015 LA Pref Data_NA_Charlestown.csv,7,17.3,82.7
+SGE2015 LA Pref Data_NA_Tamworth.csv,7,27.1,72.9
+SGE2015 LA Pref Data_NA_Rockdale.csv,6,16.2,83.8
+SGE2015 LA Pref Data_NA_Davidson.csv,5,21.1,78.9
+SGE2015 LA Pref Data_NA_Myall Lakes.csv,6,29.7,70.3
+SGE2015 LA Pref Data_NA_Coogee.csv,5,31.7,68.3
+SGE2015 LA Pref Data_NA_South Coast.csv,5,23.0,77.0
+SGE2015 LA Pref Data_NA_Summer Hill.csv,7,30.7,69.3
+SGE2015 LA Pref Data_NA_Wyong.csv,7,24.7,75.3
+SGE2015 LA Pref Data_NA_Heffron.csv,5,26.1,73.9
+SGE2015 LA Pref Data_NA_Oatley.csv,5,30.6,69.4
+SGE2015 LA Pref Data_NA_Parramatta.csv,7,19.8,80.2
+SGE2015 LA Pref Data_NA_East Hills.csv,5,29.5,70.5
+SGE2015 LA Pref Data_NA_Vaucluse.csv,5,23.2,76.8
+SGE2015 LA Pref Data_NA_Auburn.csv,6,18.5,81.5
+SGE2015 LA Pref Data_NA_Shellharbour.csv,7,18.4,81.6
+SGE2015 LA Pref Data_NA_Murray.csv,8,16.6,83.4
+SGE2015 LA Pref Data_NA_Sydney.csv,8,19.3,80.7
+SGE2015 LA Pref Data_NA_Camden.csv,5,17.7,82.3
+SGE2015 LA Pref Data_NA_Strathfield.csv,5,31.7,68.3
+SGE2015 LA Pref Data_NA_Cronulla.csv,5,23.5,76.5
+SGE2015 LA Pref Data_NA_Pittwater.csv,5,20.2,79.8
+SGE2015 LA Pref Data_NA_Riverstone.csv,5,19.8,80.2
+SGE2015 LA Pref Data_NA_Mount Druitt.csv,5,21.0,79.0
+SGE2015 LA Pref Data_NA_Hornsby.csv,6,29.0,71.0
+SGE2015 LA Pref Data_NA_Orange.csv,5,30.2,69.8
+SGE2015 LA Pref Data_NA_Blacktown.csv,5,22.0,78.0
+SG2301 LA Pref Data Clarence.csv,8,19.4,80.6
+SG2301 LA Pref Data Oatley.csv,5,35.6,64.4
+SG2301 LA Pref Data Pittwater.csv,5,40.7,59.3
+SG2301 LA Pref Data Riverstone.csv,6,33.1,66.9
+SG2301 LA Pref Data Tamworth.csv,8,26.0,74.0
+SG2301 LA Pref Data Rockdale.csv,4,29.8,70.2
+SG2301 LA Pref Data Northern Tablelands.csv,10,13.7,86.3
+SG2301 LA Pref Data Bega.csv,7,23.4,76.6
+SG2301 LA Pref Data Coogee.csv,6,25.0,75.0
+SG2301 LA Pref Data Davidson.csv,5,30.2,69.8
+SG2301 LA Pref Data Blacktown.csv,7,20.8,79.2
+SG2301 LA Pref Data Auburn.csv,6,18.1,81.9
+SG2301 LA Pref Data Newtown.csv,4,48.7,51.3
+SG2301 LA Pref Data Londonderry.csv,5,25.1,74.9
+SG2301 LA Pref Data Castle Hill.csv,6,19.3,80.7
+SG2301 LA Pref Data Balmain.csv,5,32.5,67.5
+SG2301 LA Pref Data The Entrance.csv,6,22.6,77.4
+SG2301 LA Pref Data Wyong.csv,5,29.1,70.9
+SG2301 LA Pref Data Parramatta.csv,5,27.1,72.9
+SG2301 LA Pref Data Camden.csv,5,26.6,73.4
+SG2301 LA Pref Data Miranda.csv,5,24.6,75.4
+SG2301 LA Pref Data Sydney.csv,5,38.0,62.0
+SG2301 LA Pref Data Leppington.csv,5,27.8,72.2
+SG2301 LA Pref Data Murray.csv,10,10.1,89.9
+SG2301 LA Pref Data East Hills.csv,4,39.2,60.8
+SG2301 LA Pref Data Orange.csv,8,18.7,81.3
+SG2301 LA Pref Data Blue Mountains.csv,6,28.2,71.8
+SG2301 LA Pref Data Swansea.csv,5,26.3,73.7
+SG2301 LA Pref Data Charlestown.csv,4,44.8,55.2
+SG2301 LA Pref Data Wahroonga.csv,5,27.5,72.5
+SG2301 LA Pref Data Summer Hill.csv,5,49.1,50.9
+SG2301 LA Pref Data Cronulla.csv,6,17.6,82.4
+SG2301 LA Pref Data Myall Lakes.csv,6,30.2,69.8
+SG2301 LA Pref Data South Coast.csv,6,22.6,77.4
+SG2301 LA Pref Data Lake Macquarie.csv,6,24.8,75.2
+SG2301 LA Pref Data Kiama.csv,5,37.2,62.8
+SG2301 LA Pref Data Gosford.csv,7,23.1,76.9
+SG2301 LA Pref Data Shellharbour.csv,7,20.3,79.7
+SG2301 LA Pref Data Fairfield.csv,7,20.1,79.9
+SG2301 LA Pref Data Port Macquarie.csv,8,18.2,81.8
+SG2301 LA Pref Data Strathfield.csv,5,38.5,61.5
+SG2301 LA Pref Data Epping.csv,6,21.2,78.8
+SG2301 LA Pref Data Monaro.csv,7,23.3,76.7
+SG2301 LA Pref Data Penrith.csv,7,19.0,81.0
+SG2301 LA Pref Data Barwon.csv,8,19.4,80.6
+SG2301 LA Pref Data Vaucluse.csv,7,20.6,79.4
+SG2301 LA Pref Data Kogarah.csv,4,42.9,57.1
+SG2301 LA Pref Data Mount Druitt.csv,4,32.3,67.7
+SG2301 LA Pref Data Wollondilly.csv,6,33.1,66.9
+SG2301 LA Pref Data Liverpool.csv,6,23.1,76.9
+SG2301 LA Pref Data Maitland.csv,7,23.6,76.4
+SG2301 LA Pref Data Goulburn.csv,5,32.8,67.2
+SG2301 LA Pref Data Upper Hunter.csv,7,20.6,79.4
+SG2301 LA Pref Data Cabramatta.csv,6,22.3,77.7
+SG2301 LA Pref Data Hornsby.csv,8,22.7,77.3
+SG2301 LA Pref Data Badgerys Creek.csv,5,25.0,75.0
+SG2301 LA Pref Data Campbelltown.csv,8,16.6,83.4
+SG2301 LA Pref Data Willoughby.csv,5,39.3,60.7
+SG2301 LA Pref Data Heffron.csv,7,26.6,73.4
+SG2301 LA Pref Data Kellyville.csv,5,23.7,76.3
+SG2301 LA Pref Data Drummoyne.csv,4,38.8,61.2
+SG2301 LA Pref Data Heathcote.csv,6,26.1,73.9
+SG2301 LA Pref Data Oxley.csv,7,20.6,79.4
+SG2301 LA Pref Data Hawkesbury.csv,8,16.7,83.3
+SG2301 LA Pref Data Coffs Harbour.csv,7,25.7,74.3
+SG2301 LA Pref Data Maroubra.csv,6,20.2,79.8
+SG2301 LA Pref Data Cessnock.csv,7,20.7,79.3
+SG2301 LA Pref Data Winston Hills.csv,4,36.3,63.7
+SG2301 LA Pref Data Bathurst.csv,8,18.2,81.8
+SG2301 LA Pref Data North Shore.csv,7,31.8,68.2
+SG2301 LA Pref Data Wagga Wagga.csv,7,27.0,73.0
+SG2301 LA Pref Data Lane Cove.csv,5,40.4,59.6
+SG2301 LA Pref Data Dubbo.csv,6,26.4,73.6
+SG2301 LA Pref Data Lismore.csv,8,30.4,69.6
+SG2301 LA Pref Data Tweed.csv,6,21.4,78.6
+SG2301 LA Pref Data Ballina.csv,5,41.2,58.8
+SG2301 LA Pref Data Ryde.csv,5,24.1,75.9
+SG2301 LA Pref Data Keira.csv,4,46.5,53.5
+SG2301 LA Pref Data Canterbury.csv,6,25.6,74.4
+SG2301 LA Pref Data Granville.csv,6,23.6,76.4
+SG2301 LA Pref Data Macquarie Fields.csv,6,23.5,76.5
+SG2301 LA Pref Data Prospect.csv,5,37.5,62.5
+SG2301 LA Pref Data Newcastle.csv,6,30.3,69.7
+SG2301 LA Pref Data Wallsend.csv,7,23.2,76.8
+SG2301 LA Pref Data Port Stephens.csv,7,16.7,83.3
+SG2301 LA Pref Data Wakehurst.csv,6,30.0,70.0
+SG2301 LA Pref Data Cootamundra.csv,7,19.5,80.5
+SG2301 LA Pref Data Terrigal.csv,4,29.7,70.3
+SG2301 LA Pref Data Holsworthy.csv,5,28.8,71.2
+SG2301 LA Pref Data Manly.csv,7,31.6,68.4
+SG2301 LA Pref Data Wollongong.csv,4,49.3,50.7
+SG2301 LA Pref Data Albury.csv,7,22.5,77.5
+SG2301 LA Pref Data Bankstown.csv,8,11.8,88.2
