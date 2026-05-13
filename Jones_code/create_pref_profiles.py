@@ -64,15 +64,20 @@ def process_csv(file_name):
     # Convert rankings to indices format
     candidate_to_index = {candidate: index for index, candidate in enumerate(candidates)}
     
-    
     # Display the candidates and their indices for reference
     candidates_with_indices = {index: candidate for candidate, index in candidate_to_index.items()}
     # print(candidates_with_indices)
 
     # Creating rankings with indices, ignoring ballots with "overvote"
     rankings = [ranking_to_indices(ranking, candidate_to_index) for ranking, count in ranking_counts.items()]
-    rcounts = [count for ranking, count in ranking_counts.items()]
-
+    # rcounts = [count for ranking, count in ranking_counts.items()]
+    
+    rcounts = [0 for _ in rankings]
+    for i in range(len(election_data)):
+        ranking = tuple(election_data.at[i, 'processed_rankings'])
+        indx = rankings.index(ranking_to_indices(ranking, candidate_to_index))
+        rcounts[indx]+=election_data.at[i,'Count']
+    
     return rankings, rcounts, candidates_with_indices, seat_num  
 
 def get_num_ranks(file_name):
@@ -89,8 +94,8 @@ def get_num_ranks(file_name):
 
 
 lxn_names = []
-base_name = 'C:/Users/mijones/Documents/Datasets/ranked_ballots/Scotland condensed'
-destination_base = 'C:/Users/mijones/Documents/Datasets/ranked_ballots/Preference Profiles/Scotland condensed'
+base_name = 'C:/Users/mijones/Documents/Datasets/ranked_ballot_data/Australia STV data'
+destination_base = 'C:/Users/mijones/Documents/Datasets/ranked_ballot_data/Preference Profiles/Australia STV'
 
 # ##### Scottish data
 # base_name = '../../../raw_data/scotland/processed_data'
@@ -114,6 +119,7 @@ for folder_name in os.listdir(base_name):
         os.makedirs(destination_folder_name)
     
     for file_name in os.listdir(base_name+'/'+folder_name):
+    # for file_name in ['NSW_Local_Government_2024_Walgett, 9 seats.csv']:
         file_path = base_name+'/'+folder_name+'/'+file_name
         lxn_names.append(file_path)
         destination_path = destination_base+'/'+folder_name+'/'+file_name    

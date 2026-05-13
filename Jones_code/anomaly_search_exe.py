@@ -45,10 +45,10 @@ from anomaly_search_class import *
 ###############################################################################
 ###############################################################################
 ##### parameters
-election_group = 'Scotland condensed'
+election_group = 'America'
 frac = 1
 only_use_first_place_voters = False
-mp_pool_size = 12
+mp_pool_size = 10
 max_election_size = 15
 ###############################################################################
 ###############################################################################
@@ -60,9 +60,11 @@ max_election_size = 15
 
 def createBallotDF(list_profile, diagnostic=False):
     cand_names=['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
-                'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
-                'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
-                'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+                  'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
+                  'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
+                  'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
+                  '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 
+                  '!', '@', '#', '$', '%']
     
     ballot_list = []
     count_list = []
@@ -124,7 +126,7 @@ def get_election_data(election_location, specific_lxn=-1, diagnostic=False):
     
             first_space=lines[0].find(' ')
             num_cands=int(lines[0][0:first_space])
-            if num_cands>52:
+            if num_cands>67:
                 print("Cannot handle this many candidates in election " + str(file_path) + ".  Has " + 
                       str(num_cands) + " candidates.")
                 continue
@@ -482,7 +484,8 @@ if not os.path.exists(election_group+'_anomalies'):
 #                 minimax, smith_minimax, ranked_pairs, 
 #                 Borda_PM, Borda_OM, Borda_AVG, bucklin]
 
-lxn_methods = [TVR_PM, TVR_OM, TVR_AVG, diversity_score_threshold, diversity_score_simplex]
+lxn_methods = [TVR_PM, TVR_OM, TVR_AVG, diversity_score_threshold]
+# lxn_methods += [diversity_score_simplex]
 lxn_methods += [friendly_fire_inst, friendly_fire_seq_smith, friendly_fire_inst_smith]
 
 ballot_mod_methods = [laterNoHarm, strat_compromise, strat_truncate_L, strat_truncate_W, strat_bury_shallow, strat_bury_deep]
