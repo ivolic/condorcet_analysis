@@ -45,7 +45,7 @@ from anomaly_search_class import *
 ###############################################################################
 ###############################################################################
 ##### parameters
-election_group = 'America'
+election_group = 'Australia IRV'
 frac = 1
 only_use_first_place_voters = False
 mp_pool_size = 10
