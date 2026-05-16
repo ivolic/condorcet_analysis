@@ -1,7 +1,7 @@
 ,plurality,plurality_runoff,IRV,smith_irv,smith_plurality,minimax,smith_minimax,ranked_pairs,Borda_PM,Borda_OM,Borda_AVG,bucklin,TVR_PM,TVR_OM,TVR_AVG,div_thresh_0.05,div_simplex,friendly_fire_inst,friendly_fire_seq_smith,friendly_fire_inst_smith
-upMono,-1,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,,,,,,,,
-downMono,-1,-1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,,,,,,,,
-noShow,-1,0,0,1,2,-1,-1,-1,-1,-1,-1,0,,,,,,,,
+upMono,-1,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,1,0,,,,,
+downMono,-1,-1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,7,0,,,,,
+noShow,-1,0,0,1,2,-1,-1,-1,-1,-1,-1,0,0,0,0,,,,,
 laterNoHarm,0,0,0,0,0,0,0,0,312,166,280,163,2,1,0,0,,0,0,0
 strat_compromise,50,3,2,0,0,0,0,0,21,60,40,14,0,0,0,0,,0,0,0
 strat_truncate_L,0,0,0,1,1,1,1,1,55,0,12,83,2,0,2,0,,0,0,0
