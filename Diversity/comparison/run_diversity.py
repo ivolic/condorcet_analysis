@@ -16,7 +16,7 @@ logging.basicConfig(
     datefmt='%Y-%m-%d %H:%M:%S'
 )
 logger = logging.getLogger()
-# logger.disabled = True # TURNED OFF LOGGING
+logger.disabled = True # TURNED OFF LOGGING
 
 
 def condense_ballots(profile):

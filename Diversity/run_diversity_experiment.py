@@ -8,7 +8,7 @@ from tqdm.contrib.concurrent import process_map
 from tqdm import tqdm
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-import Diversity.cloning.run_diversity as rd
+import Diversity.comparison.run_diversity as rd
 from votekit import Ballot, PreferenceProfile
 
 #CHANGE FILE NAME HERE
@@ -95,7 +95,7 @@ def run_all(filepath, thresholds):
 
 if __name__ == '__main__':
     # 0.000 to 0.099
-    THRESHOLDS = [i / 1000 for i in range(100)] 
+    THRESHOLDS = [i / 100 for i in range(10)] 
 
     if not os.path.exists(DATA_FILE):
         print(f"Error: '{DATA_FILE}' not found.")

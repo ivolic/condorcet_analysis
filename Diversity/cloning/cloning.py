@@ -11,8 +11,8 @@ from collections import defaultdict
 from votekit import PreferenceProfile, Ballot
 import os
 import re
-from run_diversity import run_diversity, condense_ballots
-from run_tvr import run_tvr
+from Diversity.comparison.run_diversity import run_diversity, condense_ballots
+from Diversity.comparison.run_tvr import run_tvr
 import math
 import json
 from datetime import datetime
