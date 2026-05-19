@@ -1,0 +1,18 @@
+file,percent,cloned_candidate,original_ff_winner,new_ff_winner,num_cands
+Ward03-Kilwinning_n-ayrshire12-03.csv,0.1,Joe CULLINANE (Lab),"['John FERGUSON (SNP)', 'Joe CULLINANE (Lab)']",['Clone'],12
+Ward03-Kilwinning_n-ayrshire12-03.csv,0.1,John FERGUSON (SNP),"['John FERGUSON (SNP)', 'Joe CULLINANE (Lab)']",['Clone'],12
+Ward21NorthEast_glasgow17-021.csv,0.1,Ruairi KELLY (SNP),"['Maureen BURKE (Lab)', 'Ruairi KELLY (SNP)']",['Clone'],9
+govan_govan.csv,0.1,# ALTERNATIVE NAME 4: John Flanagan (Lab),['# ALTERNATIVE NAME 4: John Flanagan (Lab)'],['Clone'],12
+Ward03-Kilwinning_n-ayrshire12-03.csv,0.2,Joe CULLINANE (Lab),"['John FERGUSON (SNP)', 'Joe CULLINANE (Lab)']",['Clone'],12
+Ward03-Kilwinning_n-ayrshire12-03.csv,0.2,John FERGUSON (SNP),"['John FERGUSON (SNP)', 'Joe CULLINANE (Lab)']",['Clone'],12
+Ward21NorthEast_glasgow17-021.csv,0.2,Ruairi KELLY (SNP),"['Maureen BURKE (Lab)', 'Ruairi KELLY (SNP)']",['Clone'],9
+Ward21NorthEast_glasgow17-021.csv,0.2,Maureen BURKE (Lab),"['Maureen BURKE (Lab)', 'Ruairi KELLY (SNP)']",['Clone'],9
+Ward3-ForfarandDistrict_ward3.csv,0.2,Lynne DEVINE (SNP),['Lynne DEVINE (SNP)'],['Clone'],9
+govan_govan.csv,0.2,# ALTERNATIVE NAME 4: John Flanagan (Lab),['# ALTERNATIVE NAME 4: John Flanagan (Lab)'],['Clone'],12
+AnnandaleNorthWard_dumgal12-12.csv,0.3,(Con) Gail MACGREGOR,['(Con) Gail MACGREGOR'],['Clone'],8
+Ward2-Leven_west dunbartonshire2022ward 2.csv,0.3,John Kelly MILLAR (Lab),['John Kelly MILLAR (Lab)'],['Clone'],9
+Ward21NorthEast_glasgow17-021.csv,0.3,Ruairi KELLY (SNP),"['Maureen BURKE (Lab)', 'Ruairi KELLY (SNP)']",['Clone'],9
+Ward21NorthEast_glasgow17-021.csv,0.3,Maureen BURKE (Lab),"['Maureen BURKE (Lab)', 'Ruairi KELLY (SNP)']",['Clone'],9
+Ward3-ForfarandDistrict_ward3.csv,0.3,Lynne DEVINE (SNP),['Lynne DEVINE (SNP)'],['Clone'],9
+govan_govan.csv,0.3,# ALTERNATIVE NAME 4: John Flanagan (Lab),['# ALTERNATIVE NAME 4: John Flanagan (Lab)'],['Clone'],12
+GlenrothesCentralAndThorntonWard_fife12-16.csv,0.4,Ian SLOAN (Lab),['Ian SLOAN (Lab)'],['Clone'],8

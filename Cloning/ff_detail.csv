@@ -1,0 +1,87 @@
+file,percent,cloned_candidate,original_ff_winner,new_ff_winner,num_cands
+7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.0,Iain MCMILLAN (Lab),['Iain MCMILLAN (Lab)'],['John HOOD (Lab)'],9
+AnnandaleNorthWard_dumgal12-12.csv,0.0,(Con) Gail MACGREGOR,['(Con) Gail MACGREGOR'],['(Con) Peter DIGGLE'],8
+JedburghandDistrictWard_sc-borders12-09.csv,0.0,Len WYSE (Con),"['Len WYSE (Con)', 'Rory STEWART (Ind)']",['Rory STEWART (Ind)'],8
+JedburghandDistrictWard_sc-borders12-09.csv,0.0,Sandy SCOTT (Con),"['Len WYSE (Con)', 'Rory STEWART (Ind)']",['Rory STEWART (Ind)'],8
+JedburghandDistrictWard_sc-borders12-09.csv,0.0,Rory STEWART (Ind),"['Len WYSE (Con)', 'Rory STEWART (Ind)']",['Len WYSE (Con)'],8
+JedburghandDistrictWard_sc-borders12-09.csv,0.0,Jim BROWN (SNP),"['Len WYSE (Con)', 'Rory STEWART (Ind)']",['Len WYSE (Con)'],8
+Minneapolis_11022021_CityCouncilWard2.csv,0.0,Robin Wonsley Worlobah,['Robin Wonsley Worlobah'],['Cam Gordon'],6
+Oakland_11082022_Schoolboarddistrict4.csv,0.0,MIKE HUTCHINSON,['MIKE HUTCHINSON'],['NICK RESNICK'],4
+Ward03-Kilwinning_n-ayrshire12-03.csv,0.0,Joe CULLINANE (Lab),"['John FERGUSON (SNP)', 'Joe CULLINANE (Lab)']",['John FERGUSON (SNP)'],12
+Ward03-Kilwinning_n-ayrshire12-03.csv,0.0,John FERGUSON (SNP),"['John FERGUSON (SNP)', 'Joe CULLINANE (Lab)']",['Joe CULLINANE (Lab)'],12
+Ward2-KintyreandtheIslands_ward2.csv,0.0,Robin CURRIE (LD),['John MCALPINE (Ind)'],['Dougie MCFADZEAN (SNP)'],7
+Ward2-KintyreandtheIslands_ward2.csv,0.0,John MCALPINE (Ind),['John MCALPINE (Ind)'],['Dougie MCFADZEAN (SNP)'],7
+Ward21NorthEast_glasgow17-021.csv,0.0,Ruairi KELLY (SNP),"['Maureen BURKE (Lab)', 'Ruairi KELLY (SNP)']",['Maureen BURKE (Lab)'],9
+Ward21NorthEast_glasgow17-021.csv,0.0,Maureen BURKE (Lab),"['Maureen BURKE (Lab)', 'Ruairi KELLY (SNP)']",['Ruairi KELLY (SNP)'],9
+Ward4-CumbernauldEast_n-lanarks17-004.csv,0.0,Tom JOHNSTON (SNP),['Tom JOHNSTON (SNP)'],['Claire BARCLAY (SNP)'],9
+7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.1,Iain MCMILLAN (Lab),['Iain MCMILLAN (Lab)'],['John HOOD (Lab)'],9
+AnnandaleNorthWard_dumgal12-12.csv,0.1,(Con) Gail MACGREGOR,['(Con) Gail MACGREGOR'],['(Con) Peter DIGGLE'],8
+GlenrothesCentralAndThorntonWard_fife12-16.csv,0.1,Ian SLOAN (Lab),['Ian SLOAN (Lab)'],['Ross VETTRAINO (SNP)'],8
+JedburghandDistrictWard_sc-borders12-09.csv,0.1,Len WYSE (Con),"['Len WYSE (Con)', 'Rory STEWART (Ind)']",['Rory STEWART (Ind)'],8
+JedburghandDistrictWard_sc-borders12-09.csv,0.1,Sandy SCOTT (Con),"['Len WYSE (Con)', 'Rory STEWART (Ind)']",['Rory STEWART (Ind)'],8
+JedburghandDistrictWard_sc-borders12-09.csv,0.1,Rory STEWART (Ind),"['Len WYSE (Con)', 'Rory STEWART (Ind)']",['Len WYSE (Con)'],8
+JedburghandDistrictWard_sc-borders12-09.csv,0.1,Jim BROWN (SNP),"['Len WYSE (Con)', 'Rory STEWART (Ind)']",['Len WYSE (Con)'],8
+Minneapolis_11022021_CityCouncilWard2.csv,0.1,Robin Wonsley Worlobah,['Robin Wonsley Worlobah'],['Cam Gordon'],6
+Oakland_11082022_Schoolboarddistrict4.csv,0.1,MIKE HUTCHINSON,['MIKE HUTCHINSON'],['NICK RESNICK'],4
+Ward2-KintyreandtheIslands_ward2.csv,0.1,Robin CURRIE (LD),['John MCALPINE (Ind)'],['Dougie MCFADZEAN (SNP)'],7
+Ward2-KintyreandtheIslands_ward2.csv,0.1,John MCALPINE (Ind),['John MCALPINE (Ind)'],['Dougie MCFADZEAN (SNP)'],7
+Ward21NorthEast_glasgow17-021.csv,0.1,Maureen BURKE (Lab),"['Maureen BURKE (Lab)', 'Ruairi KELLY (SNP)']",['Ruairi KELLY (SNP)'],9
+Ward3-DeeandGlenkens_ward3.csv,0.1,Susan MURDOCH (Con),['Susan MURDOCH (Con)'],['Dougie CAMPBELL (Ind)'],8
+Ward4-CumbernauldEast_n-lanarks17-004.csv,0.1,Tom JOHNSTON (SNP),['Tom JOHNSTON (SNP)'],['Claire BARCLAY (SNP)'],9
+7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.2,Iain MCMILLAN (Lab),['Iain MCMILLAN (Lab)'],['John HOOD (Lab)'],9
+AnnandaleNorthWard_dumgal12-12.csv,0.2,(Con) Gail MACGREGOR,['(Con) Gail MACGREGOR'],['(Con) Peter DIGGLE'],8
+GlenrothesCentralAndThorntonWard_fife12-16.csv,0.2,Ian SLOAN (Lab),['Ian SLOAN (Lab)'],['Ross VETTRAINO (SNP)'],8
+JedburghandDistrictWard_sc-borders12-09.csv,0.2,Len WYSE (Con),"['Len WYSE (Con)', 'Rory STEWART (Ind)']",['Rory STEWART (Ind)'],8
+JedburghandDistrictWard_sc-borders12-09.csv,0.2,Sandy SCOTT (Con),"['Len WYSE (Con)', 'Rory STEWART (Ind)']",['Rory STEWART (Ind)'],8
+JedburghandDistrictWard_sc-borders12-09.csv,0.2,Rory STEWART (Ind),"['Len WYSE (Con)', 'Rory STEWART (Ind)']",['Len WYSE (Con)'],8
+JedburghandDistrictWard_sc-borders12-09.csv,0.2,Jim BROWN (SNP),"['Len WYSE (Con)', 'Rory STEWART (Ind)']",['Len WYSE (Con)'],8
+Minneapolis_11022021_CityCouncilWard2.csv,0.2,Robin Wonsley Worlobah,['Robin Wonsley Worlobah'],['Cam Gordon'],6
+Oakland_11082022_Schoolboarddistrict4.csv,0.2,MIKE HUTCHINSON,['MIKE HUTCHINSON'],['NICK RESNICK'],4
+Ward2-KintyreandtheIslands_ward2.csv,0.2,Robin CURRIE (LD),['John MCALPINE (Ind)'],['Dougie MCFADZEAN (SNP)'],7
+Ward2-KintyreandtheIslands_ward2.csv,0.2,John MCALPINE (Ind),['John MCALPINE (Ind)'],['Dougie MCFADZEAN (SNP)'],7
+Ward2-Leven_west dunbartonshire2022ward 2.csv,0.2,John Kelly MILLAR (Lab),['John Kelly MILLAR (Lab)'],['Ian DICKSON (SNP)'],9
+Ward3-DeeandGlenkens_ward3.csv,0.2,Susan MURDOCH (Con),['Susan MURDOCH (Con)'],['Dougie CAMPBELL (Ind)'],8
+Ward4-CumbernauldEast_n-lanarks17-004.csv,0.2,Tom JOHNSTON (SNP),['Tom JOHNSTON (SNP)'],['Claire BARCLAY (SNP)'],9
+7.JohnstoneSouthElderslie&HowwoodWard_renfs12-07.csv,0.3,Iain MCMILLAN (Lab),['Iain MCMILLAN (Lab)'],['John HOOD (Lab)'],9
+GlenrothesCentralAndThorntonWard_fife12-16.csv,0.3,Ian SLOAN (Lab),['Ian SLOAN (Lab)'],['Ross VETTRAINO (SNP)'],8
+JedburghandDistrictWard_sc-borders12-09.csv,0.3,Len WYSE (Con),"['Len WYSE (Con)', 'Rory STEWART (Ind)']",['Rory STEWART (Ind)'],8
+JedburghandDistrictWard_sc-borders12-09.csv,0.3,Sandy SCOTT (Con),"['Len WYSE (Con)', 'Rory STEWART (Ind)']",['Rory STEWART (Ind)'],8
+JedburghandDistrictWard_sc-borders12-09.csv,0.3,Rory STEWART (Ind),"['Len WYSE (Con)', 'Rory STEWART (Ind)']",['Len WYSE (Con)'],8
+JedburghandDistrictWard_sc-borders12-09.csv,0.3,Jim BROWN (SNP),"['Len WYSE (Con)', 'Rory STEWART (Ind)']",['Jim BROWN (SNP)'],8
+Minneapolis_11022021_CityCouncilWard2.csv,0.3,Robin Wonsley Worlobah,['Robin Wonsley Worlobah'],['Cam Gordon'],6
+Oakland_11082022_Schoolboarddistrict4.csv,0.3,MIKE HUTCHINSON,['MIKE HUTCHINSON'],['NICK RESNICK'],4
+Ward03-Kilwinning_n-ayrshire12-03.csv,0.3,Joe CULLINANE (Lab),"['John FERGUSON (SNP)', 'Joe CULLINANE (Lab)']",['Joe CULLINANE (Lab)'],12
+Ward03-Kilwinning_n-ayrshire12-03.csv,0.3,John FERGUSON (SNP),"['John FERGUSON (SNP)', 'Joe CULLINANE (Lab)']",['John FERGUSON (SNP)'],12
+Ward2-KintyreandtheIslands_ward2.csv,0.3,Robin CURRIE (LD),['John MCALPINE (Ind)'],['Dougie MCFADZEAN (SNP)'],7
+Ward2-KintyreandtheIslands_ward2.csv,0.3,John MCALPINE (Ind),['John MCALPINE (Ind)'],['Dougie MCFADZEAN (SNP)'],7
+Ward3-DeeandGlenkens_ward3.csv,0.3,Susan MURDOCH (Con),['Susan MURDOCH (Con)'],['Dougie CAMPBELL (Ind)'],8
+Ward4-CumbernauldEast_n-lanarks17-004.csv,0.3,Tom JOHNSTON (SNP),['Tom JOHNSTON (SNP)'],['Claire BARCLAY (SNP)'],9
+AnnandaleNorthWard_dumgal12-12.csv,0.4,(Con) Gail MACGREGOR,['(Con) Gail MACGREGOR'],['(Con) Peter DIGGLE'],8
+JedburghandDistrictWard_sc-borders12-09.csv,0.4,Len WYSE (Con),"['Len WYSE (Con)', 'Rory STEWART (Ind)']",['Rory STEWART (Ind)'],8
+JedburghandDistrictWard_sc-borders12-09.csv,0.4,Sandy SCOTT (Con),"['Len WYSE (Con)', 'Rory STEWART (Ind)']",['Rory STEWART (Ind)'],8
+JedburghandDistrictWard_sc-borders12-09.csv,0.4,Rory STEWART (Ind),"['Len WYSE (Con)', 'Rory STEWART (Ind)']",['Len WYSE (Con)'],8
+JedburghandDistrictWard_sc-borders12-09.csv,0.4,Jim BROWN (SNP),"['Len WYSE (Con)', 'Rory STEWART (Ind)']",['Jim BROWN (SNP)'],8
+Minneapolis_11022021_CityCouncilWard2.csv,0.4,Robin Wonsley Worlobah,['Robin Wonsley Worlobah'],['Cam Gordon'],6
+Oakland_11082022_Schoolboarddistrict4.csv,0.4,MIKE HUTCHINSON,['MIKE HUTCHINSON'],['NICK RESNICK'],4
+Ward03-Kilwinning_n-ayrshire12-03.csv,0.4,Joe CULLINANE (Lab),"['John FERGUSON (SNP)', 'Joe CULLINANE (Lab)']",['Joe CULLINANE (Lab)'],12
+Ward03-Kilwinning_n-ayrshire12-03.csv,0.4,John FERGUSON (SNP),"['John FERGUSON (SNP)', 'Joe CULLINANE (Lab)']",['John FERGUSON (SNP)'],12
+Ward2-KintyreandtheIslands_ward2.csv,0.4,Robin CURRIE (LD),['John MCALPINE (Ind)'],['Dougie MCFADZEAN (SNP)'],7
+Ward2-KintyreandtheIslands_ward2.csv,0.4,Dougie MCFADZEAN (SNP),['John MCALPINE (Ind)'],['Dougie MCFADZEAN (SNP)'],7
+Ward21NorthEast_glasgow17-021.csv,0.4,Ruairi KELLY (SNP),"['Maureen BURKE (Lab)', 'Ruairi KELLY (SNP)']",['Ruairi KELLY (SNP)'],9
+Ward21NorthEast_glasgow17-021.csv,0.4,Maureen BURKE (Lab),"['Maureen BURKE (Lab)', 'Ruairi KELLY (SNP)']",['Maureen BURKE (Lab)'],9
+Ward4-CumbernauldEast_n-lanarks17-004.csv,0.4,Claire BARCLAY (SNP),['Tom JOHNSTON (SNP)'],['Clone'],9
+Ward4-CumbernauldEast_n-lanarks17-004.csv,0.4,Tom JOHNSTON (SNP),['Tom JOHNSTON (SNP)'],['Claire BARCLAY (SNP)'],9
+AnnandaleNorthWard_dumgal12-12.csv,0.5,(Con) Gail MACGREGOR,['(Con) Gail MACGREGOR'],['(Con) Peter DIGGLE'],8
+GlenrothesCentralAndThorntonWard_fife12-16.csv,0.5,Ian SLOAN (Lab),['Ian SLOAN (Lab)'],['Ross VETTRAINO (SNP)'],8
+JedburghandDistrictWard_sc-borders12-09.csv,0.5,Len WYSE (Con),"['Len WYSE (Con)', 'Rory STEWART (Ind)']",['Rory STEWART (Ind)'],8
+JedburghandDistrictWard_sc-borders12-09.csv,0.5,Sandy SCOTT (Con),"['Len WYSE (Con)', 'Rory STEWART (Ind)']",['Rory STEWART (Ind)'],8
+JedburghandDistrictWard_sc-borders12-09.csv,0.5,Rory STEWART (Ind),"['Len WYSE (Con)', 'Rory STEWART (Ind)']",['Len WYSE (Con)'],8
+JedburghandDistrictWard_sc-borders12-09.csv,0.5,Jim BROWN (SNP),"['Len WYSE (Con)', 'Rory STEWART (Ind)']",['Len WYSE (Con)'],8
+Oakland_11082022_Schoolboarddistrict4.csv,0.5,MIKE HUTCHINSON,['MIKE HUTCHINSON'],['NICK RESNICK'],4
+Ward03-Kilwinning_n-ayrshire12-03.csv,0.5,Joe CULLINANE (Lab),"['John FERGUSON (SNP)', 'Joe CULLINANE (Lab)']",['Joe CULLINANE (Lab)'],12
+Ward03-Kilwinning_n-ayrshire12-03.csv,0.5,John FERGUSON (SNP),"['John FERGUSON (SNP)', 'Joe CULLINANE (Lab)']",['John FERGUSON (SNP)'],12
+Ward2-KintyreandtheIslands_ward2.csv,0.5,Robin CURRIE (LD),['John MCALPINE (Ind)'],['Dougie MCFADZEAN (SNP)'],7
+Ward21NorthEast_glasgow17-021.csv,0.5,Ruairi KELLY (SNP),"['Maureen BURKE (Lab)', 'Ruairi KELLY (SNP)']",['Ruairi KELLY (SNP)'],9
+Ward21NorthEast_glasgow17-021.csv,0.5,Maureen BURKE (Lab),"['Maureen BURKE (Lab)', 'Ruairi KELLY (SNP)']",['Maureen BURKE (Lab)'],9
+Ward3-DeeandGlenkens_ward3.csv,0.5,Susan MURDOCH (Con),['Susan MURDOCH (Con)'],['Dougie CAMPBELL (Ind)'],8
+Ward4-CumbernauldEast_n-lanarks17-004.csv,0.5,Tom JOHNSTON (SNP),['Tom JOHNSTON (SNP)'],['Claire BARCLAY (SNP)'],9
