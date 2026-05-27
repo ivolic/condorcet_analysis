@@ -155,68 +155,68 @@ def get_election_data(election_location, specific_lxn=-1, diagnostic=False):
     base_name = "C:/Users/mijones/Documents/Datasets/ranked_ballot_data/Preference Profiles/"+election_location
 
     # # all elections
-    # lxn_count = 0
-    # for folder_name in os.listdir(base_name):
-    # ## test folder in scotland
-    # # for folder_name in ['s-lanarks17-ballots']:
-    # ## test folder in america
-    # # for folder_name in ['Portland, ME']:
-    #     for file_name in os.listdir(base_name+'/'+folder_name):
-    #         lxn_count += 1
-    #         file_path = base_name+'/'+folder_name+'/'+file_name
+    lxn_count = 0
+    for folder_name in os.listdir(base_name):
+    ## test folder in scotland
+    # for folder_name in ['s-lanarks17-ballots']:
+    ## test folder in america
+    # for folder_name in ['Portland, ME']:
+        for file_name in os.listdir(base_name+'/'+folder_name):
+            lxn_count += 1
+            file_path = base_name+'/'+folder_name+'/'+file_name
             
-    #         # print(file_path)
+            # print(file_path)
             
-    #         if specific_lxn > 0:
-    #             if lxn_count!=specific_lxn:
-    #                 continue
-    #         if diagnostic:
-    #             print(lxn_count, file_path)
+            if specific_lxn > 0:
+                if lxn_count!=specific_lxn:
+                    continue
+            if diagnostic:
+                print(lxn_count, file_path)
         
-    #         # sys.stdout.write('\r')
-    #         # sys.stdout.write(f'Election {lxn_count}'+'         ')
-    #         # sys.stdout.flush()
+            # sys.stdout.write('\r')
+            # sys.stdout.write(f'Election {lxn_count}'+'         ')
+            # sys.stdout.flush()
             
-    #         File=open(file_path,'r', encoding='utf-8')
-    #         lines=File.readlines()
+            File=open(file_path,'r', encoding='utf-8')
+            lines=File.readlines()
 
-    #         first_space=lines[0].find(' ')
-    #         num_cands=int(lines[0][0:first_space])
-    #         if num_cands>67:
-    #             print("Cannot handle this many candidates in election " + str(file_path) + ".  Has " + 
-    #                   str(num_cands) + " candidates.")
-    #             continue
+            first_space=lines[0].find(' ')
+            num_cands=int(lines[0][0:first_space])
+            if num_cands>67:
+                print("Cannot handle this many candidates in election " + str(file_path) + ".  Has " + 
+                      str(num_cands) + " candidates.")
+                continue
                 
-    #         data = createBallotDF(lines)
+            data = createBallotDF(lines)
             
-    #         lxns.append([file_path, data, num_cands])
+            lxns.append([file_path, data, num_cands])
 
 
 
 
     ## Only the elections with top cycles        
-    lxn_count = 0
-    for file_path in top_cycle_elections:
-        if diagnostic:
-            print(lxn_count, file_path)
+    # lxn_count = 0
+    # for file_path in top_cycle_elections:
+    #     if diagnostic:
+    #         print(lxn_count, file_path)
     
-        # sys.stdout.write('\r')
-        # sys.stdout.write(f'Election {lxn_count}'+'         ')
-        # sys.stdout.flush()
+    #     # sys.stdout.write('\r')
+    #     # sys.stdout.write(f'Election {lxn_count}'+'         ')
+    #     # sys.stdout.flush()
         
-        File=open(file_path,'r', encoding='utf-8')
-        lines=File.readlines()
+    #     File=open(file_path,'r', encoding='utf-8')
+    #     lines=File.readlines()
 
-        first_space=lines[0].find(' ')
-        num_cands=int(lines[0][0:first_space])
-        if num_cands>52:
-            print("Cannot handle this many candidates in election " + str(file_path) + ".  Has " + 
-                  str(num_cands) + " candidates.")
-            continue
+    #     first_space=lines[0].find(' ')
+    #     num_cands=int(lines[0][0:first_space])
+    #     if num_cands>52:
+    #         print("Cannot handle this many candidates in election " + str(file_path) + ".  Has " + 
+    #               str(num_cands) + " candidates.")
+    #         continue
             
-        data = createBallotDF(lines)
+    #     data = createBallotDF(lines)
         
-        lxns.append([file_path, data, num_cands])
+    #     lxns.append([file_path, data, num_cands])
 
     return lxns
     
@@ -329,8 +329,10 @@ for i in range(len(lxn_list)):
     
     lxn, profile, num_cands = lxn_list[i]
     
-    # if 'Portland_D4_2024.csv' not in lxn:
-    #     continue
+    if 'Ward2-KintyreandtheIslands_ward2' not in lxn:
+        continue
+    
+    breakhere
     
     if num_cands>max_election_size:
         profile = filter_weak_cands(profile, num_cands, max_election_size)
@@ -364,6 +366,27 @@ print('###################################')
 
 
 
+# p = 0.2
+# clone_ballot_list = []
+# clone_count_list = []
+# for k in range(len(profile)):
+#     ballot = profile.at[k, 'ballot']
+#     if 'B' in ballot:
+#         new_ballot = ballot.split('B')[0] + 'NB' + ballot.split('B')[1]
+#         new_count = int(p*profile.at[k, 'Count'])
+#         clone_ballot_list.append(new_ballot)
+#         clone_count_list.append(new_count)
+        
+#         new_new_ballot = ballot.split('B')[0] + 'BN' + ballot.split('B')[1]
+#         new_new_count = profile.at[k, 'Count'] - new_count
+#         clone_ballot_list.append(new_new_ballot)
+#         clone_count_list.append(new_new_count)
+#     else:
+#         clone_ballot_list.append(ballot)
+#         clone_count_list.append(profile.at[k, 'Count'])
 
+# df_dict = {'ballot': clone_ballot_list, 'Count': clone_count_list}
+# clone_profile = pd.DataFrame(df_dict)
+        
 
 

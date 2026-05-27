@@ -1095,6 +1095,73 @@ def friendly_fire_inst_smith(profile, cands, diagnostic=False):
 
 
 
+def friendly_fire_inst_smith_exp(profile, cands, diagnostic=False):
+    
+    hopefuls = cands.copy()
+    new_profile = profile.copy(deep=True)
+    smith_set, new_profile = restrict_to_smith(new_profile, hopefuls)
+    if len(smith_set)==1:
+        if diagnostic:
+            print('Condorcet Winner exists')
+        return smith_set
+    
+    ## no Condorcet winner
+    ## choose candidate who only loses to friends as the winner
+    num_cands = len(smith_set)
+    margins = np.zeros((num_cands, num_cands))
+    for c1 in range(num_cands):
+        for c2 in range(c1+1, num_cands):
+            c1_let = smith_set[c1]
+            c2_let = smith_set[c2]
+            ## number of votes c1 gets over c2 in H2H
+            margin = 0
+            
+            for k in range(len(new_profile)):
+                ballot = new_profile.at[k, 'ballot']
+                count = new_profile.at[k, 'Count']
+                ## ballot ranks both c1 and c2
+                if c1_let in ballot and c2_let in ballot:
+                    if ballot.find(c1_let) < ballot.find(c2_let):
+                        margin += count
+                    else:
+                        margin -= count
+                ## ballot only ranks c1       
+                elif c1_let in ballot:
+                    margin += count
+                ## ballot only ranks c2
+                elif c2_let in ballot:
+                    margin -= count
+            
+            margins[c1, c2] = margin
+            margins[c2, c1] = -1*margin
+    if diagnostic:
+        print(margins)
+    
+    ff_scores = {}
+    for cand in smith_set:
+        supporter_count = 0
+        loses_to = [smith_set[i] for i in range(num_cands) if (margins[smith_set.index(cand), i]<=0 and smith_set[i]!=cand)]
+        if diagnostic:
+            print(cand, loses_to)
+        # Borda PM score
+        borda_score = 0
+        for k in range(len(new_profile)):
+            ballot = new_profile.at[k,'ballot']
+            count = new_profile.at[k, 'Count']
+            if ballot[0]==cand:
+                supporter_count += count
+                for lose_to_cand in loses_to:
+                    if lose_to_cand in ballot:
+                        borda_score += count*(num_cands - ballot.index(lose_to_cand) - 1)
+        
+        ff_scores[cand] = borda_score/(len(loses_to)*supporter_count)
+    if diagnostic:
+        print(ff_scores)
+    
+    return [cand for cand in smith_set if ff_scores[cand]==max(ff_scores.values())]
+
+
+
 
 def friendly_fire_seq_smith(profile, cands, diagnostic=False):
     
