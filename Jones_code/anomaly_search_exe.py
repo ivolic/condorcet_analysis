@@ -107,8 +107,8 @@ def get_election_data(election_location, specific_lxn=-1, diagnostic=False):
             file_path = base_name+'/'+folder_name+'/'+file_name
             
 
-            # if '2024_The_Hills_Shire_-' not in  file_path:
-            #     continue
+            if '2012_Ashfield_Council' not in file_path:
+                continue
         
             # if lxn_count == 100:
             #     break
@@ -336,15 +336,23 @@ def sort_search(params):
         else:
             return gen_search_for_anomaly(params)
     except:
+        if callable(params[0]):
+            method_name = params[0].__name__
+        else:
+            method_name = params[0]
+        if callable(params[1]):
+            mod_name = params[1].__name__
+        else:
+            mod_name = params[1]
         print('###############################################')
         print('###############################################')
         print('Error in election:', params[2])
-        print('Election method:', params[0])
-        print('Running search:', params[1])
+        print('Election method:', method_name)
+        print('Running search:', mod_name)
         print(traceback.format_exc())
         print('###############################################')
         print('###############################################')
-        return [params[0], params[1], params[2], params[4]]
+        return [method_name, mod_name, params[2], params[4]]
     
         
 
@@ -622,10 +630,10 @@ if __name__ == '__main__':
     
 #     lxn_start = time.time()
     
-#     data = frac_general_search(profile, num_cands, friendly_fire_inst, strat_compromise, 1)
-#     if data:
-#         anomaly_data.append(data)
-#         frac_general_search(profile, num_cands, friendly_fire_inst, strat_compromise, 1, diagnostic=True)
+#     data = frac_general_search(profile, num_cands, friendly_fire_inst_smith_exp, strat_bury_deep, 1)
+#     # if data:
+#     #     anomaly_data.append(data)
+#     #     frac_general_search(profile, num_cands, friendly_fire_inst, strat_compromise, 1, diagnostic=True)
         
 #     # data = frac_noShowBucklin(profile, num_cands, 1)
 #     # data = broken_frac_noShowIRV(profile, num_cands, 1)

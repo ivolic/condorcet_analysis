@@ -1153,8 +1153,10 @@ def friendly_fire_inst_smith_exp(profile, cands, diagnostic=False):
                 for lose_to_cand in loses_to:
                     if lose_to_cand in ballot:
                         borda_score += count*(num_cands - ballot.index(lose_to_cand) - 1)
-        
-        ff_scores[cand] = borda_score/(len(loses_to)*supporter_count)
+        if supporter_count >0:
+            ff_scores[cand] = borda_score/(len(loses_to)*supporter_count)
+        else:
+            ff_scores[cand] = 0
     if diagnostic:
         print(ff_scores)
     

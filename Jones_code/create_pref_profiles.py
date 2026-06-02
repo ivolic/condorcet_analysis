@@ -94,8 +94,8 @@ def get_num_ranks(file_name):
 
 
 lxn_names = []
-base_name = 'C:/Users/mijones/Documents/Datasets/ranked_ballot_data/Australia STV data'
-destination_base = 'C:/Users/mijones/Documents/Datasets/ranked_ballot_data/Preference Profiles/Australia STV'
+base_name = 'C:/Users/mijones/Documents/Datasets/Australia Complete Data/fairvote files'
+destination_base = 'C:/Users/mijones/Documents/Datasets/Australia Complete Data/preference profiles'
 
 # ##### Scottish data
 # base_name = '../../../raw_data/scotland/processed_data'
@@ -120,6 +120,7 @@ for folder_name in os.listdir(base_name):
     
     for file_name in os.listdir(base_name+'/'+folder_name):
     # for file_name in ['NSW_Local_Government_2024_Walgett, 9 seats.csv']:
+        
         file_path = base_name+'/'+folder_name+'/'+file_name
         lxn_names.append(file_path)
         destination_path = destination_base+'/'+folder_name+'/'+file_name    
@@ -127,6 +128,9 @@ for folder_name in os.listdir(base_name):
         sys.stdout.write('\r')
         sys.stdout.write(f'Election {len(lxn_names)}'+'         ')
         sys.stdout.flush()
+        
+        if file_name in os.listdir(destination_base+'/'+folder_name):
+            continue
 
         num_ranks = get_num_ranks(file_path)
         rankings, rcounts, cands_with_inds, seat_num = process_csv(file_path)

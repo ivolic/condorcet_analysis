@@ -64,7 +64,7 @@ top_cycle_elections = [
 ###############################################################################
 ###############################################################################
 ##### parameters
-election_group = 'Scotland'
+election_group = 'Australia STV'
 frac = 1
 mp_pool_size = 6
 max_election_size = 15
@@ -329,10 +329,9 @@ for i in range(len(lxn_list)):
     
     lxn, profile, num_cands = lxn_list[i]
     
-    if 'Ward2-KintyreandtheIslands_ward2' not in lxn:
-        continue
-    
-    breakhere
+    # if 'Ward2-KintyreandtheIslands_ward2' not in lxn:
+    #     continue
+
     
     if num_cands>max_election_size:
         profile = filter_weak_cands(profile, num_cands, max_election_size)
@@ -355,8 +354,9 @@ for i in range(len(lxn_list)):
     #     print(threshold, diversity_score_threshold(profile, cands, threshold, diagnostic=False))
     
     # anomaly_data.append(diversity_score_simplex(profile, cands, diagnostic=False))
-    anomaly_data.append([friendly_fire_inst(profile, cands, diagnostic=False), friendly_fire_inst_smith(profile, cands, diagnostic=False), friendly_fire_seq_smith(profile, cands, diagnostic=False)])
+    # anomaly_data.append([friendly_fire_inst(profile, cands, diagnostic=False), friendly_fire_inst_smith(profile, cands, diagnostic=False), friendly_fire_seq_smith(profile, cands, diagnostic=False)])
 
+    anomaly_data.append([i, restrict_to_smith(profile, cands)])
         
 print(time.time()-start_time)   
 print('###################################')
@@ -390,3 +390,39 @@ print('###################################')
         
 
 
+
+smith_set, smith_profile = restrict_to_smith(profile, cand_names[:num_cands])
+num_cands = len(smith_set)
+cands = smith_set
+profile = smith_profile
+margins = np.zeros((num_cands, num_cands))
+
+for c1 in range(num_cands):
+    for c2 in range(c1+1, num_cands):
+        c1_let = cands[c1]
+        c2_let = cands[c2]
+        ## number of votes c1 gets over c2 in H2H
+        margin = 0
+        
+        for k in range(len(profile)):
+            ballot = profile.at[k, 'ballot']
+            count = profile.at[k, 'Count']
+            ## ballot ranks both c1 and c2
+            if c1_let in ballot and c2_let in ballot:
+                if ballot.find(c1_let) < ballot.find(c2_let):
+                    margin += count
+                else:
+                    margin -= count
+            ## ballot only ranks c1       
+            elif c1_let in ballot:
+                margin += count
+            ## ballot only ranks c2
+            elif c2_let in ballot:
+                margin -= count
+        
+        margins[c1, c2] = margin
+        margins[c2, c1] = -1*margin
+            
+            
+            
+            
