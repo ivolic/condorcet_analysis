@@ -45,7 +45,7 @@ from anomaly_search_class import *
 ###############################################################################
 ###############################################################################
 ##### parameters
-election_group = 'Australia STV'
+election_group = 'Scotland'
 # election_group = 'sampled_top_cycles_david'
 frac = 1
 only_use_first_place_voters = False
@@ -107,7 +107,7 @@ def get_election_data(election_location, specific_lxn=-1, diagnostic=False):
             file_path = base_name+'/'+folder_name+'/'+file_name
             
 
-            if '2012_Ashfield_Council' not in file_path:
+            if 'aberdeen2012/Ward1' not in file_path:
                 continue
         
             # if lxn_count == 100:
