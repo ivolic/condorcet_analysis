@@ -107,8 +107,8 @@ def get_election_data(election_location, specific_lxn=-1, diagnostic=False):
             file_path = base_name+'/'+folder_name+'/'+file_name
             
 
-            if 'aberdeen2012/Ward1' not in file_path:
-                continue
+            # if 'aberdeen2012/Ward1' not in file_path:
+            #     continue
         
             # if lxn_count == 100:
             #     break
@@ -366,114 +366,114 @@ def sort_search(params):
 ###############################################################################
 
 
-vote_fracs = [1 - i/frac for i in range(frac)]
-if not os.path.exists(election_group+'_anomalies'):
-    os.makedirs(election_group+'_anomalies')
+# vote_fracs = [1 - i/frac for i in range(frac)]
+# if not os.path.exists(election_group+'_anomalies'):
+#     os.makedirs(election_group+'_anomalies')
 
-lxn_methods = [plurality, plurality_runoff, IRV, smith_irv, smith_plurality, 
-                minimax, smith_minimax, ranked_pairs, 
-                Borda_PM, Borda_OM, Borda_AVG, bucklin]
-lxn_methods += [TVR_PM, TVR_OM, TVR_AVG, diversity_score_threshold]
-# lxn_methods += [diversity_score_simplex]
-lxn_methods += [friendly_fire_inst, friendly_fire_seq_smith, friendly_fire_inst_smith]
-lxn_methods += [friendly_fire_inst_smith_exp]
+# lxn_methods = [plurality, plurality_runoff, IRV, smith_irv, smith_plurality, 
+#                 minimax, smith_minimax, ranked_pairs, 
+#                 Borda_PM, Borda_OM, Borda_AVG, bucklin]
+# lxn_methods += [TVR_PM, TVR_OM, TVR_AVG, diversity_score_threshold]
+# # lxn_methods += [diversity_score_simplex]
+# lxn_methods += [friendly_fire_inst, friendly_fire_seq_smith, friendly_fire_inst_smith]
+# lxn_methods += [friendly_fire_inst_smith_exp]
 
-ballot_mod_methods = [laterNoHarm, strat_compromise, strat_truncate_L, strat_truncate_W, strat_bury_shallow, strat_bury_deep]
-full_anomaly_types = ['upMono', 'downMono', 'noShow'] + [ballot_mod.__name__ for ballot_mod in ballot_mod_methods]
+# ballot_mod_methods = [laterNoHarm, strat_compromise, strat_truncate_L, strat_truncate_W, strat_bury_shallow, strat_bury_deep]
+# full_anomaly_types = ['upMono', 'downMono', 'noShow'] + [ballot_mod.__name__ for ballot_mod in ballot_mod_methods]
 
-search_combos = {}
-for lxn_method in lxn_methods:
-    for ballot_mod in ballot_mod_methods:
-        combo_name = lxn_method.__name__ + '_' + ballot_mod.__name__
-        ## list is file_names, num_cands, old_winner, new_winner, modified_ballots
-        search_combos[combo_name] = [[], [], [], [], []]
-## adding the nine odd anomalies
-search_combos['IRV_upMono'] = [[], [], [], [], []]
-search_combos['IRV_downMono'] = [[], [], [], [], []]
-search_combos['IRV_noShow'] = [[], [], [], [], []]
-search_combos['plurality_runoff_upMono'] = [[], [], [], [], []]
-search_combos['plurality_runoff_downMono'] = [[], [], [], [], []]
-search_combos['plurality_runoff_noShow'] = [[], [], [], [], []]
-search_combos['bucklin_noShow'] = [[], [], [], [], []]
-search_combos['smith_plurality_noShow'] = [[], [], [], [], []]
-search_combos['smith_irv_noShow'] = [[], [], [], [], []]
+# search_combos = {}
+# for lxn_method in lxn_methods:
+#     for ballot_mod in ballot_mod_methods:
+#         combo_name = lxn_method.__name__ + '_' + ballot_mod.__name__
+#         ## list is file_names, num_cands, old_winner, new_winner, modified_ballots
+#         search_combos[combo_name] = [[], [], [], [], []]
+# ## adding the nine odd anomalies
+# search_combos['IRV_upMono'] = [[], [], [], [], []]
+# search_combos['IRV_downMono'] = [[], [], [], [], []]
+# search_combos['IRV_noShow'] = [[], [], [], [], []]
+# search_combos['plurality_runoff_upMono'] = [[], [], [], [], []]
+# search_combos['plurality_runoff_downMono'] = [[], [], [], [], []]
+# search_combos['plurality_runoff_noShow'] = [[], [], [], [], []]
+# search_combos['bucklin_noShow'] = [[], [], [], [], []]
+# search_combos['smith_plurality_noShow'] = [[], [], [], [], []]
+# search_combos['smith_irv_noShow'] = [[], [], [], [], []]
 
 
-if __name__ == '__main__':  
-    ## get data
-    lxn_list = get_election_data(election_group)
+# if __name__ == '__main__':  
+#     ## get data
+#     lxn_list = get_election_data(election_group)
     
-    gen_lxn_list = []
-    for lxn in lxn_list:
-        for lxn_method in lxn_methods:
-            for ballot_mod in ballot_mod_methods:
-                gen_lxn_list.append([lxn_method, ballot_mod]+lxn)
-    for lxn in lxn_list:
-        gen_lxn_list.append(['IRV', 'upMono']+lxn)
-        gen_lxn_list.append(['IRV', 'downMono']+lxn)
-        gen_lxn_list.append(['IRV', 'noShow']+lxn)
-        gen_lxn_list.append(['plurality_runoff', 'upMono']+lxn)
-        gen_lxn_list.append(['plurality_runoff', 'downMono']+lxn)
-        gen_lxn_list.append(['plurality_runoff', 'noShow']+lxn)
-        gen_lxn_list.append(['bucklin', 'noShow']+lxn)
-        gen_lxn_list.append(['smith_plurality', 'noShow']+lxn)
-        gen_lxn_list.append(['smith_irv', 'noShow']+lxn)
+#     gen_lxn_list = []
+#     for lxn in lxn_list:
+#         for lxn_method in lxn_methods:
+#             for ballot_mod in ballot_mod_methods:
+#                 gen_lxn_list.append([lxn_method, ballot_mod]+lxn)
+#     for lxn in lxn_list:
+#         gen_lxn_list.append(['IRV', 'upMono']+lxn)
+#         gen_lxn_list.append(['IRV', 'downMono']+lxn)
+#         gen_lxn_list.append(['IRV', 'noShow']+lxn)
+#         gen_lxn_list.append(['plurality_runoff', 'upMono']+lxn)
+#         gen_lxn_list.append(['plurality_runoff', 'downMono']+lxn)
+#         gen_lxn_list.append(['plurality_runoff', 'noShow']+lxn)
+#         gen_lxn_list.append(['bucklin', 'noShow']+lxn)
+#         gen_lxn_list.append(['smith_plurality', 'noShow']+lxn)
+#         gen_lxn_list.append(['smith_irv', 'noShow']+lxn)
     
     
-    ## search for general anomalies
-    pool = multiprocessing.Pool(processes=mp_pool_size)
-    massive_results = pool.map(sort_search, gen_lxn_list)
+#     ## search for general anomalies
+#     pool = multiprocessing.Pool(processes=mp_pool_size)
+#     massive_results = pool.map(sort_search, gen_lxn_list)
     
-    with open(election_group+"_anomalies/massive_results_data.json", "w") as f:
-        json.dump(massive_results, f, cls=NpEncoder)
+#     with open(election_group+"_anomalies/massive_results_data.json", "w") as f:
+#         json.dump(massive_results, f, cls=NpEncoder)
     
-    ## data frame for top line results 
-    summary_results = pd.DataFrame(-1, index = full_anomaly_types, 
-            columns = [lxn_method.__name__ for lxn_method in lxn_methods])
-    for lxn_method in lxn_methods:
-        for ballot_mod in ballot_mod_methods:
-            summary_results[lxn_method.__name__][ballot_mod.__name__] = 0
-    summary_results['IRV']['upMono'] = 0
-    summary_results['IRV']['downMono'] = 0
-    summary_results['IRV']['noShow'] = 0
-    summary_results['plurality_runoff']['upMono'] = 0
-    summary_results['plurality_runoff']['downMono'] = 0
-    summary_results['plurality_runoff']['noShow'] = 0
-    summary_results['bucklin']['noShow'] = 0
-    summary_results['smith_plurality']['noShow'] = 0
-    summary_results['smith_irv']['noShow'] = 0
+#     ## data frame for top line results 
+#     summary_results = pd.DataFrame(-1, index = full_anomaly_types, 
+#             columns = [lxn_method.__name__ for lxn_method in lxn_methods])
+#     for lxn_method in lxn_methods:
+#         for ballot_mod in ballot_mod_methods:
+#             summary_results[lxn_method.__name__][ballot_mod.__name__] = 0
+#     summary_results['IRV']['upMono'] = 0
+#     summary_results['IRV']['downMono'] = 0
+#     summary_results['IRV']['noShow'] = 0
+#     summary_results['plurality_runoff']['upMono'] = 0
+#     summary_results['plurality_runoff']['downMono'] = 0
+#     summary_results['plurality_runoff']['noShow'] = 0
+#     summary_results['bucklin']['noShow'] = 0
+#     summary_results['smith_plurality']['noShow'] = 0
+#     summary_results['smith_irv']['noShow'] = 0
 
-    for lxn in massive_results:
-        if len(lxn)>4:
-            lxn_method = lxn[0]
-            ballot_mod = lxn[1]
-            summary_results[lxn_method][ballot_mod] += 1
-            combo_name = lxn_method + '_' + ballot_mod
-            search_combos[combo_name][0].append(lxn[2])
-            search_combos[combo_name][1].append(lxn[3])
-            search_combos[combo_name][2].append(lxn[4])
-            search_combos[combo_name][3].append(lxn[5])
-            search_combos[combo_name][4].append(lxn[6])
+#     for lxn in massive_results:
+#         if len(lxn)>4:
+#             lxn_method = lxn[0]
+#             ballot_mod = lxn[1]
+#             summary_results[lxn_method][ballot_mod] += 1
+#             combo_name = lxn_method + '_' + ballot_mod
+#             search_combos[combo_name][0].append(lxn[2])
+#             search_combos[combo_name][1].append(lxn[3])
+#             search_combos[combo_name][2].append(lxn[4])
+#             search_combos[combo_name][3].append(lxn[5])
+#             search_combos[combo_name][4].append(lxn[6])
     
-    summary_results.to_csv(election_group+'_anomalies/top_line_results.csv')    
+#     summary_results.to_csv(election_group+'_anomalies/top_line_results.csv')    
 
 
-    for combo_name in search_combos.keys():
-        full_list = search_combos[combo_name]
-        ballot_counts = []
-        for y in full_list[4]:
-            count = 0
-            for x in y:
-                if x:
-                    if type(x[-1])!=str:
-                        count += x[-1]
-            ballot_counts.append(count)
-        change_list = ballot_counts
-        df_dict = {'file_name': full_list[0], 'num_cands': full_list[1], 
-                    'old_winner': full_list[2], 'new_winner': full_list[3],
-                    'ballot_change_num':change_list, 'modified_ballots': full_list[4]}
-        csv_data = pd.DataFrame(df_dict)
-        csv_data.to_csv(election_group+'_anomalies/'+combo_name+'.csv')
+#     for combo_name in search_combos.keys():
+#         full_list = search_combos[combo_name]
+#         ballot_counts = []
+#         for y in full_list[4]:
+#             count = 0
+#             for x in y:
+#                 if x:
+#                     if type(x[-1])!=str:
+#                         count += x[-1]
+#             ballot_counts.append(count)
+#         change_list = ballot_counts
+#         df_dict = {'file_name': full_list[0], 'num_cands': full_list[1], 
+#                     'old_winner': full_list[2], 'new_winner': full_list[3],
+#                     'ballot_change_num':change_list, 'modified_ballots': full_list[4]}
+#         csv_data = pd.DataFrame(df_dict)
+#         csv_data.to_csv(election_group+'_anomalies/'+combo_name+'.csv')
     
     
 
@@ -491,95 +491,95 @@ if __name__ == '__main__':
 ###############################################################################
 
 
-# vote_fracs = [1 - i/frac for i in range(frac)]
-# if not os.path.exists(election_group+'_anomalies'):
-#     os.makedirs(election_group+'_anomalies')
+vote_fracs = [1 - i/frac for i in range(frac)]
+if not os.path.exists(election_group+'_anomalies'):
+    os.makedirs(election_group+'_anomalies')
 
-# lxn_methods = [plurality, plurality_runoff, IRV, smith_irv, smith_plurality, 
-#                 minimax, smith_minimax, ranked_pairs, 
-#                 Borda_PM, Borda_OM, Borda_AVG, bucklin]
+lxn_methods = [plurality, plurality_runoff, IRV, smith_irv, smith_plurality, 
+                minimax, smith_minimax, ranked_pairs, 
+                Borda_PM, Borda_OM, Borda_AVG, bucklin]
 
-# lxn_methods += [TVR_PM, TVR_OM, TVR_AVG, diversity_score_threshold]
-# # lxn_methods += [diversity_score_simplex]
-# lxn_methods += [friendly_fire_inst, friendly_fire_seq_smith, friendly_fire_inst_smith]
-# lxn_methods += [friendly_fire_inst_smith_exp]
+lxn_methods += [TVR_PM, TVR_OM, TVR_AVG, diversity_score_threshold]
+# lxn_methods += [diversity_score_simplex]
+lxn_methods += [friendly_fire_inst, friendly_fire_seq_smith, friendly_fire_inst_smith]
+lxn_methods += [friendly_fire_inst_smith_exp]
 
-# ballot_mod_methods = [laterNoHarm, strat_compromise, strat_truncate_L, strat_truncate_W, strat_bury_shallow, strat_bury_deep]
-# full_anomaly_types = [ballot_mod.__name__ for ballot_mod in ballot_mod_methods]
+ballot_mod_methods = [laterNoHarm, strat_compromise, strat_truncate_L, strat_truncate_W, strat_bury_shallow, strat_bury_deep]
+full_anomaly_types = [ballot_mod.__name__ for ballot_mod in ballot_mod_methods]
 
-# search_combos = {}
-# for lxn_method in lxn_methods:
-#     for ballot_mod in ballot_mod_methods:
-#         combo_name = lxn_method.__name__ + '_' + ballot_mod.__name__
-#         ## list is file_names, num_cands, old_winner, new_winner, modified_ballots
-#         search_combos[combo_name] = [[], [], [], [], []]
+search_combos = {}
+for lxn_method in lxn_methods:
+    for ballot_mod in ballot_mod_methods:
+        combo_name = lxn_method.__name__ + '_' + ballot_mod.__name__
+        ## list is file_names, num_cands, old_winner, new_winner, modified_ballots
+        search_combos[combo_name] = [[], [], [], [], []]
 
 
-# if __name__ == '__main__':  
-#     ## get data
-#     lxn_list = get_election_data(election_group)
+if __name__ == '__main__':  
+    ## get data
+    lxn_list = get_election_data(election_group)
     
-#     gen_lxn_list = []
-#     for lxn in lxn_list:
-#         for lxn_method in lxn_methods:
-#             for ballot_mod in ballot_mod_methods:
-#                 gen_lxn_list.append([lxn_method, ballot_mod]+lxn)
+    gen_lxn_list = []
+    for lxn in lxn_list:
+        for lxn_method in lxn_methods:
+            for ballot_mod in ballot_mod_methods:
+                gen_lxn_list.append([lxn_method, ballot_mod]+lxn)
     
     
-#     ## search for general anomalies
-#     pool = multiprocessing.Pool(processes=mp_pool_size)
-#     massive_results = pool.map(sort_search, gen_lxn_list)
+    ## search for general anomalies
+    pool = multiprocessing.Pool(processes=mp_pool_size)
+    massive_results = pool.map(sort_search, gen_lxn_list)
     
-#     if not only_use_first_place_voters:
-#         with open(election_group+"_anomalies/massive_results_data.json", "w") as f:
-#             json.dump(massive_results, f, cls=NpEncoder)
-#     else:
-#         with open(election_group+"_anomalies/massive_results_data_first_only.json", "w") as f:
-#             json.dump(massive_results, f, cls=NpEncoder)
+    if not only_use_first_place_voters:
+        with open(election_group+"_anomalies/massive_results_data.json", "w") as f:
+            json.dump(massive_results, f, cls=NpEncoder)
+    else:
+        with open(election_group+"_anomalies/massive_results_data_first_only.json", "w") as f:
+            json.dump(massive_results, f, cls=NpEncoder)
     
-#     ## data frame for top line results 
-#     summary_results = pd.DataFrame(-1, index = full_anomaly_types, 
-#             columns = [lxn_method.__name__ for lxn_method in lxn_methods])
-#     for lxn_method in lxn_methods:
-#         for ballot_mod in ballot_mod_methods:
-#             summary_results[lxn_method.__name__][ballot_mod.__name__] = 0
+    ## data frame for top line results 
+    summary_results = pd.DataFrame(-1, index = full_anomaly_types, 
+            columns = [lxn_method.__name__ for lxn_method in lxn_methods])
+    for lxn_method in lxn_methods:
+        for ballot_mod in ballot_mod_methods:
+            summary_results[lxn_method.__name__][ballot_mod.__name__] = 0
 
-#     for lxn in massive_results:
-#         if len(lxn)>4:
-#             lxn_method = lxn[0]
-#             ballot_mod = lxn[1]
-#             summary_results[lxn_method][ballot_mod] += 1
-#             combo_name = lxn_method + '_' + ballot_mod
-#             search_combos[combo_name][0].append(lxn[2])
-#             search_combos[combo_name][1].append(lxn[3])
-#             search_combos[combo_name][2].append(lxn[4])
-#             search_combos[combo_name][3].append(lxn[5])
-#             search_combos[combo_name][4].append(lxn[6])
+    for lxn in massive_results:
+        if len(lxn)>4:
+            lxn_method = lxn[0]
+            ballot_mod = lxn[1]
+            summary_results[lxn_method][ballot_mod] += 1
+            combo_name = lxn_method + '_' + ballot_mod
+            search_combos[combo_name][0].append(lxn[2])
+            search_combos[combo_name][1].append(lxn[3])
+            search_combos[combo_name][2].append(lxn[4])
+            search_combos[combo_name][3].append(lxn[5])
+            search_combos[combo_name][4].append(lxn[6])
     
-#     if not only_use_first_place_voters:
-#         summary_results.to_csv(election_group+'_anomalies/top_line_results.csv')    
-#     else:
-#         summary_results.to_csv(election_group+'_anomalies/top_line_results_first_only.csv')   
+    if not only_use_first_place_voters:
+        summary_results.to_csv(election_group+'_anomalies/top_line_results.csv')    
+    else:
+        summary_results.to_csv(election_group+'_anomalies/top_line_results_first_only.csv')   
 
-#     for combo_name in search_combos.keys():
-#         full_list = search_combos[combo_name]
-#         ballot_counts = []
-#         for y in full_list[4]:
-#             count = 0
-#             for x in y:
-#                 if x:
-#                     if type(x[-1])!=str:
-#                         count += x[-1]
-#             ballot_counts.append(count)
-#         change_list = ballot_counts
-#         df_dict = {'file_name': full_list[0], 'num_cands': full_list[1], 
-#                     'old_winner': full_list[2], 'new_winner': full_list[3],
-#                     'ballot_change_num':change_list, 'modified_ballots': full_list[4]}
-#         csv_data = pd.DataFrame(df_dict)
-#         if not only_use_first_place_voters:
-#             csv_data.to_csv(election_group+'_anomalies/'+combo_name+'.csv')
-#         else:
-#             csv_data.to_csv(election_group+'_anomalies/'+combo_name+'_first_only.csv')
+    for combo_name in search_combos.keys():
+        full_list = search_combos[combo_name]
+        ballot_counts = []
+        for y in full_list[4]:
+            count = 0
+            for x in y:
+                if x:
+                    if type(x[-1])!=str:
+                        count += x[-1]
+            ballot_counts.append(count)
+        change_list = ballot_counts
+        df_dict = {'file_name': full_list[0], 'num_cands': full_list[1], 
+                    'old_winner': full_list[2], 'new_winner': full_list[3],
+                    'ballot_change_num':change_list, 'modified_ballots': full_list[4]}
+        csv_data = pd.DataFrame(df_dict)
+        if not only_use_first_place_voters:
+            csv_data.to_csv(election_group+'_anomalies/'+combo_name+'.csv')
+        else:
+            csv_data.to_csv(election_group+'_anomalies/'+combo_name+'_first_only.csv')
 
 
 

@@ -525,7 +525,6 @@ if __name__ == '__main__':
             for strategy in voter_strategies:
                 gen_lxn_list.append([lxn_method, strategy]+lxn)
     
-    
     ## search for general anomalies
     pool = multiprocessing.Pool(processes=mp_pool_size)
     massive_results = pool.map(sort_search, gen_lxn_list)
