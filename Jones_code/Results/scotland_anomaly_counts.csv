@@ -1,10 +1,10 @@
-,plurality,plurality_runoff,IRV,smith_irv,smith_plurality,minimax,smith_minimax,ranked_pairs,Borda_PM,Borda_OM,Borda_AVG,bucklin,TVR_PM,TVR_OM,TVR_AVG,div_thresh_0.05,div_simplex,friendly_fire_inst,friendly_fire_seq_smith,friendly_fire_inst_smith,friendly_fire_inst_smith_exp
-upMono,-1,42,39,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,148,9,-1,-1,-1,-1,-1,-1
-downMono,-1,-1,30,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,181,4,-1,-1,-1,-1,-1,-1
-noShow,-1,13,23,2,7,-1,-1,-1,-1,-1,-1,10,4,45,2,-1,-1,-1,-1,-1,-1
-laterNoHarm,0,0,0,12,12,12,12,12,1113,1043,1101,1111,49,109,12,13,13,13,14,14,14
-strat_compromise,923,171,139,12,12,12,12,12,448,709,537,173,30,36,12,13,12,13,14,13,13
-strat_truncate_L,0,0,0,65,54,93,93,103,857,0,371,989,238,0,121,18,279,0,0,0,0
-strat_truncate_W,0,0,0,56,62,144,144,162,846,0,595,987,280,34,179,31,320,6,5,5,10
-strat_bury_shallow,0,0,0,51,88,201,201,245,740,397,627,896,347,176,288,104,364,10,2,7,23
-strat_bury_deep,0,0,0,54,203,476,476,679,358,1094,894,369,637,906,758,43,0,44,41,45,166
+,plurality,plurality_runoff,IRV,smith_irv,smith_plurality,minimax,smith_minimax,ranked_pairs,Borda_PM,Borda_OM,Borda_AVG,bucklin,TVR_PM,TVR_OM,TVR_AVG,div_thresh_0.05,div_simplex,friendly_fire_inst,friendly_fire_seq_smith,friendly_fire_inst_smith,friendly_fire_inst_smith_exp, STAR_hi, STAR_mid, STAR_lo
+upMono,-1,42,39,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,148,9,-1,-1,-1,-1,-1,-1,12,9,13
+downMono,-1,-1,30,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,181,4,-1,-1,-1,-1,-1,-1,3,1,1
+noShow,-1,13,23,2,7,-1,-1,-1,-1,-1,-1,10,4,45,2,-1,-1,-1,-1,-1,-1,,,
+laterNoHarm,0,0,0,12,12,12,12,12,1113,1043,1101,1111,49,109,12,13,13,13,14,14,14,35,46,69
+strat_compromise,923,171,139,12,12,12,12,12,448,709,537,173,30,36,12,13,12,13,14,13,13,26,35,65
+strat_truncate_L,0,0,0,65,54,93,93,103,857,0,371,989,238,0,121,18,279,0,0,0,0,232,190,71
+strat_truncate_W,0,0,0,56,62,144,144,162,846,0,595,987,280,34,179,31,320,6,5,5,10,462,312,179
+strat_bury_shallow,0,0,0,51,88,201,201,245,740,397,627,896,347,176,288,104,364,10,2,7,23,554,392,243
+strat_bury_deep,0,0,0,54,203,476,476,679,358,1094,894,369,637,906,758,43,0,44,41,45,166,420,411,464
