@@ -1,0 +1,9 @@
+file,candidate_cloned,percent,unique_winners,diverges,method
+Port_Stephens-mayoral-finalpreferencedatafile,ANDERSON Leah,0.5,['PALMER Ryan'],False,AVG
+Richmond_Valley-mayoral-finalpreferencedatafile,HAYES Robert,0.5,['MUSTOW Robert'],False,AVG
+Port_Stephens-mayoral-finalpreferencedatafile,ANDERSON Leah,0.5,"['ANDERSON Leah', 'Clone']",True,OM
+SG2301 LA Pref Data Wallsend,STARRETT Joshua,0.0,['HORNERY Sonia'],False,OM
+Richmond_Valley-mayoral-finalpreferencedatafile,HAYES Robert,0.5,['MUSTOW Robert'],False,OM
+SG2301 LA Pref Data Penrith,BROWN Geoff,0.5,['McKEOWN Karen'],False,OM
+Port_Stephens-mayoral-finalpreferencedatafile,ANDERSON Leah,0.5,['PALMER Ryan'],False,PM
+Richmond_Valley-mayoral-finalpreferencedatafile,HAYES Robert,0.5,['MUSTOW Robert'],False,PM

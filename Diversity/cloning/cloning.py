@@ -50,12 +50,12 @@ def run_voting_methods(v_profile, file_label, candidate_cloned, output_folder, p
         'percent': percent,
     }
     data['numCands'] = len([c for c in v_profile.candidates if c != "skipped"])
-    # for i in range(10):
-        # threshold = i / 100
-        # data[str(threshold)] = run_diversity(v_profile, threshold)
-    data['om'] = run_tvr(v_profile, 'OM', logger)
-    data['avg'] = run_tvr(v_profile, 'AVG', logger)
-    data['pm'] = run_tvr(v_profile, 'PM', logger)
+    for i in range(10):
+        threshold = i / 100
+        data[str(threshold)] = run_diversity(v_profile, threshold)
+    # data['om'] = run_tvr(v_profile, 'OM', logger)
+    # data['avg'] = run_tvr(v_profile, 'AVG', logger)
+    # data['pm'] = run_tvr(v_profile, 'PM', logger)
 
     return data
 

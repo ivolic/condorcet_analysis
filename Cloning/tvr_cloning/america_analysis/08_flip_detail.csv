@@ -1,0 +1,396 @@
+file,method,candidate_cloned,percent,baseline_winner,new_winner
+Cambridge_11062007_SchoolCommittee.csv,AVG,McGovern Marc C.,0.1,McGovern Marc C.,Clone
+Cambridge_11082005_SchoolCommittee.csv,AVG,Walser Nancy,0.1,Walser Nancy,Clone
+Cambridge_11082005_SchoolCommittee.csv,AVG,Walser Nancy,0.1,Walser Nancy,Clone
+LasCruces_11052019_MAYORCITYOFLASCRUCES.csv,AVG,KEN MIYAGISHIMA,0.1,KEN MIYAGISHIMA,Clone
+Lehi_11022021_CityCouncil.csv,AVG,CHRIS CONDIE,0.1,CHRIS CONDIE,Clone
+Lehi_11022021_CityCouncil.csv,AVG,CHRIS CONDIE,0.2,CHRIS CONDIE,Clone
+NewYorkCity_06222021_DEMCouncilMember15thCouncilDistrict.csv,AVG,Oswald Feliz,0.4,Oswald Feliz,Clone
+NewYorkCity_06222021_DEMCouncilMember18thCouncilDistrict.csv,AVG,Amanda Farias,0.4,Amanda Farias,Clone
+NewYorkCity_06222021_DEMCouncilMember1stCouncilDistrict.csv,AVG,Christopher Marte,0.4,Christopher Marte,Clone
+NewYorkCity_06222021_DEMCouncilMember20thCouncilDistrict.csv,AVG,Sandra Ung,0.4,Sandra Ung,Clone
+NewYorkCity_06222021_DEMCouncilMember25thCouncilDistrict.csv,AVG,Shekar Krishnan,0.4,Shekar Krishnan,Clone
+NewYorkCity_06222021_DEMCouncilMember46thCouncilDistrict.csv,AVG,Mercedes Narcisse,0.4,Mercedes Narcisse,Clone
+NewYorkCity_06222021_DEMCouncilMember49thCouncilDistrict.csv,AVG,Kamillah Hanks,0.3,Kamillah Hanks,Clone
+NewYorkCity_06222021_DEMCouncilMember49thCouncilDistrict.csv,AVG,Kamillah Hanks,0.4,Kamillah Hanks,Clone
+Portland_06082021_charter_commission_at_large.csv,AVG,Chann Marpheen S.,0.1,Chann Marpheen S.,Clone
+Portland_06142022_SchoolboardAL-1.csv,AVG,Lentz Sarah M.,0.4,Lentz Sarah M.,Clone
+Springville_11022021_CityCouncil4yr.csv,AVG,MICHAEL SNELSON,0.3,MICHAEL SNELSON,Clone
+Springville_11022021_CityCouncil4yr.csv,AVG,MICHAEL SNELSON,0.4,MICHAEL SNELSON,Clone
+Vineyard_11052019_CityCouncil.csv,AVG,CRISTY WELSH,0.1,CRISTY WELSH,Clone
+Vineyard_11052019_CityCouncil.csv,AVG,CRISTY WELSH,0.2,CRISTY WELSH,Clone
+Vineyard_11052019_CityCouncil.csv,AVG,CRISTY WELSH,0.3,CRISTY WELSH,Clone
+Vineyard_11052019_CityCouncil.csv,AVG,CRISTY WELSH,0.4,CRISTY WELSH,Clone
+APA 1999.csv,OM,Cand 2,0.5,Cand 3,Clone
+APA 2005.csv,OM,Cand 0,0.5,Cand 1,Clone
+APA 2007.csv,OM,Cand 2,0.5,Cand 1,Clone
+APA 2009.csv,OM,Cand 0,0.5,Cand 4,Clone
+APA 2009.csv,OM,Cand 2,0.5,Cand 4,Cand 0
+APA 2018 BOD race2.csv,OM,Kim E. Dixon PhD,0.5,Shannon L. Wiltsey Stirman PhD,Clone
+APA 2020 BOD race2.csv,OM,Erica H. Wise PhD,0.5,M. Lynne Cooper PhD,Clone
+Alaska_08162022_HouseofRepresentativesSpecial.csv,OM,Peltola Mary S.,0.4,Begich Nick,Peltola Mary S.
+Alaska_08162022_HouseofRepresentativesSpecial.csv,OM,Peltola Mary S.,0.5,Begich Nick,Clone
+Alaska_11052024_StateHouseD11.csv,OM,Featherly Walter T.,0.3,Coulombe Julie,Featherly Walter T.
+Alaska_11052024_StateHouseD11.csv,OM,Featherly Walter T.,0.4,Coulombe Julie,Featherly Walter T.
+Alaska_11052024_StateHouseD11.csv,OM,Featherly Walter T.,0.5,Coulombe Julie,Clone
+Alaska_11052024_StateHouseD13.csv,OM,Gottshall Heather,0.4,Josephson Andrew L. Andy,Gottshall Heather
+Alaska_11052024_StateHouseD13.csv,OM,Gottshall Heather,0.5,Josephson Andrew L. Andy,Gottshall Heather
+Alaska_11052024_StateHouseD13.csv,OM,Gottshall Heather,0.5,Josephson Andrew L. Andy,Gottshall Heather
+Alaska_11052024_StateHouseD13.csv,OM,Gottshall Heather,0.5,Josephson Andrew L. Andy,Gottshall Heather
+Alaska_11052024_StateHouseD13.csv,OM,Gottshall Heather,0.5,Josephson Andrew L. Andy,Gottshall Heather
+Alaska_11052024_StateHouseD13.csv,OM,Gottshall Heather,0.5,Josephson Andrew L. Andy,Clone
+Alaska_11052024_StateHouseD13.csv,OM,Gottshall Heather,0.5,Josephson Andrew L. Andy,Clone
+Alaska_11052024_StateHouseD13.csv,OM,Gottshall Heather,0.5,Josephson Andrew L. Andy,Clone
+Alaska_11052024_StateHouseD13.csv,OM,Gottshall Heather,0.5,Josephson Andrew L. Andy,Clone
+Alaska_11052024_StateHouseD15.csv,OM,Wells Denny,0.3,Costello Mia,Wells Denny
+Alaska_11052024_StateHouseD15.csv,OM,Wells Denny,0.4,Costello Mia,Wells Denny
+Alaska_11052024_StateHouseD15.csv,OM,Wells Denny,0.5,Costello Mia,Clone
+Alaska_11052024_StateHouseD16.csv,OM,Moe Nick,0.5,Hall Carolyn,Clone
+Alaska_11052024_StateHouseD18.csv,OM,Groh Cliff,0.2,Nelson David,Groh Cliff
+Alaska_11052024_StateHouseD18.csv,OM,Groh Cliff,0.3,Nelson David,Groh Cliff
+Alaska_11052024_StateHouseD18.csv,OM,Groh Cliff,0.4,Nelson David,Groh Cliff
+Alaska_11052024_StateHouseD18.csv,OM,Groh Cliff,0.5,Nelson David,Clone
+Alaska_11052024_StateHouseD21.csv,OM,Sims Aimée,0.4,Mears Donna C.,Sims Aimée
+Alaska_11052024_StateHouseD21.csv,OM,Sims Aimée,0.5,Mears Donna C.,Clone
+Alaska_11052024_StateHouseD22.csv,OM,Wright Stanley A.,0.4,Eischeid Ted J.,Wright Stanley A.
+Alaska_11052024_StateHouseD22.csv,OM,Wright Stanley A.,0.5,Eischeid Ted J.,Clone
+Alaska_11052024_StateHouseD27.csv,OM,Eastman David,0.3,Underwood Jubilee L.,Eastman David
+Alaska_11052024_StateHouseD27.csv,OM,Eastman David,0.4,Underwood Jubilee L.,Eastman David
+Alaska_11052024_StateHouseD27.csv,OM,Eastman David,0.5,Underwood Jubilee L.,Clone
+Alaska_11052024_StateHouseD28.csv,OM,Menard Steve,0.3,Moore Elexie,Menard Steve
+Alaska_11052024_StateHouseD28.csv,OM,Menard Steve,0.4,Moore Elexie,Menard Steve
+Alaska_11052024_StateHouseD28.csv,OM,Menard Steve,0.5,Moore Elexie,Clone
+Alaska_11052024_StateHouseD30.csv,OM,Holmes Doyle E.,0.5,McCabe Kevin J.,Clone
+Alaska_11052024_StateHouseD31.csv,OM,LeBon Bart,0.4,Dibert Maxine L.,LeBon Bart
+Alaska_11052024_StateHouseD31.csv,OM,LeBon Bart,0.5,Dibert Maxine L.,Clone
+Alaska_11052024_StateHouseD34.csv,OM,Cottle Joy Joy Beth,0.5,Tomaszewski Frank,Clone
+Alaska_11052024_StateHouseD35.csv,OM,McNeill Ruben A. Jr.,0.4,Carrick Ashley E.,McNeill Ruben A. Jr.
+Alaska_11052024_StateHouseD35.csv,OM,McNeill Ruben A. Jr.,0.5,Carrick Ashley E.,Clone
+Alaska_11052024_StateHouseD36.csv,OM,Kowalski Brandon P. Putuuqti,0.4,Schwanke Rebecca A.,Kowalski Brandon P. Putuuqti
+Alaska_11052024_StateHouseD36.csv,OM,Kowalski Brandon P. Putuuqti,0.5,Schwanke Rebecca A.,Clone
+Alaska_11052024_StateHouseD38.csv,OM,McCormick C.J.,0.5,Jimmie Nellie D. Unangik,Clone
+Alaska_11052024_StateHouseD6.csv,OM,Johnson Brent,0.2,Vance Sarah L.,Johnson Brent
+Alaska_11052024_StateHouseD6.csv,OM,Johnson Brent,0.3,Vance Sarah L.,Johnson Brent
+Alaska_11052024_StateHouseD6.csv,OM,Johnson Brent,0.4,Vance Sarah L.,Johnson Brent
+Alaska_11052024_StateHouseD6.csv,OM,Johnson Brent,0.5,Vance Sarah L.,Clone
+Alaska_11052024_StateHouseD8.csv,OM,Hillyer John,0.4,Elam Bill,Hillyer John
+Alaska_11052024_StateHouseD8.csv,OM,Hillyer John,0.5,Elam Bill,Clone
+Alaska_11052024_StateHouseD9.csv,OM,Bauer Lucy,0.4,Holland Ky,Bauer Lucy
+Alaska_11052024_StateHouseD9.csv,OM,Bauer Lucy,0.5,Holland Ky,Clone
+Alaska_11052024_StateSenateD.csv,OM,Carpenter Ben,0.5,Bjorkman Jesse J.,Clone
+Alaska_11052024_StateSenateF.csv,OM,Park Janice L.,0.3,Kaufman James D.,Park Janice L.
+Alaska_11052024_StateSenateF.csv,OM,Park Janice L.,0.4,Kaufman James D.,Park Janice L.
+Alaska_11052024_StateSenateF.csv,OM,Park Janice L.,0.5,Kaufman James D.,Clone
+Alaska_11052024_StateSenateH.csv,OM,Vazquez Liz,0.4,Claman Matt,Vazquez Liz
+Alaska_11052024_StateSenateH.csv,OM,Vazquez Liz,0.5,Claman Matt,Clone
+Alaska_11052024_StateSenateL.csv,OM,Goecker Jared D.,0.5,Merrick Kelly R.,Clone
+Alaska_11052024_StateSenateP.csv,OM,Hajdukovich Leslie W.,0.3,Kawasaki Scott,Hajdukovich Leslie W.
+Alaska_11052024_StateSenateP.csv,OM,Hajdukovich Leslie W.,0.4,Kawasaki Scott,Hajdukovich Leslie W.
+Alaska_11052024_StateSenateP.csv,OM,Hajdukovich Leslie W.,0.5,Kawasaki Scott,Clone
+Alaska_11052024_StateSenateR.csv,OM,Fletcher Savannah,0.4,Cronk Mike,Fletcher Savannah
+Alaska_11052024_StateSenateR.csv,OM,Fletcher Savannah,0.5,Cronk Mike,Clone
+Alaska_11052024_US_House.csv,OM,Peltola Mary S.,0.2,Begich Nick,Peltola Mary S.
+Alaska_11052024_US_House.csv,OM,Peltola Mary S.,0.3,Begich Nick,Peltola Mary S.
+Alaska_11052024_US_House.csv,OM,Peltola Mary S.,0.4,Begich Nick,Peltola Mary S.
+Alaska_11052024_US_House.csv,OM,Peltola Mary S.,0.5,Begich Nick,Clone
+Alaska_11082022_GovernorLieutenantGovernor.csv,OM,GaraCook,0.5,DunleavyDahlstrom,Clone
+Alaska_11082022_HouseDistrict1.csv,OM,Bynum Jeremy T.,0.4,Ortiz Daniel H. Dan,Bynum Jeremy T.
+Alaska_11082022_HouseDistrict1.csv,OM,Bynum Jeremy T.,0.5,Ortiz Daniel H. Dan,Bynum Jeremy T.
+Alaska_11082022_HouseDistrict1.csv,OM,Bynum Jeremy T.,0.5,Ortiz Daniel H. Dan,Bynum Jeremy T.
+Alaska_11082022_HouseDistrict1.csv,OM,Bynum Jeremy T.,0.5,Ortiz Daniel H. Dan,Bynum Jeremy T.
+Alaska_11082022_HouseDistrict1.csv,OM,Bynum Jeremy T.,0.5,Ortiz Daniel H. Dan,Bynum Jeremy T.
+Alaska_11082022_HouseDistrict1.csv,OM,Bynum Jeremy T.,0.5,Ortiz Daniel H. Dan,Clone
+Alaska_11082022_HouseDistrict1.csv,OM,Bynum Jeremy T.,0.5,Ortiz Daniel H. Dan,Clone
+Alaska_11082022_HouseDistrict1.csv,OM,Bynum Jeremy T.,0.5,Ortiz Daniel H. Dan,Clone
+Alaska_11082022_HouseDistrict1.csv,OM,Bynum Jeremy T.,0.5,Ortiz Daniel H. Dan,Clone
+Alaska_11082022_HouseDistrict10.csv,OM,Storm Caroline,0.4,Johnson Craig W.,Storm Caroline
+Alaska_11082022_HouseDistrict10.csv,OM,Storm Caroline,0.5,Johnson Craig W.,Clone
+Alaska_11082022_HouseDistrict11.csv,OM,Featherly Walter T.,0.3,Coulombe Julie,Featherly Walter T.
+Alaska_11082022_HouseDistrict11.csv,OM,Featherly Walter T.,0.4,Coulombe Julie,Featherly Walter T.
+Alaska_11082022_HouseDistrict11.csv,OM,Featherly Walter T.,0.5,Coulombe Julie,Clone
+Alaska_11082022_HouseDistrict13.csv,OM,Henslee Katherine J. Kathy,0.4,Josephson Andy,Henslee Katherine J. Kathy
+Alaska_11082022_HouseDistrict13.csv,OM,Henslee Katherine J. Kathy,0.5,Josephson Andy,Clone
+Alaska_11082022_HouseDistrict15.csv,OM,Wells Denny,0.2,McKay Thomas W. Tom,Wells Denny
+Alaska_11082022_HouseDistrict15.csv,OM,Wells Denny,0.3,McKay Thomas W. Tom,Wells Denny
+Alaska_11082022_HouseDistrict15.csv,OM,Wells Denny,0.4,McKay Thomas W. Tom,Wells Denny
+Alaska_11082022_HouseDistrict15.csv,OM,Wells Denny,0.5,McKay Thomas W. Tom,Clone
+Alaska_11082022_HouseDistrict16.csv,OM,Vazquez Liz,0.4,Armstrong Jennifer Jennie,Vazquez Liz
+Alaska_11082022_HouseDistrict16.csv,OM,Vazquez Liz,0.5,Armstrong Jennifer Jennie,Clone
+Alaska_11082022_HouseDistrict18.csv,OM,Nelson David,0.4,Groh Cliff,Nelson David
+Alaska_11082022_HouseDistrict18.csv,OM,Nelson David,0.5,Groh Cliff,Clone
+Alaska_11082022_HouseDistrict21.csv,OM,Wolfe Forrest M.,0.3,Mears Donna C.,Wolfe Forrest M.
+Alaska_11082022_HouseDistrict21.csv,OM,Wolfe Forrest M.,0.4,Mears Donna C.,Wolfe Forrest M.
+Alaska_11082022_HouseDistrict21.csv,OM,Wolfe Forrest M.,0.5,Mears Donna C.,Clone
+Alaska_11082022_HouseDistrict22.csv,OM,Eischeid Ted J.,0.3,Wright Stanley A.,Eischeid Ted J.
+Alaska_11082022_HouseDistrict22.csv,OM,Eischeid Ted J.,0.4,Wright Stanley A.,Eischeid Ted J.
+Alaska_11082022_HouseDistrict22.csv,OM,Eischeid Ted J.,0.5,Wright Stanley A.,Clone
+Alaska_11082022_HouseDistrict34.csv,OM,Hopkins Grier H.,0.4,Tomaszewski Frank J.,Hopkins Grier H.
+Alaska_11082022_HouseDistrict34.csv,OM,Hopkins Grier H.,0.5,Tomaszewski Frank J.,Clone
+Alaska_11082022_HouseDistrict39.csv,OM,Ivanoff Tyler L.,0.4,Foster Neal W.,Ivanoff Tyler L.
+Alaska_11082022_HouseDistrict39.csv,OM,Ivanoff Tyler L.,0.5,Foster Neal W.,Clone
+Alaska_11082022_HouseDistrict6.csv,OM,Flora Louis A. Louie,0.3,Vance Sarah L.,Flora Louis A. Louie
+Alaska_11082022_HouseDistrict6.csv,OM,Flora Louis A. Louie,0.4,Vance Sarah L.,Flora Louis A. Louie
+Alaska_11082022_HouseDistrict6.csv,OM,Flora Louis A. Louie,0.5,Vance Sarah L.,Clone
+Alaska_11082022_HouseDistrict7.csv,OM,Gillham Ronald D. Ron,0.4,Ruffridge Justin,Gillham Ronald D. Ron
+Alaska_11082022_HouseDistrict7.csv,OM,Gillham Ronald D. Ron,0.5,Ruffridge Justin,Clone
+Alaska_11082022_HouseDistrict9.csv,OM,Schaff David L.,0.4,Shaw Laddie H.,Schaff David L.
+Alaska_11082022_HouseDistrict9.csv,OM,Schaff David L.,0.5,Shaw Laddie H.,Clone
+Alaska_11082022_SenateDistrictD.csv,OM,Babcock Tuckerman,0.5,Bjorkman Jesse J.,Clone
+Alaska_11082022_SenateDistrictF.csv,OM,Park Janice L.,0.4,Kaufman James D.,Park Janice L.
+Alaska_11082022_SenateDistrictF.csv,OM,Park Janice L.,0.5,Kaufman James D.,Clone
+Alaska_11082022_SenateDistrictG.csv,OM,Sanders Marcus D.,0.5,Gray-Jackson Elvi,Clone
+Alaska_11082022_SenateDistrictH.csv,OM,Costello Mia,0.3,Claman Matt,Costello Mia
+Alaska_11082022_SenateDistrictH.csv,OM,Costello Mia,0.4,Claman Matt,Costello Mia
+Alaska_11082022_SenateDistrictH.csv,OM,Costello Mia,0.5,Claman Matt,Clone
+Alaska_11082022_SenateDistrictO.csv,OM,Massie Doug A.,0.4,Shower Michael K.,Massie Doug A.
+Alaska_11082022_SenateDistrictO.csv,OM,Massie Doug A.,0.5,Shower Michael K.,Clone
+Alaska_11082022_SenateDistrictP.csv,OM,Matherly Jim,0.5,Kawasaki Scott,Clone
+Alaska_11082022_USRepresentative.csv,OM,Palin Sarah,0.5,Peltola Mary S.,Begich Nick
+Alaska_11082022_USSenator.csv,OM,Tshibaka Kelly C.,0.4,Murkowski Lisa,Tshibaka Kelly C.
+Alaska_11082022_USSenator.csv,OM,Tshibaka Kelly C.,0.5,Murkowski Lisa,Clone
+Berkeley_05282024_Citycouncildistrict4specialelection.csv,OM,RUBEN STORY,0.5,IGOR A. TREGUB,Clone
+Berkeley_11042014_CityCouncilDistrict8.csv,OM,GEORGE BEIER,0.4,LORI DROSTE,GEORGE BEIER
+Berkeley_11042014_CityCouncilDistrict8.csv,OM,GEORGE BEIER,0.5,LORI DROSTE,Clone
+Berkeley_11052024_Mayor.csv,OM,SOPHIE HAHN,0.5,ADENA ISHII,Clone
+Berkeley_11062012_CityCouncilDistrict5.csv,OM,SOPHIE HAHN,0.5,LAURIE CAPITELLI,Clone
+Berkeley_11082016_CityCouncilDistrict2.csv,OM,DARRYL MOORE,0.5,CHERYL DAVILA,Clone
+Bloomington_11072023_CityCouncilDistrict4.csv,OM,Isaak Rooble,0.5,Victor Rivas,Clone
+Bloomington_11072023_SpecialCityCouncilAtLarge.csv,OM,Jonathan A. Minks,0.4,Chao Moua,Jonathan A. Minks
+Bloomington_11072023_SpecialCityCouncilAtLarge.csv,OM,Jonathan A. Minks,0.5,Chao Moua,Clone
+Burlington_03052024_Mayor.csv,OM,JOAN SHANNON,0.5,EMMA MULVANEY-STANAK,Clone
+Burlington_03072023_CityCouncilEastDistrict.csv,OM,JAKE SCHUMANN,0.5,TIMOTHY C. DOHERTYJR,Clone
+Cambridge_11062007_SchoolCommittee.csv,OM,Grassi Joseph G.,0.1,McGovern Marc C.,Fantini Alfred B.
+Cambridge_11062007_SchoolCommittee.csv,OM,Fantini Alfred B.,0.1,McGovern Marc C.,Clone
+Cambridge_11062007_SchoolCommittee.csv,OM,McGovern Marc C.,0.1,McGovern Marc C.,Clone
+Cambridge_11062007_SchoolCommittee.csv,OM,Grassi Joseph G.,0.2,McGovern Marc C.,Fantini Alfred B.
+Cambridge_11082005_SchoolCommittee.csv,OM,Walser Nancy,0.1,Walser Nancy,Clone
+Cambridge_11082005_SchoolCommittee.csv,OM,Walser Nancy,0.1,Walser Nancy,Clone
+Corvallis_11082022_Mayor.csv,OM,Andrew Struthers,0.5,Charles Maughan,Clone
+LasCruces_11052019_MAYORCITYOFLASCRUCES.csv,OM,KEN MIYAGISHIMA,0.1,KEN MIYAGISHIMA,Clone
+Lehi_11022021_CityCouncil.csv,OM,CHRIS CONDIE,0.1,CHRIS CONDIE,Clone
+Lehi_11022021_CityCouncil.csv,OM,CHRIS CONDIE,0.2,CHRIS CONDIE,Clone
+Maine_11062018_CongressionalDistrict2.csv,OM,REP Poliquin Bruce,0.3,DEM Golden Jared F.,REP Poliquin Bruce
+Maine_11062018_CongressionalDistrict2.csv,OM,REP Poliquin Bruce,0.4,DEM Golden Jared F.,REP Poliquin Bruce
+Maine_11062018_CongressionalDistrict2.csv,OM,REP Poliquin Bruce,0.5,DEM Golden Jared F.,Clone
+Maine_11082022_CongressionalDistrict2.csv,OM,Poliquin Bruce,0.4,Golden Jared Forrest,Poliquin Bruce
+Maine_11082022_CongressionalDistrict2.csv,OM,Poliquin Bruce,0.5,Golden Jared Forrest,Clone
+Minneapolis_08112020_Ward6CityCouncilSpecialElection.csv,OM,AJ Awed,0.3,Jamal Osman,AJ Awed
+Minneapolis_08112020_Ward6CityCouncilSpecialElection.csv,OM,AJ Awed,0.4,Jamal Osman,AJ Awed
+Minneapolis_08112020_Ward6CityCouncilSpecialElection.csv,OM,AJ Awed,0.5,Jamal Osman,Clone
+Minneapolis_11022021_CityCouncilWard1.csv,OM,Kevin Reich,0.5,Elliott Payne,Clone
+Minneapolis_11022021_CityCouncilWard2.csv,OM,Yusra Arab,0.3,Cam Gordon,Robin Wonsley Worlobah
+Minneapolis_11022021_CityCouncilWard2.csv,OM,Robin Wonsley Worlobah,0.4,Cam Gordon,Robin Wonsley Worlobah
+Minneapolis_11022021_CityCouncilWard2.csv,OM,Yusra Arab,0.4,Cam Gordon,Yusra Arab
+Minneapolis_11022021_CityCouncilWard3.csv,OM,Steve Fletcher,0.5,Michael Rainville,Clone
+Minneapolis_11022021_ParkBoardDistrict6.csv,OM,Risa Hustad,0.5,Cathy Abene,Clone
+Minneapolis_11052013_Ward13CityCouncil.csv,OM,MATT PERRY,0.5,LINEA PALMISANO,Clone
+Minneapolis_11052013_Ward9CityCouncil.csv,OM,TY MOORE,0.5,ALONDRA CANO,Clone
+Minneapolis_11062009_MinneapolisParkRecBoard.csv,OM,John Erwin,0.4,Annie Young,John Erwin
+Minneapolis_11062009_MinneapolisParkRecBoard.csv,OM,Bob Fine,0.4,Annie Young,Bob Fine
+Minneapolis_11062009_MinneapolisParkRecBoard.csv,OM,John Erwin,0.5,Annie Young,Clone
+Minneapolis_11062009_MinneapolisParkRecBoard.csv,OM,Mary Merrill Anderson,0.5,Annie Young,Clone
+Minneapolis_11062009_MinneapolisParkRecBoard.csv,OM,Bob Fine,0.5,Annie Young,Clone
+Minneapolis_11062009_PRBoardDistrict5.csv,OM,Jason Stone,0.4,Carol Kummer,Jason Stone
+Minneapolis_11062009_PRBoardDistrict5.csv,OM,Jason Stone,0.5,Carol Kummer,Clone
+Minneapolis_11062009_PRBoardDistrict6.csv,OM,Meg Forney,0.5,Brad Bourn,Clone
+Minneapolis_11062009_Ward5CityCouncil.csv,OM,Natalie Johnson Lee,0.5,Don Samuels,Clone
+Minneapolis_11072017_PRBoardDistrict4.csv,OM,Tom Nordyke,0.4,Jono Cowgill,Tom Nordyke
+Minneapolis_11072017_PRBoardDistrict4.csv,OM,Tom Nordyke,0.5,Jono Cowgill,Clone
+Minneapolis_11072017_PRBoardDistrict6.csv,OM,Bob Fine,0.4,Brad Bourn,Bob Fine
+Minneapolis_11072017_PRBoardDistrict6.csv,OM,Bob Fine,0.5,Brad Bourn,Clone
+Minneapolis_11072017_ParkBoardAtLarge.csv,OM,Meg Forney,0.3,Latrisha Vetaw,Meg Forney
+Minneapolis_11072017_ParkBoardAtLarge.csv,OM,Meg Forney,0.4,Latrisha Vetaw,Meg Forney
+Minneapolis_11072017_ParkBoardAtLarge.csv,OM,Meg Forney,0.5,Latrisha Vetaw,Clone
+Minneapolis_11072017_Ward1CityCouncil.csv,OM,Jillia Pessenda,0.5,Kevin Reich,Clone
+Minneapolis_11072017_Ward3CityCouncil.csv,OM,Ginger Jentzen,0.5,Steve Fletcher,Clone
+Minneapolis_11072017_Ward4CityCouncil.csv,OM,Barbara A. Barb Johnson,0.4,Phillipe M. Cunningham,Barbara A. Barb Johnson
+Minneapolis_11072017_Ward4CityCouncil.csv,OM,Barbara A. Barb Johnson,0.5,Phillipe M. Cunningham,Clone
+Minneapolis_11072017_Ward6CityCouncil.csv,OM,Mohamud Noor,0.3,Abdi Warsame,Mohamud Noor
+Minneapolis_11072017_Ward6CityCouncil.csv,OM,Mohamud Noor,0.4,Abdi Warsame,Mohamud Noor
+Minneapolis_11072017_Ward6CityCouncil.csv,OM,Mohamud Noor,0.5,Abdi Warsame,Clone
+Minneapolis_11072023_CityCouncilWard7.csv,OM,Scott Graham,0.4,Katie Cashman,Scott Graham
+Minneapolis_11072023_CityCouncilWard7.csv,OM,Scott Graham,0.5,Katie Cashman,Clone
+Minneapolis_11072023_CityCouncilWard8.csv,OM,Soren Stevenson,0.4,Andrea Jenkins,Soren Stevenson
+Minneapolis_11072023_CityCouncilWard8.csv,OM,Soren Stevenson,0.5,Andrea Jenkins,Clone
+Minnetonka_11072023_CityCouncilWard3.csv,OM,David Haeg,0.5,Paula Ramaley,Clone
+Minnetonka_11072023_CityCouncilWard4.csv,OM,Ted Nearman,0.5,Kissy C. Coakley,Clone
+NewYorkCity_06222021_DEMBoroughPresidentBronx.csv,OM,Fernando Cabrera,0.5,Vanessa L. Gibson,Clone
+NewYorkCity_06222021_DEMBoroughPresidentNewYork.csv,OM,Brad M. Hoylman,0.5,Mark D. Levine,Clone
+NewYorkCity_06222021_DEMBoroughPresidentQueens.csv,OM,Elizabeth S. Crowley,0.4,Donovan J. Richards Jr.,Elizabeth S. Crowley
+NewYorkCity_06222021_DEMBoroughPresidentQueens.csv,OM,Elizabeth S. Crowley,0.5,Donovan J. Richards Jr.,Clone
+NewYorkCity_06222021_DEMCouncilMember15thCouncilDistrict.csv,OM,Oswald Feliz,0.4,Oswald Feliz,Clone
+NewYorkCity_06222021_DEMCouncilMember18thCouncilDistrict.csv,OM,William Rivera,0.3,Amanda Farias,William Rivera
+NewYorkCity_06222021_DEMCouncilMember18thCouncilDistrict.csv,OM,Amanda Farias,0.4,Amanda Farias,Clone
+NewYorkCity_06222021_DEMCouncilMember18thCouncilDistrict.csv,OM,William Rivera,0.4,Amanda Farias,Clone
+NewYorkCity_06222021_DEMCouncilMember18thCouncilDistrict.csv,OM,William Rivera,0.5,Amanda Farias,Clone
+NewYorkCity_06222021_DEMCouncilMember19thCouncilDistrict.csv,OM,Richard J. Lee,0.5,Tony Avella,Clone
+NewYorkCity_06222021_DEMCouncilMember1stCouncilDistrict.csv,OM,Christopher Marte,0.4,Christopher Marte,Clone
+NewYorkCity_06222021_DEMCouncilMember20thCouncilDistrict.csv,OM,Sandra Ung,0.4,Sandra Ung,Clone
+NewYorkCity_06222021_DEMCouncilMember23rdCouncilDistrict.csv,OM,Jaslin Kaur,0.4,Linda Lee,Jaslin Kaur
+NewYorkCity_06222021_DEMCouncilMember23rdCouncilDistrict.csv,OM,Jaslin Kaur,0.5,Linda Lee,Clone
+NewYorkCity_06222021_DEMCouncilMember25thCouncilDistrict.csv,OM,Yi Andy Chen,0.3,Shekar Krishnan,Yi Andy Chen
+NewYorkCity_06222021_DEMCouncilMember25thCouncilDistrict.csv,OM,Yi Andy Chen,0.4,Shekar Krishnan,Clone
+NewYorkCity_06222021_DEMCouncilMember25thCouncilDistrict.csv,OM,Shekar Krishnan,0.4,Shekar Krishnan,Clone
+NewYorkCity_06222021_DEMCouncilMember25thCouncilDistrict.csv,OM,Yi Andy Chen,0.5,Shekar Krishnan,Clone
+NewYorkCity_06222021_DEMCouncilMember30thCouncilDistrict.csv,OM,Juan D. Ardila,0.5,Robert F. Holden,Clone
+NewYorkCity_06222021_DEMCouncilMember32ndCouncilDistrict.csv,OM,Michael G. Scala,0.4,Felicia Singh,Michael G. Scala
+NewYorkCity_06222021_DEMCouncilMember32ndCouncilDistrict.csv,OM,Michael G. Scala,0.5,Felicia Singh,Clone
+NewYorkCity_06222021_DEMCouncilMember35thCouncilDistrict.csv,OM,Michael Hollingsworth,0.5,Crystal Hudson,Clone
+NewYorkCity_06222021_DEMCouncilMember42ndCouncilDistrict.csv,OM,Nikki Lucas,0.5,Charles Barron,Clone
+NewYorkCity_06222021_DEMCouncilMember46thCouncilDistrict.csv,OM,Mercedes Narcisse,0.4,Mercedes Narcisse,Clone
+NewYorkCity_06222021_DEMCouncilMember49thCouncilDistrict.csv,OM,Kamillah Hanks,0.3,Kamillah Hanks,Clone
+NewYorkCity_06222021_DEMCouncilMember49thCouncilDistrict.csv,OM,Kamillah Hanks,0.4,Kamillah Hanks,Clone
+NewYorkCity_06222021_REPBoroughPresidentRichmond.csv,OM,Steven Matteo,0.4,Vito Fossella,Steven Matteo
+NewYorkCity_06222021_REPBoroughPresidentRichmond.csv,OM,Steven Matteo,0.5,Vito Fossella,Clone
+NewYorkCity_06222021_REPCouncilMember15thCouncilDistrict.csv,OM,Aramis Ocasio,0.5,Ariel Rivera-Diaz,Clone
+NewYorkCity_06222021_REPCouncilMember19thCouncilDistrict.csv,OM,John-Alexander Sakelos,0.4,Vickie Paladino,John-Alexander Sakelos
+NewYorkCity_06222021_REPCouncilMember19thCouncilDistrict.csv,OM,John-Alexander Sakelos,0.5,Vickie Paladino,Clone
+NewYorkCity_06222021_REPCouncilMember50thCouncilDistrict.csv,OM,Marko Kepi,0.3,David M. Carr,Marko Kepi
+NewYorkCity_06222021_REPCouncilMember50thCouncilDistrict.csv,OM,Marko Kepi,0.4,David M. Carr,Marko Kepi
+NewYorkCity_06222021_REPCouncilMember50thCouncilDistrict.csv,OM,Marko Kepi,0.5,David M. Carr,Clone
+Oakland_11022010_Mayor.csv,OM,DON PERATA,0.3,JEAN QUAN,DON PERATA
+Oakland_11022010_Mayor.csv,OM,DON PERATA,0.4,JEAN QUAN,DON PERATA
+Oakland_11022010_Mayor.csv,OM,DON PERATA,0.5,JEAN QUAN,Clone
+Oakland_11022010_Mayor.csv,OM,REBECCA KAPLAN,0.5,JEAN QUAN,Clone
+Oakland_11032020_MemberCityCouncilAtLargeOaklandRCV.csv,OM,DERRECK B. JOHNSON,0.5,REBECCA KAPLAN,Clone
+Oakland_11042014_CityCouncilDistrict2.csv,OM,DANA KING,0.4,ABEL GUILLEN,DANA KING
+Oakland_11042014_CityCouncilDistrict2.csv,OM,DANA KING,0.5,ABEL GUILLEN,Clone
+Oakland_11042014_CityCouncilDistrict6.csv,OM,SHEREDA F. NOSAKHARE,0.4,DESLEY BROOKS,SHEREDA F. NOSAKHARE
+Oakland_11042014_CityCouncilDistrict6.csv,OM,SHEREDA F. NOSAKHARE,0.5,DESLEY BROOKS,Clone
+Oakland_11042014_SchoolDirectorDistrict4.csv,OM,KARL DEBRO,0.5,NINA SENN,Clone
+Oakland_11052024_CityCouncilD7.csv,OM,IRIS MERRIOUNS,0.5,KEN HOUSTON,Clone
+Oakland_11052024_School_Director_D3.csv,OM,DWAYNE AIKENS JR.,0.5,VANCEDRIC WILLIAMS,Clone
+Oakland_11052024_School_Director_D5.csv,OM,SASHA RITZIE-HERNANDEZ,0.5,PATRICE BERRY,Clone
+Oakland_11062012_CityCouncilDistrict1.csv,OM,AMY LEMLEY,0.4,DAN KALB,AMY LEMLEY
+Oakland_11062012_CityCouncilDistrict1.csv,OM,AMY LEMLEY,0.5,DAN KALB,Clone
+Oakland_11062012_CityCouncilDistrict3.csv,OM,SEAN SULLIVAN,0.4,LYNETTE GIBSON-MCELHANEY,SEAN SULLIVAN
+Oakland_11062012_CityCouncilDistrict3.csv,OM,SEAN SULLIVAN,0.5,LYNETTE GIBSON-MCELHANEY,Clone
+Oakland_11062012_CityCouncilDistrict3.csv,OM,NYEISHA DEWITT,0.5,LYNETTE GIBSON-MCELHANEY,Clone
+Oakland_11062012_CityCouncilDistrict5.csv,OM,MARIO JUAREZ,0.5,NOEL GALLO,Clone
+Oakland_11062012_SchoolDirectorDistrict5.csv,OM,MIKE HUTCHINSON,0.5,ROSIE TORRES,Clone
+Oakland_11062018_CityCouncilDistrict4.csv,OM,PAM HARRIS,0.5,SHENG THAO,Clone
+Oakland_11082016_SchoolDirectorDistrict3.csv,OM,KHARYSHI MS. K WIGINTON,0.5,JUMOKE HINTON HODGE,Clone
+Oakland_11082016_SchoolDirectorDistrict5.csv,OM,HUBER TRENADO,0.4,ROSIE TORRES,HUBER TRENADO
+Oakland_11082016_SchoolDirectorDistrict5.csv,OM,HUBER TRENADO,0.5,ROSIE TORRES,Clone
+Oakland_11082022_Schoolboarddistrict4.csv,OM,NICK RESNICK,0.4,PECOLIA MANIGO,NICK RESNICK
+Oakland_11082022_Schoolboarddistrict4.csv,OM,NICK RESNICK,0.5,PECOLIA MANIGO,Clone
+PierceCounty_11042008_CountyAssessorTreasurer.csv,OM,Jan Shabro,0.3,Dale Washam,Jan Shabro
+PierceCounty_11042008_CountyAssessorTreasurer.csv,OM,Jan Shabro,0.4,Dale Washam,Jan Shabro
+PierceCounty_11042008_CountyAssessorTreasurer.csv,OM,Barbara Gelman,0.4,Dale Washam,Barbara Gelman
+PierceCounty_11042008_CountyAssessorTreasurer.csv,OM,Terry Lee,0.4,Dale Washam,Terry Lee
+PierceCounty_11042008_CountyAssessorTreasurer.csv,OM,Jan Shabro,0.5,Dale Washam,Clone
+PierceCounty_11042008_CountyAssessorTreasurer.csv,OM,Barbara Gelman,0.5,Dale Washam,Clone
+PierceCounty_11042008_CountyAssessorTreasurer.csv,OM,Terry Lee,0.5,Dale Washam,Clone
+PierceCounty_11042008_CountyExecutiveMember.csv,OM,Shawn Bunney,0.4,Pat McCarthy,Shawn Bunney
+PierceCounty_11042008_CountyExecutiveMember.csv,OM,Shawn Bunney,0.5,Pat McCarthy,Clone
+PierceCounty_11042008_CountyExecutiveMember.csv,OM,Calvin Goings,0.5,Pat McCarthy,Clone
+Portland_06082021_charter_commission_at_large.csv,OM,Buxton Catherine A.,0.1,Chann Marpheen S.,Sheikh-Yousef Nasreen A.
+Portland_06082021_charter_commission_at_large.csv,OM,Sheikh-Yousef Nasreen A.,0.1,Chann Marpheen S.,Clone
+Portland_06082021_charter_commission_at_large.csv,OM,Chann Marpheen S.,0.1,Chann Marpheen S.,Clone
+Portland_06082021_charter_commission_at_large.csv,OM,Buxton Catherine A.,0.2,Chann Marpheen S.,Sheikh-Yousef Nasreen A.
+Portland_06082021_charter_commission_at_large.csv,OM,Sheikh-Yousef Nasreen A.,0.2,Chann Marpheen S.,Clone
+Portland_06142022_SchoolboardAL-1.csv,OM,Lentz Sarah M.,0.4,Lentz Sarah M.,Clone
+SanFrancisco_06052018_Mayor.csv,OM,JANE KIM,0.4,LONDON BREED,MARK LENO
+SanFrancisco_06052018_Mayor.csv,OM,MARK LENO,0.4,LONDON BREED,MARK LENO
+SanFrancisco_06052018_Mayor.csv,OM,JANE KIM,0.5,LONDON BREED,Clone
+SanFrancisco_06052018_Mayor.csv,OM,MARK LENO,0.5,LONDON BREED,Clone
+SanFrancisco_11022010_BoardofSupervisorsDistrict2.csv,OM,JANET REILLY,0.3,MARK FARRELL,JANET REILLY
+SanFrancisco_11022010_BoardofSupervisorsDistrict2.csv,OM,JANET REILLY,0.4,MARK FARRELL,JANET REILLY
+SanFrancisco_11022010_BoardofSupervisorsDistrict2.csv,OM,JANET REILLY,0.5,MARK FARRELL,Clone
+SanFrancisco_11022010_BoardofSupervisorsDistrict6.csv,OM,DEBRA WALKER,0.4,JANE KIM,DEBRA WALKER
+SanFrancisco_11022010_BoardofSupervisorsDistrict8.csv,OM,RAFAEL MANDELMAN,0.5,SCOTT WIENER,Clone
+SanFrancisco_11032015_BoardofSupervisorsDistrict3.csv,OM,JULIE CHRISTENSEN,0.5,AARON PESKIN,Clone
+SanFrancisco_11032020_BOARDOFSUPERVISORSDISTRICT1.csv,OM,MARJAN PHILHOUR,0.3,CONNIE CHAN,MARJAN PHILHOUR
+SanFrancisco_11032020_BOARDOFSUPERVISORSDISTRICT1.csv,OM,MARJAN PHILHOUR,0.4,CONNIE CHAN,MARJAN PHILHOUR
+SanFrancisco_11032020_BOARDOFSUPERVISORSDISTRICT1.csv,OM,MARJAN PHILHOUR,0.5,CONNIE CHAN,Clone
+SanFrancisco_11042008_BoardofSupervisorsDistrict1.csv,OM,SUE LEE,0.4,ERIC MAR,SUE LEE
+SanFrancisco_11042008_BoardofSupervisorsDistrict1.csv,OM,SUE LEE,0.5,ERIC MAR,Clone
+SanFrancisco_11042008_BoardofSupervisorsDistrict11.csv,OM,AHSHA SAFAI,0.4,JOHN AVALOS,AHSHA SAFAI
+SanFrancisco_11042008_BoardofSupervisorsDistrict11.csv,OM,AHSHA SAFAI,0.5,JOHN AVALOS,Clone
+SanFrancisco_11052004_BoardofSupervisorsDistrict1.csv,OM,Lillian Sing,0.4,Jake McGoldrick,Lillian Sing
+SanFrancisco_11052004_BoardofSupervisorsDistrict1.csv,OM,Lillian Sing,0.5,Jake McGoldrick,Clone
+SanFrancisco_11052019_DistrictAttorney.csv,OM,SUZY LOFTUS,0.4,CHESA BOUDIN,SUZY LOFTUS
+SanFrancisco_11052019_DistrictAttorney.csv,OM,SUZY LOFTUS,0.5,CHESA BOUDIN,Clone
+SanFrancisco_11052024_BoS_D1.csv,OM,MARJAN PHILHOUR,0.4,CONNIE CHAN,MARJAN PHILHOUR
+SanFrancisco_11052024_BoS_D1.csv,OM,MARJAN PHILHOUR,0.5,CONNIE CHAN,Clone
+SanFrancisco_11052024_BoS_D11.csv,OM,MICHAEL LAI,0.2,CHYANNE CHEN,MICHAEL LAI
+SanFrancisco_11052024_BoS_D11.csv,OM,MICHAEL LAI,0.3,CHYANNE CHEN,MICHAEL LAI
+SanFrancisco_11052024_BoS_D11.csv,OM,MICHAEL LAI,0.4,CHYANNE CHEN,MICHAEL LAI
+SanFrancisco_11052024_BoS_D11.csv,OM,MICHAEL LAI,0.5,CHYANNE CHEN,Clone
+SanFrancisco_11052024_BoS_D5.csv,OM,DEAN PRESTON,0.4,BILAL MAHMOOD,DEAN PRESTON
+SanFrancisco_11052024_BoS_D5.csv,OM,DEAN PRESTON,0.5,BILAL MAHMOOD,Clone
+SanFrancisco_11052024_BoS_D7.csv,OM,MATT BOSCHETTO,0.4,MYRNA MELGAR,MATT BOSCHETTO
+SanFrancisco_11052024_BoS_D7.csv,OM,MATT BOSCHETTO,0.5,MYRNA MELGAR,Clone
+SanFrancisco_11062012_BoardofSupervisorsDistrict5.csv,OM,CHRISTINA OLAGUE,0.5,LONDON BREED,Clone
+SanFrancisco_11062012_BoardofSupervisorsDistrict7.csv,OM,F. X. FRANCIS XAVIER CROWLEY,0.3,NORMAN YEE,F. X. FRANCIS XAVIER CROWLEY
+SanFrancisco_11062012_BoardofSupervisorsDistrict7.csv,OM,F. X. FRANCIS XAVIER CROWLEY,0.4,NORMAN YEE,F. X. FRANCIS XAVIER CROWLEY
+SanFrancisco_11062012_BoardofSupervisorsDistrict7.csv,OM,F. X. FRANCIS XAVIER CROWLEY,0.5,NORMAN YEE,Clone
+SanFrancisco_11062018_BoardofSupervisorsDistrict2.csv,OM,NICK JOSEFOWITZ,0.4,CATHERINE STEFANI,NICK JOSEFOWITZ
+SanFrancisco_11062018_BoardofSupervisorsDistrict2.csv,OM,NICK JOSEFOWITZ,0.5,CATHERINE STEFANI,Clone
+SanFrancisco_11072006_BoardofSupervisorsDistrict4.csv,OM,Ron Dudum,0.4,Ed Jew,Ron Dudum
+SanFrancisco_11072006_BoardofSupervisorsDistrict4.csv,OM,Jaynry Mak,0.5,Ed Jew,Clone
+SanFrancisco_11072006_BoardofSupervisorsDistrict4.csv,OM,Ron Dudum,0.5,Ed Jew,Clone
+SanFrancisco_11072006_BoardofSupervisorsDistrict6.csv,OM,Rob Black,0.4,Chris Daly,Rob Black
+SanFrancisco_11072006_BoardofSupervisorsDistrict6.csv,OM,Rob Black,0.5,Chris Daly,Clone
+SanFrancisco_11082011_DistrictAttorney.csv,OM,SHARMIN BOCK,0.5,GEORGE GASCÓN,Clone
+SanFrancisco_11082011_Sheriff.csv,OM,PAUL MIYAMOTO,0.5,ROSS MIRKARIMI,Clone
+SanFrancisco_11082011_Sheriff.csv,OM,CHRIS CUNNIE,0.5,ROSS MIRKARIMI,Clone
+SanFrancisco_11082016_BoardofSupervisorsDistrict1.csv,OM,MARJAN PHILHOUR,0.4,SANDRA LEE FEWER,MARJAN PHILHOUR
+SanFrancisco_11082016_BoardofSupervisorsDistrict1.csv,OM,MARJAN PHILHOUR,0.5,SANDRA LEE FEWER,Clone
+SanFrancisco_11082016_BoardofSupervisorsDistrict11.csv,OM,KIM ALVARENGA,0.4,AHSHA SAFAI,KIM ALVARENGA
+SanFrancisco_11082016_BoardofSupervisorsDistrict11.csv,OM,KIM ALVARENGA,0.5,AHSHA SAFAI,Clone
+SanFrancisco_11082016_BoardofSupervisorsDistrict5.csv,OM,DEAN PRESTON,0.4,LONDON BREED,DEAN PRESTON
+SanFrancisco_11082016_BoardofSupervisorsDistrict5.csv,OM,DEAN PRESTON,0.5,LONDON BREED,DEAN PRESTON
+SanFrancisco_11082016_BoardofSupervisorsDistrict5.csv,OM,DEAN PRESTON,0.5,LONDON BREED,DEAN PRESTON
+SanFrancisco_11082016_BoardofSupervisorsDistrict5.csv,OM,DEAN PRESTON,0.5,LONDON BREED,DEAN PRESTON
+SanFrancisco_11082016_BoardofSupervisorsDistrict5.csv,OM,DEAN PRESTON,0.5,LONDON BREED,DEAN PRESTON
+SanFrancisco_11082016_BoardofSupervisorsDistrict5.csv,OM,DEAN PRESTON,0.5,LONDON BREED,Clone
+SanFrancisco_11082016_BoardofSupervisorsDistrict5.csv,OM,DEAN PRESTON,0.5,LONDON BREED,Clone
+SanFrancisco_11082016_BoardofSupervisorsDistrict5.csv,OM,DEAN PRESTON,0.5,LONDON BREED,Clone
+SanFrancisco_11082016_BoardofSupervisorsDistrict5.csv,OM,DEAN PRESTON,0.5,LONDON BREED,Clone
+SanFrancisco_11082022_BoardofSupervisorsD4.csv,OM,GORDON MAR,0.4,JOEL ENGARDIO,GORDON MAR
+SanFrancisco_11082022_BoardofSupervisorsD4.csv,OM,GORDON MAR,0.5,JOEL ENGARDIO,Clone
+SanFrancisco_11082022_BoardofSupervisorsD6.csv,OM,HONEY MAHOGANY,0.5,MATT DORSEY,Clone
+SanFrancisco_11082022_DistrictAttorney.csv,OM,JOHN HAMASAKI,0.5,BROOKE JENKINS,Clone
+SanLeandro_11022010_CountyCouncilDistrict5.csv,OM,CORINA N. LOPEZ,0.5,PAULINE RUSSO CUTTER,Clone
+SanLeandro_11022010_Mayor.csv,OM,ANTHONY B. TONY SANTOS,0.3,STEPHEN H. CASSIDY,ANTHONY B. TONY SANTOS
+SanLeandro_11022010_Mayor.csv,OM,ANTHONY B. TONY SANTOS,0.4,STEPHEN H. CASSIDY,ANTHONY B. TONY SANTOS
+SanLeandro_11022010_Mayor.csv,OM,ANTHONY B. TONY SANTOS,0.5,STEPHEN H. CASSIDY,Clone
+SanLeandro_11062012_CountyCouncilDistrict2.csv,OM,MORGAN MACK-ROSE,0.5,URSULA REED,Clone
+SanLeandro_11062018_CountyCouncilDistrict3.csv,OM,LEE THOMAS,0.5,VICTOR AGUILAR JR.,LEE THOMAS
+SanLeandro_11062018_CountyCouncilDistrict3.csv,OM,LEE THOMAS,0.5,VICTOR AGUILAR JR.,LEE THOMAS
+SanLeandro_11062018_CountyCouncilDistrict3.csv,OM,LEE THOMAS,0.5,VICTOR AGUILAR JR.,LEE THOMAS
+SanLeandro_11062018_CountyCouncilDistrict3.csv,OM,LEE THOMAS,0.5,VICTOR AGUILAR JR.,LEE THOMAS
+SanLeandro_11062018_CountyCouncilDistrict3.csv,OM,LEE THOMAS,0.5,VICTOR AGUILAR JR.,Clone
+SanLeandro_11062018_CountyCouncilDistrict3.csv,OM,LEE THOMAS,0.5,VICTOR AGUILAR JR.,Clone
+SanLeandro_11062018_CountyCouncilDistrict3.csv,OM,LEE THOMAS,0.5,VICTOR AGUILAR JR.,Clone
+SanLeandro_11062018_CountyCouncilDistrict3.csv,OM,LEE THOMAS,0.5,VICTOR AGUILAR JR.,Clone
+Springville_11022021_CityCouncil4yr.csv,OM,MICHAEL SNELSON,0.3,MICHAEL SNELSON,Clone
+Springville_11022021_CityCouncil4yr.csv,OM,MICHAEL SNELSON,0.4,MICHAEL SNELSON,Clone
+TakomaPark_11082022_CityCouncilWard6.csv,OM,Mike Moore,0.5,Jason Small,Clone
+Vineyard_11052019_CityCouncil.csv,OM,CRISTY WELSH,0.1,CRISTY WELSH,Clone
+Vineyard_11052019_CityCouncil.csv,OM,CRISTY WELSH,0.2,CRISTY WELSH,Clone
+Vineyard_11052019_CityCouncil.csv,OM,CRISTY WELSH,0.3,CRISTY WELSH,Clone
+Vineyard_11052019_CityCouncil.csv,OM,CRISTY WELSH,0.4,CRISTY WELSH,Clone
+Cambridge_11062007_SchoolCommittee.csv,PM,McGovern Marc C.,0.1,McGovern Marc C.,Clone
+Cambridge_11082005_SchoolCommittee.csv,PM,Walser Nancy,0.1,Walser Nancy,Clone
+Cambridge_11082005_SchoolCommittee.csv,PM,Walser Nancy,0.1,Walser Nancy,Clone
+LasCruces_11052019_MAYORCITYOFLASCRUCES.csv,PM,KEN MIYAGISHIMA,0.1,KEN MIYAGISHIMA,Clone
+Lehi_11022021_CityCouncil.csv,PM,CHRIS CONDIE,0.1,CHRIS CONDIE,Clone
+Lehi_11022021_CityCouncil.csv,PM,CHRIS CONDIE,0.2,CHRIS CONDIE,Clone
+NewYorkCity_06222021_DEMCouncilMember15thCouncilDistrict.csv,PM,Oswald Feliz,0.4,Oswald Feliz,Clone
+NewYorkCity_06222021_DEMCouncilMember18thCouncilDistrict.csv,PM,Amanda Farias,0.4,Amanda Farias,Clone
+NewYorkCity_06222021_DEMCouncilMember1stCouncilDistrict.csv,PM,Christopher Marte,0.4,Christopher Marte,Clone
+NewYorkCity_06222021_DEMCouncilMember20thCouncilDistrict.csv,PM,Sandra Ung,0.4,Sandra Ung,Clone
+NewYorkCity_06222021_DEMCouncilMember25thCouncilDistrict.csv,PM,Shekar Krishnan,0.4,Shekar Krishnan,Clone
+NewYorkCity_06222021_DEMCouncilMember46thCouncilDistrict.csv,PM,Mercedes Narcisse,0.4,Mercedes Narcisse,Clone
+NewYorkCity_06222021_DEMCouncilMember49thCouncilDistrict.csv,PM,Kamillah Hanks,0.3,Kamillah Hanks,Clone
+NewYorkCity_06222021_DEMCouncilMember49thCouncilDistrict.csv,PM,Kamillah Hanks,0.4,Kamillah Hanks,Clone
+Portland_06082021_charter_commission_at_large.csv,PM,Chann Marpheen S.,0.1,Chann Marpheen S.,Clone
+Portland_06142022_SchoolboardAL-1.csv,PM,Lentz Sarah M.,0.4,Lentz Sarah M.,Clone
+Springville_11022021_CityCouncil4yr.csv,PM,MICHAEL SNELSON,0.3,MICHAEL SNELSON,Clone
+Springville_11022021_CityCouncil4yr.csv,PM,MICHAEL SNELSON,0.4,MICHAEL SNELSON,Clone
+Vineyard_11052019_CityCouncil.csv,PM,CRISTY WELSH,0.1,CRISTY WELSH,Clone
+Vineyard_11052019_CityCouncil.csv,PM,CRISTY WELSH,0.2,CRISTY WELSH,Clone
+Vineyard_11052019_CityCouncil.csv,PM,CRISTY WELSH,0.3,CRISTY WELSH,Clone
+Vineyard_11052019_CityCouncil.csv,PM,CRISTY WELSH,0.4,CRISTY WELSH,Clone

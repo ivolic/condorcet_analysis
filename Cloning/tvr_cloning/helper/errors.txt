@@ -1,0 +1,155 @@
+Oakland_11042014_Mayor.csv: timeout after 600s
+Oakland_11052024_CityCouncil_AtLarge.csv: timeout after 600s
+Alaska_11052024_President.csv: timeout after 600s
+Cambridge_11032009_CityCouncil.csv: timeout after 600s
+Cambridge_11032015_CityCouncil.csv: timeout after 600s
+Cambridge_11032015_SchoolCommittee.csv: timeout after 600s
+Cambridge_11042003_CityCouncil.csv: timeout after 600s
+Cambridge_11042003_SchoolCommittee.csv: timeout after 600s
+Cambridge_11052013_CityCouncil.csv: timeout after 600s
+Cambridge_11052013_SchoolCommittee.csv: timeout after 600s
+Cambridge_11062001_CityCouncil.csv: timeout after 600s
+Cambridge_11062007_CityCouncil.csv: timeout after 600s
+Cambridge_11062007_SchoolCommittee.csv: timeout after 600s
+Cambridge_11072017_CityCouncil.csv: timeout after 600s
+Cambridge_11072017_SchoolCommittee.csv: timeout after 600s
+Cambridge_11072023_CityCouncil.csv: timeout after 600s
+Cambridge_11072023_SchoolBoard.csv: timeout after 600s
+Cambridge_11082005_CityCouncil.csv: timeout after 600s
+Cambridge_11082005_SchoolCommittee.csv: timeout after 600s
+Cambridge_11082011_CityCouncil.csv: timeout after 600s
+Cambridge_11082011_SchoolCommittee.csv: timeout after 600s
+Cambridge_11152019_CityCouncil.csv: timeout after 600s
+Cambridge_11152019_SchoolCommittee.csv: timeout after 600s
+Easthampton_11022021_Mayor.csv: timeout after 600s
+Maine_06122018_DemocraticPrimaryforGovernor.csv: timeout after 600s
+Minneapolis_11022021_Mayor.csv: timeout after 600s
+Minneapolis_11052013_Mayor.csv: timeout after 600s
+Minneapolis_11072017_Mayor.csv: timeout after 600s
+LasCruces_11052019_MAYORCITYOFLASCRUCES.csv: timeout after 600s
+NewYorkCity_06222021_DEMBoroughPresidentKings.csv: timeout after 600s
+NewYorkCity_06222021_DEMComptrollerCitywide.csv: timeout after 600s
+NewYorkCity_06222021_DEMCouncilMember1stCouncilDistrict.csv: timeout after 600s
+NewYorkCity_06222021_DEMCouncilMember26thCouncilDistrict.csv: timeout after 600s
+NewYorkCity_06222021_DEMCouncilMember27thCouncilDistrict.csv: timeout after 600s
+NewYorkCity_06222021_DEMCouncilMember29thCouncilDistrict.csv: timeout after 600s
+NewYorkCity_06222021_DEMCouncilMember40thCouncilDistrict.csv: timeout after 600s
+NewYorkCity_06222021_DEMCouncilMember49thCouncilDistrict.csv: timeout after 600s
+NewYorkCity_06222021_DEMCouncilMember7thCouncilDistrict.csv: timeout after 600s
+NewYorkCity_06222021_DEMCouncilMember9thCouncilDistrict.csv: timeout after 600s
+NewYorkCity_06222021_DEMMayorCitywide.csv: timeout after 600s
+Portland_06082021_charter_commission_at_large.csv: timeout after 600s
+PortlandOR_110524_Mayor.csv: timeout after 600s
+Portland_D1_2024.csv: timeout after 600s
+Portland_D2_2024.csv: timeout after 600s
+Portland_D3_2024.csv: timeout after 600s
+Portland_D4_2024.csv: timeout after 600s
+SanFrancisco_11022004_BoardofSupervisorsDistrict5.csv: timeout after 600s
+SanFrancisco_11022010_BoardofSupervisorsDistrict10.csv: timeout after 600s
+SanFrancisco_11022010_BoardofSupervisorsDistrict6.csv: timeout after 600s
+SanFrancisco_11032020_BOARDOFSUPERVISORSDISTRICT7.csv: timeout after 600s
+SanFrancisco_11052024_Mayor.csv: timeout after 600s
+SanFrancisco_11062007_Mayor.csv: timeout after 600s
+SanFrancisco_11082011_Mayor.csv: timeout after 600s
+Lehi_11022021_CityCouncil.csv: timeout after 600s
+Ward12-Torry-Ferryhill_aberdeen12-12.csv: timeout after 600s
+Ward19-Mearns_preferenceprofile_v0001_ward-19-mearns_06052022_172124.csv: timeout after 600s
+Clarkston,NetherleeandWilliamwood_e-renfs17-4.csv: timeout after 600s
+Ward4‐ClarkstonNetherleeandWilliamwood_ward4_copy.csv: timeout after 600s
+LeithWalkWard_edinburgh12-12.csv: timeout after 600s
+Ward1-Almond_edinburgh17-01.csv: timeout after 600s
+Ward12-LeithWalk_edinburgh17-12.csv: timeout after 600s
+Ward11-CityCentre_ward11.csv: timeout after 600s
+Ward12-LeithWalk_ward12.csv: timeout after 600s
+Ward16-Liberton-Gilmerton_ward16.csv: timeout after 600s
+Ward11Hillhead_glasgow12-11.csv: timeout after 600s
+Ward12PartickWest_glasgow12-12.csv: timeout after 600s
+Ward13Garscadden-Scotstounhill_glasgow12-13.csv: timeout after 600s
+Ward16Canal_glasgow12-16.csv: timeout after 600s
+Ward5Govan_glasgow12-05.csv: timeout after 600s
+Ward9Calton_glasgow12-09.csv: timeout after 600s
+Ward19Shettleston_glasgow17-019.csv: timeout after 600s
+Ward1Linn_glasgow17-001.csv: timeout after 600s
+Bailliestonward_baillieston.csv: timeout after 600s
+Craigtonward_craigton.csv: timeout after 600s
+Drumchapel_drumchapel.csv: timeout after 600s
+EastCentre_eastcentre.csv: timeout after 600s
+Garscadden_garscadden.csv: timeout after 600s
+Hillhead_hillhead.csv: timeout after 600s
+Linn_linn.csv: timeout after 600s
+NorthEast_north east.csv: timeout after 600s
+Partick_partick.csv: timeout after 600s
+Shettleston_shettleston.csv: timeout after 600s
+govan_govan.csv: timeout after 600s
+Ward14Drumchapel-Anniesland_Ward14.csv: timeout after 600s
+Ward18EastCentre_Ward18.csv: timeout after 600s
+Ward2Newlands-Auldburn_Ward2.csv: timeout after 600s
+Ward3GreaterPollok_Ward3.csv: timeout after 600s
+Ward5Govan_Ward5.csv: timeout after 600s
+Ward6Pollokshields_Ward6.csv: timeout after 600s
+Ward7Langside_Ward7.csv: timeout after 600s
+Ward8SouthsideCentral_Ward8.csv: timeout after 600s
+Ward10-Eileana_Cheo_highland17-10.csv: timeout after 600s
+Ward18-NairnandCawdor_highland17-18.csv: timeout after 600s
+ForresWard_moray12-08.csv: timeout after 600s
+Ward03-Kilwinning_n-ayrshire12-03.csv: timeout after 600s
+Ward01-NorthCoast_Preference-Profile-North-Coast_copy.csv: timeout after 600s
+Ward02-GarnockValley_Preference-Profile-Garnock-Valley_copy.csv: timeout after 600s
+Ward19-MotherwellSouthEastandRavenscraig_n-lanarks17-019.csv: timeout after 600s
+Ward2-CumbernauldNorth_n-lanarks17-002.csv: timeout after 600s
+Ward5-AvondaleandStonehouse_s-lanarks12-05.csv: timeout after 600s
+Ward12-LeithWalk_edinburgh 2019 by-election Leith Walk.csv: timeout after 600s
+Ward8-Colinton-Fairmilehead_Edinburgh 2024 by-election Ward 8.csv: timeout after 600s
+Ward3-DunblaneandBridgeofAllan_preferenceprofile_v0001_ward-3-dunblane-and-bridge-of-allan_06052022_124253.csv: timeout after 600s
+Ward4-LivingstonSouth_west lothian,2022,ward 4.csv: timeout after 600s
+SB1701 LA Pref Data_NA_Manly.csv: timeout after 600s
+SB1701 LA Pref Data_NA_North Shore.csv: timeout after 600s
+SB1801 LA Pref Data_NA_Wagga Wagga.csv: timeout after 600s
+SB2101 LA Pref Data_NA_Upper Hunter.csv: timeout after 600s
+Byron-mayoral-finalpreferencedatafile.csv: timeout after 600s
+City_of_Coffs_Harbour-mayoral-finalpreferencedatafile.csv: timeout after 600s
+SGE2015 LA Pref Data_NA_Clarence.csv: timeout after 600s
+SGE2015 LA Pref Data_NA_Hawkesbury.csv: timeout after 600s
+SGE2015 LA Pref Data_NA_Murray.csv: timeout after 600s
+SGE2015 LA Pref Data_NA_Penrith.csv: timeout after 600s
+SGE2015 LA Pref Data_NA_Swansea.csv: timeout after 600s
+SGE2015 LA Pref Data_NA_Sydney.csv: timeout after 600s
+SGE2019 LA Pref Data Barwon.csv: timeout after 600s
+SGE2019 LA Pref Data Coffs Harbour.csv: timeout after 600s
+SGE2019 LA Pref Data Coogee.csv: timeout after 600s
+SGE2019 LA Pref Data Granville.csv: timeout after 600s
+SGE2019 LA Pref Data Hawkesbury.csv: timeout after 600s
+SGE2019 LA Pref Data Hornsby.csv: timeout after 600s
+SGE2019 LA Pref Data Maitland.csv: timeout after 600s
+SGE2019 LA Pref Data Murray.csv: timeout after 600s
+SGE2019 LA Pref Data Newcastle.csv: timeout after 600s
+SGE2019 LA Pref Data North Shore.csv: timeout after 600s
+SGE2019 LA Pref Data Orange.csv: timeout after 600s
+SGE2019 LA Pref Data Penrith.csv: timeout after 600s
+SGE2019 LA Pref Data Pittwater.csv: timeout after 600s
+SGE2019 LA Pref Data Ryde.csv: timeout after 600s
+SGE2019 LA Pref Data Upper Hunter.csv: timeout after 600s
+SGE2019 LA Pref Data Willoughby.csv: timeout after 600s
+SGE2019 LA Pref Data Wollondilly.csv: timeout after 600s
+SG2301 LA Pref Data Bankstown.csv: timeout after 600s
+SG2301 LA Pref Data Barwon.csv: timeout after 600s
+SG2301 LA Pref Data Bathurst.csv: timeout after 600s
+SG2301 LA Pref Data Campbelltown.csv: timeout after 600s
+SG2301 LA Pref Data Clarence.csv: timeout after 600s
+SG2301 LA Pref Data Hawkesbury.csv: timeout after 600s
+SG2301 LA Pref Data Hornsby.csv: timeout after 600s
+SG2301 LA Pref Data Lismore.csv: timeout after 600s
+SG2301 LA Pref Data Murray.csv: timeout after 600s
+SG2301 LA Pref Data Northern Tablelands.csv: timeout after 600s
+SG2301 LA Pref Data Orange.csv: timeout after 600s
+SG2301 LA Pref Data Port Macquarie.csv: timeout after 600s
+SG2301 LA Pref Data Tamworth.csv: timeout after 600s
+SG2301 LA Pref Data Upper Hunter.csv: timeout after 600s
+BallotPaperDetails-Melbourne District SE2018.csv: timeout after 600s
+BallotPaperDetails-Brighton with candidates.csv: timeout after 600s
+BallotPaperDetails-Hawthorn with candidates.csv: timeout after 600s
+BallotPaperDetails-Melton with candidates.csv: timeout after 600s
+BallotPaperDetails-Northcote with candidates.csv: timeout after 600s
+BallotPaperDetails-Point Cook with candidates.csv: timeout after 600s
+BallotPaperDetails-Preston with Candidates.csv: timeout after 600s
+BallotPaperDetails-Werribee with candidates.csv: timeout after 600s

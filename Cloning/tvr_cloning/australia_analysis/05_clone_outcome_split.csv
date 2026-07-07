@@ -1,0 +1,8 @@
+method,percent,total_flips,clone_wins,spoiler_wins,pct_clone_wins,pct_spoiler_wins
+AVG,0.4,2,2,0,100.0,0.0
+OM,0.1,2,0,2,0.0,100.0
+OM,0.2,6,0,6,0.0,100.0
+OM,0.3,34,0,34,0.0,100.0
+OM,0.4,57,4,53,7.0,93.0
+OM,0.5,84,76,8,90.5,9.5
+PM,0.4,2,2,0,100.0,0.0

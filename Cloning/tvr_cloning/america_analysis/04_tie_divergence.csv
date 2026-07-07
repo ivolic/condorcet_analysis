@@ -1,0 +1,319 @@
+file,candidate_cloned,percent,unique_winners,diverges,method
+Cambridge_11052013_SchoolCommittee.csv,Cronin Fran Albin,0.0,['Nolan Patricia M.'],False,AVG
+Cambridge_11052013_SchoolCommittee.csv,Fantini Alfred B.,0.0,['Nolan Patricia M.'],False,AVG
+Cambridge_11052013_SchoolCommittee.csv,Nolan Patricia M.,0.0,['Nolan Patricia M.'],False,AVG
+Cambridge_11052013_SchoolCommittee.csv,Write-In 2,0.0,['Nolan Patricia M.'],False,AVG
+Cambridge_11052013_SchoolCommittee.csv,Write-In 3,0.0,['Nolan Patricia M.'],False,AVG
+Cambridge_11052013_SchoolCommittee.csv,Write-In 6,0.0,['Nolan Patricia M.'],False,AVG
+Cambridge_11052013_SchoolCommittee.csv,none,0.0,['Nolan Patricia M.'],False,AVG
+Cambridge_11062007_CityCouncil.csv,Maher David P.,0.0,['Davis Henrietta'],False,AVG
+Cambridge_11062007_CityCouncil.csv,Simmons E. Denise,0.0,['Davis Henrietta'],False,AVG
+Cambridge_11082005_SchoolCommittee.csv,McGovern Marc C.,0.0,['Walser Nancy'],False,AVG
+Cambridge_11082005_SchoolCommittee.csv,Schuster Luc,0.0,['Walser Nancy'],False,AVG
+Cambridge_11082005_SchoolCommittee.csv,Write-In 2,0.0,['Walser Nancy'],False,AVG
+Cambridge_11082005_SchoolCommittee.csv,McGovern Marc C.,0.1,['Walser Nancy'],False,AVG
+Cambridge_11082005_SchoolCommittee.csv,Schuster Luc,0.1,['Walser Nancy'],False,AVG
+Cambridge_11082005_SchoolCommittee.csv,Write-In 2,0.1,['Walser Nancy'],False,AVG
+SanFrancisco_11032020_BOARDOFSUPERVISORSDISTRICT11.csv,JASON CHUYUAN ZENG,0.1,['AHSHA SAFAI'],False,AVG
+SanFrancisco_11062018_BoardofSupervisorsDistrict10.csv,WRITE-IN NEO VEAVEA,0.1,['SHAMANN WALTON'],False,AVG
+SanFrancisco_11082005_AssessorRecorder.csv,Anthony Faber,0.1,['Phil Ting'],False,AVG
+NewYorkCity_06222021_DEMCouncilMember29thCouncilDistrict.csv,Donghui Zang,0.2,['Lynn C. Schulman'],False,AVG
+SanFrancisco_11032020_BOARDOFSUPERVISORSDISTRICT11.csv,JASON CHUYUAN ZENG,0.2,['AHSHA SAFAI'],False,AVG
+SanFrancisco_11082005_AssessorRecorder.csv,Anthony Faber,0.2,['Phil Ting'],False,AVG
+TakomaPark_11082022_CityCouncilWard5.csv,Cara Honzak,0.2,['Cara Honzak'],False,AVG
+SanFrancisco_11022010_BoardofSupervisorsDistrict6.csv,MATT ASHE,0.3,['JANE KIM'],False,AVG
+Eastpointe_11022021_CityCouncil.csv,Tonia Gladney,0.4,['Cardi DeMonaco Jr.'],False,AVG
+Alaska_11052024_StateHouseD12.csv,Schrage Calvin R.,0.5,['Schrage Calvin R.'],False,AVG
+Alaska_11052024_StateHouseD13.csv,Gottshall Heather,0.5,['Josephson Andrew L. Andy'],False,AVG
+Alaska_11052024_StateHouseD13.csv,Josephson Andrew L. Andy,0.5,['Josephson Andrew L. Andy'],False,AVG
+Alaska_11052024_StateHouseD16.csv,Hall Carolyn,0.5,['Hall Carolyn'],False,AVG
+Alaska_11052024_StateHouseD25.csv,Johnson DeLena M.,0.5,['Johnson DeLena M.'],False,AVG
+Alaska_11052024_StateHouseD3.csv,Story Andrea Andi,0.5,['Story Andrea Andi'],False,AVG
+Alaska_11052024_StateSenateB.csv,Kiehl Jesse,0.5,['Kiehl Jesse'],False,AVG
+Alaska_11052024_StateSenateJ.csv,Smith Cheronda L.,0.5,['Dunbar Forrest'],False,AVG
+Alaska_11052024_StateSenateT.csv,Olson Donald C. Donny,0.5,['Olson Donald C. Donny'],False,AVG
+Alaska_11082022_HouseDistrict1.csv,Bynum Jeremy T.,0.5,['Ortiz Daniel H. Dan'],False,AVG
+Alaska_11082022_HouseDistrict14.csv,Galvin Alyse S.,0.5,['Galvin Alyse S.'],False,AVG
+Alaska_11082022_HouseDistrict22.csv,Wright Stanley A.,0.5,['Wright Stanley A.'],False,AVG
+Alaska_11082022_HouseDistrict23.csv,Allard Jamie,0.5,['Allard Jamie'],False,AVG
+Alaska_11082022_HouseDistrict23.csv,Branson Roger L.,0.5,['Allard Jamie'],False,AVG
+Alaska_11082022_HouseDistrict25.csv,Johnson DeLena M.,0.5,['Johnson DeLena M.'],False,AVG
+Alaska_11082022_HouseDistrict3.csv,Story Andrea Andi,0.5,['Story Andrea Andi'],False,AVG
+Alaska_11082022_HouseDistrict33.csv,Prax Glenn M. Mike,0.5,['Prax Glenn M. Mike'],False,AVG
+Alaska_11082022_HouseDistrict38.csv,McCormick Conrad J. C.J.,0.5,['McCormick Conrad J. C.J.'],False,AVG
+Alaska_11082022_HouseDistrict8.csv,Carpenter Ben,0.5,['Carpenter Ben'],False,AVG
+Alaska_11082022_SenateDistrictB.csv,Kiehl Jesse,0.5,['Kiehl Jesse'],False,AVG
+Alaska_11082022_SenateDistrictH.csv,Claman Matt,0.5,['Claman Matt'],False,AVG
+Alaska_11082022_SenateDistrictI.csv,Herndon Heather,0.5,['Tobin Löki G.'],False,AVG
+Alaska_11082022_SenateDistrictI.csv,Tobin Löki G.,0.5,['Tobin Löki G.'],False,AVG
+Berkeley_11032020_MemberCityCouncilDist6BerkeleyRCV.csv,RICHARD ILLGEN,0.5,['SUSAN WENGRAF'],False,AVG
+Berkeley_11042014_CityAuditor.csv,ANN-MARIE HOGAN,0.5,['ANN-MARIE HOGAN'],False,AVG
+Minneapolis_11022021_CityCouncilWard6.csv,Jamal Osman,0.5,['Jamal Osman'],False,AVG
+Minneapolis_11022021_ParkBoardDistrict1.csv,Billy Menz,0.5,['Billy Menz'],False,AVG
+NewYorkCity_06222021_DEMCouncilMember41stCouncilDistrict.csv,Alicka Tani Ampry-Samuel,0.5,['Darlene Mealy'],False,AVG
+NewYorkCity_06222021_DEMCouncilMember41stCouncilDistrict.csv,Darlene Mealy,0.5,['Darlene Mealy'],False,AVG
+NewYorkCity_06222021_REPBoroughPresidentQueens.csv,217580,0.5,['219566'],False,AVG
+NewYorkCity_06222021_REPCouncilMember24thCouncilDistrict.csv,Angelo King,0.5,['Timothy Rosen'],False,AVG
+Oakland_11022010_CityCouncilDistrict2.csv,PATRICIA KERNIGHAN,0.5,['PATRICIA KERNIGHAN'],False,AVG
+Oakland_11022010_SchoolDirectorDistrict6.csv,CHRISTOPHER DOBBINS,0.5,['CHRISTOPHER DOBBINS'],False,AVG
+Oakland_11062018_SchoolDirectorDistrict4.csv,CLARISSA DOUTHERD,0.5,['GARY D. YEE'],False,AVG
+Oakland_11062018_SchoolDirectorDistrict4.csv,GARY D. YEE,0.5,['GARY D. YEE'],False,AVG
+Oakland_11082016_CityCouncilDistrict1.csv,DAN KALB,0.5,['DAN KALB'],False,AVG
+Oakland_11082016_CityCouncilDistrict5.csv,NOEL GALLO,0.5,['NOEL GALLO'],False,AVG
+Oakland_11082016_SchoolDirectorDistrict1.csv,DON MACLEAY,0.5,['JODY LONDON'],False,AVG
+Oakland_11082016_SchoolDirectorDistrict1.csv,JODY LONDON,0.5,['JODY LONDON'],False,AVG
+Oakland_11082022_CityAuditor.csv,COURTNEY RUBY,0.5,['COURTNEY RUBY'],False,AVG
+SanFrancisco_11032020_BOARDOFSUPERVISORSDISTRICT9.csv,HILLARY RONEN,0.5,['HILLARY RONEN'],False,AVG
+SanFrancisco_11052019_CityAttorney.csv,DENNIS J. HERRERA,0.5,['DENNIS J. HERRERA'],False,AVG
+SanFrancisco_11052019_PublicDefender.csv,MANOHAR MANO RAJU,0.5,['MANOHAR MANO RAJU'],False,AVG
+SanFrancisco_11052019_Treasurer.csv,JOSÉ CISNEROS,0.5,['JOSÉ CISNEROS'],False,AVG
+SanFrancisco_11062018_BoardofSupervisorsDistrict8.csv,LAWRENCE STARK DAGESSE,0.5,['RAFAEL MANDELMAN'],False,AVG
+SanFrancisco_11062018_BoardofSupervisorsDistrict8.csv,RAFAEL MANDELMAN,0.5,['RAFAEL MANDELMAN'],False,AVG
+SanFrancisco_11062018_PublicDefender.csv,JEFF ADACHI,0.5,['JEFF ADACHI'],False,AVG
+SanFrancisco_11082016_BoardofSupervisorsDistrict5.csv,DEAN PRESTON,0.5,['LONDON BREED'],False,AVG
+SanFrancisco_11082022_BoardofSupervisorsD10.csv,SHAMANN WALTON,0.5,['SHAMANN WALTON'],False,AVG
+SanLeandro_11062018_CountyCouncilDistrict3.csv,LEE THOMAS,0.5,['VICTOR AGUILAR JR.'],False,AVG
+SanLeandro_11062018_CountyCouncilDistrict3.csv,VICTOR AGUILAR JR.,0.5,['VICTOR AGUILAR JR.'],False,AVG
+SanLeandro_11082016_CountyCouncilDistrict2.csv,BRYAN AZEVEDO,0.5,['ED HERNANDEZ'],False,AVG
+SanLeandro_11082016_CountyCouncilDistrict2.csv,ED HERNANDEZ,0.5,['ED HERNANDEZ'],False,AVG
+SanLeandro_11082016_CountyCouncilDistrict6.csv,PETE BALLEW,0.5,['PETE BALLEW'],False,AVG
+StLouisPark_11022021_CityCouncilWard1.csv,Margaret Rog,0.5,['Margaret Rog'],False,AVG
+StLouisPark_11022021_CityCouncilWard4.csv,Tim Brausen,0.5,['Tim Brausen'],False,AVG
+TakomaPark_11082022_CityCouncilWard4.csv,Terry Seamens,0.5,['Terry Seamens'],False,AVG
+Alaska_11052024_StateHouseD13.csv,Gottshall Heather,0.5,"['Clone', 'Gottshall Heather']",True,OM
+Alaska_11082022_HouseDistrict1.csv,Bynum Jeremy T.,0.5,"['Bynum Jeremy T.', 'Clone']",True,OM
+Oakland_11062018_CityCouncilDistrict4.csv,PAM HARRIS,0.5,"['Clone', 'SHENG THAO']",True,OM
+SanFrancisco_11082016_BoardofSupervisorsDistrict5.csv,DEAN PRESTON,0.5,"['Clone', 'DEAN PRESTON']",True,OM
+SanLeandro_11062018_CountyCouncilDistrict3.csv,LEE THOMAS,0.5,"['Clone', 'LEE THOMAS']",True,OM
+Cambridge_11052013_SchoolCommittee.csv,Cronin Fran Albin,0.0,['Nolan Patricia M.'],False,OM
+Cambridge_11052013_SchoolCommittee.csv,Fantini Alfred B.,0.0,['Nolan Patricia M.'],False,OM
+Cambridge_11052013_SchoolCommittee.csv,Harding Jr. Richard,0.0,['Nolan Patricia M.'],False,OM
+Cambridge_11052013_SchoolCommittee.csv,Holland John J.,0.0,['Nolan Patricia M.'],False,OM
+Cambridge_11052013_SchoolCommittee.csv,Kelly Kathleen M.,0.0,['Nolan Patricia M.'],False,OM
+Cambridge_11052013_SchoolCommittee.csv,Nolan Patricia M.,0.0,['Nolan Patricia M.'],False,OM
+Cambridge_11052013_SchoolCommittee.csv,Osborne Mervan F.,0.0,['Nolan Patricia M.'],False,OM
+Cambridge_11052013_SchoolCommittee.csv,Write-In 2,0.0,['Nolan Patricia M.'],False,OM
+Cambridge_11052013_SchoolCommittee.csv,Write-In 3,0.0,['Nolan Patricia M.'],False,OM
+Cambridge_11052013_SchoolCommittee.csv,Write-In 6,0.0,['Nolan Patricia M.'],False,OM
+Cambridge_11052013_SchoolCommittee.csv,none,0.0,['Nolan Patricia M.'],False,OM
+Cambridge_11072017_SchoolCommittee.csv,Write-In 06,0.0,['Nolan Patricia M.'],False,OM
+Cambridge_11072017_SchoolCommittee.csv,none,0.0,['Nolan Patricia M.'],False,OM
+Eastpointe_11022021_CityCouncil.csv,Rob Baker,0.0,['Cardi DeMonaco Jr.'],False,OM
+SanFrancisco_11062007_Mayor.csv,Gavin Newsom,0.0,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,George Davis,0.0,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,H. Brown,0.0,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Harold M. Hoogasian,0.0,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,John Rinaldi,0.0,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Josh Wolf,0.0,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Lonnie S. Holmes,0.0,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Michael Powers,0.0,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Wilma Pang,0.0,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Write-In Kenneth Kahn,0.0,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Write-In Lea Sherman,0.0,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Write-In Patrick Monette-Shaw,0.0,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Write-In Robert Kully,0.0,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Write-In Robert McCullough,0.0,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Write-In Rodney Hauge,0.0,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,none,0.0,['Gavin Newsom'],False,OM
+SanFrancisco_11082011_Mayor.csv,CESAR ASCARRUNZ,0.0,['ED LEE'],False,OM
+SanFrancisco_11082011_Mayor.csv,DAVID CHIU,0.0,['ED LEE'],False,OM
+SanFrancisco_11082011_Mayor.csv,DENNIS HERRERA,0.0,['ED LEE'],False,OM
+SanFrancisco_11082011_Mayor.csv,JEFF ADACHI,0.0,['ED LEE'],False,OM
+SanFrancisco_11082011_Mayor.csv,JOANNA REES,0.0,['ED LEE'],False,OM
+SanFrancisco_11082011_Mayor.csv,JOHN AVALOS,0.0,['ED LEE'],False,OM
+SanFrancisco_11082011_Mayor.csv,LELAND YEE,0.0,['ED LEE'],False,OM
+SanFrancisco_11082011_Mayor.csv,PHIL TING,0.0,['ED LEE'],False,OM
+SanFrancisco_11082011_Mayor.csv,TONY HALL,0.0,['ED LEE'],False,OM
+SanFrancisco_11082011_Mayor.csv,WRITE-IN DAVID VILLA-LOBOS,0.0,['ED LEE'],False,OM
+SanFrancisco_11082011_Mayor.csv,WRITE-IN GILBERT LOUIS FRANCIS,0.0,['ED LEE'],False,OM
+SanFrancisco_11082011_Mayor.csv,WRITE-IN HAROLD MILLER,0.0,['ED LEE'],False,OM
+SanFrancisco_11082011_Mayor.csv,WRITE-IN LEA SHERMAN,0.0,['ED LEE'],False,OM
+SanFrancisco_11082011_Mayor.csv,WRITE-IN ROBERT BOBBY JORDAN,0.0,['ED LEE'],False,OM
+SanFrancisco_11082011_Mayor.csv,none,0.0,['ED LEE'],False,OM
+Eastpointe_11022021_CityCouncil.csv,Rob Baker,0.1,['Cardi DeMonaco Jr.'],False,OM
+SanFrancisco_11032015_Mayor.csv,WRITE-IN - JOHN E. FITCH,0.1,['ED LEE'],False,OM
+SanFrancisco_11032020_BOARDOFSUPERVISORSDISTRICT11.csv,JASON CHUYUAN ZENG,0.1,['AHSHA SAFAI'],False,OM
+SanFrancisco_11062007_Mayor.csv,Gavin Newsom,0.1,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,George Davis,0.1,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,H. Brown,0.1,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Harold M. Hoogasian,0.1,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,John Rinaldi,0.1,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Josh Wolf,0.1,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Lonnie S. Holmes,0.1,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Michael Powers,0.1,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Wilma Pang,0.1,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Write-In Kenneth Kahn,0.1,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Write-In Lea Sherman,0.1,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Write-In Patrick Monette-Shaw,0.1,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Write-In Robert Kully,0.1,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Write-In Robert McCullough,0.1,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Write-In Rodney Hauge,0.1,['Gavin Newsom'],False,OM
+SanFrancisco_11062018_BoardofSupervisorsDistrict10.csv,WRITE-IN NEO VEAVEA,0.1,['SHAMANN WALTON'],False,OM
+SanFrancisco_11082005_AssessorRecorder.csv,Anthony Faber,0.1,['Phil Ting'],False,OM
+Eastpointe_11022021_CityCouncil.csv,Rob Baker,0.2,['Cardi DeMonaco Jr.'],False,OM
+NewYorkCity_06222021_DEMCouncilMember29thCouncilDistrict.csv,Donghui Zang,0.2,['Lynn C. Schulman'],False,OM
+SanFrancisco_11032015_Mayor.csv,WRITE-IN - JOHN E. FITCH,0.2,['ED LEE'],False,OM
+SanFrancisco_11032020_BOARDOFSUPERVISORSDISTRICT11.csv,JASON CHUYUAN ZENG,0.2,['AHSHA SAFAI'],False,OM
+SanFrancisco_11062007_Mayor.csv,Gavin Newsom,0.2,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,George Davis,0.2,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Lonnie S. Holmes,0.2,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Wilma Pang,0.2,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Write-In Kenneth Kahn,0.2,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Write-In Lea Sherman,0.2,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Write-In Patrick Monette-Shaw,0.2,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Write-In Robert Kully,0.2,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Write-In Robert McCullough,0.2,['Gavin Newsom'],False,OM
+SanFrancisco_11062007_Mayor.csv,Write-In Rodney Hauge,0.2,['Gavin Newsom'],False,OM
+SanFrancisco_11082005_AssessorRecorder.csv,Anthony Faber,0.2,['Phil Ting'],False,OM
+Eastpointe_11022021_CityCouncil.csv,Rob Baker,0.3,['Cardi DeMonaco Jr.'],False,OM
+SanFrancisco_11022010_BoardofSupervisorsDistrict6.csv,MATT ASHE,0.3,['JANE KIM'],False,OM
+SanFrancisco_11032015_Mayor.csv,WRITE-IN - JOHN E. FITCH,0.3,['ED LEE'],False,OM
+Eastpointe_11022021_CityCouncil.csv,Rob Baker,0.4,['Cardi DeMonaco Jr.'],False,OM
+Eastpointe_11022021_CityCouncil.csv,Tonia Gladney,0.4,['Cardi DeMonaco Jr.'],False,OM
+Oakland_11062012_CityCouncilDistrict1.csv,DONALD MACLEAY,0.4,['DAN KALB'],False,OM
+Alaska_11052024_StateHouseD12.csv,Schrage Calvin R.,0.5,['Schrage Calvin R.'],False,OM
+Alaska_11052024_StateHouseD13.csv,Josephson Andrew L. Andy,0.5,['Josephson Andrew L. Andy'],False,OM
+Alaska_11052024_StateHouseD16.csv,Hall Carolyn,0.5,['Hall Carolyn'],False,OM
+Alaska_11052024_StateHouseD25.csv,Johnson DeLena M.,0.5,['Johnson DeLena M.'],False,OM
+Alaska_11052024_StateHouseD3.csv,Story Andrea Andi,0.5,['Story Andrea Andi'],False,OM
+Alaska_11052024_StateSenateB.csv,Kiehl Jesse,0.5,['Kiehl Jesse'],False,OM
+Alaska_11052024_StateSenateJ.csv,Smith Cheronda L.,0.5,['Dunbar Forrest'],False,OM
+Alaska_11052024_StateSenateT.csv,Olson Donald C. Donny,0.5,['Olson Donald C. Donny'],False,OM
+Alaska_11082022_HouseDistrict14.csv,Galvin Alyse S.,0.5,['Galvin Alyse S.'],False,OM
+Alaska_11082022_HouseDistrict22.csv,Wright Stanley A.,0.5,['Wright Stanley A.'],False,OM
+Alaska_11082022_HouseDistrict23.csv,Allard Jamie,0.5,['Allard Jamie'],False,OM
+Alaska_11082022_HouseDistrict23.csv,Branson Roger L.,0.5,['Allard Jamie'],False,OM
+Alaska_11082022_HouseDistrict25.csv,Johnson DeLena M.,0.5,['Johnson DeLena M.'],False,OM
+Alaska_11082022_HouseDistrict3.csv,Story Andrea Andi,0.5,['Story Andrea Andi'],False,OM
+Alaska_11082022_HouseDistrict33.csv,Prax Glenn M. Mike,0.5,['Prax Glenn M. Mike'],False,OM
+Alaska_11082022_HouseDistrict38.csv,McCormick Conrad J. C.J.,0.5,['McCormick Conrad J. C.J.'],False,OM
+Alaska_11082022_HouseDistrict8.csv,Carpenter Ben,0.5,['Carpenter Ben'],False,OM
+Alaska_11082022_SenateDistrictB.csv,Kiehl Jesse,0.5,['Kiehl Jesse'],False,OM
+Alaska_11082022_SenateDistrictH.csv,Claman Matt,0.5,['Claman Matt'],False,OM
+Alaska_11082022_SenateDistrictI.csv,Herndon Heather,0.5,['Tobin Löki G.'],False,OM
+Alaska_11082022_SenateDistrictI.csv,Tobin Löki G.,0.5,['Tobin Löki G.'],False,OM
+Berkeley_11032020_MemberCityCouncilDist6BerkeleyRCV.csv,RICHARD ILLGEN,0.5,['SUSAN WENGRAF'],False,OM
+Berkeley_11042014_CityAuditor.csv,ANN-MARIE HOGAN,0.5,['ANN-MARIE HOGAN'],False,OM
+Eastpointe_11022021_CityCouncil.csv,Rob Baker,0.5,['Cardi DeMonaco Jr.'],False,OM
+Minneapolis_11022021_CityCouncilWard6.csv,Jamal Osman,0.5,['Jamal Osman'],False,OM
+Minneapolis_11022021_ParkBoardDistrict1.csv,Billy Menz,0.5,['Billy Menz'],False,OM
+NewYorkCity_06222021_DEMCouncilMember41stCouncilDistrict.csv,Alicka Tani Ampry-Samuel,0.5,['Darlene Mealy'],False,OM
+NewYorkCity_06222021_DEMCouncilMember41stCouncilDistrict.csv,Darlene Mealy,0.5,['Darlene Mealy'],False,OM
+NewYorkCity_06222021_REPBoroughPresidentQueens.csv,217580,0.5,['219566'],False,OM
+NewYorkCity_06222021_REPCouncilMember24thCouncilDistrict.csv,Angelo King,0.5,['Timothy Rosen'],False,OM
+Oakland_11022010_CityCouncilDistrict2.csv,PATRICIA KERNIGHAN,0.5,['PATRICIA KERNIGHAN'],False,OM
+Oakland_11022010_SchoolDirectorDistrict6.csv,CHRISTOPHER DOBBINS,0.5,['CHRISTOPHER DOBBINS'],False,OM
+Oakland_11062018_SchoolDirectorDistrict4.csv,CLARISSA DOUTHERD,0.5,['GARY D. YEE'],False,OM
+Oakland_11062018_SchoolDirectorDistrict4.csv,GARY D. YEE,0.5,['GARY D. YEE'],False,OM
+Oakland_11082016_CityCouncilDistrict1.csv,DAN KALB,0.5,['DAN KALB'],False,OM
+Oakland_11082016_CityCouncilDistrict5.csv,NOEL GALLO,0.5,['NOEL GALLO'],False,OM
+Oakland_11082016_SchoolDirectorDistrict1.csv,DON MACLEAY,0.5,['JODY LONDON'],False,OM
+Oakland_11082016_SchoolDirectorDistrict1.csv,JODY LONDON,0.5,['JODY LONDON'],False,OM
+Oakland_11082022_CityAuditor.csv,COURTNEY RUBY,0.5,['COURTNEY RUBY'],False,OM
+SanFrancisco_11032020_BOARDOFSUPERVISORSDISTRICT9.csv,HILLARY RONEN,0.5,['HILLARY RONEN'],False,OM
+SanFrancisco_11052019_CityAttorney.csv,DENNIS J. HERRERA,0.5,['DENNIS J. HERRERA'],False,OM
+SanFrancisco_11052019_PublicDefender.csv,MANOHAR MANO RAJU,0.5,['MANOHAR MANO RAJU'],False,OM
+SanFrancisco_11052019_Treasurer.csv,JOSÉ CISNEROS,0.5,['JOSÉ CISNEROS'],False,OM
+SanFrancisco_11062018_BoardofSupervisorsDistrict8.csv,LAWRENCE STARK DAGESSE,0.5,['RAFAEL MANDELMAN'],False,OM
+SanFrancisco_11062018_BoardofSupervisorsDistrict8.csv,RAFAEL MANDELMAN,0.5,['RAFAEL MANDELMAN'],False,OM
+SanFrancisco_11062018_PublicDefender.csv,JEFF ADACHI,0.5,['JEFF ADACHI'],False,OM
+SanFrancisco_11082022_BoardofSupervisorsD10.csv,SHAMANN WALTON,0.5,['SHAMANN WALTON'],False,OM
+SanLeandro_11062018_CountyCouncilDistrict3.csv,VICTOR AGUILAR JR.,0.5,['VICTOR AGUILAR JR.'],False,OM
+SanLeandro_11082016_CountyCouncilDistrict2.csv,BRYAN AZEVEDO,0.5,['ED HERNANDEZ'],False,OM
+SanLeandro_11082016_CountyCouncilDistrict2.csv,ED HERNANDEZ,0.5,['ED HERNANDEZ'],False,OM
+SanLeandro_11082016_CountyCouncilDistrict6.csv,PETE BALLEW,0.5,['PETE BALLEW'],False,OM
+StLouisPark_11022021_CityCouncilWard1.csv,Margaret Rog,0.5,['Margaret Rog'],False,OM
+StLouisPark_11022021_CityCouncilWard4.csv,Tim Brausen,0.5,['Tim Brausen'],False,OM
+TakomaPark_11082022_CityCouncilWard4.csv,Terry Seamens,0.5,['Terry Seamens'],False,OM
+Cambridge_11032015_SchoolCommittee.csv,Kelly Kathleen M.,0.0,['Nolan Patricia M.'],False,PM
+Cambridge_11032015_SchoolCommittee.csv,Write-In 1,0.0,['Nolan Patricia M.'],False,PM
+Cambridge_11052013_SchoolCommittee.csv,Holland John J.,0.0,['Nolan Patricia M.'],False,PM
+Cambridge_11082005_SchoolCommittee.csv,Fantini Alfred B.,0.0,['Walser Nancy'],False,PM
+Cambridge_11082005_SchoolCommittee.csv,Grassi Joseph G.,0.0,['Walser Nancy'],False,PM
+Cambridge_11082005_SchoolCommittee.csv,Harding Richard Jr.,0.0,['Walser Nancy'],False,PM
+Cambridge_11082005_SchoolCommittee.csv,Lummis Ben,0.0,['Walser Nancy'],False,PM
+Cambridge_11082005_SchoolCommittee.csv,Nolan Patricia M.,0.0,['Walser Nancy'],False,PM
+Cambridge_11082005_SchoolCommittee.csv,Walser Nancy,0.0,['Walser Nancy'],False,PM
+Cambridge_11082005_SchoolCommittee.csv,Write-In 2,0.0,['Walser Nancy'],False,PM
+Cambridge_11082005_SchoolCommittee.csv,Write-In 6,0.0,['Walser Nancy'],False,PM
+Cambridge_11082005_SchoolCommittee.csv,none,0.0,['Walser Nancy'],False,PM
+Cambridge_11082011_SchoolCommittee.csv,Turkel Alice L.,0.0,['Turkel Alice L.'],False,PM
+Cambridge_11082011_SchoolCommittee.csv,Write-In 1,0.0,['Turkel Alice L.'],False,PM
+SanFrancisco_11032015_Mayor.csv,ED LEE,0.0,['ED LEE'],False,PM
+Cambridge_11082005_SchoolCommittee.csv,Fantini Alfred B.,0.1,['Walser Nancy'],False,PM
+Cambridge_11082005_SchoolCommittee.csv,Grassi Joseph G.,0.1,['Walser Nancy'],False,PM
+Cambridge_11082005_SchoolCommittee.csv,Harding Richard Jr.,0.1,['Walser Nancy'],False,PM
+Cambridge_11082005_SchoolCommittee.csv,Lummis Ben,0.1,['Walser Nancy'],False,PM
+Cambridge_11082005_SchoolCommittee.csv,Walser Nancy,0.1,['Clone'],False,PM
+Cambridge_11082005_SchoolCommittee.csv,Write-In 2,0.1,['Walser Nancy'],False,PM
+Cambridge_11082005_SchoolCommittee.csv,Write-In 6,0.1,['Walser Nancy'],False,PM
+SanFrancisco_11032015_Mayor.csv,ED LEE,0.1,['ED LEE'],False,PM
+SanFrancisco_11032020_BOARDOFSUPERVISORSDISTRICT11.csv,JASON CHUYUAN ZENG,0.1,['AHSHA SAFAI'],False,PM
+SanFrancisco_11062018_BoardofSupervisorsDistrict10.csv,WRITE-IN NEO VEAVEA,0.1,['SHAMANN WALTON'],False,PM
+SanFrancisco_11082005_AssessorRecorder.csv,Anthony Faber,0.1,['Phil Ting'],False,PM
+NewYorkCity_06222021_DEMCouncilMember29thCouncilDistrict.csv,Donghui Zang,0.2,['Lynn C. Schulman'],False,PM
+SanFrancisco_11032015_Mayor.csv,ED LEE,0.2,['ED LEE'],False,PM
+SanFrancisco_11032020_BOARDOFSUPERVISORSDISTRICT11.csv,JASON CHUYUAN ZENG,0.2,['AHSHA SAFAI'],False,PM
+SanFrancisco_11082005_AssessorRecorder.csv,Anthony Faber,0.2,['Phil Ting'],False,PM
+SanFrancisco_11022010_BoardofSupervisorsDistrict6.csv,MATT ASHE,0.3,['JANE KIM'],False,PM
+SanFrancisco_11032015_Mayor.csv,ED LEE,0.3,['ED LEE'],False,PM
+Eastpointe_11022021_CityCouncil.csv,Tonia Gladney,0.4,['Cardi DeMonaco Jr.'],False,PM
+Minnetonka_11072023_CityCouncilWard1.csv,Patsy Foster-Bolton,0.4,['Patsy Foster-Bolton'],False,PM
+SanFrancisco_11032015_Mayor.csv,ED LEE,0.4,['ED LEE'],False,PM
+Alaska_11052024_StateHouseD12.csv,Schrage Calvin R.,0.5,['Schrage Calvin R.'],False,PM
+Alaska_11052024_StateHouseD13.csv,Gottshall Heather,0.5,['Josephson Andrew L. Andy'],False,PM
+Alaska_11052024_StateHouseD13.csv,Josephson Andrew L. Andy,0.5,['Josephson Andrew L. Andy'],False,PM
+Alaska_11052024_StateHouseD16.csv,Hall Carolyn,0.5,['Hall Carolyn'],False,PM
+Alaska_11052024_StateHouseD25.csv,Johnson DeLena M.,0.5,['Johnson DeLena M.'],False,PM
+Alaska_11052024_StateHouseD3.csv,Story Andrea Andi,0.5,['Story Andrea Andi'],False,PM
+Alaska_11052024_StateSenateB.csv,Kiehl Jesse,0.5,['Kiehl Jesse'],False,PM
+Alaska_11052024_StateSenateJ.csv,Smith Cheronda L.,0.5,['Dunbar Forrest'],False,PM
+Alaska_11052024_StateSenateT.csv,Olson Donald C. Donny,0.5,['Olson Donald C. Donny'],False,PM
+Alaska_11082022_HouseDistrict1.csv,Bynum Jeremy T.,0.5,['Ortiz Daniel H. Dan'],False,PM
+Alaska_11082022_HouseDistrict14.csv,Galvin Alyse S.,0.5,['Galvin Alyse S.'],False,PM
+Alaska_11082022_HouseDistrict22.csv,Wright Stanley A.,0.5,['Wright Stanley A.'],False,PM
+Alaska_11082022_HouseDistrict23.csv,Allard Jamie,0.5,['Allard Jamie'],False,PM
+Alaska_11082022_HouseDistrict23.csv,Branson Roger L.,0.5,['Allard Jamie'],False,PM
+Alaska_11082022_HouseDistrict25.csv,Johnson DeLena M.,0.5,['Johnson DeLena M.'],False,PM
+Alaska_11082022_HouseDistrict3.csv,Story Andrea Andi,0.5,['Story Andrea Andi'],False,PM
+Alaska_11082022_HouseDistrict33.csv,Prax Glenn M. Mike,0.5,['Prax Glenn M. Mike'],False,PM
+Alaska_11082022_HouseDistrict38.csv,McCormick Conrad J. C.J.,0.5,['McCormick Conrad J. C.J.'],False,PM
+Alaska_11082022_HouseDistrict8.csv,Carpenter Ben,0.5,['Carpenter Ben'],False,PM
+Alaska_11082022_SenateDistrictB.csv,Kiehl Jesse,0.5,['Kiehl Jesse'],False,PM
+Alaska_11082022_SenateDistrictH.csv,Claman Matt,0.5,['Claman Matt'],False,PM
+Alaska_11082022_SenateDistrictI.csv,Herndon Heather,0.5,['Tobin Löki G.'],False,PM
+Alaska_11082022_SenateDistrictI.csv,Tobin Löki G.,0.5,['Tobin Löki G.'],False,PM
+Berkeley_11032020_MemberCityCouncilDist6BerkeleyRCV.csv,RICHARD ILLGEN,0.5,['SUSAN WENGRAF'],False,PM
+Berkeley_11042014_CityAuditor.csv,ANN-MARIE HOGAN,0.5,['ANN-MARIE HOGAN'],False,PM
+Minneapolis_11022021_CityCouncilWard6.csv,Jamal Osman,0.5,['Jamal Osman'],False,PM
+Minneapolis_11022021_ParkBoardDistrict1.csv,Billy Menz,0.5,['Billy Menz'],False,PM
+NewYorkCity_06222021_DEMCouncilMember41stCouncilDistrict.csv,Alicka Tani Ampry-Samuel,0.5,['Darlene Mealy'],False,PM
+NewYorkCity_06222021_DEMCouncilMember41stCouncilDistrict.csv,Darlene Mealy,0.5,['Darlene Mealy'],False,PM
+NewYorkCity_06222021_REPBoroughPresidentQueens.csv,217580,0.5,['219566'],False,PM
+NewYorkCity_06222021_REPCouncilMember24thCouncilDistrict.csv,Angelo King,0.5,['Timothy Rosen'],False,PM
+Oakland_11022010_CityCouncilDistrict2.csv,PATRICIA KERNIGHAN,0.5,['PATRICIA KERNIGHAN'],False,PM
+Oakland_11022010_SchoolDirectorDistrict6.csv,CHRISTOPHER DOBBINS,0.5,['CHRISTOPHER DOBBINS'],False,PM
+Oakland_11062018_SchoolDirectorDistrict4.csv,CLARISSA DOUTHERD,0.5,['GARY D. YEE'],False,PM
+Oakland_11062018_SchoolDirectorDistrict4.csv,GARY D. YEE,0.5,['GARY D. YEE'],False,PM
+Oakland_11082016_CityCouncilDistrict1.csv,DAN KALB,0.5,['DAN KALB'],False,PM
+Oakland_11082016_CityCouncilDistrict5.csv,NOEL GALLO,0.5,['NOEL GALLO'],False,PM
+Oakland_11082016_SchoolDirectorDistrict1.csv,DON MACLEAY,0.5,['JODY LONDON'],False,PM
+Oakland_11082016_SchoolDirectorDistrict1.csv,JODY LONDON,0.5,['JODY LONDON'],False,PM
+Oakland_11082022_CityAuditor.csv,COURTNEY RUBY,0.5,['COURTNEY RUBY'],False,PM
+SanFrancisco_11032020_BOARDOFSUPERVISORSDISTRICT9.csv,HILLARY RONEN,0.5,['HILLARY RONEN'],False,PM
+SanFrancisco_11052019_CityAttorney.csv,DENNIS J. HERRERA,0.5,['DENNIS J. HERRERA'],False,PM
+SanFrancisco_11052019_PublicDefender.csv,MANOHAR MANO RAJU,0.5,['MANOHAR MANO RAJU'],False,PM
+SanFrancisco_11052019_Treasurer.csv,JOSÉ CISNEROS,0.5,['JOSÉ CISNEROS'],False,PM
+SanFrancisco_11062018_BoardofSupervisorsDistrict8.csv,LAWRENCE STARK DAGESSE,0.5,['RAFAEL MANDELMAN'],False,PM
+SanFrancisco_11062018_BoardofSupervisorsDistrict8.csv,RAFAEL MANDELMAN,0.5,['RAFAEL MANDELMAN'],False,PM
+SanFrancisco_11062018_PublicDefender.csv,JEFF ADACHI,0.5,['JEFF ADACHI'],False,PM
+SanFrancisco_11082016_BoardofSupervisorsDistrict5.csv,DEAN PRESTON,0.5,['LONDON BREED'],False,PM
+SanFrancisco_11082022_BoardofSupervisorsD10.csv,SHAMANN WALTON,0.5,['SHAMANN WALTON'],False,PM
+SanLeandro_11062018_CountyCouncilDistrict3.csv,LEE THOMAS,0.5,['VICTOR AGUILAR JR.'],False,PM
+SanLeandro_11062018_CountyCouncilDistrict3.csv,VICTOR AGUILAR JR.,0.5,['VICTOR AGUILAR JR.'],False,PM
+SanLeandro_11082016_CountyCouncilDistrict2.csv,BRYAN AZEVEDO,0.5,['ED HERNANDEZ'],False,PM
+SanLeandro_11082016_CountyCouncilDistrict2.csv,ED HERNANDEZ,0.5,['ED HERNANDEZ'],False,PM
+SanLeandro_11082016_CountyCouncilDistrict6.csv,PETE BALLEW,0.5,['PETE BALLEW'],False,PM
+StLouisPark_11022021_CityCouncilWard1.csv,Margaret Rog,0.5,['Margaret Rog'],False,PM
+StLouisPark_11022021_CityCouncilWard4.csv,Tim Brausen,0.5,['Tim Brausen'],False,PM
+TakomaPark_11082022_CityCouncilWard4.csv,Terry Seamens,0.5,['Terry Seamens'],False,PM

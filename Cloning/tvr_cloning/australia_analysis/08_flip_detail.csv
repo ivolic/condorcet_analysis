@@ -1,0 +1,188 @@
+file,method,candidate_cloned,percent,baseline_winner,new_winner
+City_of_Orange-mayoral-finalpreferencedatafile,AVG,HAMLING Jason,0.4,HAMLING Jason,Clone
+Eurobodalla-mayoral-finalpreferencedatafile,AVG,HATCHER Mat,0.4,HATCHER Mat,Clone
+City_of_Liverpool-mayoral-finalpreferencedatafile,OM,HAGARTY Nathan,0.3,MANNOUN Ned,HAGARTY Nathan
+City_of_Liverpool-mayoral-finalpreferencedatafile,OM,HAGARTY Nathan,0.4,MANNOUN Ned,HAGARTY Nathan
+City_of_Liverpool-mayoral-finalpreferencedatafile,OM,HAGARTY Nathan,0.5,MANNOUN Ned,Clone
+City_of_Maitland-mayoral-finalpreferencedatafile,OM,BAKER Loretta,0.3,PENFOLD Philip,BAKER Loretta
+City_of_Maitland-mayoral-finalpreferencedatafile,OM,BAKER Loretta,0.4,PENFOLD Philip,BAKER Loretta
+City_of_Maitland-mayoral-finalpreferencedatafile,OM,BAKER Loretta,0.5,PENFOLD Philip,Clone
+City_of_Orange-mayoral-finalpreferencedatafile,OM,MILETO Tony,0.2,HAMLING Jason,MILETO Tony
+City_of_Orange-mayoral-finalpreferencedatafile,OM,MILETO Tony,0.3,HAMLING Jason,MILETO Tony
+City_of_Orange-mayoral-finalpreferencedatafile,OM,HAMLING Jason,0.4,HAMLING Jason,Clone
+City_of_Orange-mayoral-finalpreferencedatafile,OM,MILETO Tony,0.4,HAMLING Jason,Clone
+City_of_Orange-mayoral-finalpreferencedatafile,OM,MILETO Tony,0.5,HAMLING Jason,Clone
+City_of_Shellharbour-mayoral-finalpreferencedatafile,OM,SALIBA Marianne,0.3,HOMER Chris,SALIBA Marianne
+City_of_Shellharbour-mayoral-finalpreferencedatafile,OM,SALIBA Marianne,0.4,HOMER Chris,SALIBA Marianne
+City_of_Shellharbour-mayoral-finalpreferencedatafile,OM,SALIBA Marianne,0.5,HOMER Chris,Clone
+City_of_Shoalhaven-mayoral-finalpreferencedatafile,OM,GREEN Paul,0.3,FINDLEY Amanda,GREEN Paul
+City_of_Shoalhaven-mayoral-finalpreferencedatafile,OM,GREEN Paul,0.4,FINDLEY Amanda,GREEN Paul
+City_of_Shoalhaven-mayoral-finalpreferencedatafile,OM,GREEN Paul,0.5,FINDLEY Amanda,Clone
+City_of_Willoughby-mayoral-finalpreferencedatafile,OM,ROZOS Angelo,0.5,TAYLOR Tanya,Clone
+City_of_Wollongong-mayoral-finalpreferencedatafile,OM,BROWN Tania,0.3,BRADBERY Gordon,BROWN Tania
+City_of_Wollongong-mayoral-finalpreferencedatafile,OM,BROWN Tania,0.4,BRADBERY Gordon,BROWN Tania
+City_of_Wollongong-mayoral-finalpreferencedatafile,OM,BROWN Tania,0.5,BRADBERY Gordon,Clone
+Eurobodalla-mayoral-finalpreferencedatafile,OM,HATCHER Mat,0.4,HATCHER Mat,Clone
+Eurobodalla-mayoral-finalpreferencedatafile,OM,STARMER Karyn,0.4,HATCHER Mat,Clone
+Hornsby-mayoral-finalpreferencedatafile,OM,HEYDE Emma,0.4,RUDDOCK Philip,HEYDE Emma
+Hornsby-mayoral-finalpreferencedatafile,OM,HEYDE Emma,0.5,RUDDOCK Philip,Clone
+Hunters_Hill-mayoral-finalpreferencedatafile,OM,WILLIAMS Ross,0.5,QUINN Richard,Clone
+Hunters_Hill-mayoral-finalpreferencedatafile,OM,MILES Zac,0.5,QUINN Richard,Clone
+Kempsey-mayoral-finalpreferencedatafile,OM,CAMPBELL Liz,0.2,HAUVILLE Leo,CAMPBELL Liz
+Kempsey-mayoral-finalpreferencedatafile,OM,CAMPBELL Liz,0.3,HAUVILLE Leo,CAMPBELL Liz
+Kempsey-mayoral-finalpreferencedatafile,OM,CAMPBELL Liz,0.4,HAUVILLE Leo,CAMPBELL Liz
+Kempsey-mayoral-finalpreferencedatafile,OM,CAMPBELL Liz,0.5,HAUVILLE Leo,Clone
+Port_Stephens-mayoral-finalpreferencedatafile,OM,ANDERSON Leah,0.1,PALMER Ryan,ANDERSON Leah
+Port_Stephens-mayoral-finalpreferencedatafile,OM,ANDERSON Leah,0.2,PALMER Ryan,ANDERSON Leah
+Port_Stephens-mayoral-finalpreferencedatafile,OM,ANDERSON Leah,0.3,PALMER Ryan,ANDERSON Leah
+Port_Stephens-mayoral-finalpreferencedatafile,OM,ANDERSON Leah,0.4,PALMER Ryan,ANDERSON Leah
+Port_Stephens-mayoral-finalpreferencedatafile,OM,ANDERSON Leah,0.5,PALMER Ryan,ANDERSON Leah
+Port_Stephens-mayoral-finalpreferencedatafile,OM,ANDERSON Leah,0.5,PALMER Ryan,ANDERSON Leah
+Port_Stephens-mayoral-finalpreferencedatafile,OM,ANDERSON Leah,0.5,PALMER Ryan,ANDERSON Leah
+Port_Stephens-mayoral-finalpreferencedatafile,OM,ANDERSON Leah,0.5,PALMER Ryan,ANDERSON Leah
+Port_Stephens-mayoral-finalpreferencedatafile,OM,ANDERSON Leah,0.5,PALMER Ryan,Clone
+Port_Stephens-mayoral-finalpreferencedatafile,OM,ANDERSON Leah,0.5,PALMER Ryan,Clone
+Port_Stephens-mayoral-finalpreferencedatafile,OM,ANDERSON Leah,0.5,PALMER Ryan,Clone
+Port_Stephens-mayoral-finalpreferencedatafile,OM,ANDERSON Leah,0.5,PALMER Ryan,Clone
+SB1702 LA Pref Data_NA_Murray,OM,DALTON Helen,0.4,EVANS Austin,DALTON Helen
+SB1702 LA Pref Data_NA_Murray,OM,DALTON Helen,0.5,EVANS Austin,Clone
+SB2201 LA Pref Data_NA_Bega,OM,KOTVOJS Fiona,0.4,HOLLAND Michael,KOTVOJS Fiona
+SB2201 LA Pref Data_NA_Bega,OM,KOTVOJS Fiona,0.5,HOLLAND Michael,Clone
+SB2201 LA Pref Data_NA_Monaro,OM,WILSON Bryce,0.4,OVERALL Nichole,WILSON Bryce
+SB2201 LA Pref Data_NA_Monaro,OM,WILSON Bryce,0.5,OVERALL Nichole,Clone
+SB2201 LA Pref Data_NA_Willoughby,OM,PENN Larissa,0.3,JAMES Tim,PENN Larissa
+SB2201 LA Pref Data_NA_Willoughby,OM,PENN Larissa,0.4,JAMES Tim,PENN Larissa
+SB2201 LA Pref Data_NA_Willoughby,OM,PENN Larissa,0.5,JAMES Tim,Clone
+SG2301 LA Pref Data Balmain,OM,SCOTT Philippa,0.5,SHETTY Kobi,Clone
+SG2301 LA Pref Data Camden,OM,SIDGREAVES Peter,0.4,QUINNELL Sally,SIDGREAVES Peter
+SG2301 LA Pref Data Camden,OM,SIDGREAVES Peter,0.5,QUINNELL Sally,Clone
+SG2301 LA Pref Data Drummoyne,OM,LITTLE Julia,0.3,DI PASQUA Stephanie,LITTLE Julia
+SG2301 LA Pref Data Drummoyne,OM,LITTLE Julia,0.4,DI PASQUA Stephanie,LITTLE Julia
+SG2301 LA Pref Data Drummoyne,OM,LITTLE Julia,0.5,DI PASQUA Stephanie,Clone
+SG2301 LA Pref Data East Hills,OM,LINDSAY Wendy,0.5,WILKINSON Kylie,Clone
+SG2301 LA Pref Data Epping,OM,MASCARENHAS Alan,0.4,PERROTTET Dominic,MASCARENHAS Alan
+SG2301 LA Pref Data Epping,OM,MASCARENHAS Alan,0.5,PERROTTET Dominic,Clone
+SG2301 LA Pref Data Goulburn,OM,PILBROW Michael,0.3,TUCKERMAN Wendy,PILBROW Michael
+SG2301 LA Pref Data Goulburn,OM,PILBROW Michael,0.4,TUCKERMAN Wendy,PILBROW Michael
+SG2301 LA Pref Data Goulburn,OM,PILBROW Michael,0.5,TUCKERMAN Wendy,Clone
+SG2301 LA Pref Data Holsworthy,OM,MARONEY Mick,0.3,AYYAD Tina,MARONEY Mick
+SG2301 LA Pref Data Holsworthy,OM,MARONEY Mick,0.4,AYYAD Tina,MARONEY Mick
+SG2301 LA Pref Data Holsworthy,OM,MARONEY Mick,0.5,AYYAD Tina,Clone
+SG2301 LA Pref Data Kiama,OM,McINERNEY Katelin,0.3,WARD Gareth,McINERNEY Katelin
+SG2301 LA Pref Data Kiama,OM,McINERNEY Katelin,0.4,WARD Gareth,McINERNEY Katelin
+SG2301 LA Pref Data Kiama,OM,McINERNEY Katelin,0.5,WARD Gareth,Clone
+SG2301 LA Pref Data Lane Cove,OM,PEDERSEN Penelope,0.3,ROBERTS Anthony,PEDERSEN Penelope
+SG2301 LA Pref Data Lane Cove,OM,DAVIDSON Victoria,0.3,ROBERTS Anthony,PEDERSEN Penelope
+SG2301 LA Pref Data Lane Cove,OM,PEDERSEN Penelope,0.4,ROBERTS Anthony,PEDERSEN Penelope
+SG2301 LA Pref Data Lane Cove,OM,DAVIDSON Victoria,0.4,ROBERTS Anthony,PEDERSEN Penelope
+SG2301 LA Pref Data Lane Cove,OM,PEDERSEN Penelope,0.5,ROBERTS Anthony,Clone
+SG2301 LA Pref Data Lane Cove,OM,DAVIDSON Victoria,0.5,ROBERTS Anthony,Clone
+SG2301 LA Pref Data Manly,OM,HACKMAN Joeline,0.4,GRIFFIN James,HACKMAN Joeline
+SG2301 LA Pref Data Manly,OM,HACKMAN Joeline,0.5,GRIFFIN James,Clone
+SG2301 LA Pref Data Miranda,OM,EARLE Simon,0.3,PETINOS Eleni,EARLE Simon
+SG2301 LA Pref Data Miranda,OM,EARLE Simon,0.4,PETINOS Eleni,EARLE Simon
+SG2301 LA Pref Data Miranda,OM,EARLE Simon,0.5,PETINOS Eleni,Clone
+SG2301 LA Pref Data Monaro,OM,OVERALL Nichole,0.3,WHAN Steven,OVERALL Nichole
+SG2301 LA Pref Data Monaro,OM,OVERALL Nichole,0.4,WHAN Steven,OVERALL Nichole
+SG2301 LA Pref Data Monaro,OM,OVERALL Nichole,0.5,WHAN Steven,Clone
+SG2301 LA Pref Data North Shore,OM,SANTER Godfrey,0.4,WILSON Felicity,CONWAY Helen
+SG2301 LA Pref Data North Shore,OM,CONWAY Helen,0.4,WILSON Felicity,CONWAY Helen
+SG2301 LA Pref Data North Shore,OM,SANTER Godfrey,0.5,WILSON Felicity,CONWAY Helen
+SG2301 LA Pref Data North Shore,OM,CONWAY Helen,0.5,WILSON Felicity,Clone
+SG2301 LA Pref Data Oatley,OM,AMBIHAIPAHAR Ash,0.3,COURE Mark,AMBIHAIPAHAR Ash
+SG2301 LA Pref Data Oatley,OM,AMBIHAIPAHAR Ash,0.4,COURE Mark,AMBIHAIPAHAR Ash
+SG2301 LA Pref Data Oatley,OM,AMBIHAIPAHAR Ash,0.5,COURE Mark,Clone
+SG2301 LA Pref Data Penrith,OM,AYRES Stuart,0.3,McKEOWN Karen,AYRES Stuart
+SG2301 LA Pref Data Penrith,OM,AYRES Stuart,0.4,McKEOWN Karen,AYRES Stuart
+SG2301 LA Pref Data Penrith,OM,AYRES Stuart,0.5,McKEOWN Karen,Clone
+SG2301 LA Pref Data Pittwater,OM,SCRUBY Jacqui,0.3,AMON Roderick Rory,SCRUBY Jacqui
+SG2301 LA Pref Data Pittwater,OM,SCRUBY Jacqui,0.4,AMON Roderick Rory,SCRUBY Jacqui
+SG2301 LA Pref Data Pittwater,OM,SCRUBY Jacqui,0.5,AMON Roderick Rory,Clone
+SG2301 LA Pref Data Riverstone,OM,KUMAR Mohit,0.5,KIRBY Warren,Clone
+SG2301 LA Pref Data Ryde,OM,HOWISON Lyndal,0.2,LANE Jordan,HOWISON Lyndal
+SG2301 LA Pref Data Ryde,OM,HOWISON Lyndal,0.3,LANE Jordan,HOWISON Lyndal
+SG2301 LA Pref Data Ryde,OM,HOWISON Lyndal,0.4,LANE Jordan,HOWISON Lyndal
+SG2301 LA Pref Data Ryde,OM,HOWISON Lyndal,0.5,LANE Jordan,Clone
+SG2301 LA Pref Data South Coast,OM,SIKORA Luke,0.4,BUTLER Liza,SIKORA Luke
+SG2301 LA Pref Data South Coast,OM,SIKORA Luke,0.5,BUTLER Liza,Clone
+SG2301 LA Pref Data Terrigal,OM,BOUGHTON Sam,0.3,CROUCH Adam,BOUGHTON Sam
+SG2301 LA Pref Data Terrigal,OM,BOUGHTON Sam,0.4,CROUCH Adam,BOUGHTON Sam
+SG2301 LA Pref Data Terrigal,OM,BOUGHTON Sam,0.5,CROUCH Adam,Clone
+SG2301 LA Pref Data Tweed,OM,ELLIOT Craig,0.3,PROVEST Geoff,ELLIOT Craig
+SG2301 LA Pref Data Tweed,OM,ELLIOT Craig,0.4,PROVEST Geoff,ELLIOT Craig
+SG2301 LA Pref Data Tweed,OM,ELLIOT Craig,0.5,PROVEST Geoff,Clone
+SG2301 LA Pref Data Willoughby,OM,PENN Larissa,0.4,JAMES Tim,PENN Larissa
+SG2301 LA Pref Data Willoughby,OM,GRIFFIN Sarah,0.4,JAMES Tim,PENN Larissa
+SG2301 LA Pref Data Willoughby,OM,PENN Larissa,0.5,JAMES Tim,Clone
+SG2301 LA Pref Data Willoughby,OM,GRIFFIN Sarah,0.5,JAMES Tim,PENN Larissa
+SG2301 LA Pref Data Winston Hills,OM,PANDEY Sameer,0.3,TAYLOR Mark,PANDEY Sameer
+SG2301 LA Pref Data Winston Hills,OM,PANDEY Sameer,0.4,TAYLOR Mark,PANDEY Sameer
+SG2301 LA Pref Data Winston Hills,OM,PANDEY Sameer,0.5,TAYLOR Mark,Clone
+SG2301 LA Pref Data Wollondilly,OM,SMITH Nathaniel,0.5,HANNAN Judy,Clone
+SGE2015 LA Pref Data_NA_Auburn,OM,OUEIK Ronney,0.5,FOLEY Luke,Clone
+SGE2015 LA Pref Data_NA_Coogee,OM,PEARCE Paul,0.3,NOTLEY-SMITH Bruce,PEARCE Paul
+SGE2015 LA Pref Data_NA_Coogee,OM,PEARCE Paul,0.4,NOTLEY-SMITH Bruce,PEARCE Paul
+SGE2015 LA Pref Data_NA_Coogee,OM,PEARCE Paul,0.5,NOTLEY-SMITH Bruce,Clone
+SGE2015 LA Pref Data_NA_Coogee,OM,SHUREY Lindsay,0.5,NOTLEY-SMITH Bruce,PEARCE Paul
+SGE2015 LA Pref Data_NA_East Hills,OM,MURPHY Cameron,0.2,BROOKES Glenn,MURPHY Cameron
+SGE2015 LA Pref Data_NA_East Hills,OM,MURPHY Cameron,0.3,BROOKES Glenn,MURPHY Cameron
+SGE2015 LA Pref Data_NA_East Hills,OM,MURPHY Cameron,0.4,BROOKES Glenn,MURPHY Cameron
+SGE2015 LA Pref Data_NA_East Hills,OM,MURPHY Cameron,0.5,BROOKES Glenn,Clone
+SGE2015 LA Pref Data_NA_Gosford,OM,HOLSTEIN Chris,0.4,SMITH Kathy,HOLSTEIN Chris
+SGE2015 LA Pref Data_NA_Gosford,OM,HOLSTEIN Chris,0.5,SMITH Kathy,Clone
+SGE2015 LA Pref Data_NA_Goulburn,OM,STEPHENS Ursula,0.5,GOWARD Pru,Clone
+SGE2015 LA Pref Data_NA_Granville,OM,ISSA Tony,0.4,FINN Julia,ISSA Tony
+SGE2015 LA Pref Data_NA_Granville,OM,ISSA Tony,0.5,FINN Julia,Clone
+SGE2015 LA Pref Data_NA_Heathcote,OM,STUART Maryanne,0.5,EVANS Lee,Clone
+SGE2015 LA Pref Data_NA_Holsworthy,OM,KALIYANDA Charishma,0.5,GIBBONS Melanie,Clone
+SGE2015 LA Pref Data_NA_Kogarah,OM,ARONEY Nick,0.5,MINNS Chris,Clone
+SGE2015 LA Pref Data_NA_Lismore,OM,GUISE Adam,0.5,SMITH Isaac,Clone
+SGE2015 LA Pref Data_NA_Monaro,OM,WHAN Steve,0.3,BARILARO John,WHAN Steve
+SGE2015 LA Pref Data_NA_Monaro,OM,WHAN Steve,0.4,BARILARO John,WHAN Steve
+SGE2015 LA Pref Data_NA_Monaro,OM,WHAN Steve,0.5,BARILARO John,Clone
+SGE2015 LA Pref Data_NA_Oatley,OM,SMITH OBray,0.5,COURE Mark,Clone
+SGE2015 LA Pref Data_NA_Prospect,OM,ROHAN Andrew,0.5,McDERMOTT Hugh,Clone
+SGE2015 LA Pref Data_NA_Rockdale,OM,FLOWERS John,0.4,KAMPER Steve,FLOWERS John
+SGE2015 LA Pref Data_NA_Rockdale,OM,FLOWERS John,0.5,KAMPER Steve,Clone
+SGE2015 LA Pref Data_NA_Strathfield,OM,CASUSCELLI Charles,0.4,McKAY Jodi,CASUSCELLI Charles
+SGE2015 LA Pref Data_NA_Strathfield,OM,CASUSCELLI Charles,0.5,McKAY Jodi,Clone
+SGE2015 LA Pref Data_NA_The Entrance,OM,SHARPE Michael,0.4,MEHAN David,SHARPE Michael
+SGE2015 LA Pref Data_NA_The Entrance,OM,SHARPE Michael,0.5,MEHAN David,Clone
+SGE2015 LA Pref Data_NA_Tweed,OM,GOODMAN Ron,0.3,PROVEST Geoff,GOODMAN Ron
+SGE2015 LA Pref Data_NA_Tweed,OM,GOODMAN Ron,0.4,PROVEST Geoff,GOODMAN Ron
+SGE2015 LA Pref Data_NA_Tweed,OM,GOODMAN Ron,0.5,PROVEST Geoff,Clone
+SGE2015 LA Pref Data_NA_Upper Hunter,OM,RUSH Martin,0.3,JOHNSEN Michael,RUSH Martin
+SGE2015 LA Pref Data_NA_Upper Hunter,OM,RUSH Martin,0.4,JOHNSEN Michael,RUSH Martin
+SGE2015 LA Pref Data_NA_Upper Hunter,OM,RUSH Martin,0.5,JOHNSEN Michael,Clone
+SGE2015 LA Pref Data_NA_Upper Hunter,OM,WATTS Lee,0.5,JOHNSEN Michael,RUSH Martin
+SGE2019 LA Pref Data Bega,OM,ATKINSON Leanne,0.5,CONSTANCE Andrew,Clone
+SGE2019 LA Pref Data Dubbo,OM,DICKERSON Mathew,0.3,SAUNDERS Dugald,DICKERSON Mathew
+SGE2019 LA Pref Data Dubbo,OM,DICKERSON Mathew,0.4,SAUNDERS Dugald,DICKERSON Mathew
+SGE2019 LA Pref Data Dubbo,OM,DICKERSON Mathew,0.5,SAUNDERS Dugald,Clone
+SGE2019 LA Pref Data East Hills,OM,MURPHY Cameron,0.1,LINDSAY Wendy,MURPHY Cameron
+SGE2019 LA Pref Data East Hills,OM,MURPHY Cameron,0.2,LINDSAY Wendy,MURPHY Cameron
+SGE2019 LA Pref Data East Hills,OM,MURPHY Cameron,0.3,LINDSAY Wendy,MURPHY Cameron
+SGE2019 LA Pref Data East Hills,OM,MURPHY Cameron,0.4,LINDSAY Wendy,MURPHY Cameron
+SGE2019 LA Pref Data East Hills,OM,MURPHY Cameron,0.5,LINDSAY Wendy,Clone
+SGE2019 LA Pref Data Goulburn,OM,STEPHENS Ursula,0.3,TUCKERMAN Wendy,STEPHENS Ursula
+SGE2019 LA Pref Data Goulburn,OM,STEPHENS Ursula,0.4,TUCKERMAN Wendy,STEPHENS Ursula
+SGE2019 LA Pref Data Goulburn,OM,STEPHENS Ursula,0.5,TUCKERMAN Wendy,Clone
+SGE2019 LA Pref Data Heathcote,OM,STUART Maryanne,0.4,EVANS Lee,STUART Maryanne
+SGE2019 LA Pref Data Heathcote,OM,STUART Maryanne,0.5,EVANS Lee,Clone
+SGE2019 LA Pref Data Holsworthy,OM,KALIYANDA Charishma,0.3,GIBBONS Melanie,KALIYANDA Charishma
+SGE2019 LA Pref Data Holsworthy,OM,KALIYANDA Charishma,0.4,GIBBONS Melanie,KALIYANDA Charishma
+SGE2019 LA Pref Data Holsworthy,OM,KALIYANDA Charishma,0.5,GIBBONS Melanie,Clone
+SGE2019 LA Pref Data Kogarah,OM,YUNG Scott,0.3,MINNS Chris,YUNG Scott
+SGE2019 LA Pref Data Kogarah,OM,YUNG Scott,0.4,MINNS Chris,YUNG Scott
+SGE2019 LA Pref Data Kogarah,OM,YUNG Scott,0.5,MINNS Chris,Clone
+SGE2019 LA Pref Data Londonderry,OM,HILL Belinda,0.5,CAR Prue,Clone
+SGE2019 LA Pref Data Port Stephens,OM,ABBOTT Jaimie,0.5,WASHINGTON Kate,Clone
+SGE2019 LA Pref Data Riverstone,OM,CHRISTIE Annemarie,0.5,CONOLLY Kevin,Clone
+SGE2019 LA Pref Data Seven Hills,OM,OWEN Durga,0.5,TAYLOR Mark,Clone
+SGE2019 LA Pref Data Tweed,OM,ELLIOT Craig,0.4,PROVEST Geoff,ELLIOT Craig
+SGE2019 LA Pref Data Tweed,OM,ELLIOT Craig,0.5,PROVEST Geoff,Clone
+Singleton-mayoral-finalpreferencedatafile,OM,THOMPSON Danny,0.5,MOORE Sue,Clone
+Wollondilly-mayoral-finalpreferencedatafile,OM,HANNAN Judy,0.4,GOULD Matt,HANNAN Judy
+Wollondilly-mayoral-finalpreferencedatafile,OM,HANNAN Judy,0.5,GOULD Matt,Clone
+City_of_Orange-mayoral-finalpreferencedatafile,PM,HAMLING Jason,0.4,HAMLING Jason,Clone
+Eurobodalla-mayoral-finalpreferencedatafile,PM,HATCHER Mat,0.4,HATCHER Mat,Clone

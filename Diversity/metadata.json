@@ -1,0 +1,62 @@
+{
+    "Experiments": {
+        "/Users/belle/Desktop/build/condorcet_analysis/Diversity/andy/diversity_simulations_australia.csv": {
+            "winner_stability": {
+                "no_change": 633,
+                "change": 2967
+            },
+            "threshold_changes": {
+                "0.0": 2967,
+                "0.01": 2662,
+                "0.02": 2514,
+                "0.03": 2318,
+                "0.04": 2097,
+                "0.05": 1664,
+                "0.06": 1431,
+                "0.07": 1040,
+                "0.08": 530,
+                "0.09": 0
+            },
+            "candsLeft_distribution": {}
+        },
+        "/Users/belle/Desktop/build/condorcet_analysis/Diversity/andy/diversity_simulations_scotland.csv": {
+            "winner_stability": {
+                "no_change": 1420,
+                "change": 8380
+            },
+            "threshold_changes": {
+                "0.0": 8380,
+                "0.01": 7400,
+                "0.02": 5924,
+                "0.03": 4917,
+                "0.04": 3755,
+                "0.05": 2516,
+                "0.06": 1777,
+                "0.07": 1373,
+                "0.08": 636,
+                "0.09": 0
+            },
+            "candsLeft_distribution": {}
+        },
+        "/Users/belle/Desktop/build/condorcet_analysis/Diversity/andy/diversity_simulations_usa.csv": {
+            "winner_stability": {
+                "no_change": 380,
+                "change": 1220
+            },
+            "threshold_changes": {
+                "0.0": 1220,
+                "0.01": 1180,
+                "0.02": 1040,
+                "0.03": 1014,
+                "0.04": 932,
+                "0.05": 796,
+                "0.06": 699,
+                "0.07": 597,
+                "0.08": 358,
+                "0.09": 0
+            },
+            "candsLeft_distribution": {}
+        }
+    },
+    "Comparisons": {}
+}

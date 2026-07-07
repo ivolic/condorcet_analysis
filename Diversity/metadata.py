@@ -61,6 +61,12 @@ for name, file in files.items():
 
     # Threshold columns are everything except 'file'
     threshold_cols = [c for c in df.columns if c != 'file']
+    
+    df["election_name"] = df["file"].str.split("__").str[0]
+
+    counts = df["election_name"].value_counts()
+    df = df[df["election_name"].isin(counts[counts >= 200].index)]
+    df = df.drop(columns=["election_name"])
 
     # Extract the base file name (strip __hitN suffix)
     df['base_file'] = df['file']

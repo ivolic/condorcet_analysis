@@ -1,0 +1,599 @@
+file,candidate_cloned,percent,unique_winners,diverges,method
+Ward21NorthEast_glasgow17-021.csv,Carole URE Grn,0.0,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Frances HOWELL Con,0.0,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Gerry BOYLE Ind,0.0,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Jenny KIERNAN Sol,0.0,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Mandy MORGAN SNP,0.0,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Maureen BURKE Lab,0.0,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Ruairi KELLY SNP,0.0,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Stephen DOCHERTY Lab,0.0,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,none,0.0,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Carole URE Grn,0.1,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Frances HOWELL Con,0.1,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Gerry BOYLE Ind,0.1,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Jenny KIERNAN Sol,0.1,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Mandy MORGAN SNP,0.1,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Maureen BURKE Lab,0.1,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Ruairi KELLY SNP,0.1,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Stephen DOCHERTY Lab,0.1,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Carole URE Grn,0.2,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Frances HOWELL Con,0.2,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Gerry BOYLE Ind,0.2,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Jenny KIERNAN Sol,0.2,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Mandy MORGAN SNP,0.2,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Maureen BURKE Lab,0.2,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Ruairi KELLY SNP,0.2,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Stephen DOCHERTY Lab,0.2,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+LerwickNorth_shetland12-06,Malcolm BELL Ind,0.3,"['Clone', 'Malcolm BELL Ind']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Carole URE Grn,0.3,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Frances HOWELL Con,0.3,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Gerry BOYLE Ind,0.3,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Jenny KIERNAN Sol,0.3,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Mandy MORGAN SNP,0.3,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Maureen BURKE Lab,0.3,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Ruairi KELLY SNP,0.3,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Stephen DOCHERTY Lab,0.3,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward4Cardonald_glasgow17-004.csv,Elaine MCSPORRAN SNP,0.3,"['Clone', 'Elaine MCSPORRAN SNP']",True,AVG
+KirkintillochEastandTwechar_e-duns12-08.csv,Stewart MACDONALD Lab,0.4,"['Clone', 'Stewart MACDONALD Lab']",True,AVG
+Ward18-HamiltonWestandEarnock_s-lanarks17-18,Allan FALCONER Lab,0.4,"['Allan FALCONER Lab', 'Clone']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Carole URE Grn,0.4,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Frances HOWELL Con,0.4,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Gerry BOYLE Ind,0.4,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Jenny KIERNAN Sol,0.4,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Mandy MORGAN SNP,0.4,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Maureen BURKE Lab,0.4,"['Clone', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Ruairi KELLY SNP,0.4,"['Clone', 'Maureen BURKE Lab']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Stephen DOCHERTY Lab,0.4,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward4-CumbernauldEast_n-lanarks17-004,Tom JOHNSTON SNP,0.4,"['Clone', 'Tom JOHNSTON SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Carole URE Grn,0.5,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Frances HOWELL Con,0.5,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Gerry BOYLE Ind,0.5,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Jenny KIERNAN Sol,0.5,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Mandy MORGAN SNP,0.5,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+Ward21NorthEast_glasgow17-021.csv,Stephen DOCHERTY Lab,0.5,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,AVG
+InvernessWest_PreferenceProfile_V0001_Inverness_West_06052022_161539,Bill BOYD SNP,0.0,['Alex GRAHAM LD'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Alison LOTHIAN Con,0.0,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Emma SHEPPARD Grn,0.0,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,John JAMIESON SNP,0.0,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Pamela MARSHALL SNP,0.0,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Stewart MACDONALD Lab,0.0,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Susan MURRAY LD,0.0,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Willie PATERSON Ind,0.0,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,none,0.0,['John JAMIESON SNP'],False,AVG
+Ward2-PentlandHills_ward2.csv,Emma GILCHRIST Con,0.0,['Neil Thomas GARDINER SNP'],False,AVG
+BlackIsleWard_highland12-10,Isobel MCCALLUM Ind,0.1,['Billy BARCLAY Ind'],False,AVG
+Cowal_argyll-bute17-06.csv,Alan REID LD,0.1,['Alan REID LD'],False,AVG
+InvernessWest_PreferenceProfile_V0001_Inverness_West_06052022_161539,Bill BOYD SNP,0.1,['Alex GRAHAM LD'],False,AVG
+KilpatrickWard_w-duns12-04,Dawn FYFE Soc,0.1,['Douglas MCALLISTER Lab'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Alison LOTHIAN Con,0.1,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Emma SHEPPARD Grn,0.1,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,John JAMIESON SNP,0.1,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Pamela MARSHALL SNP,0.1,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Stewart MACDONALD Lab,0.1,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Susan MURRAY LD,0.1,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Willie PATERSON Ind,0.1,['John JAMIESON SNP'],False,AVG
+MidFormartineWard_aberdeenshire12-08.csv,Braden DAVY Lab,0.1,['Allan HENDRY SNP'],False,AVG
+NorthfieldMastrickNorthWard_aberdeen17-04.csv,Sam FORMAN LD,0.1,['Jackie DUNBAR SNP'],False,AVG
+Sgir_UigeAgusCeannATuathNanLoch_eilean-siar12-04.csv,Bill HOUSTON SNP,0.1,['Cudig MACLEOD Ind'],False,AVG
+Ward1-Troon_south ayrshire2022ward 1,Bob POLLOCK Con,0.1,['Craig MACKAY SNP'],False,AVG
+Ward4-WestMainlandWard_ward4,Owen TIERNEY Ind,0.1,['Owen TIERNEY Ind'],False,AVG
+Ward5Govan_glasgow12-05.csv,John FLANAGAN Ind,0.1,['James ADAMS Lab'],False,AVG
+Cowal_argyll-bute17-06.csv,Alan REID LD,0.2,['Alan REID LD'],False,AVG
+InvernessWest_PreferenceProfile_V0001_Inverness_West_06052022_161539,Bill BOYD SNP,0.2,['Alex GRAHAM LD'],False,AVG
+KirkcaldyEastWard_fife12-13.csv,Edgar COOK Con,0.2,['Lawrence BROWN Lab'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Alison LOTHIAN Con,0.2,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Emma SHEPPARD Grn,0.2,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,John JAMIESON SNP,0.2,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Pamela MARSHALL SNP,0.2,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Stewart MACDONALD Lab,0.2,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Susan MURRAY LD,0.2,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Willie PATERSON Ind,0.2,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandTwechar_e-duns12-08.csv,Jim NEILL Lab,0.2,['Stewart MACDONALD Lab'],False,AVG
+LochaTuath_eilean-siar17-08.csv,Allan Cameron MACLACHLAN Ind,0.2,['Donald Finlayson CRICHTON Ind'],False,AVG
+TillydroneSeatonOldAberdeenWard_aberdeen17-06.csv,Alexander MCLELLAN SNP,0.2,['Alexander MCLELLAN SNP'],False,AVG
+Ward06-DalryandWestKilbride_n-ayrshire12-06,Elizabeth MCLARDY Ind,0.2,['Robert BARR Ind'],False,AVG
+Ward13-Kincorth-Loirston_aberdeen12-13.csv,LD Kate DEAN,0.2,['Lab Neil COONEY'],False,AVG
+Ward6-LerwickSouth_ward-6-lerwick-south-preference-profile,John Finlay Sinclair FRASER Ind,0.2,['Dennis LEASK Ind'],False,AVG
+Ward6-PaisleySoutheast_Preference_profile_for_Ward_6_Paisley_Southeast_copy,Eddie DEVINE Lab,0.2,['Bruce MACFARLANE SNP'],False,AVG
+Ward6-PaisleySoutheast_renfs17-06,Janette SWANSON SNP,0.2,['Marie MCGURK SNP'],False,AVG
+Ward7Langside_glasgow12-07-recalc.csv,Paul COLESHILL LD,0.2,['Archie GRAHAM Lab'],False,AVG
+Ward8-KelsoDistrict_sc-borders17-08,Alison LAMOND SNP,0.2,['Tom WEATHERSTON Con'],False,AVG
+Ward9Calton_glasgow12-09.csv,Alison THEWLISS SNP,0.2,['George REDMOND Lab'],False,AVG
+7.JohnstoneSouthElderslieHowwoodWard_renfs12-07,STEPHEN MCGEE SNP,0.3,['John CALDWELL Lab'],False,AVG
+BarrheadLibosideandUplawmoor_e-renfs17-1.csv,Angela CONVERY SNP,0.3,['Danny DEVLIN Ind'],False,AVG
+Cowal_argyll-bute17-06.csv,Alan REID LD,0.3,['Alan REID LD'],False,AVG
+InverkeithingAndDalgetyBayWard_fife12-06.csv,Dave WALKER LD,0.3,['Alice MCGARRY SNP'],False,AVG
+InvernessWest_PreferenceProfile_V0001_Inverness_West_06052022_161539,Bill BOYD SNP,0.3,['Alex GRAHAM LD'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Alison LOTHIAN Con,0.3,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Emma SHEPPARD Grn,0.3,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Pamela MARSHALL SNP,0.3,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Stewart MACDONALD Lab,0.3,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Susan MURRAY LD,0.3,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Willie PATERSON Ind,0.3,['John JAMIESON SNP'],False,AVG
+NewtonMearnsSouthWard_e-renfs12-05.csv,Frank ANGELL SNP,0.3,['Jim SWIFT Con'],False,AVG
+StirlingNorth_stirling17-04,Jim THOMSON SNP,0.3,['Susan MCGILL SNP'],False,AVG
+Ward3-AyrNorth_south ayrshire2022ward 3,Ian DAVIS Con,0.3,['Laura BRENNAN-WHITEFIELD SNP'],False,AVG
+Ward4-AyrEast_south ayrshire2022ward 4,Ian DOUGLAS SNP,0.3,['Chris CULLEN SNP'],False,AVG
+Ward9-BurntislandKinghornWesternKirkcaldy_PreferenceProfile_V0001_Ward-9-Burntisland-Kinghorn-and-Western-Kirkcaldy_06052022_145551.csv,Andrew Ewan BENTLEY-STEED Independence for Scotland Party UNKNOWN,0.3,['Julie MACDOUGALL Lab'],False,AVG
+BannockburnWard_stirling12-07,Gerard MCLAUGHLAN SNP,0.4,['Margaret BRISLEY Lab'],False,AVG
+Cowal_argyll-bute17-06.csv,Alan REID LD,0.4,['Alan REID LD'],False,AVG
+InvernessWest_PreferenceProfile_V0001_Inverness_West_06052022_161539,Bill BOYD SNP,0.4,['Alex GRAHAM LD'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Alison LOTHIAN Con,0.4,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Emma SHEPPARD Grn,0.4,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Pamela MARSHALL SNP,0.4,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Stewart MACDONALD Lab,0.4,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Susan MURRAY LD,0.4,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Willie PATERSON Ind,0.4,['John JAMIESON SNP'],False,AVG
+TrossachsandTeith_stirling17-01,Evelyn TWEED SNP,0.4,['Martin EARL Con'],False,AVG
+Ward13-GlenrothesWestKinglassie_PreferenceProfile_V0001_Ward-13-Glenrothes-West-and-Kinglassie_06052022_145551.csv,Ian ROBERTSON UNKNOWN,0.4,['Julie Christina FORD SNP'],False,AVG
+Ward2-InverclydeEastCentral_PreferenceProfile_Ward-2,James KELLY Con,0.4,['Robert MORAN Lab'],False,AVG
+Ward22Dennistoun_Ward22,Lorna FINN SNP,0.4,['Allan CASEY SNP'],False,AVG
+Ward4-Selkirkshire_sc-borders17-04,Nancy NORMAN LD,0.4,['Michelle BALLANTYNE Con'],False,AVG
+Ward5-PeterheadNorthandRattray_aberdeenshire17-05.csv,Anne Margaret ALLAN SNP,0.4,['Dianne BEAGRIE Con'],False,AVG
+Ward6HaddingtonandLammermuir_e-lothian12-06.csv,Tom TROTTER SNP,0.4,['John MCMILLAN Lab'],False,AVG
+InvernessWest_PreferenceProfile_V0001_Inverness_West_06052022_161539,Bill BOYD SNP,0.5,['Alex GRAHAM LD'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Alison LOTHIAN Con,0.5,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Emma SHEPPARD Grn,0.5,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Pamela MARSHALL SNP,0.5,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Stewart MACDONALD Lab,0.5,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Susan MURRAY LD,0.5,['John JAMIESON SNP'],False,AVG
+KirkintillochEastandNorthandTwechar_e-duns17-07.csv,Willie PATERSON Ind,0.5,['John JAMIESON SNP'],False,AVG
+Ward21NorthEast_glasgow17-021.csv,Maureen BURKE Lab,0.5,['Ruairi KELLY SNP'],False,AVG
+Ward4-Highland_perth-kinross17-04,Kenneth Robertson SPITTAL LD,0.5,['Ian CAMPBELL Con'],False,AVG
+Ward6-ElginCityNorth_file141913,Rebecca Jane KAIL Grn,0.5,['Sandy KEITH Lab'],False,AVG
+TweeddaleEastWard_sc-borders12-02,David COXInd,0.0,"['Gavin LOGAN Con', 'Stuart BELL SNP']",True,OM
+TweeddaleEastWard_sc-borders12-02,Frances PRINGLE Scottish Borders,0.0,"['Gavin LOGAN Con', 'Stuart BELL SNP']",True,OM
+TweeddaleEastWard_sc-borders12-02,Gavin LOGAN Con,0.0,"['Gavin LOGAN Con', 'Stuart BELL SNP']",True,OM
+TweeddaleEastWard_sc-borders12-02,Graham GARVIE LD,0.0,"['Gavin LOGAN Con', 'Stuart BELL SNP']",True,OM
+TweeddaleEastWard_sc-borders12-02,Robin TATLER Lab,0.0,"['Gavin LOGAN Con', 'Stuart BELL SNP']",True,OM
+TweeddaleEastWard_sc-borders12-02,Stuart BELL SNP,0.0,"['Gavin LOGAN Con', 'Stuart BELL SNP']",True,OM
+TweeddaleEastWard_sc-borders12-02,none,0.0,"['Gavin LOGAN Con', 'Stuart BELL SNP']",True,OM
+Nith_dumgal17-09.csv,John CAMPBELL SNP,0.1,"['Clone', 'Elaine MURRAY Lab']",True,OM
+TweeddaleEastWard_sc-borders12-02,David COXInd,0.1,"['Gavin LOGAN Con', 'Stuart BELL SNP']",True,OM
+TweeddaleEastWard_sc-borders12-02,Frances PRINGLE Scottish Borders,0.1,"['Gavin LOGAN Con', 'Stuart BELL SNP']",True,OM
+TweeddaleEastWard_sc-borders12-02,Robin TATLER Lab,0.1,"['Gavin LOGAN Con', 'Stuart BELL SNP']",True,OM
+Ward1-KirriemuirandDean_ward1.csv,Euan WALKER-MUNRO Con,0.1,"['Julie BELL SNP', 'Ronnie PROCTOR Con']",True,OM
+Ward6-InverclydeSouthWest_inverclyde12-06,Ciano REBECCHI LD,0.1,"['Ciano REBECCHI LD', 'Innes NELSON SNP']",True,OM
+LowerDeesideWard_Ward9.csv,M. Tauqeer MALIK Lab,0.2,"['M. Tauqeer MALIK Lab', 'Marie Louise BOULTON Ind']",True,OM
+TweeddaleEastWard_sc-borders12-02,David COXInd,0.2,"['Gavin LOGAN Con', 'Stuart BELL SNP']",True,OM
+TweeddaleEastWard_sc-borders12-02,Frances PRINGLE Scottish Borders,0.2,"['Gavin LOGAN Con', 'Stuart BELL SNP']",True,OM
+TweeddaleEastWard_sc-borders12-02,Robin TATLER Lab,0.2,"['Gavin LOGAN Con', 'Stuart BELL SNP']",True,OM
+Ward3-Kingswells-Sheddocksley_aberdeen12-03.csv,LD Steve DELANEY,0.2,"['LD Steve DELANEY', 'SNP David John CAMERON']",True,OM
+10.BishoptonBridgeofWeirLangbankWard_renfs12-10,James Wyatt Hale MACLAREN Con,0.3,"['James Wyatt Hale MACLAREN Con', 'Mike HOLMES Lab']",True,OM
+BarrheadLibosideandUplawmoor_e-renfs17-1.csv,Angela CONVERY SNP,0.3,"['Angela CONVERY SNP', 'Clone']",True,OM
+LerwickNorth_shetland12-06,Malcolm BELL Ind,0.3,"['Clone', 'Malcolm BELL Ind']",True,OM
+TweeddaleEastWard_sc-borders12-02,David COXInd,0.3,"['Gavin LOGAN Con', 'Stuart BELL SNP']",True,OM
+TweeddaleEastWard_sc-borders12-02,Frances PRINGLE Scottish Borders,0.3,"['Gavin LOGAN Con', 'Stuart BELL SNP']",True,OM
+TweeddaleEastWard_sc-borders12-02,Robin TATLER Lab,0.3,"['Gavin LOGAN Con', 'Stuart BELL SNP']",True,OM
+Ward4Cardonald_glasgow17-004.csv,Elaine MCSPORRAN SNP,0.3,"['Clone', 'Elaine MCSPORRAN SNP']",True,OM
+Ward7-ArbroathEastandLunan_ward7.csv,Brenda DURNO SNP,0.3,"['Brenda DURNO SNP', 'Lois SPEED Ind']",True,OM
+CromartyFirth_PreferenceProfile_V0001_Cromarty_Firth_06052022_161538,Pauline MUNRO Ind,0.4,"['Clone', 'Molly NOLAN LD']",True,OM
+KirkintillochEastandTwechar_e-duns12-08.csv,Stewart MACDONALD Lab,0.4,"['Clone', 'Stewart MACDONALD Lab']",True,OM
+TrossachsandTeith_stirling17-01,Evelyn TWEED SNP,0.4,"['Clone', 'Evelyn TWEED SNP']",True,OM
+TweeddaleEastWard_sc-borders12-02,David COXInd,0.4,"['Gavin LOGAN Con', 'Stuart BELL SNP']",True,OM
+TweeddaleEastWard_sc-borders12-02,Frances PRINGLE Scottish Borders,0.4,"['Gavin LOGAN Con', 'Stuart BELL SNP']",True,OM
+TweeddaleEastWard_sc-borders12-02,Robin TATLER Lab,0.4,"['Gavin LOGAN Con', 'Stuart BELL SNP']",True,OM
+Ward18-HamiltonWestandEarnock_s-lanarks17-18,Allan FALCONER Lab,0.4,"['Allan FALCONER Lab', 'Clone']",True,OM
+Ward4-CumbernauldEast_n-lanarks17-004,Tom JOHNSTON SNP,0.4,"['Clone', 'Tom JOHNSTON SNP']",True,OM
+TweeddaleEastWard_sc-borders12-02,David COXInd,0.5,"['Gavin LOGAN Con', 'Stuart BELL SNP']",True,OM
+TweeddaleEastWard_sc-borders12-02,Frances PRINGLE Scottish Borders,0.5,"['Gavin LOGAN Con', 'Stuart BELL SNP']",True,OM
+TweeddaleEastWard_sc-borders12-02,Robin TATLER Lab,0.5,"['Gavin LOGAN Con', 'Stuart BELL SNP']",True,OM
+Ward7-ArbroathEastandLunan_ward7.csv,Graham SMITH SNP,0.5,"['Brenda DURNO SNP', 'Lois SPEED Ind']",True,OM
+BarraighBhatarsaighEirisgeighAgusUibhistADeas_eilean-siar12-01.csv,David BLANEY Ind,0.0,['Donald MANFORD SNP'],False,OM
+BrechinandEdzell_angus17-02.csv,Bob MYLES Ind,0.0,['Bob MYLES Ind'],False,OM
+COWALWARD_argyll-bute12-06.csv,Bruce MARSHALL Ind,0.0,['William Gordon BLAIR SNP'],False,OM
+DeeWard_dumgal12-04.csv,Lab Marsali CAIG,0.0,['Ind Colin WYPER'],False,OM
+DingwallandSeaforthWard_highland12-09,Alister MACKINNON Ind,0.0,['Margaret PATERSON Ind'],False,OM
+DunblaneandBridgeofAllan_stirling17-03,Alastair MAJURY Con,0.0,['Alastair MAJURY Con'],False,OM
+Dunoon_argyll-bute17-07.csv,Brian LOGAN Ind,0.0,['Audrey E FORREST SNP'],False,OM
+Eileana_Cheo_PreferenceProfile_V0001_Eilean_a__Che___06052022_161539,Fay THOMSON Ind,0.0,['John FINLAYSON Ind'],False,OM
+GiffnockandThornliebankWard_e-renfs12-03.csv,Jim FLETCHER Lab,0.0,['Jim FLETCHER Lab'],False,OM
+GlenrothesWestAndKinglassieWard_fife12-14.csv,Craig WALKER SNP,0.0,['Peter GRANT SNP'],False,OM
+KirkwallEastWard_orkney17-01,Ingirid Windwick JOLLY Ind,0.0,['Steven HEDDLE Ind'],False,OM
+KirkwallEastWard_orkney17-01,Mike BERSTON Ind,0.0,['Steven HEDDLE Ind'],False,OM
+KirkwallEastWard_orkney17-01,PAUL DAWSON Ind,0.0,['Steven HEDDLE Ind'],False,OM
+KirkwallEastWard_orkney17-01,none,0.0,['Steven HEDDLE Ind'],False,OM
+LochaTuath_eilean-siar12-08.csv,Alasdair NICHOLSON Ind,0.0,['Catriona STEWART Ind'],False,OM
+LochaTuath_eilean-siar12-08.csv,Catriona STEWART Ind,0.0,['Catriona STEWART Ind'],False,OM
+LochaTuath_eilean-siar12-08.csv,Donald Finlayson CRICHTON Ind,0.0,['Catriona STEWART Ind'],False,OM
+LochaTuath_eilean-siar12-08.csv,JOHN A MACIVER Ind,0.0,['Catriona STEWART Ind'],False,OM
+LochaTuath_eilean-siar12-08.csv,KENNETH A MACIVER SNP,0.0,['Catriona STEWART Ind'],False,OM
+LochaTuath_eilean-siar12-08.csv,none,0.0,['Catriona STEWART Ind'],False,OM
+NorthEast_dundee17-06.csv,Curtis LARGE Con,0.0,['Gregor MURRAY SNP'],False,OM
+NorthEast_dundee17-06.csv,Michael TAYLOR TUSC,0.0,['Gregor MURRAY SNP'],False,OM
+NorthEast_dundee17-06.csv,Tracy MULHOLLAND LD,0.0,['Gregor MURRAY SNP'],False,OM
+NorthEast_dundee17-06.csv,none,0.0,['Gregor MURRAY SNP'],False,OM
+NorthIsles_orkney12-06,Stephen HAGAN Ind,0.0,['Stephen HAGAN Ind'],False,OM
+SgireanRubha_eilean-siar17-05.csv,Tony ROBSON Ind,0.0,['Alasdair MACLEOD Ind'],False,OM
+SteornabhaghaTuath_eilean-siar12-07.csv,Iain MACKENZIE Ind,0.0,['Iain MACKENZIE Ind'],False,OM
+Tillydrone-Seaton-OldAberdeenWard_Ward6.csv,Kairin VAN SWEEDEN SNP,0.0,['Alexander MCLELLAN SNP'],False,OM
+Ward01-IrvineWest_n-ayrshire12-01,Pat MCPHEE Con,0.0,['Ian CLARKSON Lab'],False,OM
+Ward1-Strathmartine_Ward1.csv,Laura WHYTE Alba,0.0,['John ALEXANDER SNP'],False,OM
+Ward12Fortissat_n-lanarks12-12,Jim ROBERTSON Lab,0.0,['Jim ROBERTSON Lab'],False,OM
+Ward13-WesthillandDistrict_preferenceprofile_v0001_ward-13-westhill-and-district_06052022_172124.csv,Craig MILLER Con,0.0,['Iris Margaret WALKER LD'],False,OM
+Ward18-St.Andrews_PreferenceProfile_V0001_Ward-18-St.-Andrews_06052022_151928.csv,Ann VERNER SNP,0.0,['Jane Ann LISTON LD'],False,OM
+Ward18-St.Andrews_PreferenceProfile_V0001_Ward-18-St.-Andrews_06052022_151928.csv,Fergus Ramsay COOK Grn,0.0,['Jane Ann LISTON LD'],False,OM
+Ward18-St.Andrews_PreferenceProfile_V0001_Ward-18-St.-Andrews_06052022_151928.csv,Robin LAWSON Con,0.0,['Jane Ann LISTON LD'],False,OM
+Ward18-St.Andrews_PreferenceProfile_V0001_Ward-18-St.-Andrews_06052022_151928.csv,Rosalind GARTON Lab,0.0,['Jane Ann LISTON LD'],False,OM
+Ward18-St.Andrews_PreferenceProfile_V0001_Ward-18-St.-Andrews_06052022_151928.csv,none,0.0,['Jane Ann LISTON LD'],False,OM
+Ward18-StonehavenandLowerDeeside_preferenceprofile_v0001_ward-18-stonehaven-and-lower-deeside_06052022_172124.csv,Dawn BLACK SNP,0.0,['Sarah DICKINSON LD'],False,OM
+Ward18-StonehavenandLowerDeeside_preferenceprofile_v0001_ward-18-stonehaven-and-lower-deeside_06052022_172124.csv,Dennis ROBERTSON SNP,0.0,['Sarah DICKINSON LD'],False,OM
+Ward18-StonehavenandLowerDeeside_preferenceprofile_v0001_ward-18-stonehaven-and-lower-deeside_06052022_172124.csv,Wendy AGNEW Con,0.0,['Sarah DICKINSON LD'],False,OM
+Ward7-TainandEasterRoss_Highland 2023 by-election Ward 7,Michael PERERA Lab,0.0,['Maureen ROSS Ind'],False,OM
+Ward9SteornabhaghaTuath_ward09_preferenceprofile.csv,John Murdo MACMILLAN Ind,0.0,['Duncan MACINNES Ind'],False,OM
+Ward9SteornabhaghaTuath_ward09_preferenceprofile.csv,Malcolm Ivor MCTAGGART Ind,0.0,['Duncan MACINNES Ind'],False,OM
+Ward9SteornabhaghaTuath_ward09_preferenceprofile.csv,Maxi MACNEILL Ind,0.0,['Duncan MACINNES Ind'],False,OM
+Ward9SteornabhaghaTuath_ward09_preferenceprofile.csv,Tracey DINNER Ind,0.0,['Duncan MACINNES Ind'],False,OM
+Ward9SteornabhaghaTuath_ward09_preferenceprofile.csv,Willie MACRAE Ind,0.0,['Duncan MACINNES Ind'],False,OM
+Ward9SteornabhaghaTuath_ward09_preferenceprofile.csv,none,0.0,['Duncan MACINNES Ind'],False,OM
+ArdrossanandArran_n-ayrshire17-05,Timothy BILLINGS Con,0.1,['Tony GURNEY SNP'],False,OM
+BarraighBhatarsaighEirisgeighAgusUibhistADeas_eilean-siar12-01.csv,David BLANEY Ind,0.1,['Donald MANFORD SNP'],False,OM
+BlackIsleWard_highland12-10,Isobel MCCALLUM Ind,0.1,['Billy BARCLAY Ind'],False,OM
+BrechinandEdzell_angus17-02.csv,Bob MYLES Ind,0.1,['Bob MYLES Ind'],False,OM
+DeeWard_dumgal12-04.csv,Lab Marsali CAIG,0.1,['Ind Colin WYPER'],False,OM
+DingwallandSeaforthWard_highland12-09,Alister MACKINNON Ind,0.1,['Margaret PATERSON Ind'],False,OM
+DunblaneandBridgeofAllan_stirling17-03,Alastair MAJURY Con,0.1,['Alastair MAJURY Con'],False,OM
+Eileana_Cheo_PreferenceProfile_V0001_Eilean_a__Che___06052022_161539,Fay THOMSON Ind,0.1,['John FINLAYSON Ind'],False,OM
+GiffnockandThornliebankWard_e-renfs12-03.csv,Jim FLETCHER Lab,0.1,['Jim FLETCHER Lab'],False,OM
+GlenrothesWestAndKinglassieWard_fife12-14.csv,Craig WALKER SNP,0.1,['Peter GRANT SNP'],False,OM
+KirkwallEastWard_orkney17-01,Ingirid Windwick JOLLY Ind,0.1,['Steven HEDDLE Ind'],False,OM
+KirkwallEastWard_orkney17-01,Mike BERSTON Ind,0.1,['Steven HEDDLE Ind'],False,OM
+KirkwallEastWard_orkney17-01,PAUL DAWSON Ind,0.1,['Steven HEDDLE Ind'],False,OM
+LochaTuath_eilean-siar12-08.csv,Alasdair NICHOLSON Ind,0.1,['Catriona STEWART Ind'],False,OM
+LochaTuath_eilean-siar12-08.csv,Donald Finlayson CRICHTON Ind,0.1,['Catriona STEWART Ind'],False,OM
+LochaTuath_eilean-siar12-08.csv,JOHN A MACIVER Ind,0.1,['Catriona STEWART Ind'],False,OM
+LochaTuath_eilean-siar12-08.csv,KENNETH A MACIVER SNP,0.1,['Catriona STEWART Ind'],False,OM
+MidFormartineWard_aberdeenshire12-08.csv,Braden DAVY Lab,0.1,['Allan HENDRY SNP'],False,OM
+NorthEast_dundee17-06.csv,Curtis LARGE Con,0.1,['Gregor MURRAY SNP'],False,OM
+NorthfieldMastrickNorthWard_aberdeen17-04.csv,Sam FORMAN LD,0.1,['Jackie DUNBAR SNP'],False,OM
+SteornabhaghaTuath_eilean-siar12-07.csv,Iain MACKENZIE Ind,0.1,['Clone'],False,OM
+Tillydrone-Seaton-OldAberdeenWard_Ward6.csv,Kairin VAN SWEEDEN SNP,0.1,['Alexander MCLELLAN SNP'],False,OM
+Ward1-Strathmartine_Ward1.csv,Laura WHYTE Alba,0.1,['John ALEXANDER SNP'],False,OM
+Ward10-HoustonCrossleeandLinwood_Preference_profile_for_Ward_10_Houston_Crosslee_and_Linwood_copy,Audrey DOIG SNP,0.1,['Alison ANN-DOWLING Labour and Co-operative Party'],False,OM
+Ward12Fortissat_n-lanarks12-12,Jim ROBERTSON Lab,0.1,['Jim ROBERTSON Lab'],False,OM
+Ward13-WesthillandDistrict_aberdeenshire17-13.csv,David AITCHISON SNP,0.1,['Ron MCKAIL Con'],False,OM
+Ward13-WesthillandDistrict_preferenceprofile_v0001_ward-13-westhill-and-district_06052022_172124.csv,Craig MILLER Con,0.1,['Iris Margaret WALKER LD'],False,OM
+Ward18-St.Andrews_PreferenceProfile_V0001_Ward-18-St.-Andrews_06052022_151928.csv,Ann VERNER SNP,0.1,['Jane Ann LISTON LD'],False,OM
+Ward18-St.Andrews_PreferenceProfile_V0001_Ward-18-St.-Andrews_06052022_151928.csv,Fergus Ramsay COOK Grn,0.1,['Jane Ann LISTON LD'],False,OM
+Ward18-St.Andrews_PreferenceProfile_V0001_Ward-18-St.-Andrews_06052022_151928.csv,Robin LAWSON Con,0.1,['Jane Ann LISTON LD'],False,OM
+Ward18-St.Andrews_PreferenceProfile_V0001_Ward-18-St.-Andrews_06052022_151928.csv,Rosalind GARTON Lab,0.1,['Jane Ann LISTON LD'],False,OM
+Ward18-StonehavenandLowerDeeside_preferenceprofile_v0001_ward-18-stonehaven-and-lower-deeside_06052022_172124.csv,Dawn BLACK SNP,0.1,['Sarah DICKINSON LD'],False,OM
+Ward18-StonehavenandLowerDeeside_preferenceprofile_v0001_ward-18-stonehaven-and-lower-deeside_06052022_172124.csv,Wendy AGNEW Con,0.1,['Sarah DICKINSON LD'],False,OM
+Ward2-MidGallowayandWigtownWest_ward2.csv,David INGLIS Con,0.1,['David INGLIS Con'],False,OM
+Ward5Govan_glasgow12-05.csv,John FLANAGAN Ind,0.1,['James ADAMS Lab'],False,OM
+Ward6-InverkeithingDalgetyBay_PreferenceProfile_V0001_Ward-6-Inverkeithing-and-Dalgety-Bay_06052022_151927.csv,Dave DEMPSEY Con,0.1,['David BARRATT SNP'],False,OM
+Ward9Calton_glasgow17-009.csv,Thomas RANNACHAN Lab,0.1,['Greg HEPBURN SNP'],False,OM
+Ward9SteornabhaghaTuath_ward09_preferenceprofile.csv,John Murdo MACMILLAN Ind,0.1,['Duncan MACINNES Ind'],False,OM
+Ward9SteornabhaghaTuath_ward09_preferenceprofile.csv,Maxi MACNEILL Ind,0.1,['Duncan MACINNES Ind'],False,OM
+Ward9SteornabhaghaTuath_ward09_preferenceprofile.csv,Tracey DINNER Ind,0.1,['Duncan MACINNES Ind'],False,OM
+Ward9SteornabhaghaTuath_ward09_preferenceprofile.csv,Willie MACRAE Ind,0.1,['Duncan MACINNES Ind'],False,OM
+4.PaisleyNorthWestWard_renfs12-04,Allison COOK Con,0.2,['Terry KELLY Lab'],False,OM
+AirdandLochNessWard_highland12-13,Mike ROBB Lab,0.2,['Margaret Christine DAVIDSON Ind'],False,OM
+ArdrossanandArran_n-ayrshire17-05,Timothy BILLINGS Con,0.2,['Tony GURNEY SNP'],False,OM
+BarraighBhatarsaighEirisgeighAgusUibhistADeas_eilean-siar12-01.csv,David BLANEY Ind,0.2,['Donald MANFORD SNP'],False,OM
+BeinnnaFoghlaagusUibhistaTuath_eilean-siar17-02.csv,Andrew WALKER Ind,0.2,['Uisdean ROBERTSON Ind'],False,OM
+BrechinandEdzell_angus17-02.csv,Bob MYLES Ind,0.2,['Bob MYLES Ind'],False,OM
+DeeWard_dumgal12-04.csv,Lab Marsali CAIG,0.2,['Ind Colin WYPER'],False,OM
+DingwallandSeaforthWard_highland12-09,Alister MACKINNON Ind,0.2,['Margaret PATERSON Ind'],False,OM
+DunblaneandBridgeofAllan_stirling17-03,Alastair MAJURY Con,0.2,['Alastair MAJURY Con'],False,OM
+Eileana_Cheo_PreferenceProfile_V0001_Eilean_a__Che___06052022_161539,Fay THOMSON Ind,0.2,['John FINLAYSON Ind'],False,OM
+GiffnockandThornliebankWard_e-renfs12-03.csv,Jim FLETCHER Lab,0.2,['Jim FLETCHER Lab'],False,OM
+GlenrothesWestAndKinglassieWard_fife12-14.csv,Craig WALKER SNP,0.2,['Peter GRANT SNP'],False,OM
+KirkcaldyEastWard_fife12-13.csv,Edgar COOK Con,0.2,['Lawrence BROWN Lab'],False,OM
+KirkwallEastWard_orkney17-01,Ingirid Windwick JOLLY Ind,0.2,['Steven HEDDLE Ind'],False,OM
+KirkwallEastWard_orkney17-01,Mike BERSTON Ind,0.2,['Steven HEDDLE Ind'],False,OM
+KirkwallEastWard_orkney17-01,PAUL DAWSON Ind,0.2,['Steven HEDDLE Ind'],False,OM
+LochaTuath_eilean-siar12-08.csv,Alasdair NICHOLSON Ind,0.2,['Catriona STEWART Ind'],False,OM
+LochaTuath_eilean-siar12-08.csv,KENNETH A MACIVER SNP,0.2,['Catriona STEWART Ind'],False,OM
+LochaTuath_eilean-siar17-08.csv,Allan Cameron MACLACHLAN Ind,0.2,['Donald Finlayson CRICHTON Ind'],False,OM
+MidlothianWest_midlothian17-04,Andrew COVENTRY Ind,0.2,['Russell IMRIE Lab'],False,OM
+NorthEast_dundee17-06.csv,Curtis LARGE Con,0.2,['Gregor MURRAY SNP'],False,OM
+SpeysideGlenlivet_moray17-01,Angus ANDERSON SNP,0.2,['Derek ROSS Ind'],False,OM
+SteornabhaghaTuath_eilean-siar12-07.csv,Iain MACKENZIE Ind,0.2,['Clone'],False,OM
+Tillydrone-Seaton-OldAberdeenWard_Ward6.csv,Kairin VAN SWEEDEN SNP,0.2,['Alexander MCLELLAN SNP'],False,OM
+Ward1-Strathmartine_Ward1.csv,Laura WHYTE Alba,0.2,['John ALEXANDER SNP'],False,OM
+Ward12Fortissat_n-lanarks12-12,Jim ROBERTSON Lab,0.2,['Jim ROBERTSON Lab'],False,OM
+Ward13-Kincorth-Loirston_aberdeen12-13.csv,LD Kate DEAN,0.2,['Lab Neil COONEY'],False,OM
+Ward13-WesthillandDistrict_preferenceprofile_v0001_ward-13-westhill-and-district_06052022_172124.csv,Craig MILLER Con,0.2,['Iris Margaret WALKER LD'],False,OM
+Ward18-St.Andrews_PreferenceProfile_V0001_Ward-18-St.-Andrews_06052022_151928.csv,Fergus Ramsay COOK Grn,0.2,['Jane Ann LISTON LD'],False,OM
+Ward18-St.Andrews_PreferenceProfile_V0001_Ward-18-St.-Andrews_06052022_151928.csv,Robin LAWSON Con,0.2,['Jane Ann LISTON LD'],False,OM
+Ward18-StonehavenandLowerDeeside_preferenceprofile_v0001_ward-18-stonehaven-and-lower-deeside_06052022_172124.csv,Dawn BLACK SNP,0.2,['Sarah DICKINSON LD'],False,OM
+Ward18-StonehavenandLowerDeeside_preferenceprofile_v0001_ward-18-stonehaven-and-lower-deeside_06052022_172124.csv,Wendy AGNEW Con,0.2,['Sarah DICKINSON LD'],False,OM
+Ward2-Troup_aberdeenshire17-02.csv,Ross Alexander CASSIE SNP,0.2,['Mark FINDLATER Con'],False,OM
+Ward3-ShetlandWest_shetland17-03,Debra Jane NICOLSON Ind,0.2,['Theo SMITH Ind'],False,OM
+Ward5-Hilton-Stockethill_aberdeen12-05.csv,Ind David Page HENDERSON,0.2,['Lab George ADAM'],False,OM
+Ward6-InverclydeSouthWest_inverclyde12-06,Ciano REBECCHI LD,0.2,['Ciano REBECCHI LD'],False,OM
+Ward6-InverkeithingDalgetyBay_PreferenceProfile_V0001_Ward-6-Inverkeithing-and-Dalgety-Bay_06052022_151927.csv,Dave DEMPSEY Con,0.2,['David BARRATT SNP'],False,OM
+Ward6-PaisleySoutheast_Preference_profile_for_Ward_6_Paisley_Southeast_copy,Eddie DEVINE Lab,0.2,['Bruce MACFARLANE SNP'],False,OM
+Ward7Langside_glasgow12-07-recalc.csv,Paul COLESHILL LD,0.2,['Archie GRAHAM Lab'],False,OM
+Ward8-KelsoDistrict_sc-borders17-08,Alison LAMOND SNP,0.2,['Tom WEATHERSTON Con'],False,OM
+Ward9SteornabhaghaTuath_ward09_preferenceprofile.csv,John Murdo MACMILLAN Ind,0.2,['Duncan MACINNES Ind'],False,OM
+Ward9SteornabhaghaTuath_ward09_preferenceprofile.csv,Maxi MACNEILL Ind,0.2,['Duncan MACINNES Ind'],False,OM
+Ward9SteornabhaghaTuath_ward09_preferenceprofile.csv,Tracey DINNER Ind,0.2,['Duncan MACINNES Ind'],False,OM
+Ward9SteornabhaghaTuath_ward09_preferenceprofile.csv,Willie MACRAE Ind,0.2,['Duncan MACINNES Ind'],False,OM
+7.JohnstoneSouthElderslieHowwoodWard_renfs12-07,STEPHEN MCGEE SNP,0.3,['John CALDWELL Lab'],False,OM
+ArdrossanandArran_n-ayrshire17-05,Timothy BILLINGS Con,0.3,['Tony GURNEY SNP'],False,OM
+BarraighBhatarsaighEirisgeighAgusUibhistADeas_eilean-siar12-01.csv,David BLANEY Ind,0.3,['Donald MANFORD SNP'],False,OM
+BrechinandEdzell_angus17-02.csv,Bob MYLES Ind,0.3,['Bob MYLES Ind'],False,OM
+DeeWard_dumgal12-04.csv,Lab Marsali CAIG,0.3,['Ind Colin WYPER'],False,OM
+DingwallandSeaforthWard_highland12-09,Alister MACKINNON Ind,0.3,['Margaret PATERSON Ind'],False,OM
+DunblaneandBridgeofAllan_stirling17-03,Alastair MAJURY Con,0.3,['Alastair MAJURY Con'],False,OM
+Eileana_Cheo_PreferenceProfile_V0001_Eilean_a__Che___06052022_161539,Fay THOMSON Ind,0.3,['John FINLAYSON Ind'],False,OM
+GiffnockandThornliebankWard_e-renfs12-03.csv,Jim FLETCHER Lab,0.3,['Jim FLETCHER Lab'],False,OM
+GlenrothesWestAndKinglassieWard_fife12-14.csv,Craig WALKER SNP,0.3,['Peter GRANT SNP'],False,OM
+InverkeithingAndDalgetyBayWard_fife12-06.csv,Dave WALKER LD,0.3,['Gavin YATES Lab'],False,OM
+KirkwallEastWard_orkney17-01,Ingirid Windwick JOLLY Ind,0.3,['Steven HEDDLE Ind'],False,OM
+KirkwallEastWard_orkney17-01,Mike BERSTON Ind,0.3,['Steven HEDDLE Ind'],False,OM
+KirkwallEastWard_orkney17-01,PAUL DAWSON Ind,0.3,['Steven HEDDLE Ind'],False,OM
+LochaTuath_eilean-siar12-08.csv,Alasdair NICHOLSON Ind,0.3,['Catriona STEWART Ind'],False,OM
+LochaTuath_eilean-siar12-08.csv,KENNETH A MACIVER SNP,0.3,['Catriona STEWART Ind'],False,OM
+NewtonMearnsSouthWard_e-renfs12-05.csv,Frank ANGELL SNP,0.3,['Jim SWIFT Con'],False,OM
+NorthEast_dundee17-06.csv,Curtis LARGE Con,0.3,['Gregor MURRAY SNP'],False,OM
+SteornabhaghaTuath_eilean-siar12-07.csv,Iain MACKENZIE Ind,0.3,['Clone'],False,OM
+StirlingNorth_stirling17-04,Jim THOMSON SNP,0.3,['Susan MCGILL SNP'],False,OM
+Tillydrone-Seaton-OldAberdeenWard_Ward6.csv,Kairin VAN SWEEDEN SNP,0.3,['Alexander MCLELLAN SNP'],False,OM
+Ward1-Strathmartine_Ward1.csv,Laura WHYTE Alba,0.3,['John ALEXANDER SNP'],False,OM
+Ward12Fortissat_n-lanarks12-12,Jim ROBERTSON Lab,0.3,['Jim ROBERTSON Lab'],False,OM
+Ward13-Fortissat_Preference Profile Ward 13 Fortissat,Emma Rachel CUTHBERTSON Grn,0.3,['Martin MCCULLOCH Lab'],False,OM
+Ward13-WesthillandDistrict_preferenceprofile_v0001_ward-13-westhill-and-district_06052022_172124.csv,Craig MILLER Con,0.3,['Iris Margaret WALKER LD'],False,OM
+Ward18-St.Andrews_PreferenceProfile_V0001_Ward-18-St.-Andrews_06052022_151928.csv,Fergus Ramsay COOK Grn,0.3,['Jane Ann LISTON LD'],False,OM
+Ward18-St.Andrews_PreferenceProfile_V0001_Ward-18-St.-Andrews_06052022_151928.csv,Robin LAWSON Con,0.3,['Jane Ann LISTON LD'],False,OM
+Ward18-StonehavenandLowerDeeside_preferenceprofile_v0001_ward-18-stonehaven-and-lower-deeside_06052022_172124.csv,Dawn BLACK SNP,0.3,['Sarah DICKINSON LD'],False,OM
+Ward18-StonehavenandLowerDeeside_preferenceprofile_v0001_ward-18-stonehaven-and-lower-deeside_06052022_172124.csv,Wendy AGNEW Con,0.3,['Sarah DICKINSON LD'],False,OM
+Ward19-InvernessSouth_Highland 2024 by-election Ward 19,Ryan FORBES Con,0.3,['Duncan Cameron MCDONALD Ind'],False,OM
+Ward2-KirkwallWestandOrphirWard_ward2,Ivan TAYLOR Ind,0.3,['Leslie MANSON Ind'],False,OM
+Ward22-BuckhavenMethilWemyssVillages_fife17-22.csv,Keith Henry BARTON Con,0.3,['Ken CALDWELL SNP'],False,OM
+Ward3-AyrNorth_south ayrshire2022ward 3,Ian DAVIS Con,0.3,['Laura BRENNAN-WHITEFIELD SNP'],False,OM
+Ward4-AyrEast_south ayrshire2022ward 4,Ian DOUGLAS SNP,0.3,['Chris CULLEN SNP'],False,OM
+Ward6-InverclydeSouthWest_inverclyde12-06,Ciano REBECCHI LD,0.3,['Ciano REBECCHI LD'],False,OM
+Ward6-InverkeithingDalgetyBay_PreferenceProfile_V0001_Ward-6-Inverkeithing-and-Dalgety-Bay_06052022_151927.csv,Dave DEMPSEY Con,0.3,['David BARRATT SNP'],False,OM
+Ward9SteornabhaghaTuath_ward09_preferenceprofile.csv,John Murdo MACMILLAN Ind,0.3,['Duncan MACINNES Ind'],False,OM
+Ward9SteornabhaghaTuath_ward09_preferenceprofile.csv,Maxi MACNEILL Ind,0.3,['Duncan MACINNES Ind'],False,OM
+Ward9SteornabhaghaTuath_ward09_preferenceprofile.csv,Tracey DINNER Ind,0.3,['Duncan MACINNES Ind'],False,OM
+Ward9SteornabhaghaTuath_ward09_preferenceprofile.csv,Willie MACRAE Ind,0.3,['Duncan MACINNES Ind'],False,OM
+ArdrossanandArran_n-ayrshire17-05,Timothy BILLINGS Con,0.4,['Tony GURNEY SNP'],False,OM
+BannockburnWard_stirling12-07,Gerard MCLAUGHLAN SNP,0.4,['Margaret BRISLEY Lab'],False,OM
+BarraighBhatarsaighEirisgeighAgusUibhistADeas_eilean-siar12-01.csv,David BLANEY Ind,0.4,['Donald MANFORD SNP'],False,OM
+BrechinandEdzell_angus17-02.csv,Bob MYLES Ind,0.4,['Clone'],False,OM
+DeeWard_dumgal12-04.csv,Lab Marsali CAIG,0.4,['Ind Colin WYPER'],False,OM
+DingwallandSeaforthWard_highland12-09,Alister MACKINNON Ind,0.4,['Margaret PATERSON Ind'],False,OM
+DunblaneandBridgeofAllan_stirling17-03,Alastair MAJURY Con,0.4,['Alastair MAJURY Con'],False,OM
+Eileana_Cheo_PreferenceProfile_V0001_Eilean_a__Che___06052022_161539,Fay THOMSON Ind,0.4,['John FINLAYSON Ind'],False,OM
+GeorgeStHarbourWard_aberdeen17-08.csv,Dell HENRICKSON SNP,0.4,['Clone'],False,OM
+GiffnockandThornliebankWard_e-renfs12-03.csv,Jim FLETCHER Lab,0.4,['Jim FLETCHER Lab'],False,OM
+GlenrothesWestAndKinglassieWard_fife12-14.csv,Craig WALKER SNP,0.4,['Peter GRANT SNP'],False,OM
+KelsoDistrictWard_sc-borders12-08,Yvonne HUGGINS-HAIG Ind,0.4,['Tom WEATHERSTON Con'],False,OM
+KirkwallEastWard_orkney17-01,Ingirid Windwick JOLLY Ind,0.4,['Steven HEDDLE Ind'],False,OM
+KirkwallEastWard_orkney17-01,Mike BERSTON Ind,0.4,['Steven HEDDLE Ind'],False,OM
+KirkwallEastWard_orkney17-01,PAUL DAWSON Ind,0.4,['Steven HEDDLE Ind'],False,OM
+LochaTuath_eilean-siar12-08.csv,Alasdair NICHOLSON Ind,0.4,['Catriona STEWART Ind'],False,OM
+LochaTuath_eilean-siar12-08.csv,KENNETH A MACIVER SNP,0.4,['Catriona STEWART Ind'],False,OM
+MidlothianSouth_midlothian17-06,Jason FERRY Ind,0.4,['Jim MUIRHEAD Lab'],False,OM
+NorthEast_dundee17-06.csv,Curtis LARGE Con,0.4,['Gregor MURRAY SNP'],False,OM
+NorthEast_dundee17-06.csv,Tracy MULHOLLAND LD,0.4,['Gregor MURRAY SNP'],False,OM
+SteornabhaghaTuath_eilean-siar12-07.csv,Iain MACKENZIE Ind,0.4,['Clone'],False,OM
+Tillydrone-Seaton-OldAberdeenWard_Ward6.csv,Kairin VAN SWEEDEN SNP,0.4,['Alexander MCLELLAN SNP'],False,OM
+Ward1-Strathmartine_Ward1.csv,Laura WHYTE Alba,0.4,['John ALEXANDER SNP'],False,OM
+Ward12Fortissat_n-lanarks12-12,Jim ROBERTSON Lab,0.4,['Jim ROBERTSON Lab'],False,OM
+Ward13-GlenrothesWestKinglassie_PreferenceProfile_V0001_Ward-13-Glenrothes-West-and-Kinglassie_06052022_145551.csv,Ian ROBERTSON UNKNOWN,0.4,['Julie Christina FORD SNP'],False,OM
+Ward13-WesthillandDistrict_preferenceprofile_v0001_ward-13-westhill-and-district_06052022_172124.csv,Craig MILLER Con,0.4,['Iris Margaret WALKER LD'],False,OM
+Ward18-St.Andrews_PreferenceProfile_V0001_Ward-18-St.-Andrews_06052022_151928.csv,Robin LAWSON Con,0.4,['Jane Ann LISTON LD'],False,OM
+Ward18-StonehavenandLowerDeeside_preferenceprofile_v0001_ward-18-stonehaven-and-lower-deeside_06052022_172124.csv,Dawn BLACK SNP,0.4,['Sarah DICKINSON LD'],False,OM
+Ward18-StonehavenandLowerDeeside_preferenceprofile_v0001_ward-18-stonehaven-and-lower-deeside_06052022_172124.csv,Wendy AGNEW Con,0.4,['Sarah DICKINSON LD'],False,OM
+Ward2-InverclydeEastCentral_PreferenceProfile_Ward-2,James KELLY Con,0.4,['Jim MACLEOD SNP'],False,OM
+Ward22Dennistoun_Ward22,Lorna FINN SNP,0.4,['Allan CASEY SNP'],False,OM
+Ward5-PeterheadNorthandRattray_aberdeenshire17-05.csv,Anne Margaret ALLAN SNP,0.4,['Dianne BEAGRIE Con'],False,OM
+Ward6-InverclydeSouthWest_inverclyde12-06,Ciano REBECCHI LD,0.4,['Clone'],False,OM
+Ward6-InverkeithingDalgetyBay_PreferenceProfile_V0001_Ward-6-Inverkeithing-and-Dalgety-Bay_06052022_151927.csv,Dave DEMPSEY Con,0.4,['David BARRATT SNP'],False,OM
+Ward6HaddingtonandLammermuir_e-lothian12-06.csv,Tom TROTTER SNP,0.4,['John MCMILLAN Lab'],False,OM
+Ward9SteornabhaghaTuath_ward09_preferenceprofile.csv,John Murdo MACMILLAN Ind,0.4,['Duncan MACINNES Ind'],False,OM
+Ward9SteornabhaghaTuath_ward09_preferenceprofile.csv,Maxi MACNEILL Ind,0.4,['Duncan MACINNES Ind'],False,OM
+Ward9SteornabhaghaTuath_ward09_preferenceprofile.csv,Tracey DINNER Ind,0.4,['Duncan MACINNES Ind'],False,OM
+Ward9SteornabhaghaTuath_ward09_preferenceprofile.csv,Willie MACRAE Ind,0.4,['Duncan MACINNES Ind'],False,OM
+ArdrossanandArran_n-ayrshire17-05,Timothy BILLINGS Con,0.5,['Tony GURNEY SNP'],False,OM
+BarraighBhatarsaighEirisgeighAgusUibhistADeas_eilean-siar12-01.csv,David BLANEY Ind,0.5,['Donald MANFORD SNP'],False,OM
+DeeWard_dumgal12-04.csv,Lab Marsali CAIG,0.5,['Ind Colin WYPER'],False,OM
+DingwallandSeaforthWard_highland12-09,Alister MACKINNON Ind,0.5,['Margaret PATERSON Ind'],False,OM
+EastNeukAndLandwardWard_fife12-20.csv,Mary CAIRNS Lab,0.5,['Elizabeth RICHES LD'],False,OM
+Eileana_Cheo_PreferenceProfile_V0001_Eilean_a__Che___06052022_161539,Fay THOMSON Ind,0.5,['John FINLAYSON Ind'],False,OM
+GlenrothesWestAndKinglassieWard_fife12-14.csv,Craig WALKER SNP,0.5,['Peter GRANT SNP'],False,OM
+InverclydeSouth_inverclyde17-07,Anne DUFFY LD,0.5,['John CROWTHER SNP'],False,OM
+KirkwallEastWard_orkney17-01,Ingirid Windwick JOLLY Ind,0.5,['Steven HEDDLE Ind'],False,OM
+KirkwallEastWard_orkney17-01,Mike BERSTON Ind,0.5,['Steven HEDDLE Ind'],False,OM
+KirkwallEastWard_orkney17-01,PAUL DAWSON Ind,0.5,['Steven HEDDLE Ind'],False,OM
+LochaTuath_eilean-siar12-08.csv,Alasdair NICHOLSON Ind,0.5,['Catriona STEWART Ind'],False,OM
+LochaTuath_eilean-siar12-08.csv,KENNETH A MACIVER SNP,0.5,['Catriona STEWART Ind'],False,OM
+NorthEast_dundee17-06.csv,Curtis LARGE Con,0.5,['Gregor MURRAY SNP'],False,OM
+NorthEast_dundee17-06.csv,Michael TAYLOR TUSC,0.5,['Gregor MURRAY SNP'],False,OM
+NorthEast_dundee17-06.csv,Tracy MULHOLLAND LD,0.5,['Gregor MURRAY SNP'],False,OM
+Tillydrone-Seaton-OldAberdeenWard_Ward6.csv,Kairin VAN SWEEDEN SNP,0.5,['Alexander MCLELLAN SNP'],False,OM
+Ward1-Strathmartine_Ward1.csv,Laura WHYTE Alba,0.5,['John ALEXANDER SNP'],False,OM
+Ward12-EastGarioch_aberdeenshire17-12.csv,Glen REID SNP,0.5,['Fergus HOOD LD'],False,OM
+Ward13-WesthillandDistrict_preferenceprofile_v0001_ward-13-westhill-and-district_06052022_172124.csv,Craig MILLER Con,0.5,['Iris Margaret WALKER LD'],False,OM
+Ward18-St.Andrews_PreferenceProfile_V0001_Ward-18-St.-Andrews_06052022_151928.csv,Fergus Ramsay COOK Grn,0.5,['Jane Ann LISTON LD'],False,OM
+Ward18-St.Andrews_PreferenceProfile_V0001_Ward-18-St.-Andrews_06052022_151928.csv,Robin LAWSON Con,0.5,['Jane Ann LISTON LD'],False,OM
+Ward18-StonehavenandLowerDeeside_preferenceprofile_v0001_ward-18-stonehaven-and-lower-deeside_06052022_172124.csv,Dawn BLACK SNP,0.5,['Sarah DICKINSON LD'],False,OM
+Ward18-StonehavenandLowerDeeside_preferenceprofile_v0001_ward-18-stonehaven-and-lower-deeside_06052022_172124.csv,Wendy AGNEW Con,0.5,['Sarah DICKINSON LD'],False,OM
+Ward2UibhistaDeasEirisgeighagusBeinnnaFaoghla_ward02_preferenceprofile.csv,Andrew Veitch WALKER Ind,0.5,['PAUL FRANCIS STEELE Ind'],False,OM
+Ward4-CarseKinnairdandTryst_ward4.csv,Sean Patrick MCCAY LD,0.5,['Gary BOUSE SNP'],False,OM
+Ward5-ObanNorthandLorn_ward5.csv,Veronica DAVIS LD,0.5,['Julie MCKENZIE SNP'],False,OM
+Ward6-InverclydeSouthWest_inverclyde12-06,Ciano REBECCHI LD,0.5,['Clone'],False,OM
+Ward6-InverkeithingDalgetyBay_PreferenceProfile_V0001_Ward-6-Inverkeithing-and-Dalgety-Bay_06052022_151927.csv,Dave DEMPSEY Con,0.5,['David BARRATT SNP'],False,OM
+Ward9SteornabhaghaTuath_ward09_preferenceprofile.csv,John Murdo MACMILLAN Ind,0.5,['Duncan MACINNES Ind'],False,OM
+Ward9SteornabhaghaTuath_ward09_preferenceprofile.csv,Maxi MACNEILL Ind,0.5,['Duncan MACINNES Ind'],False,OM
+Ward9SteornabhaghaTuath_ward09_preferenceprofile.csv,Tracey DINNER Ind,0.5,['Duncan MACINNES Ind'],False,OM
+Ward9SteornabhaghaTuath_ward09_preferenceprofile.csv,Willie MACRAE Ind,0.5,['Duncan MACINNES Ind'],False,OM
+WesterRossStrathpefferandLochalshWard_highland12-06,Audrey SINCLAIR Ind,0.5,['Biz CAMPBELL LD'],False,OM
+Ward21NorthEast_glasgow17-021.csv,Carole URE Grn,0.0,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Frances HOWELL Con,0.0,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Gerry BOYLE Ind,0.0,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Jenny KIERNAN Sol,0.0,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Mandy MORGAN SNP,0.0,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Maureen BURKE Lab,0.0,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Ruairi KELLY SNP,0.0,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Stephen DOCHERTY Lab,0.0,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,none,0.0,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Carole URE Grn,0.1,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Frances HOWELL Con,0.1,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Gerry BOYLE Ind,0.1,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Jenny KIERNAN Sol,0.1,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Mandy MORGAN SNP,0.1,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Maureen BURKE Lab,0.1,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Ruairi KELLY SNP,0.1,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Stephen DOCHERTY Lab,0.1,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Carole URE Grn,0.2,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Frances HOWELL Con,0.2,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Gerry BOYLE Ind,0.2,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Jenny KIERNAN Sol,0.2,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Mandy MORGAN SNP,0.2,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Maureen BURKE Lab,0.2,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Ruairi KELLY SNP,0.2,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Stephen DOCHERTY Lab,0.2,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+LerwickNorth_shetland12-06,Malcolm BELL Ind,0.3,"['Clone', 'Malcolm BELL Ind']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Carole URE Grn,0.3,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Frances HOWELL Con,0.3,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Gerry BOYLE Ind,0.3,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Jenny KIERNAN Sol,0.3,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Mandy MORGAN SNP,0.3,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Maureen BURKE Lab,0.3,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Ruairi KELLY SNP,0.3,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Stephen DOCHERTY Lab,0.3,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward4Cardonald_glasgow17-004.csv,Elaine MCSPORRAN SNP,0.3,"['Clone', 'Elaine MCSPORRAN SNP']",True,PM
+KirkintillochEastandTwechar_e-duns12-08.csv,Stewart MACDONALD Lab,0.4,"['Clone', 'Stewart MACDONALD Lab']",True,PM
+Ward18-HamiltonWestandEarnock_s-lanarks17-18,Allan FALCONER Lab,0.4,"['Allan FALCONER Lab', 'Clone']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Carole URE Grn,0.4,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Frances HOWELL Con,0.4,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Gerry BOYLE Ind,0.4,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Jenny KIERNAN Sol,0.4,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Mandy MORGAN SNP,0.4,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Maureen BURKE Lab,0.4,"['Clone', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Ruairi KELLY SNP,0.4,"['Clone', 'Maureen BURKE Lab']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Stephen DOCHERTY Lab,0.4,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward4-CumbernauldEast_n-lanarks17-004,Tom JOHNSTON SNP,0.4,"['Clone', 'Tom JOHNSTON SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Carole URE Grn,0.5,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Frances HOWELL Con,0.5,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Gerry BOYLE Ind,0.5,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Jenny KIERNAN Sol,0.5,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Mandy MORGAN SNP,0.5,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+Ward21NorthEast_glasgow17-021.csv,Stephen DOCHERTY Lab,0.5,"['Maureen BURKE Lab', 'Ruairi KELLY SNP']",True,PM
+7.JohnstoneSouthElderslieHowwoodWard_renfs12-07,John Duncan MCINTYRE Con,0.0,['Iain MCMILLAN Lab'],False,PM
+JedburghandDistrictWard_sc-borders12-09,Rory STEWART Ind,0.0,['Len WYSE Con'],False,PM
+SOUTHKINTYREWARD_argyll-bute12-01.csv,John SEMPLE SNP,0.0,['Donald KELLY Con'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Allan WEILD Con,0.0,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Cameron GARRETT Grn,0.0,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,George JAMIESON SNP,0.0,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Ian CARRUTHERS Con,0.0,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Richard John BRODIE LD,0.0,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Sean MARSHALL Lab,0.0,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,none,0.0,['Richard John BRODIE LD'],False,PM
+Ward2-Grangemouth_ward2.csv,Mandy BRYSON Con,0.0,['David BALFOUR SNP'],False,PM
+Ward21-FortWilliamandArdnamurchan_Highland 2021 by-election Fort William,Sarah FANET SNP,0.0,['Sarah FANET SNP'],False,PM
+Ward2UibhistaDeasEirisgeighagusBeinnnaFaoghla_ward02_preferenceprofile.csv,DONNIE STEELE Ind,0.0,['PAUL FRANCIS STEELE Ind'],False,PM
+Ward5-LerwickNorthandBressay_ward-5-lerwick-north-and-bressay-preference-profile,Marie WILLIAMSON Ind,0.0,['Stephen LEASK Ind'],False,PM
+Ward6-NorthIslesWard_ward6,Heather WOODBRIDGE Ind,0.0,['Heather WOODBRIDGE Ind'],False,PM
+7.JohnstoneSouthElderslieHowwoodWard_renfs12-07,John Duncan MCINTYRE Con,0.1,['Iain MCMILLAN Lab'],False,PM
+BlackIsleWard_highland12-10,Isobel MCCALLUM Ind,0.1,['Billy BARCLAY Ind'],False,PM
+EastMainlandSouthRonaldsayandBurrayWard_orkney17-05,Norman Rae CRAIGIE Ind,0.1,['Andrew DREVER Ind'],False,PM
+KINTYREANDTHEISLANDSWARD_argyll-bute12-02.csv,Robin CURRIE LD,0.1,['Anne HORN SNP'],False,PM
+KeithandCullen_moray17-02,Theresa Ann COULL SNP,0.1,['Donald GATT Con'],False,PM
+KirkcaldyCentralWard_fife12-12.csv,Judy HAMILTON Lab,0.1,['Judy HAMILTON Lab'],False,PM
+LeithWalkWard_edinburgh by-election 2015 Leith Walk,John Ferguson SCOTT Ind,0.1,['John Lewis RITCHIE SNP'],False,PM
+MidFormartineWard_aberdeenshire12-08.csv,Braden DAVY Lab,0.1,['Allan HENDRY SNP'],False,PM
+NorthfieldMastrickNorthWard_aberdeen17-04.csv,Sam FORMAN LD,0.1,['Jackie DUNBAR SNP'],False,PM
+PentlandHillsWard_edinburgh12-02.csv,BILL HENDERSONSNP,0.1,['RICKY HENDERSONLab'],False,PM
+SOUTHKINTYREWARD_argyll-bute12-01.csv,John SEMPLE SNP,0.1,['Donald KELLY Con'],False,PM
+Stevenston_n-ayrshire17-04,Tom MCCAMMONT Con,0.1,['John SWEENEY Lab'],False,PM
+TayBridgeheadWard_fife12-18.csv,Margaret TAYLOR LD,0.1,['Tim BRETT LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Allan WEILD Con,0.1,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Cameron GARRETT Grn,0.1,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,George JAMIESON SNP,0.1,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Ian CARRUTHERS Con,0.1,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Richard John BRODIE LD,0.1,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Sean MARSHALL Lab,0.1,['Richard John BRODIE LD'],False,PM
+Ward21-FortWilliamandArdnamurchan_Highland 2021 by-election Fort William,Sarah FANET SNP,0.1,['Sarah FANET SNP'],False,PM
+Ward2UibhistaDeasEirisgeighagusBeinnnaFaoghla_ward02_preferenceprofile.csv,DONNIE STEELE Ind,0.1,['PAUL FRANCIS STEELE Ind'],False,PM
+Ward3-KilmarnockWestandCrosshouse_East Ayrshire by-election 2024 Ward 3,Marie ROBERTSON SNP,0.1,['Jayne SANGSTER Lab'],False,PM
+Ward5Govan_glasgow12-05.csv,John FLANAGAN Ind,0.1,['James ADAMS Lab'],False,PM
+Ward6-NorthIslesWard_ward6,Heather WOODBRIDGE Ind,0.1,['Heather WOODBRIDGE Ind'],False,PM
+Ward8-IsleofBute_ward8.csv,Robert MCGOWAN Alba,0.1,['Liz MCCABE Ind'],False,PM
+Ward9-LomondNorth_ward9.csv,George FREEMAN Ind,0.1,['George FREEMAN Ind'],False,PM
+7.JohnstoneSouthElderslieHowwoodWard_renfs12-07,John Duncan MCINTYRE Con,0.2,['Iain MCMILLAN Lab'],False,PM
+AyrNorth_s-ayrshire17-03,Ian CAVANA Lab,0.2,['Laura BRENNAN-WHITEFIELD SNP'],False,PM
+DennyandBanknock_falkirk12-03.csv,Johnny MCNALLY SNP,0.2,['Johnny MCNALLY SNP'],False,PM
+KirkcaldyEastWard_fife12-13.csv,Edgar COOK Con,0.2,['Lawrence BROWN Lab'],False,PM
+LochaTuath_eilean-siar17-08.csv,Allan Cameron MACLACHLAN Ind,0.2,['Donald Finlayson CRICHTON Ind'],False,PM
+SOUTHKINTYREWARD_argyll-bute12-01.csv,John SEMPLE SNP,0.2,['Donald KELLY Con'],False,PM
+Sgir_UigeAgusCeannATuathNanLoch_eilean-siar12-04.csv,Cudig MACLEOD Ind,0.2,['Cudig MACLEOD Ind'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Allan WEILD Con,0.2,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Cameron GARRETT Grn,0.2,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,George JAMIESON SNP,0.2,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Ian CARRUTHERS Con,0.2,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Richard John BRODIE LD,0.2,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Sean MARSHALL Lab,0.2,['Richard John BRODIE LD'],False,PM
+Ward13-Kincorth-Loirston_aberdeen12-13.csv,LD Kate DEAN,0.2,['Lab Neil COONEY'],False,PM
+Ward21-FortWilliamandArdnamurchan_Highland 2021 by-election Fort William,Sarah FANET SNP,0.2,['Sarah FANET SNP'],False,PM
+Ward2UibhistaDeasEirisgeighagusBeinnnaFaoghla_ward02_preferenceprofile.csv,DONNIE STEELE Ind,0.2,['PAUL FRANCIS STEELE Ind'],False,PM
+Ward6-NorthIslesWard_ward6,Heather WOODBRIDGE Ind,0.2,['Heather WOODBRIDGE Ind'],False,PM
+Ward6-PaisleySoutheast_Preference_profile_for_Ward_6_Paisley_Southeast_copy,Eddie DEVINE Lab,0.2,['Bruce MACFARLANE SNP'],False,PM
+Ward6Pollokshields_glasgow12-06.csv,David MEIKLE Con,0.2,['Norman MACLEOD SNP'],False,PM
+Ward7Langside_glasgow12-07-recalc.csv,Paul COLESHILL LD,0.2,['Archie GRAHAM Lab'],False,PM
+Ward8-KelsoDistrict_sc-borders17-08,Alison LAMOND SNP,0.2,['Tom WEATHERSTON Con'],False,PM
+Ward9-LomondNorth_ward9.csv,George FREEMAN Ind,0.2,['George FREEMAN Ind'],False,PM
+7.JohnstoneSouthElderslieHowwoodWard_renfs12-07,John Duncan MCINTYRE Con,0.3,['Iain MCMILLAN Lab'],False,PM
+7.JohnstoneSouthElderslieHowwoodWard_renfs12-07,STEPHEN MCGEE SNP,0.3,['Iain MCMILLAN Lab'],False,PM
+BarrheadLibosideandUplawmoor_e-renfs17-1.csv,Angela CONVERY SNP,0.3,['Danny DEVLIN Ind'],False,PM
+InverkeithingAndDalgetyBayWard_fife12-06.csv,Dave WALKER LD,0.3,['Alice MCGARRY SNP'],False,PM
+NewtonMearnsSouthWard_e-renfs12-05.csv,Frank ANGELL SNP,0.3,['Jim SWIFT Con'],False,PM
+NorthWestandCentralSutherlandWard_highland12-01,Jess THOMAS Ind,0.3,['Hugh MORRISON Ind'],False,PM
+SOUTHKINTYREWARD_argyll-bute12-01.csv,John SEMPLE SNP,0.3,['Donald KELLY Con'],False,PM
+StirlingNorth_stirling17-04,Jim THOMSON SNP,0.3,['Susan MCGILL SNP'],False,PM
+Ward1-Strathmartine_Ward1.csv,Kevin KEENAN Lab,0.3,['John ALEXANDER SNP'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Allan WEILD Con,0.3,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Cameron GARRETT Grn,0.3,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,George JAMIESON SNP,0.3,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Ian CARRUTHERS Con,0.3,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Richard John BRODIE LD,0.3,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Sean MARSHALL Lab,0.3,['Richard John BRODIE LD'],False,PM
+Ward15-AboyneUpperDeesideandDonside_aberdeenshire17-15.csv,Peter ARGYLE LD,0.3,['Paul GIBB Con'],False,PM
+Ward21-FortWilliamandArdnamurchan_Highland 2021 by-election Fort William,Sarah FANET SNP,0.3,['Sarah FANET SNP'],False,PM
+Ward2UibhistaDeasEirisgeighagusBeinnnaFaoghla_ward02_preferenceprofile.csv,DONNIE STEELE Ind,0.3,['PAUL FRANCIS STEELE Ind'],False,PM
+Ward3-AyrNorth_south ayrshire2022ward 3,Ian DAVIS Con,0.3,['Laura BRENNAN-WHITEFIELD SNP'],False,PM
+Ward4-AyrEast_south ayrshire2022ward 4,Ian DOUGLAS SNP,0.3,['Chris CULLEN SNP'],False,PM
+Ward6-EastKilbrideSouth_s-lanarks12-06,Patricia HARROW Con,0.3,['Archie BUCHANAN SNP'],False,PM
+Ward6-InverkeithingDalgetyBay_PreferenceProfile_V0001_Ward-6-Inverkeithing-and-Dalgety-Bay_06052022_151927.csv,Patrick Charles BROWNE Lab,0.3,['David BARRATT SNP'],False,PM
+Ward6-NorthIslesWard_ward6,Heather WOODBRIDGE Ind,0.3,['Heather WOODBRIDGE Ind'],False,PM
+Ward7-KirkintillochEastNorthTwechar_ward7.csv,Pamela MARSHALL SNP,0.3,['Stewart MACDONALD Lab'],False,PM
+Ward9-Fountainbridge-Craiglockhart_ward9.csv,David KEY SNP,0.3,['Val WALKER Labour and Co-operative Party'],False,PM
+Ward9-LomondNorth_ward9.csv,George FREEMAN Ind,0.3,['Clone'],False,PM
+7.JohnstoneSouthElderslieHowwoodWard_renfs12-07,John Duncan MCINTYRE Con,0.4,['Iain MCMILLAN Lab'],False,PM
+AnTaobhSiaragusNis_eilean-siar12-09.csv,Kenneth Macleod MURRAY Ind,0.4,['Iain MORRISON Ind'],False,PM
+BannockburnWard_stirling12-07,Gerard MCLAUGHLAN SNP,0.4,['Margaret BRISLEY Lab'],False,PM
+ClydebankWaterfrontWard_w-duns12-06,Kath RYALL Lab,0.4,['Gail CASEY Lab'],False,PM
+SOUTHKINTYREWARD_argyll-bute12-01.csv,John SEMPLE SNP,0.4,['Donald KELLY Con'],False,PM
+TrossachsandTeith_stirling17-01,Evelyn TWEED SNP,0.4,['Martin EARL Con'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Allan WEILD Con,0.4,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Cameron GARRETT Grn,0.4,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,George JAMIESON SNP,0.4,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Ian CARRUTHERS Con,0.4,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Richard John BRODIE LD,0.4,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Sean MARSHALL Lab,0.4,['Richard John BRODIE LD'],False,PM
+Ward13-GlenrothesWestKinglassie_PreferenceProfile_V0001_Ward-13-Glenrothes-West-and-Kinglassie_06052022_145551.csv,Ian ROBERTSON UNKNOWN,0.4,['Julie Christina FORD SNP'],False,PM
+Ward2-InverclydeEastCentral_PreferenceProfile_Ward-2,James KELLY Con,0.4,['Robert MORAN Lab'],False,PM
+Ward21-FortWilliamandArdnamurchan_Highland 2021 by-election Fort William,Sarah FANET SNP,0.4,['Clone'],False,PM
+Ward22Dennistoun_Ward22,Lorna FINN SNP,0.4,['Allan CASEY SNP'],False,PM
+Ward2UibhistaDeasEirisgeighagusBeinnnaFaoghla_ward02_preferenceprofile.csv,DONNIE STEELE Ind,0.4,['PAUL FRANCIS STEELE Ind'],False,PM
+Ward4-NorthBerwickCoastal_Ward4.csv,Jeremy FINDLAY Con,0.4,['Carol MCFARLANE Lab'],False,PM
+Ward5-PeterheadNorthandRattray_aberdeenshire17-05.csv,Anne Margaret ALLAN SNP,0.4,['Dianne BEAGRIE Con'],False,PM
+Ward6-NorthIslesWard_ward6,Heather WOODBRIDGE Ind,0.4,['Heather WOODBRIDGE Ind'],False,PM
+Ward6HaddingtonandLammermuir_e-lothian12-06.csv,Tom TROTTER SNP,0.4,['John MCMILLAN Lab'],False,PM
+Ward9-LomondNorth_ward9.csv,George FREEMAN Ind,0.4,['Clone'],False,PM
+7.JohnstoneSouthElderslieHowwoodWard_renfs12-07,John Duncan MCINTYRE Con,0.5,['Iain MCMILLAN Lab'],False,PM
+LomondWard_w-duns12-01,Brian McKenzie WALKERCon,0.5,['Martin ROONEY Lab'],False,PM
+SOUTHKINTYREWARD_argyll-bute12-01.csv,John SEMPLE SNP,0.5,['Donald KELLY Con'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Allan WEILD Con,0.5,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Cameron GARRETT Grn,0.5,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,George JAMIESON SNP,0.5,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Ian CARRUTHERS Con,0.5,['Richard John BRODIE LD'],False,PM
+Ward10-AnnandaleSouth_ward10.csv,Sean MARSHALL Lab,0.5,['Richard John BRODIE LD'],False,PM
+Ward21NorthEast_glasgow17-021.csv,Maureen BURKE Lab,0.5,['Ruairi KELLY SNP'],False,PM
+Ward2UibhistaDeasEirisgeighagusBeinnnaFaoghla_ward02_preferenceprofile.csv,DONNIE STEELE Ind,0.5,['PAUL FRANCIS STEELE Ind'],False,PM
