@@ -211,15 +211,23 @@ def anom_search_strats_shell(params):
     try:
         return [lxn_method.__name__, ballot_mod.__name__, file_path, num_cands] + anom_search_strats(profile, num_cands, lxn_method, ballot_mod, vote_frac)
     except:
+        if callable(params[0]):
+            method_name = params[0].__name__
+        else:
+            method_name = params[0]
+        if callable(params[1]):
+            mod_name = params[1].__name__
+        else:
+            mod_name = params[1]
         print('###############################################')
         print('###############################################')
         print('Error in election:', params[2])
-        print('Election method:', params[0])
-        print('Running search:', params[1])
+        print('Election method:', method_name)
+        print('Running search:', mod_name)
         print(traceback.format_exc())
         print('###############################################')
         print('###############################################')
-        return [params[0], params[1], params[2], params[4], [], 0]
+        return [method_name, mod_name, params[2], params[4]]
 
 
 

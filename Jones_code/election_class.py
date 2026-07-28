@@ -633,7 +633,7 @@ def diversity_score_threshold(profile, cands, threshold = 0.05, diagnostic=False
         
         ## Condorcet winner, we are done
         if len(smith_set)==1:
-            return smith_set
+            return [smith_set]
         
         ## if no condorcet winner, remove lowest diversity score
         diversity_scores = {cand:0 for cand in hopefuls}
@@ -737,7 +737,7 @@ def diversity_score_simplex(profile, cands, diagnostic=False):
         
         ## Condorcet winner, we are done
         if len(smith_set)==1:
-            return smith_set
+            return [smith_set]
         
         ## if no condorcet winner, remove lowest diversity score
         simplex_points = {cand: np.zeros(math.factorial(len(hopefuls)-1)) for cand in hopefuls}
@@ -856,7 +856,7 @@ def TVR_OM(profile, cands, diagnostic=False):
         if diagnostic:
             print(new_profile)
         
-    return hopefuls
+    return [hopefuls]
 
 
 
@@ -900,7 +900,7 @@ def TVR_PM(profile, cands, diagnostic=False):
         if diagnostic:
             print(new_profile)
         
-    return hopefuls
+    return [hopefuls]
 
 
 
@@ -953,7 +953,7 @@ def TVR_AVG(profile, cands, diagnostic=False):
         if diagnostic:
             print(new_profile)
         
-    return hopefuls
+    return [hopefuls]
     
 
 
@@ -971,7 +971,7 @@ def friendly_fire_inst(profile, cands, diagnostic=False):
     if len(smith_set)==1:
         if diagnostic:
             print('Condorcet Winner exists')
-        return smith_set
+        return [smith_set]
     
     ## no Condorcet winner
     ## choose candidate who only loses to friends as the winner
@@ -1024,7 +1024,7 @@ def friendly_fire_inst(profile, cands, diagnostic=False):
     if diagnostic:
         print(ff_scores)
     
-    return [cand for cand in smith_set if ff_scores[cand]==max(ff_scores.values())]
+    return [[cand for cand in smith_set if ff_scores[cand]==max(ff_scores.values())]]
 
 
 
@@ -1038,7 +1038,7 @@ def friendly_fire_inst_smith(profile, cands, diagnostic=False):
     if len(smith_set)==1:
         if diagnostic:
             print('Condorcet Winner exists')
-        return smith_set
+        return [smith_set]
     
     ## no Condorcet winner
     ## choose candidate who only loses to friends as the winner
@@ -1091,7 +1091,7 @@ def friendly_fire_inst_smith(profile, cands, diagnostic=False):
     if diagnostic:
         print(ff_scores)
     
-    return [cand for cand in smith_set if ff_scores[cand]==max(ff_scores.values())]
+    return [[cand for cand in smith_set if ff_scores[cand]==max(ff_scores.values())]]
 
 
 
@@ -1103,7 +1103,7 @@ def friendly_fire_inst_smith_exp(profile, cands, diagnostic=False):
     if len(smith_set)==1:
         if diagnostic:
             print('Condorcet Winner exists')
-        return smith_set
+        return [smith_set]
     
     ## no Condorcet winner
     ## choose candidate who only loses to friends as the winner
@@ -1160,7 +1160,7 @@ def friendly_fire_inst_smith_exp(profile, cands, diagnostic=False):
     if diagnostic:
         print(ff_scores)
     
-    return [cand for cand in smith_set if ff_scores[cand]==max(ff_scores.values())]
+    return [[cand for cand in smith_set if ff_scores[cand]==max(ff_scores.values())]]
 
 
 
@@ -1174,7 +1174,7 @@ def friendly_fire_seq_smith(profile, cands, diagnostic=False):
     if len(smith_set)==1:
         if diagnostic:
             print('Condorcet Winner exists')
-        return smith_set
+        return [smith_set]
     
     hopefuls = smith_set
     while len(smith_set)>1:
@@ -1262,7 +1262,7 @@ def friendly_fire_seq_smith(profile, cands, diagnostic=False):
         # smith_set = restrict_to_smith(new_profile, hopefuls)[0]
         smith_set, new_profile = restrict_to_smith(new_profile, hopefuls)
         
-    return smith_set    
+    return [smith_set]    
         
     
     

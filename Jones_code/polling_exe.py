@@ -484,15 +484,23 @@ def sort_search(params):
             print('###############################')
             return [strategy.__name__] 
     except:
+        if callable(params[0]):
+            method_name = params[0].__name__
+        else:
+            method_name = params[0]
+        if callable(params[1]):
+            mod_name = params[1].__name__
+        else:
+            mod_name = params[1]
         print('###############################################')
         print('###############################################')
         print('Error in election:', params[2])
-        print('Election method:', params[0])
-        print('Running search:', params[1])
+        print('Election method:', method_name)
+        print('Running search:', mod_name)
         print(traceback.format_exc())
         print('###############################################')
         print('###############################################')
-        return [params[0], params[1], params[2], params[4]]
+        return [method_name, mod_name, params[2], params[4]]
 
 ###############################################################################
 ###############################################################################
