@@ -134,6 +134,10 @@ def get_election_data(election_location, specific_lxn=-1, diagnostic=False):
                 print("Cannot handle this many candidates in election " + str(file_path) + ".  Has " + 
                       str(num_cands) + " candidates.")
                 continue
+            
+            if num_cands==1:
+                print('Skipping election with only one candidate')
+                continue
                 
             data = createBallotDF(lines)
             
