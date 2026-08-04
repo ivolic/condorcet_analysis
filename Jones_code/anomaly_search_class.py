@@ -3699,5 +3699,4 @@ def frac_noShowSmithIRV(profile, num_cands, vote_frac, diagnostic=False):
         
         
         
-        
     
