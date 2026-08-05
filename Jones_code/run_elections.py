@@ -153,6 +153,7 @@ def createBallotDF(list_profile, diagnostic=False):
 def get_election_data(election_location, specific_lxn=-1, diagnostic=False):
     lxns = []
     base_name = "C:/Users/mijones/Documents/Datasets/ranked_ballot_data/Preference Profiles/"+election_location
+    base_name = "C:/Users/mijones/Documents/Datasets/Australia Complete Data/preference profiles"
 
     # # all elections
     lxn_count = 0
@@ -219,7 +220,7 @@ def get_election_data(election_location, specific_lxn=-1, diagnostic=False):
     #     lxns.append([file_path, data, num_cands])
 
     return lxns
-    
+
 
 
 
@@ -240,7 +241,7 @@ def filter_weak_cands(profile, old_cand_num, new_cand_num):
         plurality_scores[profile.at[k,'ballot'][0]] += profile.at[k,'Count']
     
     cands.sort(key=lambda x: plurality_scores[x], reverse=True)
-        
+    
     # mention_scores = {}
     # for k in range(len(profile)):
     #     count = profile.at[k, 'Count']
