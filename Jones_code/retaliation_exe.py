@@ -39,10 +39,27 @@ from ballot_modifications_class import *
 ###############################################################################
 ###############################################################################
 ##### parameters
-election_group = 'Scotland'
+## election_group should be of the form 'region/type'
+## regions: Scotland, Australia, America
+## types: single_winner, multi_winner, multi_winner_condensed
+## if Australia/multi_winner (or multi_winner_condensed), end with ',no_Fed' or ',only_Fed' of ',all'
+election_group = 'Scotland/single_winner'
+# election_group = 'Scotland/multi_winner'
+# election_group = 'Scotland/multi_winner_condensed'
+# election_group = 'Australia/single_winner'
+# election_group = 'Australia/multi_winner,no_Fed'
+# election_group = 'Australia/multi_winner,only_Fed'
+# election_group = 'Australia/multi_winner_condensed,no_Fed'
+# election_group = 'Australia/multi_winner_condensed,only_Fed'
+# election_group = 'America/single_winner'
+# election_group = 'America/multi_winner'
+mp_pool_size = 10
+
+
+## don't mess with these, they are not important
 frac = 1
-mp_pool_size = 6
-max_election_size = 15
+only_use_first_place_voters = False
+# max_election_size = 15
 ###############################################################################
 ###############################################################################
 
@@ -91,66 +108,66 @@ def get_profile(file_path):
         
     data = createBallotDF(lines)
     
-    if num_cands>max_election_size:
-        data = filter_weak_cands(data, num_cands, max_election_size)
-        num_cands = max_election_size
+    # if num_cands>max_election_size:
+    #     data = filter_weak_cands(data, num_cands, max_election_size)
+    #     num_cands = max_election_size
         
     return data
     
 
-def filter_weak_cands(profile, old_cand_num, new_cand_num):
+# def filter_weak_cands(profile, old_cand_num, new_cand_num):
     
-    cand_names = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
-                  'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
-                  'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
-                  'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
-                  '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 
-                  '!', '@', '#', '$', '%']
-    cands = cand_names[:old_cand_num]
+#     cand_names = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
+#                   'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
+#                   'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
+#                   'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
+#                   '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 
+#                   '!', '@', '#', '$', '%']
+#     cands = cand_names[:old_cand_num]
     
-    plurality_scores = {cand:0 for cand in cands}
-    for k in range(len(profile)):
-        plurality_scores[profile.at[k,'ballot'][0]] += profile.at[k,'Count']
+#     plurality_scores = {cand:0 for cand in cands}
+#     for k in range(len(profile)):
+#         plurality_scores[profile.at[k,'ballot'][0]] += profile.at[k,'Count']
     
-    cands.sort(key=lambda x: plurality_scores[x], reverse=True)
+#     cands.sort(key=lambda x: plurality_scores[x], reverse=True)
         
-    # mention_scores = {}
-    # for k in range(len(profile)):
-    #     count = profile.at[k, 'Count']
-    #     for cand in profile.at[k, 'ballot']:
-    #         if cand not in mention_scores.keys():
-    #             mention_scores[cand] = 0
-    #         mention_scores[cand] += count
-    # cands.sort(key=lambda x: mention_scores[x], reverse=True)
+#     # mention_scores = {}
+#     # for k in range(len(profile)):
+#     #     count = profile.at[k, 'Count']
+#     #     for cand in profile.at[k, 'ballot']:
+#     #         if cand not in mention_scores.keys():
+#     #             mention_scores[cand] = 0
+#     #         mention_scores[cand] += count
+#     # cands.sort(key=lambda x: mention_scores[x], reverse=True)
     
-    keep_cands = cands[:new_cand_num]
+#     keep_cands = cands[:new_cand_num]
     
-    # print(plurality_scores)
-    # print(keep_cands)
+#     # print(plurality_scores)
+#     # print(keep_cands)
     
-    new_ballot_list = []
-    new_count_list = []
+#     new_ballot_list = []
+#     new_count_list = []
     
-    for k in range(len(profile)):
-        ballot = profile.at[k, 'ballot']
-        new_ballot = ''
-        for cand in ballot:
-            if cand in keep_cands:
-                new_ballot += cand_names[keep_cands.index(cand)]
-        # print(ballot, new_ballot)
+#     for k in range(len(profile)):
+#         ballot = profile.at[k, 'ballot']
+#         new_ballot = ''
+#         for cand in ballot:
+#             if cand in keep_cands:
+#                 new_ballot += cand_names[keep_cands.index(cand)]
+#         # print(ballot, new_ballot)
                 
-        if new_ballot:            
-            if new_ballot in new_ballot_list:
-                indx = new_ballot_list.index(new_ballot)
-                new_count_list[indx] += profile.at[k, 'Count']
-            else:
-                new_ballot_list.append(new_ballot)
-                new_count_list.append(profile.at[k, 'Count'])
+#         if new_ballot:            
+#             if new_ballot in new_ballot_list:
+#                 indx = new_ballot_list.index(new_ballot)
+#                 new_count_list[indx] += profile.at[k, 'Count']
+#             else:
+#                 new_ballot_list.append(new_ballot)
+#                 new_count_list.append(profile.at[k, 'Count'])
      
-    df_dict = {'ballot': new_ballot_list, 'Count': new_count_list}
-    new_profile = pd.DataFrame(df_dict)
+#     df_dict = {'ballot': new_ballot_list, 'Count': new_count_list}
+#     new_profile = pd.DataFrame(df_dict)
     
-    return new_profile
+#     return new_profile
 
 ###############################################################################
 ###############################################################################
@@ -249,6 +266,9 @@ def check_anomaly(params):
     ## confirm the correct winners
     if [winner1] != lxn_method(profile, cands, diagnostic = False)[0]:
         print('##### ERROR: INCORRECT WINNER1 #####')
+        if [winner2] != lxn_method(mod_profile, cands, diagnostic = False)[0]:
+            print('##### ERROR: INCORRECT WINNER2 #####')
+        breakhere
     # else:
     #     print('Old winner1 good')
     if [winner2] != lxn_method(mod_profile, cands, diagnostic = False)[0]:
@@ -306,8 +326,8 @@ cand_names=['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
 
 ## read csv files
 
-if not os.path.exists(election_group+'_retaliation'):
-    os.makedirs(election_group+'_retaliation')
+if not os.path.exists(election_group.replace('/','_')+'_retaliation'):
+    os.makedirs(election_group.replace('/','_')+'_retaliation')
 
 
 # lxn_methods = [plurality, plurality_runoff, IRV, smith_irv, smith_plurality, 
@@ -333,7 +353,7 @@ strike_back_fracs = pd.DataFrame(0, index = [ballot_mod.__name__ for ballot_mod 
 for lxn_method in lxn_methods:
     for ballot_mod in ballot_mod_methods:
         csv_name = lxn_method.__name__ + '_' + ballot_mod.__name__ + '.csv'
-        anomaly_data = pd.read_csv(election_group + '_anomalies/' + csv_name)
+        anomaly_data = pd.read_csv(election_group.replace('/','_') + '_anomalies_strategic/' + csv_name)
         anomaly_counts.at[ballot_mod.__name__, lxn_method.__name__] += len(anomaly_data)
         
         for k in range(len(anomaly_data)):
@@ -365,11 +385,11 @@ if __name__ == '__main__':
         for ballot_mod in ballot_mod_methods:
             if anomaly_counts.at[ballot_mod.__name__, lxn_method.__name__]==0:
                 strike_back_fracs.at[ballot_mod.__name__, lxn_method.__name__] = -1        
-    strike_back_fracs.to_csv(election_group+'_retaliation/strike_back_fracs.csv')
+    strike_back_fracs.to_csv(election_group.replace('/','_')+'_retaliation/strike_back_fracs.csv')
     
     df_dict = {'file_name': file_name_list, 'election_method': lxn_method_list, 'anomaly_type': ballot_mod_list}
     strike_back_data = pd.DataFrame(df_dict)
-    strike_back_data.to_csv(election_group+'_retaliation/strike_back_data.csv')
+    strike_back_data.to_csv(election_group.replace('/','_')+'_retaliation/strike_back_data.csv')
     
     
             # file_path = file_name.replace('./data', '../../raw_data/preference_profiles')

@@ -15,6 +15,7 @@ import warnings
 import sys
 warnings.simplefilter(action='ignore', category=FutureWarning)
 import time
+from itertools import combinations
 
 def Borda_PM(profile, cands, diagnostic=False):
     
@@ -1915,9 +1916,9 @@ def killerSubs_upwardMono_TVR_AVG(election, anomFound, diagnostic = False):
 
 ### run over single election:
 
-election = 'Preference Profiles/scotland/dumgal22/Ward8-Lochar_ward8.csv'
-anomFound = False
-killerSubs_upwardMono_TVR_AVG(election, anomFound, diagnostic = False)
+# election = 'Preference Profiles/scotland/dumgal22/Ward8-Lochar_ward8.csv'
+# anomFound = False
+# killerSubs_upwardMono_TVR_AVG(election, anomFound, diagnostic = False)
 
 
 ### run over a dataset
@@ -1934,7 +1935,7 @@ dataset_name = "scotland" #NontrivialSmith #convex_combinations_andy #sampled_to
 start1 = time.process_time()
 #data1 = open(f"TVRnew_{tvr_type}_Upward_{dataset_name}.txt", "w")
 
-directory=f'Preference Profiles/{dataset_name}' #'Scotland data, LEAP'
+directory="C:/Users/mijones/Documents/Datasets/ranked_ballot_data/preference_profiles_top_15/Scotland" #'Scotland data, LEAP'
 r=[]
 subdirs = [x[0] for x in os.walk(directory)]
 subdirs=subdirs[1:]
@@ -1953,7 +1954,7 @@ for subdir in subdirs:
             print("\n" )
             #print(filename)
         anomFound = False
-        weasel = killerSubs_upwardMono_TVR_PM(filename, anomFound, diagnostic = False) #change type here too!!!!
+        weasel = killerSubs_upwardMono_TVR_OM(filename, anomFound, diagnostic = False) #change type here too!!!!
         if weasel:
             counter += 1
             print("\n")

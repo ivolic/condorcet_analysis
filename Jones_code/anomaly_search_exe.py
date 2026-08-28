@@ -45,12 +45,27 @@ from anomaly_search_class import *
 ###############################################################################
 ###############################################################################
 ##### parameters
-election_group = 'Scotland'
-# election_group = 'sampled_top_cycles_david'
+## election_group should be of the form 'region/type'
+## regions: Scotland, Australia, America
+## types: single_winner, multi_winner, multi_winner_condensed
+## if Australia/multi_winner (or multi_winner_condensed), end with ',no_Fed' or ',only_Fed' of ',all'
+election_group = 'Scotland/single_winner'
+# election_group = 'Scotland/multi_winner'
+# election_group = 'Scotland/multi_winner_condensed'
+# election_group = 'Australia/single_winner'
+# election_group = 'Australia/multi_winner,no_Fed'
+# election_group = 'Australia/multi_winner,only_Fed'
+# election_group = 'Australia/multi_winner_condensed,no_Fed'
+# election_group = 'Australia/multi_winner_condensed,only_Fed'
+# election_group = 'America/single_winner'
+# election_group = 'America/multi_winner'
+mp_pool_size = 10
+
+
+## don't mess with these, they are not important
 frac = 1
 only_use_first_place_voters = False
-mp_pool_size = 10
-max_election_size = 15
+# max_election_size = 15
 ###############################################################################
 ###############################################################################
 
@@ -88,121 +103,122 @@ def createBallotDF(list_profile, diagnostic=False):
 ###############################################################################
 ###############################################################################
 
-def get_election_data(election_location, specific_lxn=-1, diagnostic=False):
+def get_election_data(election_location, diagnostic=False):
     lxns = []
-    ## version for github repo
-    base_name = 'C:/Users/mijones/Documents/Datasets/ranked_ballot_data/Preference Profiles/' + election_location
-    # base_name = 'C:/Users/mijones/Documents/Datasets/ranked_ballot_data/Synthetic Preference Profiles/' + election_location
-    ## version for HPC
-    # base_name = './data/' + election_location
-
-    lxn_count = 0
-    for folder_name in os.listdir(base_name):
-    ## test folder in scotland
-    # for folder_name in ['s-lanarks17-ballots']:
-    ## test folder in america
-    # for folder_name in ['Portland, ME']:
-        for file_name in os.listdir(base_name+'/'+folder_name):
-            lxn_count += 1
-            file_path = base_name+'/'+folder_name+'/'+file_name
-            
-
-            # if 'aberdeen2012/Ward1' not in file_path:
-            #     continue
-        
-            # if lxn_count == 100:
-            #     break
-            
-            # print(file_path)
-            
-            if specific_lxn > 0:
-                if lxn_count!=specific_lxn:
-                    continue
-            
-            if diagnostic:
-                print(lxn_count, file_path)
-        
-            sys.stdout.write('\r')
-            sys.stdout.write(f'Election {lxn_count}'+'         ')
-            sys.stdout.flush()
-            
-            File=open(file_path,'r', encoding='utf-8')
-            lines=File.readlines()
     
-            first_space=lines[0].find(' ')
-            num_cands=int(lines[0][0:first_space])
-            if num_cands>67:
-                print("Cannot handle this many candidates in election " + str(file_path) + ".  Has " + 
-                      str(num_cands) + " candidates.")
-                continue
-                
-            data = createBallotDF(lines)
+    ## base_name should end at the preference_profiles_top_15 folder
+    ## version for github repo
+    base_name = 'C:/Users/mijones/Documents/Datasets/ranked_ballot_data/preference_profiles_top_15/'
+    ## version for HPC
+    # base_name = ?
+    
+    if ',' not in election_location:
+        folder_name = base_name + election_location
+        fed_keep = 'all'
+    else:
+        c_indx = election_location.index(',')
+        folder_name = base_name + election_location[:c_indx]
+        fed_keep = election_location[c_indx+1:]
+        
+    lxn_count = 0
+    for file_name in os.listdir(folder_name):
+        
+        ## test code on few elections
+        if 'Argyll' not in file_name:
+            continue
+    
+        if fed_keep == 'no_Fed' and 'Federal' in file_name:
+            continue
+        if fed_keep == 'only_Fed' and 'Federal' not in file_name:
+            continue
+        
+        file_path = folder_name+'/'+file_name
+        
+        lxn_count += 1
+        # if lxn_count == 100:
+        #     break
+        if diagnostic:
+            print(lxn_count, file_path)
+    
+        sys.stdout.write('\r')
+        sys.stdout.write(f'Election {lxn_count}'+'         ')
+        sys.stdout.flush()
+        
+        File=open(file_path,'r', encoding='utf-8')
+        lines=File.readlines()
+
+        first_space=lines[0].find(' ')
+        num_cands=int(lines[0][0:first_space])
+        if num_cands>67:
+            print("Cannot handle this many candidates in election " + str(file_path) + ".  Has " + 
+                  str(num_cands) + " candidates.")
+            continue
             
-            
-            if num_cands>max_election_size:
-                data = filter_weak_cands(data, num_cands, max_election_size)
-                num_cands = max_election_size
-            
-            
-            lxns.append([file_path, data, num_cands])
+        data = createBallotDF(lines)
+        
+        # if num_cands>max_election_size:
+        #     data = filter_weak_cands(data, num_cands, max_election_size)
+        #     num_cands = max_election_size
+        
+        lxns.append([file_path, data, num_cands])
 
     return lxns
 
 
 
-def filter_weak_cands(profile, old_cand_num, new_cand_num):
+# def filter_weak_cands(profile, old_cand_num, new_cand_num):
     
-    cand_names = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
-                  'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
-                  'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
-                  'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
-                  '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 
-                  '!', '@', '#', '$', '%']
-    cands = cand_names[:old_cand_num]
+#     cand_names = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
+#                   'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
+#                   'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
+#                   'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
+#                   '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 
+#                   '!', '@', '#', '$', '%']
+#     cands = cand_names[:old_cand_num]
     
-    plurality_scores = {cand:0 for cand in cands}
-    for k in range(len(profile)):
-        plurality_scores[profile.at[k,'ballot'][0]] += profile.at[k,'Count']
+#     plurality_scores = {cand:0 for cand in cands}
+#     for k in range(len(profile)):
+#         plurality_scores[profile.at[k,'ballot'][0]] += profile.at[k,'Count']
     
-    cands.sort(key=lambda x: plurality_scores[x], reverse=True)
+#     cands.sort(key=lambda x: plurality_scores[x], reverse=True)
         
-    # mention_scores = {}
-    # for k in range(len(profile)):
-    #     count = profile.at[k, 'Count']
-    #     for cand in profile.at[k, 'ballot']:
-    #         if cand not in mention_scores.keys():
-    #             mention_scores[cand] = 0
-    #         mention_scores[cand] += count
-    # cands.sort(key=lambda x: mention_scores[x], reverse=True)
+#     # mention_scores = {}
+#     # for k in range(len(profile)):
+#     #     count = profile.at[k, 'Count']
+#     #     for cand in profile.at[k, 'ballot']:
+#     #         if cand not in mention_scores.keys():
+#     #             mention_scores[cand] = 0
+#     #         mention_scores[cand] += count
+#     # cands.sort(key=lambda x: mention_scores[x], reverse=True)
     
-    keep_cands = cands[:new_cand_num]
+#     keep_cands = cands[:new_cand_num]
     
-    # print(plurality_scores)
-    # print(keep_cands)
+#     # print(plurality_scores)
+#     # print(keep_cands)
     
-    new_ballot_list = []
-    new_count_list = []
+#     new_ballot_list = []
+#     new_count_list = []
     
-    for k in range(len(profile)):
-        ballot = profile.at[k, 'ballot']
-        new_ballot = ''
-        for cand in ballot:
-            if cand in keep_cands:
-                new_ballot += cand_names[keep_cands.index(cand)]
-        # print(ballot, new_ballot)
+#     for k in range(len(profile)):
+#         ballot = profile.at[k, 'ballot']
+#         new_ballot = ''
+#         for cand in ballot:
+#             if cand in keep_cands:
+#                 new_ballot += cand_names[keep_cands.index(cand)]
+#         # print(ballot, new_ballot)
                 
-        if new_ballot:            
-            if new_ballot in new_ballot_list:
-                indx = new_ballot_list.index(new_ballot)
-                new_count_list[indx] += profile.at[k, 'Count']
-            else:
-                new_ballot_list.append(new_ballot)
-                new_count_list.append(profile.at[k, 'Count'])
+#         if new_ballot:            
+#             if new_ballot in new_ballot_list:
+#                 indx = new_ballot_list.index(new_ballot)
+#                 new_count_list[indx] += profile.at[k, 'Count']
+#             else:
+#                 new_ballot_list.append(new_ballot)
+#                 new_count_list.append(profile.at[k, 'Count'])
      
-    df_dict = {'ballot': new_ballot_list, 'Count': new_count_list}
-    new_profile = pd.DataFrame(df_dict)
+#     df_dict = {'ballot': new_ballot_list, 'Count': new_count_list}
+#     new_profile = pd.DataFrame(df_dict)
     
-    return new_profile
+#     return new_profile
 
 ###############################################################################
 ###############################################################################
@@ -492,8 +508,8 @@ def sort_search(params):
 
 
 vote_fracs = [1 - i/frac for i in range(frac)]
-if not os.path.exists(election_group+'_anomalies'):
-    os.makedirs(election_group+'_anomalies')
+if not os.path.exists(election_group.replace('/','_')+'_anomalies_strategic'):
+    os.makedirs(election_group.replace('/','_')+'_anomalies_strategic')
 
 lxn_methods = [plurality, plurality_runoff, IRV, smith_irv, smith_plurality, 
                 minimax, smith_minimax, ranked_pairs, 
@@ -501,8 +517,7 @@ lxn_methods = [plurality, plurality_runoff, IRV, smith_irv, smith_plurality,
 
 lxn_methods += [TVR_PM, TVR_OM, TVR_AVG, diversity_score_threshold]
 # lxn_methods += [diversity_score_simplex]
-lxn_methods += [friendly_fire_inst, friendly_fire_seq_smith, friendly_fire_inst_smith]
-lxn_methods += [friendly_fire_inst_smith_exp]
+lxn_methods += [friendly_fire_inst, friendly_fire_seq_smith, friendly_fire_inst_smith, friendly_fire_inst_smith_exp]
 
 ballot_mod_methods = [laterNoHarm, strat_compromise, strat_truncate_L, strat_truncate_W, strat_bury_shallow, strat_bury_deep]
 full_anomaly_types = [ballot_mod.__name__ for ballot_mod in ballot_mod_methods]
@@ -531,10 +546,10 @@ if __name__ == '__main__':
     massive_results = pool.map(sort_search, gen_lxn_list)
     
     if not only_use_first_place_voters:
-        with open(election_group+"_anomalies/massive_results_data.json", "w") as f:
+        with open(election_group.replace('/','_')+"_anomalies_strategic/massive_results_data.json", "w") as f:
             json.dump(massive_results, f, cls=NpEncoder)
     else:
-        with open(election_group+"_anomalies/massive_results_data_first_only.json", "w") as f:
+        with open(election_group.replace('/','_')+"_anomalies_strategic/massive_results_data_first_only.json", "w") as f:
             json.dump(massive_results, f, cls=NpEncoder)
     
     ## data frame for top line results 
@@ -557,9 +572,9 @@ if __name__ == '__main__':
             search_combos[combo_name][4].append(lxn[6])
     
     if not only_use_first_place_voters:
-        summary_results.to_csv(election_group+'_anomalies/top_line_results.csv')    
+        summary_results.to_csv(election_group.replace('/','_')+'_anomalies_strategic/top_line_results.csv')    
     else:
-        summary_results.to_csv(election_group+'_anomalies/top_line_results_first_only.csv')   
+        summary_results.to_csv(election_group.replace('/','_')+'_anomalies_strategic/top_line_results_first_only.csv')   
 
     for combo_name in search_combos.keys():
         full_list = search_combos[combo_name]
@@ -577,9 +592,9 @@ if __name__ == '__main__':
                     'ballot_change_num':change_list, 'modified_ballots': full_list[4]}
         csv_data = pd.DataFrame(df_dict)
         if not only_use_first_place_voters:
-            csv_data.to_csv(election_group+'_anomalies/'+combo_name+'.csv')
+            csv_data.to_csv(election_group.replace('/','_')+'_anomalies_strategic/'+combo_name+'.csv')
         else:
-            csv_data.to_csv(election_group+'_anomalies/'+combo_name+'_first_only.csv')
+            csv_data.to_csv(election_group.replace('/','_')+'_anomalies_strategic/'+combo_name+'_first_only.csv')
 
 
 
