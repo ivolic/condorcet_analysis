@@ -30,8 +30,20 @@ from ballot_modifications_class import *
 ###############################################################################
 ###############################################################################
 ##### parameters
-election_group = 'America'
-mp_pool_size = 10
+## election_group should be of the form 'region/type'
+## regions: Scotland, Australia, America
+## types: single_winner, multi_winner, multi_winner_condensed
+## if Australia/multi_winner (or multi_winner_condensed), end with ',no_Fed' or ',only_Fed' or ',all'
+# election_group = 'Scotland/single_winner'
+# election_group = 'Scotland/multi_winner'
+# election_group = 'Scotland/multi_winner_condensed'
+# election_group = 'Australia/single_winner'
+# election_group = 'Australia/multi_winner,no_Fed'
+# election_group = 'Australia/multi_winner,only_Fed'
+election_group = 'Australia/multi_winner_condensed,no_Fed'
+# election_group = 'Australia/multi_winner_condensed,only_Fed'
+# election_group = 'America/single_winner'
+# election_group = 'America/multi_winner'
 ###############################################################################
 ###############################################################################
 
@@ -61,9 +73,10 @@ def createBallotDF(list_profile, diagnostic=False):
         
         this_line = list_profile[k]
         this_line_parts = this_line.split(' ')
-        count_list.append(int(this_line_parts[0]))
         ballot = ''.join([cand_names[int(i)-1] for i in this_line_parts[1:-1]])
-        ballot_list.append(ballot)
+        if ballot!='':
+            ballot_list.append(ballot)
+            count_list.append(int(this_line_parts[0]))
         
     df_dict = {'ballot': ballot_list, 'Count': count_list}
     data = pd.DataFrame(df_dict)
@@ -72,60 +85,64 @@ def createBallotDF(list_profile, diagnostic=False):
 ###############################################################################
 ###############################################################################
 
-def get_election_data(election_location, specific_lxn=-1, diagnostic=False):
+def get_election_data(election_location, diagnostic=False):
     lxns = []
-    ## version for github repo
-    base_name = 'C:/Users/mijones/Documents/Datasets/ranked_ballot_data/preference_profiles_top_15/' + election_location
-    # base_name = 'C:/Users/mijones/Documents/Datasets/ranked_ballot_data/Synthetic Preference Profiles/' + election_location
-    ## version for HPC
-    # base_name = './data/' + election_location
-
-    lxn_count = 0
-    for folder_name in ['single_winner', 'multi_winner']:
-    # for folder_name in os.listdir(base_name):
-        for file_name in os.listdir(base_name+'/'+folder_name):
-            lxn_count += 1
-            file_path = base_name+'/'+folder_name+'/'+file_name
-            
-            # if 'aberdeen2012/Ward1' not in file_path:
-            #     continue
-        
-            # if lxn_count == 20:
-            #     break
-            
-            # print(file_path)
-            
-            if specific_lxn > 0:
-                if lxn_count!=specific_lxn:
-                    continue
-            
-            if diagnostic:
-                print(lxn_count, file_path)
-        
-            sys.stdout.write('\r')
-            sys.stdout.write(f'Election {lxn_count}'+'         ')
-            sys.stdout.flush()
-            
-            File=open(file_path,'r', encoding='utf-8')
-            lines=File.readlines()
-            
-            dash_indxs = [i for i in range(len(file_path)) if file_path[i]=='-']
-            num_cands = int(file_path[max(dash_indxs)+1:file_path.index('.csv')])
     
-            # first_space=lines[0].find(' ')
-            # num_cands=int(lines[0][0:first_space])
-            # if num_cands>67:
-            #     print("Cannot handle this many candidates in election " + str(file_path) + ".  Has " + 
-            #           str(num_cands) + " candidates.")
-            #     continue
-                
-            data = createBallotDF(lines)
+    ## base_name should end at the preference_profiles_top_15 folder
+    ## version for github repo
+    base_name = 'C:/Users/mijones/Documents/Datasets/ranked_ballot_data/preference_profiles_top_15/'
+    ## version for HPC
+    # base_name = ?
+    
+    if ',' not in election_location:
+        folder_name = base_name + election_location
+        fed_keep = 'all'
+    else:
+        c_indx = election_location.index(',')
+        folder_name = base_name + election_location[:c_indx]
+        fed_keep = election_location[c_indx+1:]
+        
+    lxn_count = 0
+    for file_name in os.listdir(folder_name):
+        
+        ## test code on few elections
+        # if 'Argyll' not in file_name:
+        #     continue
+    
+        if fed_keep == 'no_Fed' and 'Federal' in file_name:
+            continue
+        if fed_keep == 'only_Fed' and 'Federal' not in file_name:
+            continue
+        
+        file_path = folder_name+'/'+file_name
+        
+        lxn_count += 1
+        # if lxn_count == 100:
+        #     break
+        if diagnostic:
+            print(lxn_count, file_path)
+    
+        sys.stdout.write('\r')
+        sys.stdout.write(f'Election {lxn_count}'+'         ')
+        sys.stdout.flush()
+        
+        File=open(file_path,'r', encoding='utf-8')
+        lines=File.readlines()
+
+        first_space=lines[0].find(' ')
+        num_cands=int(lines[0][0:first_space])
+        # if num_cands>67:
+        #     print("Cannot handle this many candidates in election " + str(file_path) + ".  Has " + 
+        #           str(num_cands) + " candidates.")
+        #     continue
             
-            # if num_cands>max_election_size:
-            #     data = filter_weak_cands(data, num_cands, max_election_size)
-            #     num_cands = max_election_size
-            
-            lxns.append([file_name, data, num_cands])
+        data = createBallotDF(lines)
+        
+        # if num_cands>max_election_size:
+        #     data = filter_weak_cands(data, num_cands, max_election_size)
+        #     num_cands = max_election_size
+        
+        lxns.append([file_path, data, num_cands])
 
     return lxns
 
@@ -147,6 +164,8 @@ def simple_strat(profile, cands, cond_winner, strat, diagnostic=False):
         
         for k in range(len(profile)):
             ballot = profile.at[k, 'ballot']
+            if ballot=='':
+                continue
             scores[ballot[0]] += profile.at[k, 'Count']
         
         cands_ranked = cands.copy()
@@ -162,7 +181,8 @@ def simple_strat(profile, cands, cond_winner, strat, diagnostic=False):
         modified_ballot_list = []
         
         for k in range(len(profile)):
-            # if new_profile.at[k,'ballot']!='':
+            if new_profile.at[k,'ballot']=='':
+                continue
             ## change the ballot in some way
             curBal = new_profile.at[k,'ballot']
             if (curBal[0] == L): 
@@ -198,6 +218,7 @@ def simple_strat(profile, cands, cond_winner, strat, diagnostic=False):
 
 
 
+
 cand_names = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
               'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
               'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
@@ -207,8 +228,17 @@ strats = [strat_truncate_L, strat_truncate_W, strat_bury_shallow, strat_bury_dee
 
 start_time = time.time()
 print('##### Collecting election data #####')
+print(f'Election group: {election_group}')
 lxn_list = get_election_data(election_group)
 print(time.time()-start_time)
+
+
+## check condensed elections for empty ballots
+# for i, lxn in enumerate(lxn_list):
+#     profile = lxn[1]
+#     if '' in list(profile['ballot']):
+#         print(i, lxn[0], list(profile['ballot']).index(''))
+
 
 cond_winner_count = 0
 simple_strat_hits = {strat.__name__:0 for strat in strats}
@@ -222,7 +252,7 @@ for i, lxn in enumerate(lxn_list):
     sys.stdout.flush()
     
     profile = lxn[1]
-    num_cands = lxn[2]
+    num_cands = min([15, lxn[2]])
     cands = cand_names[:num_cands]
     smith_set = restrict_to_smith(profile, cands)[0]
     
@@ -269,6 +299,8 @@ for i, lxn in enumerate(lxn_list):
     #         margins[c1, c2] = margin
     #         margins[c2, c1] = -1*margin
     
+print()
+print(simple_strat_hits)
         
     
 

@@ -48,7 +48,7 @@ from strat_vote_class import *
 ## election_group should be of the form 'region/type'
 ## regions: Scotland, Australia, America
 ## types: single_winner, multi_winner, multi_winner_condensed
-## if Australia/multi_winner (or multi_winner_condensed), end with ',no_Fed' or ',only_Fed' of ',all'
+## if Australia/multi_winner (or multi_winner_condensed), end with ',no_Fed' or ',only_Fed' or ',all'
 election_group = 'Scotland/single_winner'
 # election_group = 'Scotland/multi_winner'
 # election_group = 'Scotland/multi_winner_condensed'
@@ -93,9 +93,10 @@ def createBallotDF(list_profile, diagnostic=False):
         
         this_line = list_profile[k]
         this_line_parts = this_line.split(' ')
-        count_list.append(int(this_line_parts[0]))
         ballot = ''.join([cand_names[int(i)-1] for i in this_line_parts[1:-1]])
-        ballot_list.append(ballot)
+        if ballot!='':
+            ballot_list.append(ballot)
+            count_list.append(int(this_line_parts[0]))
         
     df_dict = {'ballot': ballot_list, 'Count': count_list}
     data = pd.DataFrame(df_dict)
@@ -125,8 +126,8 @@ def get_election_data(election_location, diagnostic=False):
     for file_name in os.listdir(folder_name):
         
         ## test code on few elections
-        if 'Argyll' not in file_name:
-            continue
+        # if 'Argyll' not in file_name:
+        #     continue
     
         if fed_keep == 'no_Fed' and 'Federal' in file_name:
             continue
