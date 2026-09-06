@@ -1672,7 +1672,7 @@ def demiKillerSubs_Down_TVR_OM(election, anomFound, diagnostic = False):
     profile, cands, num_Cands = prefProfileInput5(election)
     if num_Cands > 15:
         print("more than 15 candidates, now filtering")
-        profile = reduceToTopN(profile, num_Cands, 15)
+        profile = reduceToTopN(profile, 15)
         cands = getCands(profile)
         num_Cands = 15
     
@@ -1726,7 +1726,7 @@ def demiKillerSubs_Down_TVR_AVG(election, anomFound, diagnostic = False):
     profile, cands, num_Cands = prefProfileInput5(election)
     if num_Cands > 15:
         print("more than 15 candidates, now filtering")
-        profile = filter_weak_cands(profile, num_Cands, 15)
+        profile = reduceToTopN(profile, 15)
         cands = getCands(profile)
         num_Cands = 15
     
