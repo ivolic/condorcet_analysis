@@ -1,0 +1,2 @@
+,file_name,num_cands,old_winner,new_winner,ballot_change_num,modified_ballots
+0,./data/America/Alaska/Alaska_08162022_HouseofRepresentativesSpecial.csv,3,C,A,63985,"[['AB', 'A', 1361], ['ABC', 'A', 3286], ['AC', 'A', 26270], ['ACB', 'A', 21149], ['BAC', 'BA', 2973], ['CAB', 'CA', 8946]]"
