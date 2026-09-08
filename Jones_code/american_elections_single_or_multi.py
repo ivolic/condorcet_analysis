@@ -136,8 +136,32 @@ for folder_name in os.listdir(base_name):
 
 
 
-lxn_methods = ['plurality','plurality_runoff','IRV','smith_irv','smith_plurality','minimax','smith_minimax','ranked_pairs','Borda_PM','Borda_OM','Borda_AVG','bucklin','TVR_PM','TVR_OM','TVR_AVG','diversity_score_threshold','friendly_fire_inst','friendly_fire_seq_smith','friendly_fire_inst_smith','friendly_fire_inst_smith_exp']
+lxn_methods = ['plurality','plurality_runoff','IRV','smith_irv','smith_plurality','minimax','smith_minimax','ranked_pairs',
+               'Borda_PM','Borda_OM','Borda_AVG','bucklin','TVR_PM','TVR_OM','TVR_AVG','diversity_score_threshold',
+               'friendly_fire_inst','friendly_fire_seq_smith','friendly_fire_inst_smith','friendly_fire_inst_smith_exp']
+anom_names = ['laterNoHarm', 'strat_compromise', 'strat_truncate_L', 'strat_truncate_W', 'strat_bury_shallow', 'strat_bury_deep']
 
+single_win_counts = pd.DataFrame(0, index = anom_names, 
+                                 columns =lxn_methods)
 
+multi_win_counts = pd.DataFrame(0, index = anom_names, 
+                                 columns =lxn_methods)
+
+for lxn_method in lxn_methods:
+    for anom_name in anom_names:
+        csv_file_name = './America_unsorted_results/' + lxn_method + '_' + anom_name + '.csv'
+        results = pd.read_csv(csv_file_name)
+
+        for k in range(len(results)):
+            full_name = results.at[k, 'file_name']
+            start_indx = max([i for i in range(len(full_name)) if full_name[i]=='/'])
+            short_name = full_name[start_indx+1:]
+            
+            if short_name in single_win_names:
+                single_win_counts[lxn_method][anom_name] += 1
+            elif short_name in multi_win_names:
+                multi_win_counts[lxn_method][anom_name] += 1
+            else:
+                print(lxn_method, anom_name, full_name)
 
 
