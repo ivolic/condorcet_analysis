@@ -1,10 +1,10 @@
-,plurality,plurality_runoff,IRV,smith_irv,smith_plurality,minimax,smith_minimax,ranked_pairs,Borda_PM,Borda_OM,Borda_AVG,bucklin,TVR_PM,TVR_OM,TVR_AVG,div_thresh_0.05,div_simplex,friendly_fire_inst,friendly_fire_seq_smith,friendly_fire_inst_smith,friendly_fire_inst_smith_exp, STAR_hi, STAR_mid, STAR_lo
-upMono,,,,,,,,,,,,,,,,,,,,,,,,
-downMono,,,,,,,,,,,,,,,,,,,,,,,,
-noShow,,,,,,,,,,,,,,,,,,,,,,,,
-laterNoHarm,,,,,,,,,,,,,,,,,,,,,,,,
-strat_compromise,,,,,,,,,,,,,,,,,,,,,,,,
-strat_truncate_L,,,,,,,,,,,,,,,,,,,,,,,,
-strat_truncate_W,,,,,,,,,,,,,,,,,,,,,,,,
-strat_bury_shallow,,,,,,,,,,,,,,,,,,,,,,,,
-strat_bury_deep,,,,,,,,,,,,,,,,,,,,,,,,
+,plurality,plurality_runoff,IRV,smith_irv,smith_plurality,minimax,smith_minimax,ranked_pairs,Borda_PM,Borda_OM,Borda_AVG,bucklin,TVR_PM,TVR_OM,TVR_AVG,diversity_score_threshold,friendly_fire_inst,friendly_fire_seq_smith,friendly_fire_inst_smith,friendly_fire_inst_smith_exp
+upMono,,,,,,,,,,,,,,,,,,,,
+downMono,,,,,,,,,,,,,,,,,,,,
+noShow,,,,,,,,,,,,,,,,,,,,
+laterNoHarm,0,0,0,17,13,13,13,13,800,493,745,742,24,26,15,17,15,17,14,14
+strat_compromise,378,63,38,16,15,13,13,13,183,332,221,65,18,22,15,17,16,16,14,13
+strat_truncate_L,0,0,0,20,12,14,14,16,318,0,146,446,35,0,20,4,0,0,0,0
+strat_truncate_W,0,0,0,19,22,53,53,61,318,0,241,445,69,13,52,14,3,1,1,2
+strat_bury_shallow,0,0,0,16,31,85,85,104,274,236,272,401,98,99,95,15,3,1,1,1
+strat_bury_deep,0,0,0,16,101,326,326,386,148,756,500,132,198,612,378,24,115,22,124,149
