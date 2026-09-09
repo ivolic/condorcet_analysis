@@ -26,7 +26,7 @@ def process_rankings(row):
 
 
 def get_num_ranks(file_path):
-    election_data = pd.read_csv(file_path)
+    election_data = pd.read_csv(file_path, dtype=str)
     column_names_list = election_data.columns.tolist()
     num_ranks=0
     for item in column_names_list:
@@ -37,7 +37,7 @@ def get_num_ranks(file_path):
 
 
 def get_info(file_path):
-    election_data = pd.read_csv(file_path)
+    election_data = pd.read_csv(file_path, dtype=str)
     if 'numSeats' in election_data.keys():
         seat_num = election_data['numSeats'][0]
     if 'Num seats' in election_data.keys():
@@ -131,6 +131,9 @@ for folder_name in os.listdir(base_name):
 
         if seat_num == '1':
             single_win_names.append(file_name)
+        # only because this data is messed up with New Mexico
+        elif seat_num == '0':
+            single_win_names.append(file_name)
         else:
             multi_win_names.append(file_name)
 
@@ -158,9 +161,11 @@ for lxn_method in lxn_methods:
             short_name = full_name[start_indx+1:]
             
             if short_name in single_win_names:
-                single_win_counts[lxn_method][anom_name] += 1
+                single_win_counts.loc[anom_name, lxn_method] += 1
+                # single_win_counts[lxn_method][anom_name] += 1
             elif short_name in multi_win_names:
-                multi_win_counts[lxn_method][anom_name] += 1
+                multi_win_counts.loc[anom_name, lxn_method] += 1
+                # multi_win_counts[lxn_method][anom_name] += 1
             else:
                 print(lxn_method, anom_name, full_name)
 
